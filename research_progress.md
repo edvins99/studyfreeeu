@@ -121,6 +121,12 @@ Barcelona) and **11 new source records**.
 
 ## Update log (newest first)
 
+### 2026-09-23 — hero dizains: ES siluets ar caurspīdīgu fonu
+- Lietotāja augšupielādētais ES kartes attēls (siluets + zvaigznes) apstrādāts ar
+  PowerShell/System.Drawing: tumšais fons padarīts caurspīdīgs ( brightness → alpha),
+  atstājot tikai siluetu un zvaigznes. CSS: noņemts mix-blend-mode, opacity .9 —
+  karte nemanāmi saplūst ar hero gradietu. Oriģināls saglabāts kā eu-map-original.png.
+
 ### 2026-09-23 — admission contacts round 9
 - **10 more universities with verified contacts** (now **83**): Heidelberg
   (studierendenadministration@uni-heidelberg.de), Aarhus (au@au.dk), AUTH
