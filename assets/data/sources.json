@@ -1,0 +1,530 @@
+[
+  {
+    "id": "src-eu-portal",
+    "type": "Official EU portal",
+    "publisher": "European Commission",
+    "title": "Study in Europe – Country profiles",
+    "url": "https://education.ec.europa.eu/study-in-europe/country-profiles",
+    "applies_to": [
+      "EU/EEA"
+    ],
+    "notes": "Official country-by-country tuition and cost summaries published by the European Commission."
+  },
+  {
+    "id": "src-daad",
+    "type": "National education portal",
+    "publisher": "DAAD",
+    "title": "Study in Germany (official information portal)",
+    "url": "https://www.study-in-germany.de/",
+    "applies_to": [
+      "DE"
+    ],
+    "notes": "Official German academic exchange service portal covering tuition and semester fees."
+  },
+  {
+    "id": "src-univie-fees",
+    "type": "University official page",
+    "publisher": "University of Vienna",
+    "title": "Amount of the tuition fee / Students' Union fee",
+    "url": "https://studieren.univie.ac.at/",
+    "applies_to": [
+      "AT"
+    ],
+    "notes": "States EU/EEA/CH rate and non-EU/EEA rate and the conditional fee rules."
+  },
+  {
+    "id": "src-studyinfo",
+    "type": "National education portal",
+    "publisher": "Finnish National Agency for Education",
+    "title": "Studyinfo – Tuition fees",
+    "url": "https://opintopolku.fi/",
+    "applies_to": [
+      "FI"
+    ],
+    "notes": "Official Finnish study portal; EU/EEA/Swiss citizens are not subject to tuition fees."
+  },
+  {
+    "id": "src-mertopolia",
+    "type": "University official page",
+    "publisher": "Metropolia UAS",
+    "title": "Tuition fees for non-EU/EEA students",
+    "url": "https://www.metropolia.fi/",
+    "applies_to": [
+      "FI"
+    ],
+    "notes": "Confirms fees concern students who are not EU/EEA citizens."
+  },
+  {
+    "id": "src-ua-se",
+    "type": "National admissions body",
+    "publisher": "Swedish Council for Higher Education",
+    "title": "University Admissions – Who is required to pay fees?",
+    "url": "https://www.universityadmissions.se/",
+    "applies_to": [
+      "SE"
+    ],
+    "notes": "Only EU/EEA/Swiss citizens and certain exempt categories do not pay fees."
+  },
+  {
+    "id": "src-studyinsweden",
+    "type": "National portal",
+    "publisher": "Swedish Institute",
+    "title": "Study in Sweden – Information for EU citizens",
+    "url": "https://studyinsweden.se/",
+    "applies_to": [
+      "SE"
+    ],
+    "notes": "EU citizens are exempt from application and tuition fees."
+  },
+  {
+    "id": "src-studyindenmark",
+    "type": "National portal",
+    "publisher": "Danish Ministry of Higher Education and Science",
+    "title": "Study in Denmark – Tuition Fees",
+    "url": "https://studyindenmark.dk/",
+    "applies_to": [
+      "DK"
+    ],
+    "notes": "Higher education is free for students from the EU/EEA and Switzerland."
+  },
+  {
+    "id": "src-ntnu",
+    "type": "University official page",
+    "publisher": "NTNU",
+    "title": "Tuition fees – Master's degrees in English",
+    "url": "https://www.ntnu.edu/",
+    "applies_to": [
+      "NO"
+    ],
+    "notes": "Non-EU/EEA/Swiss citizens are charged tuition; EU/EEA are exempt."
+  },
+  {
+    "id": "src-studyinnorway",
+    "type": "National portal",
+    "publisher": "Norwegian Directorate for Higher Education",
+    "title": "Study in Norway – Cost and requirements",
+    "url": "https://studyinnorway.no/",
+    "applies_to": [
+      "NO"
+    ],
+    "notes": "Cost of living and fee context for international students."
+  },
+  {
+    "id": "src-hi-fees",
+    "type": "University official page",
+    "publisher": "University of Iceland",
+    "title": "University fees",
+    "url": "https://english.hi.is/",
+    "applies_to": [
+      "IS"
+    ],
+    "notes": "Students do not pay tuition fees, only an annual registration fee."
+  },
+  {
+    "id": "src-studyiniceland",
+    "type": "National portal",
+    "publisher": "Icelandic authorities",
+    "title": "Study in Iceland – Universities",
+    "url": "https://study.iceland.is/",
+    "applies_to": [
+      "IS"
+    ],
+    "notes": "Public universities have no tuition fees, only registration/administration fees."
+  },
+  {
+    "id": "src-cuni",
+    "type": "University official page",
+    "publisher": "Charles University",
+    "title": "Study with us",
+    "url": "https://cuni.cz/UKEN-385.html",
+    "applies_to": [
+      "CZ"
+    ],
+    "notes": "Programmes in Czech are tuition-free; English/German/French/Russian programmes carry tuition."
+  },
+  {
+    "id": "src-studyinczechia",
+    "type": "National portal",
+    "publisher": "Czech Ministry of Education / DZS",
+    "title": "Study in Czechia (official portal)",
+    "url": "https://studyin.gov.cz/",
+    "applies_to": [
+      "CZ"
+    ],
+    "notes": "Learn Czech and study tuition-free at public universities; 1,000+ English-taught programmes."
+  },
+  {
+    "id": "src-studyinpoland",
+    "type": "National portal",
+    "publisher": "Polish National Agency for Academic Exchange (NAWA)",
+    "title": "Study in Poland – Tuition fees",
+    "url": "https://study.gov.pl/",
+    "applies_to": [
+      "PL"
+    ],
+    "notes": "English-taught tuition typically €2,000–€6,000 per year; Polish-taught study free for EU citizens."
+  },
+  {
+    "id": "src-unilj",
+    "type": "University official page",
+    "publisher": "University of Ljubljana",
+    "title": "Tuition fees and other study contributions",
+    "url": "https://www.uni-lj.si/",
+    "applies_to": [
+      "SI"
+    ],
+    "notes": "No tuition fees for full-time bachelor's and master's studies for eligible students."
+  },
+  {
+    "id": "src-studyinslovenia",
+    "type": "National portal",
+    "publisher": "Slovenian government / CMEPIUS",
+    "title": "Study in Slovenia – Tuition and Funding",
+    "url": "https://studyinslovenia.si/",
+    "applies_to": [
+      "SI"
+    ],
+    "notes": "Tuition ranges for fee-paying programmes."
+  },
+  {
+    "id": "src-studyinestonia",
+    "type": "National portal",
+    "publisher": "Education Estonia",
+    "title": "Study in Estonia – Master's programmes",
+    "url": "https://www.studyinestonia.ee/",
+    "applies_to": [
+      "EE"
+    ],
+    "notes": "Overview of English-taught Master's programmes, fees and admissions."
+  },
+  {
+    "id": "src-france-eu",
+    "type": "Official EU portal",
+    "publisher": "European Commission",
+    "title": "Study in France – tuition fees",
+    "url": "https://education.ec.europa.eu/study-in-europe/country-profiles/france",
+    "applies_to": [
+      "FR"
+    ],
+    "notes": "National tuition rates: €178/year Bachelor's, €254/year Master's (2025-2026)."
+  },
+  {
+    "id": "src-france-servicepublic",
+    "type": "Government portal",
+    "publisher": "French government (service-public.fr)",
+    "title": "University fees – differentiated rates",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18927?lang=en",
+    "applies_to": [
+      "FR"
+    ],
+    "notes": "Differentiated (higher) rates apply to certain non-EU students."
+  },
+  {
+    "id": "src-studyinnl",
+    "type": "National portal",
+    "publisher": "Nuffic / Study in NL",
+    "title": "Tuition fees",
+    "url": "https://www.studyinnl.org/",
+    "applies_to": [
+      "NL"
+    ],
+    "notes": "Statutory fee €2,694 for EU/EEA for 2026-2027."
+  },
+  {
+    "id": "src-uva",
+    "type": "University official page",
+    "publisher": "University of Amsterdam",
+    "title": "Tuition fees",
+    "url": "https://www.uva.nl/",
+    "applies_to": [
+      "NL"
+    ],
+    "notes": "Explains statutory vs institutional fee."
+  },
+  {
+    "id": "src-hea-ie",
+    "type": "National agency",
+    "publisher": "Higher Education Authority (Ireland)",
+    "title": "Free Fees Initiative",
+    "url": "https://hea.ie/",
+    "applies_to": [
+      "IE"
+    ],
+    "notes": "Eligible students pay a student contribution charge of €2,500 (2025/26)."
+  },
+  {
+    "id": "src-citizensinformation",
+    "type": "Government information service",
+    "publisher": "Citizens Information Board (Ireland)",
+    "title": "Third-level student fees and charges",
+    "url": "https://www.citizensinformation.ie/",
+    "applies_to": [
+      "IE"
+    ],
+    "notes": "EU/EEA/Swiss students may avail of EU fee rates under conditions."
+  },
+  {
+    "id": "src-corvinus",
+    "type": "University official page",
+    "publisher": "Corvinus University of Budapest",
+    "title": "Scholarships and Discounts",
+    "url": "https://www.uni-corvinus.hu/",
+    "applies_to": [
+      "HU"
+    ],
+    "notes": "Tuition-free education and scholarships for eligible students."
+  },
+  {
+    "id": "src-euraxess-hu",
+    "type": "National network",
+    "publisher": "EURAXESS Hungary",
+    "title": "Grants and Scholarships",
+    "url": "https://www.euraxess.hu/",
+    "applies_to": [
+      "HU"
+    ],
+    "notes": "Overview of government grant and scholarship programmes."
+  },
+  {
+    "id": "src-unesco-cedefop",
+    "type": "Reference",
+    "publisher": "Eurydice / EU",
+    "title": "National student fee and support systems in European higher education",
+    "url": "https://education.ec.europa.eu/",
+    "applies_to": [
+      "EU/EEA"
+    ],
+    "notes": "Comparative reference on fee and support systems across European countries."
+  },
+  {
+    "id": "src-studyinflanders",
+    "type": "Regional portal",
+    "publisher": "Study in Flanders",
+    "title": "Tuition fees",
+    "url": "https://www.studyinflanders.be/",
+    "applies_to": [
+      "BE"
+    ],
+    "notes": "EU/EEA full-time degree tuition for 2026-2027 (≈ €1,181.40)."
+  },
+  {
+    "id": "src-studyinbelgium",
+    "type": "Regional portal",
+    "publisher": "Wallonia-Brussels Federation",
+    "title": "Studying in French-speaking Belgium: registration fees",
+    "url": "https://www.studyinbelgium.be/",
+    "applies_to": [
+      "BE"
+    ],
+    "notes": "From 2025-2026 EU nationals pay maximum annual tuition of €1,194; reduced categories €175–€835."
+  },
+  {
+    "id": "src-studyincroatia",
+    "type": "National portal",
+    "publisher": "Croatian authorities",
+    "title": "Tuition Fees at Croatian Universities",
+    "url": "https://www.studyincroatia.eu/",
+    "applies_to": [
+      "HR"
+    ],
+    "notes": "Degrees taught in Croatian at public universities do not charge tuition fees."
+  },
+  {
+    "id": "src-eurydice",
+    "type": "Official EU reference",
+    "publisher": "Eurydice (European Commission)",
+    "title": "National Student Fee and Support Systems in European Higher Education",
+    "url": "https://eurydice.eacea.ec.europa.eu/",
+    "applies_to": [
+      "EU/EEA"
+    ],
+    "notes": "Comparative, source of record for fee/support systems (used for BG, LV, LT, PT, RO)."
+  },
+  {
+    "id": "src-studyinlt",
+    "type": "National portal",
+    "publisher": "Education Exchanges Support Foundation (Lithuania)",
+    "title": "Tuition Fees",
+    "url": "https://studyin.lt/",
+    "applies_to": [
+      "LT"
+    ],
+    "notes": "Average costs and state-funded (free) place rules."
+  },
+  {
+    "id": "src-dges",
+    "type": "Government agency",
+    "publisher": "DGES (Portugal)",
+    "title": "International Students / tuition",
+    "url": "https://www.dges.gov.pt/",
+    "applies_to": [
+      "PT"
+    ],
+    "notes": "National access rules; Eurydice records the €697 reference fee (2025/26)."
+  },
+  {
+    "id": "src-unili",
+    "type": "University official page",
+    "publisher": "University of Liechtenstein",
+    "title": "Application and Admission – Tuition Fees",
+    "url": "https://www.uni.li/",
+    "applies_to": [
+      "LI"
+    ],
+    "notes": "CHF 950 per semester for EU/EEA and Swiss nationals (Bachelor’s, Master’s, Doctoral)."
+  },
+  {
+    "id": "src-um",
+    "type": "University official page",
+    "publisher": "University of Malta",
+    "title": "Course fees (Finance Office)",
+    "url": "https://www.um.edu.mt/",
+    "applies_to": [
+      "MT"
+    ],
+    "notes": "Separate fee schedules for EU & EEA students; most full-time programmes free for EU students."
+  },
+  {
+    "id": "src-studyinlatvia",
+    "type": "National portal",
+    "publisher": "Latvian authorities",
+    "title": "Study in Latvia",
+    "url": "https://www.studyinlatvia.lv/",
+    "applies_to": [
+      "LV"
+    ],
+    "notes": "Tuition ranges and state scholarships."
+  },
+  {
+    "id": "src-latvia-eu",
+    "type": "National portal",
+    "publisher": "Latvia.eu",
+    "title": "Study in Latvia – Quality Education in Europe",
+    "url": "https://www.latvia.eu/",
+    "applies_to": [
+      "LV"
+    ],
+    "notes": "Tuition ranges in Latvia."
+  },
+  {
+    "id": "src-study-eu",
+    "type": "Education portal",
+    "publisher": "Study.eu",
+    "title": "Country tuition overviews",
+    "url": "https://www.study.eu/",
+    "applies_to": [
+      "EU/EEA"
+    ],
+    "notes": "Secondary corroboration for LU, SK, CH, ES and others."
+  },
+  {
+    "id": "src-uniassist",
+    "type": "Admissions portal",
+    "publisher": "uni-assist e.V.",
+    "title": "uni-assist — application service for German universities",
+    "url": "https://www.uni-assist.de/",
+    "applies_to": [
+      "DE"
+    ],
+    "notes": "Central credential-checking service used by many German universities."
+  },
+  {
+    "id": "src-optagelse",
+    "type": "Admissions portal",
+    "publisher": "Danish Ministry of Higher Education and Science",
+    "title": "optagelse.dk",
+    "url": "https://www.optagelse.dk/",
+    "applies_to": [
+      "DK"
+    ],
+    "notes": "National application portal for Danish higher education."
+  },
+  {
+    "id": "src-studielink",
+    "type": "Admissions portal",
+    "publisher": "DUO / Dutch government",
+    "title": "Studielink",
+    "url": "https://www.studielink.nl/",
+    "applies_to": [
+      "NL"
+    ],
+    "notes": "Central enrolment registration for Dutch institutions."
+  },
+  {
+    "id": "src-cao",
+    "type": "Admissions portal",
+    "publisher": "Central Applications Office (Ireland)",
+    "title": "CAO — Central Applications Office",
+    "url": "https://www.cao.ie/",
+    "applies_to": [
+      "IE"
+    ],
+    "notes": "Centralised undergraduate applications in Ireland."
+  },
+  {
+    "id": "src-parcoursup",
+    "type": "Admissions portal",
+    "publisher": "French Ministry of Higher Education",
+    "title": "Parcoursup",
+    "url": "https://www.parcoursup.gouv.fr/",
+    "applies_to": [
+      "FR"
+    ],
+    "notes": "First-year Bachelor’s application platform in France."
+  },
+  {
+    "id": "src-universitaly",
+    "type": "Admissions portal",
+    "publisher": "Italian Ministry of Universities and Research",
+    "title": "Universitaly",
+    "url": "https://www.universitaly.it/",
+    "applies_to": [
+      "IT"
+    ],
+    "notes": "Pre-enrolment portal for international students in Italy."
+  },
+  {
+    "id": "src-lamabpo",
+    "type": "Admissions portal",
+    "publisher": "Lithuanian authorities",
+    "title": "LAMA BPO",
+    "url": "https://www.lamabpo.lt/",
+    "applies_to": [
+      "LT"
+    ],
+    "notes": "Centralised admission system for Lithuanian higher education."
+  },
+  {
+    "id": "src-evs",
+    "type": "Admissions portal",
+    "publisher": "Slovenian government",
+    "title": "eVŠ — portal for enrolment in study programmes",
+    "url": "https://portal.evs.gov.si/",
+    "applies_to": [
+      "SI"
+    ],
+    "notes": "National enrolment portal (Slovenia)."
+  },
+  {
+    "id": "src-postani",
+    "type": "Admissions portal",
+    "publisher": "Croatian authorities",
+    "title": "postani-student.hr",
+    "url": "https://www.postani-student.hr/",
+    "applies_to": [
+      "HR"
+    ],
+    "notes": "National enrolment portal (Croatia)."
+  },
+  {
+    "id": "src-sais",
+    "type": "Admissions portal",
+    "publisher": "Estonian authorities",
+    "title": "SAIS — admission information system",
+    "url": "https://www.sais.ee/",
+    "applies_to": [
+      "EE"
+    ],
+    "notes": "National admission portal (Estonia)."
+  }
+]

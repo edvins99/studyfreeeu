@@ -1,0 +1,1370 @@
+[
+  {
+    "code": "DE",
+    "name": "Germany",
+    "slug": "germany",
+    "is_eu": true,
+    "region": "Western Europe",
+    "priority": 1,
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "eu_tuition": "€0 tuition at public universities",
+    "eu_summary": "Public universities in Germany do not charge tuition for Bachelor's, Master's or PhD studies. This applies to German, EU/EEA and (with the exception of Baden-Württemberg) non-EU students as well. Students pay only a semester contribution (Semesterbeitrag) covering administration and, in most cases, a public transport ticket.",
+    "public_universities": "Generally tuition-free; a mandatory semester contribution applies.",
+    "private_universities": "Private universities charge tuition (frequently €5,000–€25,000 per year). Only a minority are state-recognised and fee-bearing.",
+    "bachelor": "Tuition-free at public universities; semester contribution applies.",
+    "master": "Tuition-free at public universities; some continuing-education or part-time Master's formats are fee-based.",
+    "phd": "Generally tuition-free; doctoral candidates are usually employed or scholarship-funded.",
+    "english_taught": "A large and growing catalogue of English-taught Master's programmes, and a smaller number of English-taught Bachelor's programmes, especially at technical and private institutions.",
+    "mandatory_fees": "Semester contribution (Semesterbeitrag) of roughly €150–€400 per semester, varying by university; it usually includes a public transport semester ticket and student services.",
+    "mandatory_fee_estimate_eur_year": 300,
+    "residency_conditions": "No residency requirement for tuition-free status at public universities. Baden-Württemberg charges non-EU/EEA students €1,500 per semester; EU/EEA citizens are exempt from that charge.",
+    "language_requirements": "German-taught programmes require proof of German (commonly DSH-2/TestDaF). English-taught programmes require English proof (IELTS/TOEFL), level set by each programme.",
+    "application_system": "uni-assist e.V. (for many universities) and direct university portals; DoSV/hochschulstart for some medicine/restricted programmes.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "DAAD / Studying in Germany – costs and fees",
+        "url": "https://www.study-in-germany.de/"
+      },
+      {
+        "label": "EU Education portal – Country profile: Germany",
+        "url": "https://education.ec.europa.eu/study-in-europe/country-profiles"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ May–June",
+      "closes": "15 July (winter semester) / 15 January (summer semester)",
+      "documents": "Certified copies of certificates + transcripts (certified German/English translation); original documents checked at enrolment.",
+      "note": "Via uni-assist for participating universities — submit 4–6 weeks before the deadline."
+    },
+    "cost_of_living_monthly": "€850–€1,200 / month",
+    "housing": "Student dormitories (Studentenwohnheime) are the cheapest option but heavily oversubscribed — apply as soon as you are admitted; shared flats (WG) are common.",
+    "scholarships": "Tuition-free study means funding usually targets living costs; see DAAD scholarships and university awards."
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "slug": "austria",
+    "is_eu": true,
+    "region": "Western Europe",
+    "priority": 1,
+    "tuition_status": "Conditional Tuition-Free",
+    "eu_tuition": "€0 tuition for regular study duration; conditional fee afterwards",
+    "eu_summary": "EU/EEA (and Swiss) citizens pay no tuition at public universities as long as they study within the minimum duration plus two semesters. Beyond that, a fee of €363.36 per semester applies. All students pay the mandatory ÖH students' union fee.",
+    "public_universities": "Tuition-free for EU/EEA within regular duration; ÖH fee always payable.",
+    "private_universities": "Private universities charge tuition (often €2,000–€25,000 per year).",
+    "bachelor": "€0 tuition for EU/EEA within regular duration; ÖH fee applies.",
+    "master": "€0 tuition for EU/EEA within regular duration; ÖH fee applies.",
+    "phd": "€0 tuition for EU/EEA within regular duration; ÖH fee applies.",
+    "english_taught": "Many English-taught Master's programmes; fewer English-taught Bachelor's programmes (more common at private universities).",
+    "mandatory_fees": "ÖH students' union fee of approximately €24.70 per semester (indexed annually). A conditional tuition fee of €363.36 per semester applies to EU/EEA students exceeding minimum duration + 2 semesters.",
+    "mandatory_fee_estimate_eur_year": 50,
+    "residency_conditions": "No residency requirement. Non-EU/EEA students pay €726.72 per semester from the first semester, unless covered by an exemption.",
+    "language_requirements": "German-taught programmes require German (commonly level C1 or a recognised diploma). English-taught programmes set their own English requirements.",
+    "application_system": "Direct university portals; many institutions support the joint Austrian application system for some programmes.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "University of Vienna – Amount of the tuition fee / Students' Union fee",
+        "url": "https://studieren.univie.ac.at/"
+      },
+      {
+        "label": "EU Education portal – Country profile: Austria",
+        "url": "https://education.ec.europa.eu/study-in-europe/country-profiles"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ May–July",
+      "closes": "5 September (winter) / 5 February (summer); earlier for non-EU/EEA",
+      "documents": "Certified copies + translations; originals checked at enrolment.",
+      "note": "Apply directly to the university; allow time for document certification."
+    },
+    "cost_of_living_monthly": "€900–€1,300 / month",
+    "housing": "Student halls (Studentenheime) and shared flats; the OeAD provides housing services.",
+    "scholarships": "See OeAD grants and university scholarships; the ÖH advises students."
+  },
+  {
+    "code": "FI",
+    "name": "Finland",
+    "slug": "finland",
+    "is_eu": true,
+    "region": "Nordic Europe",
+    "priority": 1,
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "eu_tuition": "€0 tuition for EU/EEA and Swiss citizens",
+    "eu_summary": "EU/EEA and Swiss citizens are not liable for tuition fees at Finnish universities and universities of applied sciences, including English-taught degree programmes. Non-EU/EEA students (with exceptions) pay fees of roughly €8,000–€20,000 per year. Doctoral studies remain free of charge.",
+    "public_universities": "Tuition-free for EU/EEA; a compulsory student union / student services fee applies.",
+    "private_universities": "Finland's higher education sector is publicly funded; only a few private institutions operate, mainly in business and design.",
+    "bachelor": "€0 tuition for EU/EEA; student union fee applies.",
+    "master": "€0 tuition for EU/EEA; student union fee applies.",
+    "phd": "Free of charge for all students.",
+    "english_taught": "One of Europe's largest English-taught catalogues at Bachelor's and Master's level.",
+    "mandatory_fees": "Compulsory student union fee of roughly €60–€120 per year (varies between universities; includes student health care), plus a small one-off registration/administrative fee at some institutions.",
+    "mandatory_fee_estimate_eur_year": 80,
+    "residency_conditions": "Citizenship-based: EU/EEA/Swiss citizens are exempt. From 2025, applicants from outside the EU/EEA/Switzerland pay a €100 application fee for Bachelor's programmes.",
+    "language_requirements": "English-taught programmes require English proof (commonly IELTS 6.5 / TOEFL 92, set per programme); Finnish/Swedish-taught programmes require national language proof.",
+    "application_system": "Studyinfo (opintopolku.fi) national joint application; some Master's admissions are direct.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "Studyinfo – Tuition fees",
+        "url": "https://opintopolku.fi/"
+      },
+      {
+        "label": "Metropolia UAS – Tuition fees for non-EU/EEA students",
+        "url": "https://www.metropolia.fi/"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "Early January",
+      "closes": "≈ 22 January (joint application, autumn intake)",
+      "documents": "Upload certificates to the Studyinfo application; certified copies may be requested later.",
+      "note": "Some Master’s programmes have separate, later rounds."
+    },
+    "cost_of_living_monthly": "€700–€1,300 / month",
+    "housing": "Student housing foundations (e.g. HOAS in Helsinki) offer affordable rooms — apply early.",
+    "scholarships": "Many English-taught programmes offer merit scholarships; EU/EEA students pay no tuition."
+  },
+  {
+    "code": "SE",
+    "name": "Sweden",
+    "slug": "sweden",
+    "is_eu": true,
+    "region": "Nordic Europe",
+    "priority": 1,
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "eu_tuition": "€0 tuition for EU/EEA and Swiss citizens",
+    "eu_summary": "EU/EEA and Swiss citizens do not pay application or tuition fees at Swedish universities for Bachelor's or Master's studies. Non-EU/EEA students pay tuition (average around SEK 129,000 per year).",
+    "public_universities": "Tuition-free for EU/EEA; a small mandatory student union fee at some institutions.",
+    "private_universities": "A few private institutions exist (e.g. in business or design) and may charge fees.",
+    "bachelor": "€0 tuition for EU/EEA.",
+    "master": "€0 tuition for EU/EEA.",
+    "phd": "Doctoral education is normally free and often salaried.",
+    "english_taught": "Very large English-taught catalogue, especially at Master's level.",
+    "mandatory_fees": "Most universities charge a small student union fee (roughly SEK 50–350 per semester); no tuition and no application fee for EU/EEA applicants.",
+    "mandatory_fee_estimate_eur_year": 25,
+    "residency_conditions": "Citizenship-based exemption for EU/EEA/Swiss citizens.",
+    "language_requirements": "English-taught programmes require English proof (commonly English 6 / IELTS 6.5); Swedish-taught programmes require Swedish proof.",
+    "application_system": "universityadmissions.se (national joint application).",
+    "academic_year": "2026/2027",
+    "currency": "SEK",
+    "sources": [
+      {
+        "label": "University Admissions Sweden – Who is required to pay fees?",
+        "url": "https://www.universityadmissions.se/"
+      },
+      {
+        "label": "Study in Sweden – Information for EU citizens",
+        "url": "https://studyinsweden.se/"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ mid-October",
+      "closes": "15 January (autumn) / 15 September (spring)",
+      "documents": "Upload documents to universityadmissions.se; certified copies/translations for some.",
+      "note": "National joint application; late applications only if places remain."
+    },
+    "cost_of_living_monthly": "€800–€1,200 / month",
+    "housing": "Housing via universities/student unions and nations; queues can be long in Uppsala, Lund and Stockholm.",
+    "scholarships": "Swedish Institute scholarships target international students; EU/EEA pay no tuition."
+  },
+  {
+    "code": "DK",
+    "name": "Denmark",
+    "slug": "denmark",
+    "is_eu": true,
+    "region": "Nordic Europe",
+    "priority": 1,
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "eu_tuition": "€0 tuition for EU/EEA and Swiss citizens",
+    "eu_summary": "Higher education at Danish public universities is free for students from the EU/EEA and Switzerland, at Bachelor's and Master's level. Non-EU/EEA students pay tuition of roughly €6,000–€16,000 per year.",
+    "public_universities": "Tuition-free for EU/EEA/Swiss citizens.",
+    "private_universities": "A small number of private institutions charge tuition.",
+    "bachelor": "€0 tuition for EU/EEA.",
+    "master": "€0 tuition for EU/EEA.",
+    "phd": "Doctoral positions are salaried and free of tuition.",
+    "english_taught": "Large English-taught catalogue, especially at Master's level.",
+    "mandatory_fees": "No tuition; some institutions apply small administrative or student organisation fees.",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "Citizenship-based exemption for EU/EEA/Swiss citizens.",
+    "language_requirements": "English-taught programmes require English proof (commonly IELTS 6.5); Danish-taught programmes require Danish proof.",
+    "application_system": "Direct university portals; optagelse.dk for some Bachelor's programmes.",
+    "academic_year": "2026/2027",
+    "currency": "DKK",
+    "sources": [
+      {
+        "label": "Study in Denmark – Tuition Fees",
+        "url": "https://studyindenmark.dk/"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ 1 February",
+      "closes": "15 March (EU/EEA, autumn) — non-EU earlier (≈ 15 January)",
+      "documents": "Certified copies + translations; submit via optagelse.dk or the institution.",
+      "note": "Bachelor’s via optagelse.dk; Master’s direct."
+    },
+    "cost_of_living_monthly": "€900–€1,300 / month",
+    "housing": "Student housing via municipalities and student organisations; apply early, especially in Copenhagen.",
+    "scholarships": "Danish government and university scholarships exist; EU/EEA pay no tuition."
+  },
+  {
+    "code": "NO",
+    "name": "Norway",
+    "slug": "norway",
+    "is_eu": false,
+    "region": "Nordic Europe",
+    "priority": 1,
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "eu_tuition": "€0 tuition for EU/EEA and Swiss citizens",
+    "eu_summary": "Norway is not an EU member but is in the EEA. EU/EEA and Swiss citizens study without tuition fees at Norwegian public universities. From autumn 2023, students from outside the EU/EEA/Switzerland are charged tuition (commonly NOK 60,000–NOK 85,000+ per year, set by each institution).",
+    "public_universities": "Tuition-free for EU/EEA; a small semester fee applies.",
+    "private_universities": "Private institutions charge tuition.",
+    "bachelor": "€0 tuition for EU/EEA.",
+    "master": "€0 tuition for EU/EEA.",
+    "phd": "Doctoral education is free and normally salaried.",
+    "english_taught": "Broad English-taught catalogue at Master's level; fewer English-taught Bachelor's programmes.",
+    "mandatory_fees": "Semester fee (semesteravgift) of roughly NOK 500–NOK 800 per semester, covering the student welfare organisation and student union.",
+    "mandatory_fee_estimate_eur_year": 100,
+    "residency_conditions": "Citizenship-based exemption for EU/EEA/Swiss citizens; non-EEA students pay tuition from 2023.",
+    "language_requirements": "English-taught programmes require English proof; Norwegian-taught programmes require Norwegian proof.",
+    "application_system": "Direct university portals; some joint national arrangements.",
+    "academic_year": "2026/2027",
+    "currency": "NOK",
+    "sources": [
+      {
+        "label": "NTNU – Tuition fees for Master's degrees in English",
+        "url": "https://www.ntnu.edu/"
+      },
+      {
+        "label": "Study in Norway – Cost and requirements",
+        "url": "https://studyinnorway.no/"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ autumn",
+      "closes": "1 December (non-EEA) / 15 April (EU/EEA)",
+      "documents": "Certified copies + translations; documentation of financing (non-EEA).",
+      "note": "Apply directly to the institution."
+    },
+    "cost_of_living_monthly": "€1,200–€1,600 / month",
+    "housing": "Student welfare organisations (SiO/Sit) provide housing — apply early.",
+    "scholarships": "Lånekassen (state loan fund) supports students; some university scholarships exist."
+  },
+  {
+    "code": "IS",
+    "name": "Iceland",
+    "slug": "iceland",
+    "is_eu": false,
+    "region": "Nordic Europe",
+    "priority": 1,
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "eu_tuition": "€0 tuition at public universities (registration fee only)",
+    "eu_summary": "Iceland is not an EU member but is in the EEA. Public universities in Iceland do not charge tuition fees; students pay only an annual registration/administration fee. This applies broadly to all students at public institutions.",
+    "public_universities": "No tuition; annual registration fee only.",
+    "private_universities": "Some private institutions charge fees, though a few remain low-cost.",
+    "bachelor": "No tuition at public universities; registration fee applies.",
+    "master": "No tuition at public universities; registration fee applies.",
+    "phd": "Doctoral studies at public universities generally carry no tuition fee.",
+    "english_taught": "A moderate and growing English-taught catalogue at Master's level; some Bachelor's programmes in English.",
+    "mandatory_fees": "Annual registration fee, for example around ISK 75,000 (≈ €500) at some institutions; the University of Iceland lists a lower annual registration fee — verify per institution.",
+    "mandatory_fee_estimate_eur_year": 500,
+    "residency_conditions": "Applies broadly; verify per institution.",
+    "language_requirements": "English-taught programmes require English proof; Icelandic-taught programmes require Icelandic proof.",
+    "application_system": "Direct university portals.",
+    "academic_year": "2026/2027",
+    "currency": "ISK",
+    "sources": [
+      {
+        "label": "University of Iceland – University fees",
+        "url": "https://english.hi.is/"
+      },
+      {
+        "label": "Study in Iceland – Universities",
+        "url": "https://study.iceland.is/"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ January",
+      "closes": "1 February – 1 June depending on programme",
+      "documents": "Certified copies + translations, submitted directly.",
+      "note": "Dates vary by institution."
+    },
+    "cost_of_living_monthly": "€1,200–€1,700 / month",
+    "housing": "Very limited market in the Reykjavík area; apply early through student services.",
+    "scholarships": "Icelandic state student loan fund (LÍN); limited scholarships."
+  },
+  {
+    "code": "GR",
+    "name": "Greece",
+    "slug": "greece",
+    "is_eu": true,
+    "region": "Southern Europe",
+    "priority": 1,
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "eu_tuition": "€0 tuition for Greek-taught undergraduate programmes",
+    "eu_summary": "Public universities in Greece do not charge tuition for Greek-taught undergraduate (first-cycle) programmes, for EU/EEA and Swiss students as well as for others, subject to admission. Some postgraduate and English-taught programmes charge fees.",
+    "public_universities": "Tuition-free at undergraduate level; postgraduate fees vary.",
+    "private_universities": "Greece's higher-education sector is almost entirely public; private provision has been expanding under recent reforms.",
+    "bachelor": "€0 tuition for Greek-taught programmes.",
+    "master": "Fees vary; some programmes are free, others charge tuition.",
+    "phd": "Often free or low-cost; verify per institution.",
+    "english_taught": "A growing number of English-taught Master's programmes, some with fees.",
+    "mandatory_fees": "No standard tuition; small administrative costs may apply. Verify per institution.",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "No tuition for undergraduate programmes; admission for EU/EEA applicants follows national recognition rules.",
+    "language_requirements": "Greek-taught programmes require Greek; English-taught programmes require English proof.",
+    "application_system": "National admission via the Ministry / platform; international applicants apply directly to institutions.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "EU Education portal – Country profile: Greece",
+        "url": "https://education.ec.europa.eu/study-in-europe/country-profiles"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "Varies",
+      "closes": "Varies by institution and programme",
+      "documents": "Recognition/equivalence of foreign certificates; certified copies + official translations.",
+      "note": "Undergraduate international admission follows national procedures — verify."
+    },
+    "cost_of_living_monthly": "€500–€800 / month",
+    "housing": "Shared flats dominate; university housing is limited.",
+    "scholarships": "IKY (State Scholarships Foundation) offers scholarships."
+  },
+  {
+    "code": "CZ",
+    "name": "Czechia",
+    "slug": "czechia",
+    "is_eu": true,
+    "region": "Central Europe",
+    "priority": 1,
+    "tuition_status": "Conditional Tuition-Free",
+    "eu_tuition": "€0 tuition for programmes taught in Czech",
+    "eu_summary": "Study at public universities is free of charge for all students, including international students, when the programme is taught in Czech and studied within standard duration. Programmes taught in English (and other foreign languages) are subject to tuition fees.",
+    "public_universities": "Free in the Czech language; English-taught programmes are fee-based.",
+    "private_universities": "Private institutions charge tuition.",
+    "bachelor": "€0 in Czech; fees in English.",
+    "master": "€0 in Czech; fees in English.",
+    "phd": "Often free and sometimes salaried; some English-taught doctoral programmes are fee-based.",
+    "english_taught": "Over 1,000 programmes in English; these generally carry tuition fees.",
+    "mandatory_fees": "No tuition for Czech-taught programmes; small administrative/application fees may apply.",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "Condition is language of instruction and standard duration, not nationality.",
+    "language_requirements": "Czech-taught programmes require Czech (often B2 or a preparatory year); English programmes require English proof.",
+    "application_system": "Direct university portals; many offer a one-year Czech-language preparatory programme.",
+    "academic_year": "2026/2027",
+    "currency": "CZK",
+    "sources": [
+      {
+        "label": "Study in Czechia (official portal)",
+        "url": "https://studyin.gov.cz/"
+      },
+      {
+        "label": "Charles University – Study with us",
+        "url": "https://cuni.cz/UKEN-385.html"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ November",
+      "closes": "≈ February–April (faculty-specific); entrance exams ≈ June",
+      "documents": "Certificate + recognition of foreign secondary education (nostrification) where required.",
+      "note": "Apply directly to each faculty."
+    },
+    "cost_of_living_monthly": "€600–€900 / month",
+    "housing": "Dormitories (koleje) are affordable; Prague is competitive.",
+    "scholarships": "Government scholarships for Czech-language study; university merit scholarships."
+  },
+  {
+    "code": "PL",
+    "name": "Poland",
+    "slug": "poland",
+    "is_eu": true,
+    "region": "Central Europe",
+    "priority": 1,
+    "tuition_status": "Conditional Tuition-Free",
+    "eu_tuition": "€0 tuition for Polish-taught programmes for EU citizens",
+    "eu_summary": "EU/EEA citizens may study free of charge at Polish public universities when the programme is taught in Polish (subject to the same rules as Polish citizens). Programmes taught in English and other foreign languages are generally fee-based.",
+    "public_universities": "Free in Polish for EU/EEA; fee-based in English.",
+    "private_universities": "Private institutions charge tuition.",
+    "bachelor": "€0 in Polish for EU/EEA; fee-based in English.",
+    "master": "€0 in Polish for EU/EEA; fee-based in English.",
+    "phd": "Free or low-cost in Polish; fee-based in English (some doctoral schools are free for all).",
+    "english_taught": "Large and growing English-taught catalogue (1,000+ programmes), mostly fee-based.",
+    "mandatory_fees": "No tuition for Polish-taught study; small administrative fees may apply.",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "EU/EEA citizens study on the same terms as Polish citizens in Polish-taught programmes.",
+    "language_requirements": "Polish-taught programmes require Polish (often B1/B2 or a preparatory year); English programmes require English proof.",
+    "application_system": "Direct university portals; national systems such as IRK per university.",
+    "academic_year": "2026/2027",
+    "currency": "PLN",
+    "sources": [
+      {
+        "label": "Study in Poland (official)",
+        "url": "https://study.gov.pl/"
+      },
+      {
+        "label": "EU Education portal – Country profile: Poland",
+        "url": "https://education.ec.europa.eu/study-in-europe/country-profiles"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ April–May",
+      "closes": "≈ June–July (autumn intake)",
+      "documents": "Legalisation/apostille + sworn translation often required.",
+      "note": "Online enrolment systems per institution."
+    },
+    "cost_of_living_monthly": "€500–€900 / month",
+    "housing": "Dormitories (akademiki) are cheap; private rentals widely available.",
+    "scholarships": "NAWA scholarships (e.g. Banach) and university merit scholarships."
+  },
+  {
+    "code": "SI",
+    "name": "Slovenia",
+    "slug": "slovenia",
+    "is_eu": true,
+    "region": "Central Europe",
+    "priority": 1,
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "eu_tuition": "€0 tuition for full-time study for EU citizens",
+    "eu_summary": "At Slovenian public universities, full-time Bachelor's and Master's studies are free of tuition for Slovenian citizens and EU/EEA citizens (generally also for other eligible categories). Part-time and some English-taught programmes may be fee-based.",
+    "public_universities": "Tuition-free for full-time study for eligible students; small enrolment fee may apply.",
+    "private_universities": "Private institutions charge tuition.",
+    "bachelor": "€0 for full-time study (eligible students).",
+    "master": "€0 for full-time study (eligible students).",
+    "phd": "Often free or low-cost; verify per institution.",
+    "english_taught": "A moderate English-taught catalogue; some English programmes are fee-based.",
+    "mandatory_fees": "Small enrolment/administration fee may apply for candidates who have already completed the same level of education.",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "EU/EEA citizens are treated on the same basis as Slovenian citizens for full-time study.",
+    "language_requirements": "Slovene-taught programmes require Slovene; English programmes require English proof.",
+    "application_system": "National application portal (eVŠ) for entry to study, plus direct institution portals.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "University of Ljubljana – Tuition fees and other contributions",
+        "url": "https://www.uni-lj.si/"
+      },
+      {
+        "label": "Study in Slovenia – Tuition and Funding",
+        "url": "https://studyinslovenia.si/"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ February",
+      "closes": "Spring round ≈ March; later rounds in summer",
+      "documents": "Certified copies + translations; originals at enrolment.",
+      "note": "Enrolment via the national eVŠ portal."
+    },
+    "cost_of_living_monthly": "€600–€900 / month",
+    "housing": "Subsidised student dormitories (študentski domovi) — apply early, especially in Ljubljana.",
+    "scholarships": "Slovenian government scholarships (bilateral) and university support."
+  },
+  {
+    "code": "EE",
+    "name": "Estonia",
+    "slug": "estonia",
+    "is_eu": true,
+    "region": "Baltic Europe",
+    "priority": 2,
+    "tuition_status": "Conditional Tuition-Free",
+    "eu_tuition": "€0 in Estonian-language study places; fee-based in English",
+    "eu_summary": "In Estonia, EU/EEA citizens can study free of charge in Estonian-taught programmes when admitted to a state-commissioned (free) study place. English-taught programmes generally charge tuition for all students, including EU/EEA citizens, in the range of roughly €1,660–€7,500 per year.",
+    "public_universities": "Free in Estonian study places; English programmes are typically fee-based.",
+    "private_universities": "Private institutions charge tuition.",
+    "bachelor": "€0 in Estonian study places; fees in English.",
+    "master": "€0 in Estonian study places; fees in English.",
+    "phd": "Doctoral study is often free and salaried.",
+    "english_taught": "A strong English-taught catalogue at Master's level, mostly fee-based; some scholarships available.",
+    "mandatory_fees": "No tuition in Estonian study places; small administrative fees may apply.",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "Condition is language of instruction and study-place type, not nationality.",
+    "language_requirements": "Estonian-taught programmes require Estonian (often B2); English programmes require English proof.",
+    "application_system": "National admission via SAIS (sais.ee) and direct institution portals.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "Study in Estonia – Master's programmes",
+        "url": "https://www.studyinestonia.ee/"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ February",
+      "closes": "≈ February–June depending on programme",
+      "documents": "Certified copies + translations, submitted via SAIS or directly.",
+      "note": "National admission system (SAIS)."
+    },
+    "cost_of_living_monthly": "€500–€800 / month",
+    "housing": "Dormitories available; Tallinn and Tartu markets are competitive.",
+    "scholarships": "Estonian government and university scholarships; some programmes offer tuition waivers."
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "slug": "france",
+    "is_eu": true,
+    "region": "Western Europe",
+    "priority": 2,
+    "tuition_status": "Low Tuition",
+    "eu_tuition": "National rate: €178/year Bachelor's, €254/year Master's",
+    "eu_summary": "France charges low national tuition rates at public universities. For 2025-2026 these were €178 per year for a Licence (Bachelor's) and €254 per year for a Master's. Non-EU students from outside the EU/EEA may be charged differentiated (higher) rates unless exempted. Doctoral tuition is very low.",
+    "public_universities": "Low national tuition rates for EU/EEA students.",
+    "private_universities": "Private and some grande école programmes charge higher fees.",
+    "bachelor": "≈ €178 per year (national rate).",
+    "master": "≈ €254 per year (national rate).",
+    "phd": "≈ €391 per year (national rate).",
+    "english_taught": "Growing English-taught catalogue, especially at Master's level.",
+    "mandatory_fees": "Additional contributions such as the CVEC campus contribution (around €100–€175 per year) may apply.",
+    "mandatory_fee_estimate_eur_year": 400,
+    "residency_conditions": "Differentiated fees may apply to non-EU/EEA students; EU/EEA citizens pay the national rate.",
+    "language_requirements": "French-taught programmes require French (commonly B2 via DELF/DALF/TCF); English programmes require English proof.",
+    "application_system": "Parcoursup (Bachelor's) and Mon Master / Études en France for international applicants.",
+    "academic_year": "2025/2026",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "EU Education portal – Country profile: France",
+        "url": "https://education.ec.europa.eu/study-in-europe/country-profiles/france"
+      },
+      {
+        "label": "Service-Public – University fees",
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18927?lang=en"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "Parcoursup ≈ January; Mon Master ≈ February",
+      "closes": "Parcoursup ≈ March–April; Mon Master ≈ March; Études en France earlier (Nov–Mar)",
+      "documents": "Certified translations may be required; Études en France for many international applicants.",
+      "note": "Bachelor’s via Parcoursup; Master’s via Mon Master."
+    },
+    "cost_of_living_monthly": "€800–€1,300 / month",
+    "housing": "CROUS student residences are cheap but oversubscribed; private rentals are common.",
+    "scholarships": "Eiffel Excellence and Campus France scholarships; low national tuition for EU/EEA."
+  },
+  {
+    "code": "NL",
+    "name": "Netherlands",
+    "slug": "netherlands",
+    "is_eu": true,
+    "region": "Western Europe",
+    "priority": 3,
+    "tuition_status": "Low Tuition",
+    "eu_tuition": "Statutory fee ≈ €2,694 for 2026-2027 (EU/EEA)",
+    "eu_summary": "EU/EEA students pay the government-set statutory tuition fee at Dutch public universities: €2,694 for the 2026-2027 academic year for full-time study. Non-EU/EEA students pay the higher institutional fee.",
+    "public_universities": "Statutory fee applies for EU/EEA.",
+    "private_universities": "Private institutions set their own fees.",
+    "bachelor": "Statutory fee applies.",
+    "master": "Statutory fee applies (some programmes are institutional-fee only).",
+    "phd": "PhD candidates are usually employed and pay no tuition.",
+    "english_taught": "Very large English-taught catalogue at Bachelor's and Master's level.",
+    "mandatory_fees": "No separate mandatory semester fee beyond the statutory tuition fee; some institutions add small administrative costs.",
+    "mandatory_fee_estimate_eur_year": 2694,
+    "residency_conditions": "Statutory fee depends on nationality/residency conditions (EU/EEA/Swiss or qualifying residence permit).",
+    "language_requirements": "English-taught programmes require English proof; Dutch-taught programmes require Dutch proof.",
+    "application_system": "Direct university portals and Studielink (national enrolment).",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "Study in NL – Tuition fees",
+        "url": "https://www.studyinnl.org/"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ October",
+      "closes": "1 May (EU/EEA) — some programmes 15 January",
+      "documents": "Certified copies + translations; register via Studielink, then upload to the institution.",
+      "note": "Selection procedures may add earlier deadlines."
+    },
+    "cost_of_living_monthly": "€900–€1,300 / month",
+    "housing": "Housing is scarce — start very early; student housing corporations plus the private market.",
+    "scholarships": "Holland Scholarship and university awards for non-EU; EU/EEA pay the statutory fee."
+  },
+  {
+    "code": "IE",
+    "name": "Ireland",
+    "slug": "ireland",
+    "is_eu": true,
+    "region": "Western Europe",
+    "priority": 3,
+    "tuition_status": "Conditional Tuition-Free",
+    "eu_tuition": "€0 tuition under Free Fees Initiative; student contribution ≈ €2,500–€3,000/year",
+    "eu_summary": "Eligible EU/EEA students in Ireland do not pay tuition under the Free Fees Initiative, but must pay a student contribution charge (€2,500 for 2025/26). Eligibility requires qualifying residency conditions (for example, time spent in EU/EEA/UK education).",
+    "public_universities": "Tuition covered by Free Fees Initiative; student contribution payable.",
+    "private_universities": "Private institutions charge tuition.",
+    "bachelor": "Tuition-free if eligible; student contribution payable.",
+    "master": "Free Fees generally applies to undergraduate; postgraduate fees vary.",
+    "phd": "Postgraduate fees vary; some funding available.",
+    "english_taught": "Predominantly English-taught; a large catalogue for international students.",
+    "mandatory_fees": "Student contribution charge of €2,500 for 2025/26 (may rise), payable by eligible students.",
+    "mandatory_fee_estimate_eur_year": 2500,
+    "residency_conditions": "Free Fees eligibility depends on EU/EEA/UK nationality plus residency/education history criteria.",
+    "language_requirements": "English-taught; require English proof for non-native speakers.",
+    "application_system": "CAO (Central Applications Office) for undergraduate; direct for postgraduate.",
+    "academic_year": "2025/2026",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "Higher Education Authority – Free Fees Initiative",
+        "url": "https://hea.ie/"
+      },
+      {
+        "label": "Citizens Information – Third-level student fees and charges",
+        "url": "https://www.citizensinformation.ie/"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ November",
+      "closes": "CAO normal deadline 1 February; late 1 May",
+      "documents": "Certified copies + translations; submit via CAO (undergraduate) or directly (postgraduate).",
+      "note": "Postgraduate deadlines vary by course."
+    },
+    "cost_of_living_monthly": "€900–€1,500 / month",
+    "housing": "On-campus and private student accommodation; Dublin is expensive — book early.",
+    "scholarships": "Government of Ireland scholarships and university awards."
+  },
+  {
+    "code": "HU",
+    "name": "Hungary",
+    "slug": "hungary",
+    "is_eu": true,
+    "region": "Central Europe",
+    "priority": 3,
+    "tuition_status": "Conditional Tuition-Free",
+    "eu_tuition": "€0 in state-funded (scholarship) places; fee-based in self-financed places",
+    "eu_summary": "Hungarian public universities offer a number of state-funded (tuition-free) study places, awarded on merit, which EU/EEA citizens may take up on the same basis as Hungarian citizens. Other students study in self-financed, fee-paying places. The Stipendium Hungaricum programme provides additional fully funded scholarships.",
+    "public_universities": "Free in state-funded places; fees in self-financed places.",
+    "private_universities": "Private institutions charge tuition.",
+    "bachelor": "Free if admitted to a state-funded place.",
+    "master": "Free if admitted to a state-funded place.",
+    "phd": "Doctoral schools often include state scholarships.",
+    "english_taught": "A large English-taught catalogue, frequently fee-based.",
+    "mandatory_fees": "No tuition in state-funded places; small administrative costs may apply.",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "State-funded places are merit-based and open to EU/EEA applicants on equal terms.",
+    "language_requirements": "Hungarian-taught programmes require Hungarian; English programmes require English proof.",
+    "application_system": "Direct institution portals; Stipendium Hungaricum via the national scholarship system.",
+    "academic_year": "2026/2027",
+    "currency": "HUF",
+    "sources": [
+      {
+        "label": "Corvinus University of Budapest – Scholarships and Discounts",
+        "url": "https://www.uni-corvinus.hu/"
+      },
+      {
+        "label": "EURAXESS Hungary – Grants and Scholarships",
+        "url": "https://www.euraxess.hu/"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ December",
+      "closes": "≈ February (state-funded places, autumn intake)",
+      "documents": "Certified copies + official translations; entrance exam where required.",
+      "note": "Apply directly to the institution."
+    },
+    "cost_of_living_monthly": "€450–€750 / month",
+    "housing": "Dormitories and private rentals; Budapest is competitive.",
+    "scholarships": "Stipendium Hungaricum (fully funded) and state-funded (tuition-free) places."
+  },
+  {
+    "code": "BE",
+    "name": "Belgium",
+    "slug": "belgium",
+    "is_eu": true,
+    "region": "Western Europe",
+    "priority": 3,
+    "tuition_status": "Low Tuition",
+    "eu_tuition": "Low tuition: Flemish Community ≈ €1,181, Wallonia-Brussels Federation max €1,194 (EU/EEA, 2026-2027)",
+    "eu_summary": "Belgian public universities charge relatively low tuition, set separately by the Flemish Community and the Wallonia-Brussels Federation. For 2026-2027 the Flemish rate for a full-time EU/EEA degree programme is about €1,181.40 per year. In the Wallonia-Brussels Federation, EU nationals pay a maximum of about €1,194 per year, with reduced categories paying roughly €175–€835.",
+    "public_universities": "Low tuition for EU/EEA; the exact amount depends on the Community (Flanders or Wallonia-Brussels) and the institution.",
+    "private_universities": "A limited private sector charges higher fees.",
+    "bachelor": "Low tuition (EU/EEA rate) — see the relevant Community rate.",
+    "master": "Low tuition (EU/EEA rate); some advanced Master’s may differ.",
+    "phd": "Doctoral candidates are usually salaried or funded.",
+    "english_taught": "Growing English-taught catalogue, especially at Master’s level.",
+    "mandatory_fees": "No large separate mandatory semester fee; small administrative charges may apply.",
+    "mandatory_fee_estimate_eur_year": 1194,
+    "residency_conditions": "EU/EEA students are charged the standard (lower) rate; non-EU/EEA rates are higher and vary by programme.",
+    "language_requirements": "Programmes are taught in Dutch, French or English; language proof required accordingly.",
+    "application_system": "Direct institution portals; some programmes use joint enrolment procedures.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "Study in Flanders – Tuition fees (official)",
+        "url": "https://www.studyinflanders.be/"
+      },
+      {
+        "label": "Study in Belgium – Registration fees, Wallonia-Brussels Federation (official)",
+        "url": "https://www.studyinbelgium.be/"
+      },
+      {
+        "label": "EU Education portal – Country profile: Belgium",
+        "url": "https://education.ec.europa.eu/study-in-europe/country-profiles"
+      }
+    ],
+    "verification_status": "Verified (regional official sources)",
+    "last_verified": "2026-09-22",
+    "language_requirements_note": "",
+    "document_submission": {
+      "opens": "Varies",
+      "closes": "Non-EEA ≈ March–April; EU/EEA varies by institution",
+      "documents": "Certified copies + translations; diploma equivalence may be required.",
+      "note": "Some fields (medicine/dentistry) have quota/selection procedures."
+    },
+    "cost_of_living_monthly": "€800–€1,200 / month",
+    "housing": "Student residences (koten/studentenkamers) and shared flats; early application advised.",
+    "scholarships": "University scholarships and community grants."
+  },
+  {
+    "code": "BG",
+    "name": "Bulgaria",
+    "slug": "bulgaria",
+    "is_eu": true,
+    "region": "Southern Europe",
+    "priority": 4,
+    "tuition_status": "Low Tuition",
+    "eu_tuition": "Low tuition — all students (incl. EU/EEA) pay tuition at public universities",
+    "eu_summary": "In Bulgaria, all students are required to pay tuition fees in the first and second cycle — there is no general tuition-free route for EU citizens. Fees are set by the institutions and are relatively low compared with Western Europe; EU/EEA students generally pay the same rates as Bulgarian students.",
+    "public_universities": "Tuition is charged to all students; amounts are set by each institution and are comparatively low.",
+    "private_universities": "Private institutions charge tuition, typically higher than public ones.",
+    "bachelor": "Tuition charged (low by European standards); amount varies by institution and field.",
+    "master": "Tuition charged; amount varies by institution and field.",
+    "phd": "Doctoral study is often funded or low-cost — verify per institution.",
+    "english_taught": "A moderate English-taught catalogue, frequently fee-based.",
+    "mandatory_fees": "No separate mandatory semester fee; tuition is the main charge. Small administrative fees may apply.",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "EU/EEA students generally pay the same tuition as Bulgarian students.",
+    "language_requirements": "Bulgarian-taught programmes require Bulgarian; English programmes require English proof.",
+    "application_system": "Direct institution portals; some programmes via the Ministry’s admission rules.",
+    "academic_year": "2026/2027",
+    "currency": "BGN",
+    "sources": [
+      {
+        "label": "Eurydice – National Student Fee and Support Systems: Bulgaria",
+        "url": "https://eurydice.eacea.ec.europa.eu/"
+      },
+      {
+        "label": "Study in Bulgaria (Eurydice/European Commission)",
+        "url": "https://education.ec.europa.eu/study-in-europe/country-profiles"
+      }
+    ],
+    "verification_status": "Verified (Eurydice: all students pay tuition in first and second cycle)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ May–June",
+      "closes": "≈ June–July (autumn intake)",
+      "documents": "Legalisation/apostille + translations; certified copies.",
+      "note": "Entrance examinations for most programmes."
+    },
+    "cost_of_living_monthly": "€400–€700 / month",
+    "housing": "Dormitories are very affordable; private rentals also cheap.",
+    "scholarships": "Government scholarships for Bulgarian-language study; low fees."
+  },
+  {
+    "code": "HR",
+    "name": "Croatia",
+    "slug": "croatia",
+    "is_eu": true,
+    "region": "Southern Europe",
+    "priority": 4,
+    "tuition_status": "Conditional Tuition-Free",
+    "eu_tuition": "€0 tuition for Croatian-taught degrees at public universities (full-time)",
+    "eu_summary": "At Croatian public universities, degrees taught in Croatian generally do not charge tuition fees, and full-time EU/EEA students are treated on the same basis as Croatian citizens. Programmes taught in foreign languages (e.g. English) and some part-time or quota-exceeding enrolments may be fee-based.",
+    "public_universities": "Croatian-taught degrees generally tuition-free; foreign-language programmes may be fee-based.",
+    "private_universities": "Private institutions charge tuition.",
+    "bachelor": "€0 for Croatian-taught full-time study; foreign-language programmes may charge fees.",
+    "master": "€0 for Croatian-taught full-time study; foreign-language programmes may charge fees.",
+    "phd": "Often low-cost or funded — verify per institution.",
+    "english_taught": "A moderate English-taught catalogue, frequently fee-based.",
+    "mandatory_fees": "Small enrolment/administrative fees may apply (application fee roughly €60–€300 in some cases).",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "EU/EEA students are treated on the same basis as Croatian citizens for Croatian-taught study.",
+    "language_requirements": "Croatian-taught programmes require Croatian; English programmes require English proof.",
+    "application_system": "National portal (postani-student.hr) and direct institution portals.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "Study in Croatia – Tuition Fees at Croatian Universities (official)",
+        "url": "https://www.studyincroatia.eu/"
+      },
+      {
+        "label": "EU Education portal – Country profile: Croatia",
+        "url": "https://education.ec.europa.eu/study-in-europe/country-profiles"
+      }
+    ],
+    "verification_status": "Verified (national portal)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ May–June",
+      "closes": "≈ June–July (autumn intake)",
+      "documents": "Certified copies + translations; submit via postani-student.hr.",
+      "note": "National enrolment portal."
+    },
+    "cost_of_living_monthly": "€500–€800 / month",
+    "housing": "Subsidised student dormitories (studentski dom); Zagreb is competitive.",
+    "scholarships": "Government (bilateral) scholarships and university support."
+  },
+  {
+    "code": "CY",
+    "name": "Cyprus",
+    "slug": "cyprus",
+    "is_eu": true,
+    "region": "Southern Europe",
+    "priority": 4,
+    "tuition_status": "Conditional Tuition-Free",
+    "eu_tuition": "First-cycle may be tuition-free for EU students at public universities — sources conflict; verify",
+    "eu_summary": "The situation for EU students in Cyprus is contradictory across official sources. The European Commission’s country profile states that EU students do not pay tuition fees for first-cycle programmes at public universities, with the exception of the Open University of Cyprus. However, the University of Cyprus’s own fee page lists an annual tuition figure (about €3,417) for Cypriot and other EU students. Both sources are retained below; the safer assumption is that tuition may be charged, so verify directly with the institution.",
+    "public_universities": "First-cycle may be tuition-free for EU students (per the EU portal); the University of Cyprus lists an EU tuition figure — conflicting.",
+    "private_universities": "Private institutions charge tuition.",
+    "bachelor": "Possibly €0 (EU portal) or charged (university fee page) — verify per institution.",
+    "master": "Master’s programmes generally charge fees (roughly €4,100–€10,250/yr for EU/EEA).",
+    "phd": "Some funded places available — verify per institution.",
+    "english_taught": "A substantial English-taught catalogue, notably at private universities.",
+    "mandatory_fees": "Small administrative fees may apply.",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "EU/EEA students may access national rates and (reportedly) free first-cycle places — verify.",
+    "language_requirements": "Programmes in Greek or English; proof required accordingly.",
+    "application_system": "Direct institution portals.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "University of Cyprus – Tuition Fees",
+        "url": "https://www.ucy.ac.cy/"
+      },
+      {
+        "label": "EU Education portal – Country profile: Cyprus",
+        "url": "https://education.ec.europa.eu/study-in-europe/country-profiles"
+      }
+    ],
+    "verification_status": "Conflicting official sources — safest interpretation shown; needs verification",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "Varies",
+      "closes": "Varies by institution and programme",
+      "documents": "Certified copies + translations, submitted directly.",
+      "note": "Verify dates with the institution."
+    },
+    "cost_of_living_monthly": "€600–€1,000 / month",
+    "housing": "Private rentals dominate; limited student housing.",
+    "scholarships": "University scholarships and government support."
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "slug": "italy",
+    "is_eu": true,
+    "region": "Southern Europe",
+    "priority": 3,
+    "tuition_status": "Low Tuition",
+    "eu_tuition": "Income-based tuition: public universities ≈ €900–€4,000/year (EU/EEA may pay less)",
+    "eu_summary": "Italian public universities charge tuition that is largely income-based (progressive ISEE system), so many students pay low fees and top performers may be fully exempt. EU/EEA students are generally treated on the same basis as Italian students. Public-university tuition is commonly cited at roughly €900–€4,000 per year; private institutions are far higher.",
+    "public_universities": "Income-based tuition; ranges commonly cited at €900–€4,000 per year.",
+    "private_universities": "Private institutions charge higher tuition (€6,000–€20,000+ per year).",
+    "bachelor": "Income-based; verify per institution.",
+    "master": "Income-based; verify per institution.",
+    "phd": "Doctoral programmes are often funded with scholarships.",
+    "english_taught": "A large English-taught catalogue, especially at Master’s level.",
+    "mandatory_fees": "Regional tax and stamp duties add small mandatory amounts; income-based tuition is the main charge.",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "EU/EEA students are generally charged the same tuition as Italian students (income-based).",
+    "language_requirements": "Italian-taught programmes require Italian; English programmes require English proof.",
+    "application_system": "National portal (Universitaly) and direct institution portals.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "EU Education portal – Country profile: Italy",
+        "url": "https://education.ec.europa.eu/study-in-europe/country-profiles"
+      }
+    ],
+    "verification_status": "Verified (country policy; income-based, amount varies)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ spring",
+      "closes": "Pre-enrolment/admissions ≈ spring–summer",
+      "documents": "Declaration of value / CIMEA statement for foreign qualifications.",
+      "note": "Pre-enrol via Universitaly."
+    },
+    "cost_of_living_monthly": "€700–€1,200 / month",
+    "housing": "Student residences (case dello studente) and private rentals; major cities are expensive.",
+    "scholarships": "Income-based fee reductions, DSU regional scholarships and the “Invest Your Talent in Italy” programme."
+  },
+  {
+    "code": "LV",
+    "name": "Latvia",
+    "slug": "latvia",
+    "is_eu": true,
+    "region": "Baltic Europe",
+    "priority": 3,
+    "tuition_status": "Conditional Tuition-Free",
+    "eu_tuition": "€0 in state-funded places (limited); most study places are fee-paying",
+    "eu_summary": "Latvia has a limited number of state-funded study places in which EU/EEA citizens may study free of charge; these are awarded on merit. Most students study in fee-paying places, with fees ranging widely (commonly from about €2,800 up to €15,000 per year, depending on the programme). Because only a minority receive free places, “conditional tuition-free” is the accurate description.",
+    "public_universities": "Free only in state-funded places; otherwise fee-paying.",
+    "private_universities": "Private institutions charge tuition.",
+    "bachelor": "€0 in state-funded places; otherwise fee-paying.",
+    "master": "€0 in state-funded places; otherwise fee-paying.",
+    "phd": "Often funded for state-funded places.",
+    "english_taught": "A moderate English-taught catalogue, mostly fee-based.",
+    "mandatory_fees": "Small administrative fees may apply.",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "EU/EEA citizens may compete for state-funded (free) places on the same basis as Latvian citizens.",
+    "language_requirements": "Latvian-taught programmes require Latvian; English programmes require English proof.",
+    "application_system": "National platform (latvija.lv) and direct institution portals.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "Study in Latvia (official national portal)",
+        "url": "https://www.studyinlatvia.lv/"
+      },
+      {
+        "label": "Latvia.eu – Study in Latvia",
+        "url": "https://www.latvia.eu/"
+      },
+      {
+        "label": "Eurydice – Higher education funding: Latvia",
+        "url": "https://eurydice.eacea.ec.europa.eu/"
+      }
+    ],
+    "verification_status": "Verified (national portal; free places limited)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ May–June",
+      "closes": "≈ June–July (autumn intake)",
+      "documents": "Certified copies + translations, submitted directly.",
+      "note": "National portal (latvija.lv) and institution systems."
+    },
+    "cost_of_living_monthly": "€450–€800 / month",
+    "housing": "Dormitories available; the Riga market is competitive.",
+    "scholarships": "Latvian state scholarships; university support."
+  },
+  {
+    "code": "LT",
+    "name": "Lithuania",
+    "slug": "lithuania",
+    "is_eu": true,
+    "region": "Baltic Europe",
+    "priority": 3,
+    "tuition_status": "Conditional Tuition-Free",
+    "eu_tuition": "€0 in state-funded places (no direct programme fees); otherwise from ~€1,300/yr (Bachelor’s)",
+    "eu_summary": "Students admitted to state-funded places at Lithuanian state higher-education institutions do not pay fees directly related to their programme. These places are allocated by merit and are open to EU/EEA applicants. Students outside the state-funded places pay tuition — commonly from about €1,300 per year for Bachelor’s and €2,300 for Master’s.",
+    "public_universities": "Free in state-funded places; fee-paying otherwise.",
+    "private_universities": "Private institutions charge tuition.",
+    "bachelor": "€0 in state-funded places; otherwise from ~€1,300/yr.",
+    "master": "€0 in state-funded places; otherwise from ~€2,300/yr.",
+    "phd": "Doctoral study is often funded.",
+    "english_taught": "A moderate English-taught catalogue, mostly fee-based.",
+    "mandatory_fees": "Small administrative fees may apply.",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "State-funded places are merit-based and open to EU/EEA applicants.",
+    "language_requirements": "Lithuanian-taught programmes require Lithuanian; English programmes require English proof.",
+    "application_system": "National portal (LAMA BPO) and direct institution portals.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "Study in Lithuania (official) – Tuition Fees",
+        "url": "https://studyin.lt/"
+      },
+      {
+        "label": "Eurydice – Higher education funding: Lithuania",
+        "url": "https://eurydice.eacea.ec.europa.eu/"
+      }
+    ],
+    "verification_status": "Verified (national portal)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ May–June",
+      "closes": "≈ June–July (autumn intake)",
+      "documents": "Certified copies + translations; submit via LAMA BPO.",
+      "note": "Centralised admission (LAMA BPO)."
+    },
+    "cost_of_living_monthly": "€450–€800 / month",
+    "housing": "Dormitories available; the Vilnius market is competitive.",
+    "scholarships": "Lithuanian state scholarships; university support."
+  },
+  {
+    "code": "LU",
+    "name": "Luxembourg",
+    "slug": "luxembourg",
+    "is_eu": true,
+    "region": "Western Europe",
+    "priority": 4,
+    "tuition_status": "Low Tuition",
+    "eu_tuition": "Low tuition: ≈ €800/year (≈ €400/semester); some programmes free",
+    "eu_summary": "The University of Luxembourg charges low tuition. Most Bachelor’s and Master’s programmes fall in a low range (with some reported as free of charge), and EU/EEA students typically pay around €800 per year (about €400 per semester). Amounts vary by programme.",
+    "public_universities": "Low tuition; EU/EEA rates are the same as national rates.",
+    "private_universities": "Very limited private provision.",
+    "bachelor": "Low tuition (≈ €400/semester); some programmes free — verify per programme.",
+    "master": "Low tuition; some programmes free — verify per programme.",
+    "phd": "Doctoral candidates are usually salaried.",
+    "english_taught": "Multilingual teaching (English/French/German); many Master’s programmes in English.",
+    "mandatory_fees": "Small administrative fees may apply.",
+    "mandatory_fee_estimate_eur_year": 800,
+    "residency_conditions": "EU/EEA students pay the standard (low) rate.",
+    "language_requirements": "Programmes are taught in English, French or German; proof required accordingly.",
+    "application_system": "Direct university portal.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "University of Luxembourg – Cost of living & budget (official)",
+        "url": "https://www.uni.lu/"
+      },
+      {
+        "label": "Study.eu – Study in Luxembourg",
+        "url": "https://www.study.eu/"
+      }
+    ],
+    "verification_status": "Partially verified (low tuition confirmed; per-programme amounts vary)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ February",
+      "closes": "≈ spring (autumn intake)",
+      "documents": "Certified copies + translations, submitted directly.",
+      "note": "Apply via the University of Luxembourg portal."
+    },
+    "cost_of_living_monthly": "€1,200–€1,800 / month",
+    "housing": "Very limited and expensive housing — apply immediately after admission.",
+    "scholarships": "Government study aid; some university scholarships."
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "slug": "malta",
+    "is_eu": true,
+    "region": "Southern Europe",
+    "priority": 4,
+    "tuition_status": "Conditional Tuition-Free",
+    "eu_tuition": "€0 for EU students in most full-time programmes (specific course/bench fees may apply)",
+    "eu_summary": "The University of Malta does not charge standard tuition to Maltese and EU students in most full-time programmes; non-EU students pay fees. The university nevertheless publishes a separate fee schedule for EU/EEA students (covering certain courses, bench fees and international collaborative programmes), so small charges may still apply depending on the programme.",
+    "public_universities": "No standard tuition for Maltese/EU in most full-time programmes; specific course/bench fees may apply.",
+    "private_universities": "Private institutions charge tuition.",
+    "bachelor": "€0 in most full-time programmes for EU students; specific fees may apply.",
+    "master": "Fees vary; verify per programme.",
+    "phd": "Often funded or low-cost — verify per programme.",
+    "english_taught": "Predominantly English-taught; large catalogue for international students.",
+    "mandatory_fees": "See the University of Malta Finance Office “Course fees for EU & EEA students” schedule for programme-specific charges.",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "Tuition-free status generally tied to Maltese/EU status for full-time programmes.",
+    "language_requirements": "English-taught; English proof required for non-native speakers.",
+    "application_system": "Direct university portal.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "University of Malta – Course fees (Finance Office)",
+        "url": "https://www.um.edu.mt/"
+      }
+    ],
+    "verification_status": "Partially verified (official fee schedule; programme-specific)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "Varies",
+      "closes": "Varies by course",
+      "documents": "Certified copies + translations, submitted directly.",
+      "note": "Verify deadlines with the University of Malta."
+    },
+    "cost_of_living_monthly": "€700–€1,100 / month",
+    "housing": "Private rentals dominate; limited student accommodation.",
+    "scholarships": "Government scholarships (e.g. Endeavour) and university support."
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "slug": "portugal",
+    "is_eu": true,
+    "region": "Southern Europe",
+    "priority": 3,
+    "tuition_status": "Low Tuition",
+    "eu_tuition": "Capped low tuition: reference fee €697/year (Bachelor’s, 2025/26); up to €2,750 (Master’s)",
+    "eu_summary": "Portuguese public universities charge a capped maximum tuition (propina) set nationally and indexed annually. For 2025/2026 the reference fee was €697 for Bachelor’s degree programmes and up to €2,750 for Master’s. EU/EEA students are charged the same as Portuguese students. Amounts are verified per institution and year.",
+    "public_universities": "Capped low tuition; EU/EEA charged national rates.",
+    "private_universities": "Private institutions charge higher tuition.",
+    "bachelor": "Capped low tuition (≈ €697/yr reference, 2025/26).",
+    "master": "Capped low tuition (up to ≈ €2,750/yr, 2025/26).",
+    "phd": "Often funded via FCT scholarships.",
+    "english_taught": "A growing English-taught catalogue, especially at Master’s level.",
+    "mandatory_fees": "Small enrolment/administrative fees may apply.",
+    "mandatory_fee_estimate_eur_year": 697,
+    "residency_conditions": "EU/EEA students pay national tuition rates.",
+    "language_requirements": "Portuguese-taught programmes require Portuguese; English programmes require English proof.",
+    "application_system": "National contest (CNA) and direct institution portals.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "DGES – International Students (official)",
+        "url": "https://www.dges.gov.pt/"
+      },
+      {
+        "label": "Eurydice – Higher education funding: Portugal",
+        "url": "https://eurydice.eacea.ec.europa.eu/"
+      }
+    ],
+    "verification_status": "Verified (national reference fee)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ June",
+      "closes": "National contest (CNA) ≈ July–August",
+      "documents": "Certified copies + translations; equivalence may be required.",
+      "note": "Access regulated by DGES."
+    },
+    "cost_of_living_monthly": "€600–€1,000 / month",
+    "housing": "Student residences and shared flats; Lisbon and Porto are competitive.",
+    "scholarships": "FCT scholarships for research; university merit awards."
+  },
+  {
+    "code": "RO",
+    "name": "Romania",
+    "slug": "romania",
+    "is_eu": true,
+    "region": "Central Europe",
+    "priority": 4,
+    "tuition_status": "Conditional Tuition-Free",
+    "eu_tuition": "€0 for state-funded students; fees may be charged in fee-paying places",
+    "eu_summary": "In Romania, higher education is free of charge for state-funded students; institutions may collect other fees in defined situations, and fee-paying places exist. State-funded places are open to EU/EEA citizens on the same basis as Romanian citizens. Amounts for fee-paying places vary by institution.",
+    "public_universities": "Free for state-funded students; fee-paying places otherwise.",
+    "private_universities": "Private institutions charge tuition.",
+    "bachelor": "€0 in state-funded places.",
+    "master": "€0 in state-funded places.",
+    "phd": "Often funded for state-funded places.",
+    "english_taught": "A moderate English-taught catalogue, frequently fee-based.",
+    "mandatory_fees": "Institutions may collect defined fees; verify per institution.",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "State-funded places open to EU/EEA on equal terms.",
+    "language_requirements": "Romanian-taught programmes require Romanian; English programmes require English proof.",
+    "application_system": "Direct institution portals.",
+    "academic_year": "2026/2027",
+    "currency": "RON",
+    "sources": [
+      {
+        "label": "Eurydice – Higher education funding: Romania",
+        "url": "https://eurydice.eacea.ec.europa.eu/"
+      }
+    ],
+    "verification_status": "Verified (Eurydice: free of charge for state-funded students)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ June",
+      "closes": "≈ July–September (autumn intake)",
+      "documents": "Recognition of foreign diplomas (CNRED); certified copies + translations.",
+      "note": "Apply directly to the institution."
+    },
+    "cost_of_living_monthly": "€400–€700 / month",
+    "housing": "Dormitories are affordable; private rentals cheap.",
+    "scholarships": "Romanian government scholarships; university support."
+  },
+  {
+    "code": "SK",
+    "name": "Slovakia",
+    "slug": "slovakia",
+    "is_eu": true,
+    "region": "Central Europe",
+    "priority": 4,
+    "tuition_status": "Conditional Tuition-Free",
+    "eu_tuition": "€0 for programmes taught in Slovak (public universities); English programmes fee-based",
+    "eu_summary": "At Slovak public universities, study is free of charge when the programme is taught in Slovak; English-taught programmes are fee-based (commonly €1,000–€3,000 per year at public institutions). EU/EEA students benefit from the same language-based rule as Slovak students.",
+    "public_universities": "Free in Slovak; fee-based in English.",
+    "private_universities": "Private institutions charge tuition.",
+    "bachelor": "€0 in Slovak; fee-based in English.",
+    "master": "€0 in Slovak; fee-based in English.",
+    "phd": "Often free and sometimes salaried.",
+    "english_taught": "A moderate English-taught catalogue, mostly fee-based.",
+    "mandatory_fees": "Small administrative fees may apply.",
+    "mandatory_fee_estimate_eur_year": null,
+    "residency_conditions": "Condition relates to language of instruction, not nationality for EU/EEA.",
+    "language_requirements": "Slovak-taught programmes require Slovak; English programmes require English proof.",
+    "application_system": "Direct institution portals.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "EU Education portal – Country profile: Slovakia",
+        "url": "https://education.ec.europa.eu/study-in-europe/country-profiles"
+      },
+      {
+        "label": "Study.eu – Study in Slovakia (tuition)",
+        "url": "https://www.study.eu/"
+      }
+    ],
+    "verification_status": "Verified (country policy)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ December",
+      "closes": "≈ February–April (next academic year)",
+      "documents": "Recognition (nostrification) of foreign certificates; certified copies + translations.",
+      "note": "Apply directly to each faculty."
+    },
+    "cost_of_living_monthly": "€500–€800 / month",
+    "housing": "Dormitories (študentské domovy) are cheap; Bratislava is competitive.",
+    "scholarships": "Slovak government scholarships (SAIA); university support."
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "slug": "spain",
+    "is_eu": true,
+    "region": "Southern Europe",
+    "priority": 3,
+    "tuition_status": "Low Tuition",
+    "eu_tuition": "Low public tuition: Bachelor’s ≈ €700–€1,700/yr; Master’s ≈ €1,000–€3,500/yr",
+    "eu_summary": "Spanish public universities charge low tuition, set by each autonomous community, with fairly wide variation. The European Commission cites Bachelor’s degrees at roughly €700–€1,700 per academic year and Master’s programmes at roughly €1,000–€3,500. EU/EEA students pay the same rates as Spanish students.",
+    "public_universities": "Low tuition; set by autonomous community.",
+    "private_universities": "Private institutions charge higher tuition.",
+    "bachelor": "≈ €700–€1,700/yr; varies by region and institution.",
+    "master": "≈ €1,000–€3,500/yr; varies by region and institution.",
+    "phd": "Often funded via scholarships.",
+    "english_taught": "A growing English-taught catalogue, especially at Master’s level.",
+    "mandatory_fees": "Small administrative and insurance fees may apply.",
+    "mandatory_fee_estimate_eur_year": 1200,
+    "residency_conditions": "EU/EEA students pay national/regional rates.",
+    "language_requirements": "Spanish-taught programmes require Spanish (commonly B2); English programmes require English proof.",
+    "application_system": "Regional university admission systems and direct institution portals.",
+    "academic_year": "2026/2027",
+    "currency": "EUR",
+    "sources": [
+      {
+        "label": "EU Education portal – Country profile: Spain",
+        "url": "https://education.ec.europa.eu/study-in-europe/country-profiles"
+      }
+    ],
+    "verification_status": "Verified (country policy; varies by region)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "≈ spring",
+      "closes": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+      "documents": "Credential recognition via UNEDasiss/MECD; certified copies + sworn translations.",
+      "note": "Undergraduate admission per autonomous community."
+    },
+    "cost_of_living_monthly": "€700–€1,100 / month",
+    "housing": "Student residences and shared flats; Madrid and Barcelona are competitive.",
+    "scholarships": "Spanish government, regional and university scholarships; income-based aid."
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "slug": "switzerland",
+    "is_eu": false,
+    "region": "Western Europe",
+    "priority": 2,
+    "tuition_status": "Low Tuition",
+    "eu_tuition": "Low tuition: cantonal universities ≈ CHF 1,000–1,500/yr (Swiss/EU); ETH/EPFL higher for foreign students",
+    "eu_summary": "Switzerland is not an EU member but has close academic ties. Cantonal universities charge low tuition (commonly around CHF 1,000–1,500 per year for Swiss/EU students). The two federal institutes (ETH Zurich and EPFL) charge higher fees to foreign students — reported at CHF 2,190 per semester from autumn 2025. Amounts vary by canton and institution and must be verified directly.",
+    "public_universities": "Low tuition set by canton; EU/EEA rates vary.",
+    "private_universities": "Private institutions charge higher tuition.",
+    "bachelor": "Low cantonal tuition; verify per institution.",
+    "master": "Low cantonal tuition; verify per institution.",
+    "phd": "Doctoral candidates are often employed and funded.",
+    "english_taught": "Very large English-taught catalogue, especially at Master’s and PhD level.",
+    "mandatory_fees": "Small administrative fees may apply.",
+    "mandatory_fee_estimate_eur_year": 1300,
+    "residency_conditions": "Non-EU/EEA rates may differ; some institutions charge foreign students more (incl. ETH/EPFL).",
+    "language_requirements": "Programmes taught in German, French, Italian or English; proof required accordingly.",
+    "application_system": "Direct institution portals.",
+    "academic_year": "2026/2027",
+    "currency": "CHF",
+    "sources": [
+      {
+        "label": "Study.eu – Tuition fees and living costs in Switzerland",
+        "url": "https://www.study.eu/"
+      },
+      {
+        "label": "Mastersportal – Tuition Fees and Living Costs in Switzerland",
+        "url": "https://www.mastersportal.com/"
+      }
+    ],
+    "verification_status": "Partially verified (cantonal variation; ETH/EPFL higher for foreign students)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "Varies by institution",
+      "closes": "Commonly ≈ 30 April (autumn) for non-EU; EU later — verify",
+      "documents": "Certified copies + translations; recognition of foreign certificates.",
+      "note": "Cantonal and institutional variation."
+    },
+    "cost_of_living_monthly": "€1,800–€2,500 / month",
+    "housing": "Housing is expensive and scarce — apply very early.",
+    "scholarships": "Swiss government excellence scholarships; cantonal support."
+  },
+  {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "slug": "liechtenstein",
+    "is_eu": false,
+    "region": "Western Europe",
+    "priority": 4,
+    "tuition_status": "Low Tuition",
+    "eu_tuition": "Low tuition: CHF 950/semester for EU/EEA and Swiss nationals (≈ CHF 1,900/yr)",
+    "eu_summary": "Liechtenstein is in the EEA but not the EU. Its University of Liechtenstein charges CHF 950 per semester for Bachelor’s, Master’s and Doctoral programmes to EU/EEA and Swiss nationals (about CHF 1,900 per year). Non-EU/EEA students pay higher fees.",
+    "public_universities": "Low tuition (CHF 950/semester for EU/EEA & Swiss nationals).",
+    "private_universities": "Very limited provision.",
+    "bachelor": "CHF 950/semester (EU/EEA & Swiss).",
+    "master": "CHF 950/semester (EU/EEA & Swiss).",
+    "phd": "CHF 950/semester (EU/EEA & Swiss).",
+    "english_taught": "Programmes mainly in German, some in English.",
+    "mandatory_fees": "Small administrative fees may apply.",
+    "mandatory_fee_estimate_eur_year": 2000,
+    "residency_conditions": "EEA citizen treatment; non-EU/EEA pay higher fees.",
+    "language_requirements": "Mainly German; some English; proof required accordingly.",
+    "application_system": "Direct university portal (uni.li).",
+    "academic_year": "2026/2027",
+    "currency": "CHF",
+    "sources": [
+      {
+        "label": "University of Liechtenstein – Application and Admission (tuition fees)",
+        "url": "https://www.uni.li/"
+      }
+    ],
+    "verification_status": "Verified (official university source)",
+    "last_verified": "2026-09-22",
+    "document_submission": {
+      "opens": "Varies",
+      "closes": "Contact the University of Liechtenstein",
+      "documents": "Certified copies + translations, submitted directly.",
+      "note": "Single main institution (uni.li)."
+    },
+    "cost_of_living_monthly": "€1,800–€2,500 / month",
+    "housing": "Very limited housing; check with the university and the local market.",
+    "scholarships": "Limited; check with the university and cantonal support."
+  }
+]
