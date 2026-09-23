@@ -1,0 +1,18 @@
+{
+  "name": "studyfreeeu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Find tuition-free universities in Europe for EU citizens — source-backed university, programme and tuition database with a pre-rendered static site.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "validate": "node scripts/validate-data.mjs",
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/validate-data.mjs && node scripts/build.mjs",
+    "db:migrate": "psql \"$DATABASE_URL\" -f db/migrations/0001_init.sql",
+    "db:seed": "node scripts/seed-db.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.11.5"
+  }
+}

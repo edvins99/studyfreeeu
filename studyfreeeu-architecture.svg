@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" font-family="Segoe UI, Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#003399"/><stop offset="1" stop-color="#00235f"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .card{fill:#ffffff;stroke:#e2e8f0;stroke-width:1.5;rx:14}
+      .lane{fill:#f6f8fc;stroke:#e2e8f0;stroke-width:1.5;rx:16}
+      .t{fill:#0f172a}
+      .muted{fill:#64748b}
+      .h{fill:#ffffff}
+      .pill{fill:#003399;rx:999}
+      .pilltxt{fill:#ffffff}
+      .mono{font-family:Consolas,Menlo,monospace}
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <rect x="0" y="0" width="1600" height="104" fill="url(#hero)"/>
+  <text x="48" y="52" font-size="30" font-weight="700" fill="#ffffff">StudyFreeEU — how the product is built and how it runs</text>
+  <text x="48" y="82" font-size="17" fill="#c7d5f5">Source-backed tuition database · static generation · zero-backend front end (optional PostgreSQL/Supabase path)</text>
+
+  <!-- ===== Lane 1: Data layer ===== -->
+  <rect class="lane" x="40" y="140" width="440" height="700"/>
+  <circle cx="76" cy="176" r="16" class="pill"/><text x="76" y="182" font-size="16" font-weight="700" class="pilltxt" text-anchor="middle">1</text>
+  <text x="104" y="182" font-size="20" font-weight="700" class="t">Knowledge base (source of truth)</text>
+
+  <rect class="card" x="72" y="210" width="376" height="86"/>
+  <text x="92" y="240" font-size="16" font-weight="700" class="t">data/countries.json</text>
+  <text x="92" y="266" font-size="14" class="muted">31 countries · 27 EU + 4 other European</text>
+  <text x="92" y="286" font-size="13" class="muted">tuition policy, fees, residency rules</text>
+
+  <rect class="card" x="72" y="308" width="376" height="86"/>
+  <text x="92" y="338" font-size="16" font-weight="700" class="t">data/universities.json</text>
+  <text x="92" y="364" font-size="14" class="muted">43 universities · tuition status, fees,</text>
+  <text x="92" y="384" font-size="13" class="muted">English programmes, admissions, sources</text>
+
+  <rect class="card" x="72" y="406" width="376" height="86"/>
+  <text x="92" y="436" font-size="16" font-weight="700" class="t">data/programs.json</text>
+  <text x="92" y="462" font-size="14" class="muted">programme-level records (level, language,</text>
+  <text x="92" y="482" font-size="13" class="muted">duration, ECTS, EU tuition, deadlines)</text>
+
+  <rect class="card" x="72" y="504" width="376" height="76"/>
+  <text x="92" y="534" font-size="16" font-weight="700" class="t">data/sources.json</text>
+  <text x="92" y="558" font-size="13" class="muted">27 official sources (universities, ministries, EU)</text>
+
+  <rect class="card" x="72" y="592" width="376" height="86" style="fill:#f6f8fc"/>
+  <text x="92" y="622" font-size="15" font-weight="700" class="t">db/schema.sql</text>
+  <text x="92" y="646" font-size="13" class="muted">normalized PostgreSQL mirror: countries,</text>
+  <text x="92" y="666" font-size="13" class="muted">universities, programs, tuition_rules, fees…</text>
+
+  <rect class="card" x="72" y="690" width="376" height="86" style="fill:#fffbe9;stroke:#f4e2b0"/>
+  <text x="92" y="720" font-size="15" font-weight="700" class="t">Accuracy rule</text>
+  <text x="92" y="744" font-size="13" class="muted">no claim without a source · missing data =</text>
+  <text x="92" y="764" font-size="13" class="muted">“Not yet verified” · never fabricate</text>
+
+  <!-- ===== Lane 2: Build ===== -->
+  <rect class="lane" x="520" y="140" width="330" height="700"/>
+  <circle cx="556" cy="176" r="16" class="pill"/><text x="556" y="182" font-size="16" font-weight="700" class="pilltxt" text-anchor="middle">2</text>
+  <text x="584" y="182" font-size="20" font-weight="700" class="t">Validate &amp; build</text>
+
+  <rect class="card" x="552" y="220" width="266" height="120"/>
+  <text x="572" y="252" font-size="15" font-weight="700" class="t">validate-data.mjs</text>
+  <text x="572" y="278" font-size="13" class="muted">fails the build if a tuition</text>
+  <text x="572" y="298" font-size="13" class="muted">status has no source, or an</text>
+  <text x="572" y="318" font-size="13" class="muted">invalid status is used</text>
+
+  <rect class="card" x="552" y="364" width="266" height="120"/>
+  <text x="572" y="396" font-size="15" font-weight="700" class="t">build.mjs</text>
+  <text x="572" y="422" font-size="13" class="muted">static generator: pre-renders</text>
+  <text x="572" y="442" font-size="13" class="muted">every page, copies local</text>
+  <text x="572" y="462" font-size="13" class="muted">assets, writes sitemap</text>
+
+  <rect class="card" x="552" y="508" width="266" height="96" style="fill:#e8eefb;stroke:#c3d4f5"/>
+  <text x="572" y="540" font-size="14" font-weight="700" class="t">seed-db.mjs (optional)</text>
+  <text x="572" y="564" font-size="13" class="muted">loads the same JSON into</text>
+  <text x="572" y="584" font-size="13" class="muted">PostgreSQL / Supabase</text>
+
+  <rect class="card" x="552" y="628" width="266" height="120"/>
+  <text x="572" y="660" font-size="15" font-weight="700" class="t">CI</text>
+  <text x="572" y="686" font-size="13" class="muted">validate → build → upload</text>
+  <text x="572" y="706" font-size="13" class="muted">bad data cannot merge</text>
+  <text x="572" y="726" font-size="13" class="muted">(npm run dev / GitHub Actions)</text>
+
+  <!-- ===== Lane 3: Output ===== -->
+  <rect class="lane" x="880" y="140" width="330" height="700"/>
+  <circle cx="916" cy="176" r="16" class="pill"/><text x="916" y="182" font-size="16" font-weight="700" class="pilltxt" text-anchor="middle">3</text>
+  <text x="944" y="182" font-size="20" font-weight="700" class="t">Static site output</text>
+
+  <rect class="card" x="912" y="212" width="266" height="118"/>
+  <text x="932" y="242" font-size="15" font-weight="700" class="t mono">/ · /universities/</text>
+  <text x="932" y="266" font-size="15" font-weight="700" class="t mono">/countries/germany/</text>
+  <text x="932" y="290" font-size="13" class="muted">clean, SEO-friendly</text>
+  <text x="932" y="310" font-size="13" class="muted">directory URLs (pre-rendered)</text>
+
+  <rect class="card" x="912" y="344" width="266" height="118"/>
+  <text x="932" y="374" font-size="15" font-weight="700" class="t">University · Country pages</text>
+  <text x="932" y="398" font-size="13" class="muted">tuition policy, mandatory fees,</text>
+  <text x="932" y="418" font-size="13" class="muted">programmes, admissions,</text>
+  <text x="932" y="438" font-size="13" class="muted">sources, last-verified date</text>
+
+  <rect class="card" x="912" y="476" width="266" height="96"/>
+  <text x="932" y="506" font-size="15" font-weight="700" class="t">SEO landing pages</text>
+  <text x="932" y="530" font-size="13" class="muted">5 content-rich guides +</text>
+  <text x="932" y="550" font-size="13" class="muted">sitemap.xml · robots.txt · JSON-LD</text>
+
+  <rect class="card" x="912" y="586" width="266" height="88"/>
+  <text x="932" y="616" font-size="15" font-weight="700" class="t">assets/</text>
+  <text x="932" y="640" font-size="13" class="muted">css · js · data (all local,</text>
+  <text x="932" y="660" font-size="13" class="muted">no CDN — CSP-safe)</text>
+
+  <rect class="card" x="912" y="688" width="266" height="88"/>
+  <text x="932" y="718" font-size="15" font-weight="700" class="t">Managed static host</text>
+  <text x="932" y="742" font-size="13" class="muted">nginx, uploads everything</text>
+  <text x="932" y="762" font-size="13" class="muted">under index.html's directory</text>
+
+  <!-- ===== Lane 4: Browser ===== -->
+  <rect class="lane" x="1240" y="140" width="320" height="700"/>
+  <circle cx="1276" cy="176" r="16" class="pill"/><text x="1276" y="182" font-size="16" font-weight="700" class="pilltxt" text-anchor="middle">4</text>
+  <text x="1304" y="182" font-size="20" font-weight="700" class="t">Browser features</text>
+
+  <rect class="card" x="1272" y="212" width="256" height="88"/>
+  <text x="1292" y="242" font-size="15" font-weight="700" class="t">Search &amp; filters</text>
+  <text x="1292" y="266" font-size="13" class="muted">country, level, tuition status,</text>
+  <text x="1292" y="286" font-size="13" class="muted">English-only, max cost</text>
+
+  <rect class="card" x="1272" y="314" width="256" height="88"/>
+  <text x="1292" y="344" font-size="15" font-weight="700" class="t">Sort &amp; pagination</text>
+  <text x="1292" y="368" font-size="13" class="muted">client-side, instant,</text>
+  <text x="1292" y="388" font-size="13" class="muted">12 results per page</text>
+
+  <rect class="card" x="1272" y="416" width="256" height="88"/>
+  <text x="1292" y="446" font-size="15" font-weight="700" class="t">Compare (≤4)</text>
+  <text x="1292" y="470" font-size="13" class="muted">side-by-side table on</text>
+  <text x="1292" y="490" font-size="13" class="muted">tuition, fees, admissions</text>
+
+  <rect class="card" x="1272" y="518" width="256" height="88"/>
+  <text x="1292" y="548" font-size="15" font-weight="700" class="t">Favourites</text>
+  <text x="1292" y="572" font-size="13" class="muted">saved locally in</text>
+  <text x="1292" y="592" font-size="13" class="muted">localStorage (no accounts)</text>
+
+  <rect class="card" x="1272" y="620" width="256" height="120" style="fill:#fffbe9;stroke:#f4e2b0"/>
+  <text x="1292" y="650" font-size="15" font-weight="700" class="t">Admin console</text>
+  <text x="1292" y="674" font-size="13" class="muted">review records, edit tuition</text>
+  <text x="1292" y="694" font-size="13" class="muted">status, highlight stale</text>
+  <text x="1292" y="714" font-size="13" class="muted">(&gt;6 / &gt;12 months), export JSON</text>
+
+  <!-- arrows -->
+  <line x1="448" y1="255" x2="552" y2="280" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="448" y1="350" x2="552" y2="420" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="448" y1="449" x2="552" y2="440" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="818" y1="424" x2="912" y2="300" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1178" y1="300" x2="1272" y2="256" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="448" y1="635" x2="552" y2="556" stroke="#64748b" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+  <line x1="1178" y1="730" x2="1272" y2="680" stroke="#64748b" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+
+  <text x="500" y="404" font-size="12" class="muted" transform="rotate(20 500 404)">reads JSON</text>
+  <text x="60" y="878" font-size="13" class="muted">Static-first architecture: the JSON knowledge base is the single source of truth, validation guards accuracy, and the generated site needs no server — all three layers stay swappable.</text>
+</svg>
