@@ -30,7 +30,7 @@ img{max-width:100%}
 
 /* hero */
 .hero{background:linear-gradient(135deg,var(--eu-blue) 0%,var(--eu-blue-dark) 70%);color:#fff;padding:56px 0 46px;position:relative;overflow:hidden}
-.hero:after{content:"";position:absolute;right:-60px;bottom:-40px;width:min(520px,55%);aspect-ratio:324/190;background-image:url('../img/eu-map.png');background-size:contain;background-repeat:no-repeat;background-position:center;opacity:.55;filter:brightness(1.35) saturate(1.1);mix-blend-mode:screen;pointer-events:none}
+.hero:after{content:"";position:absolute;right:-40px;bottom:-30px;width:min(560px,58%);aspect-ratio:324/190;background-image:url('../img/eu-map.png');background-size:contain;background-repeat:no-repeat;background-position:center;opacity:.8;mix-blend-mode:screen;pointer-events:none}
 .hero h1{font-size:clamp(1.8rem,4vw,2.8rem);line-height:1.15;margin:0 0 12px;letter-spacing:-.02em}
 .hero p.sub{font-size:clamp(1rem,1.6vw,1.18rem);max-width:720px;color:#dbe5fb;margin:0 0 26px}
 .hero .eyebrow{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24);color:#fff;padding:5px 12px;border-radius:999px;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:16px}
