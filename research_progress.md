@@ -4,7 +4,7 @@ Country-by-country research tracker. Country policy is researched **before**
 individual universities are imported, so every institution inherits a verified
 country baseline.
 
-**Snapshot:** 31 countries · 112 universities · 1362 programme entries · 48 sources
+**Snapshot:** 31 countries · 120 universities · 1458 programme entries · 48 sources
 **Academic year in focus:** 2026/2027 (some national figures still quote 2025/2026)
 **Last updated:** 2026-09-22
 
@@ -120,6 +120,18 @@ Barcelona) and **11 new source records**.
 ---
 
 ## Update log (newest first)
+
+### 2026-09-23 — university round 5 + contacts round 8 + OG image
+- **8 new universities** (now **120**): Salamanca, Zaragoza, Basque Country, Santiago de Compostela, Alicante (ES); Åbo Akademi, Eastern Finland (FI); Stavanger (NO). Programmes: 1 458.
+- **Contacts** (now **73**): Oulu (study@oulu.fi), UEF (admissions@uef.fi), Stavanger (admissions@uis.no), LUT (admission@lut.fi), Salamanca, Zaragoza, Åbo, Umeå, UiT, Gothenburg (phones).
+- **Open Graph/Twitter tags** on every page + generated OG image (assets/img/og-image.jpg).
+
+### 2026-09-23 — GitHub Pages publicēšana
+- **Vietne publiskota:** https://edvins99.github.io/studyfreeeu/
+- Repo: https://github.com/edvins99/studyfreeeu (public). `main` = kods + dati;
+  `gh-pages` = gatavā statiskā vietne (170 faili), kas servējas Pages.
+- Deploy skripts: `scripts/deploy-gh-pages.ps1` (pārkopē būvi, komito un pusho `gh-pages`).
+- Pārbaudīts dzīvajā: HTTP 200, CSS ielādējas, universitāšu lapa atveras ar kontaktu bloku.
 
 ### 2026-09-23 — admission contacts round 7
 - **8 more verified contacts** (now **64**): Turku (admissions@utu.fi), DTU

@@ -6284,11 +6284,11 @@
     "contact": {
       "website": "https://www.lut.fi",
       "admissions_url": "https://www.lut.fi",
-      "email": null,
+      "email": "admission@lut.fi",
       "phone": null,
       "address": null,
-      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
-      "verified": false
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
     },
     "notes": "Known for energy technology, sustainability and business-technology combinations.",
     "last_verified": "2026-09-23",
@@ -8905,11 +8905,11 @@
     "contact": {
       "website": "https://www.oulu.fi",
       "admissions_url": "https://www.oulu.fi",
-      "email": null,
-      "phone": null,
+      "email": "study@oulu.fi",
+      "phone": "+358 294 480 000",
       "address": null,
-      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
-      "verified": false
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
     },
     "notes": "A northern Finnish university, distinctive for ICT, wireless technology and health research.",
     "last_verified": "2026-09-23",
@@ -9326,10 +9326,10 @@
       "website": "https://www.umu.se",
       "admissions_url": "https://www.umu.se",
       "email": null,
-      "phone": null,
+      "phone": "+46 90 786 50 00",
       "address": null,
-      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
-      "verified": false
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
     },
     "notes": "A northern Swedish university, strong in medicine, the sciences and design.",
     "last_verified": "2026-09-23",
@@ -9639,10 +9639,10 @@
       "website": "https://uit.no",
       "admissions_url": "https://uit.no",
       "email": null,
-      "phone": null,
+      "phone": "+47 776 40000",
       "address": null,
-      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
-      "verified": false
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
     },
     "notes": "The world’s northernmost university, distinctive for Arctic and marine research.",
     "last_verified": "2026-09-23",
@@ -12090,5 +12090,845 @@
       }
     ],
     "teaching_languages": "Hungarian · Hungarian / English"
+  },
+  {
+    "id": "es-usal",
+    "name": "University of Salamanca",
+    "slug": "university-of-salamanca",
+    "country_code": "ES",
+    "country": "Spain",
+    "city": "Salamanca",
+    "type": "Public",
+    "official_website": "https://www.usal.es",
+    "tuition_info_url": "https://www.usal.es",
+    "admissions_url": "https://www.usal.es",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": true,
+    "tuition_eu": "Low public tuition: Bachelor’s ≈ €700–€1,700/yr; Master’s ≈ €1,000–€3,500/yr",
+    "mandatory_semester_fee": "Small administrative and insurance fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 1200,
+    "study_fields": [
+      "Humanities",
+      "Law",
+      "Medicine",
+      "Natural Sciences",
+      "Economics"
+    ],
+    "specialities": [
+      "Humanities",
+      "Law",
+      "Medicine",
+      "Natural Sciences",
+      "Economics"
+    ],
+    "unique_strength": "Spain’s oldest university (1218), strong in the humanities, law and language studies.",
+    "language_requirements": "Spanish-taught programmes require Spanish (commonly B2); English programmes require English proof.",
+    "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) where the programme is taught in English; threshold set per programme.",
+    "application_deadlines": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+    "admission_requirements": "Entry follows Spain admission rules: a recognised secondary qualification for a Bachelor’s and a relevant Bachelor’s degree for a Master’s. See the official admissions page.",
+    "admission": {
+      "eligibility": "A recognised secondary school qualification for a Bachelor’s degree; a relevant Bachelor’s degree for a Master’s. Entry follows Spain admission rules.",
+      "language": "Spanish-taught programmes require Spanish (commonly B2); English programmes require English proof.",
+      "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) for English-taught programmes; threshold set per programme.",
+      "documents": [
+        "Secondary school certificate + transcript",
+        "Bachelor’s degree + transcript (for Master’s)",
+        "Language certificate",
+        "Passport / ID copy"
+      ],
+      "deadlines": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+      "apply_url": "https://www.usal.es",
+      "notes": "Typical requirements for Spain. Confirm exact documents and deadlines on the official admissions page."
+    },
+    "deadlines": {
+      "opens": "≈ spring",
+      "closes": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+      "documents": "Credential recognition via UNEDasiss/MECD; certified copies + sworn translations.",
+      "note": "Undergraduate admission per autonomous community."
+    },
+    "application_platform": "Regional university admission systems and direct institution portals.",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "contact": {
+      "website": "https://www.usal.es",
+      "admissions_url": "https://www.usal.es",
+      "email": "atencionsi@usal.es",
+      "phone": "+34 923 294 500",
+      "address": null,
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
+    },
+    "notes": "Spain’s oldest university (1218), strong in the humanities, law and language studies.",
+    "last_verified": "2026-09-23",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "University of Salamanca official website",
+        "url": "https://www.usal.es"
+      }
+    ],
+    "verification_status": "Partially verified (national policy verified)",
+    "programme_structure": [
+      {
+        "level": "Bachelor",
+        "ects": 180,
+        "duration": "3 years",
+        "languages": "Spanish"
+      },
+      {
+        "level": "Master",
+        "ects": 120,
+        "duration": "2 years",
+        "languages": "Spanish / English"
+      },
+      {
+        "level": "PhD",
+        "ects": 180,
+        "duration": "3–4 years",
+        "languages": "Spanish / English"
+      }
+    ],
+    "teaching_languages": "Spanish · Spanish / English"
+  },
+  {
+    "id": "es-unizar",
+    "name": "University of Zaragoza",
+    "slug": "university-of-zaragoza",
+    "country_code": "ES",
+    "country": "Spain",
+    "city": "Zaragoza",
+    "type": "Public",
+    "official_website": "https://www.unizar.es",
+    "tuition_info_url": "https://www.unizar.es",
+    "admissions_url": "https://www.unizar.es",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": true,
+    "tuition_eu": "Low public tuition: Bachelor’s ≈ €700–€1,700/yr; Master’s ≈ €1,000–€3,500/yr",
+    "mandatory_semester_fee": "Small administrative and insurance fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 1200,
+    "study_fields": [
+      "Engineering",
+      "Medicine",
+      "Natural Sciences",
+      "Humanities",
+      "Economics"
+    ],
+    "specialities": [
+      "Engineering",
+      "Medicine",
+      "Natural Sciences",
+      "Humanities",
+      "Economics"
+    ],
+    "unique_strength": "A large Aragonese university, strong in engineering, medicine and computer science.",
+    "language_requirements": "Spanish-taught programmes require Spanish (commonly B2); English programmes require English proof.",
+    "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) where the programme is taught in English; threshold set per programme.",
+    "application_deadlines": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+    "admission_requirements": "Entry follows Spain admission rules: a recognised secondary qualification for a Bachelor’s and a relevant Bachelor’s degree for a Master’s. See the official admissions page.",
+    "admission": {
+      "eligibility": "A recognised secondary school qualification for a Bachelor’s degree; a relevant Bachelor’s degree for a Master’s. Entry follows Spain admission rules.",
+      "language": "Spanish-taught programmes require Spanish (commonly B2); English programmes require English proof.",
+      "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) for English-taught programmes; threshold set per programme.",
+      "documents": [
+        "Secondary school certificate + transcript",
+        "Bachelor’s degree + transcript (for Master’s)",
+        "Language certificate",
+        "Passport / ID copy"
+      ],
+      "deadlines": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+      "apply_url": "https://www.unizar.es",
+      "notes": "Typical requirements for Spain. Confirm exact documents and deadlines on the official admissions page."
+    },
+    "deadlines": {
+      "opens": "≈ spring",
+      "closes": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+      "documents": "Credential recognition via UNEDasiss/MECD; certified copies + sworn translations.",
+      "note": "Undergraduate admission per autonomous community."
+    },
+    "application_platform": "Regional university admission systems and direct institution portals.",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "contact": {
+      "website": "https://www.unizar.es",
+      "admissions_url": "https://www.unizar.es",
+      "email": "eraragon@unizar.es",
+      "phone": "+34 876 553 581",
+      "address": null,
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
+    },
+    "notes": "A large Aragonese university, strong in engineering, medicine and computer science.",
+    "last_verified": "2026-09-23",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "University of Zaragoza official website",
+        "url": "https://www.unizar.es"
+      }
+    ],
+    "verification_status": "Partially verified (national policy verified)",
+    "programme_structure": [
+      {
+        "level": "Bachelor",
+        "ects": 180,
+        "duration": "3 years",
+        "languages": "Spanish"
+      },
+      {
+        "level": "Master",
+        "ects": 120,
+        "duration": "2 years",
+        "languages": "Spanish / English"
+      },
+      {
+        "level": "PhD",
+        "ects": 180,
+        "duration": "3–4 years",
+        "languages": "Spanish / English"
+      }
+    ],
+    "teaching_languages": "Spanish · Spanish / English"
+  },
+  {
+    "id": "es-ehu",
+    "name": "University of the Basque Country",
+    "slug": "university-of-the-basque-country",
+    "country_code": "ES",
+    "country": "Spain",
+    "city": "Bilbao",
+    "type": "Public",
+    "official_website": "https://www.ehu.eus",
+    "tuition_info_url": "https://www.ehu.eus",
+    "admissions_url": "https://www.ehu.eus",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": true,
+    "tuition_eu": "Low public tuition: Bachelor’s ≈ €700–€1,700/yr; Master’s ≈ €1,000–€3,500/yr",
+    "mandatory_semester_fee": "Small administrative and insurance fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 1200,
+    "study_fields": [
+      "Engineering",
+      "Medicine",
+      "Natural Sciences",
+      "Social Sciences",
+      "Economics"
+    ],
+    "specialities": [
+      "Engineering",
+      "Medicine",
+      "Natural Sciences",
+      "Social Sciences",
+      "Economics"
+    ],
+    "unique_strength": "The Basque Country’s public university, strong in engineering, industry links and research.",
+    "language_requirements": "Spanish-taught programmes require Spanish (commonly B2); English programmes require English proof.",
+    "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) where the programme is taught in English; threshold set per programme.",
+    "application_deadlines": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+    "admission_requirements": "Entry follows Spain admission rules: a recognised secondary qualification for a Bachelor’s and a relevant Bachelor’s degree for a Master’s. See the official admissions page.",
+    "admission": {
+      "eligibility": "A recognised secondary school qualification for a Bachelor’s degree; a relevant Bachelor’s degree for a Master’s. Entry follows Spain admission rules.",
+      "language": "Spanish-taught programmes require Spanish (commonly B2); English programmes require English proof.",
+      "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) for English-taught programmes; threshold set per programme.",
+      "documents": [
+        "Secondary school certificate + transcript",
+        "Bachelor’s degree + transcript (for Master’s)",
+        "Language certificate",
+        "Passport / ID copy"
+      ],
+      "deadlines": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+      "apply_url": "https://www.ehu.eus",
+      "notes": "Typical requirements for Spain. Confirm exact documents and deadlines on the official admissions page."
+    },
+    "deadlines": {
+      "opens": "≈ spring",
+      "closes": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+      "documents": "Credential recognition via UNEDasiss/MECD; certified copies + sworn translations.",
+      "note": "Undergraduate admission per autonomous community."
+    },
+    "application_platform": "Regional university admission systems and direct institution portals.",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "contact": {
+      "website": "https://www.ehu.eus",
+      "admissions_url": "https://www.ehu.eus",
+      "email": null,
+      "phone": null,
+      "address": null,
+      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
+      "verified": false
+    },
+    "notes": "The Basque Country’s public university, strong in engineering, industry links and research.",
+    "last_verified": "2026-09-23",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "University of the Basque Country official website",
+        "url": "https://www.ehu.eus"
+      }
+    ],
+    "verification_status": "Partially verified (national policy verified)",
+    "programme_structure": [
+      {
+        "level": "Bachelor",
+        "ects": 180,
+        "duration": "3 years",
+        "languages": "Spanish"
+      },
+      {
+        "level": "Master",
+        "ects": 120,
+        "duration": "2 years",
+        "languages": "Spanish / English"
+      },
+      {
+        "level": "PhD",
+        "ects": 180,
+        "duration": "3–4 years",
+        "languages": "Spanish / English"
+      }
+    ],
+    "teaching_languages": "Spanish · Spanish / English"
+  },
+  {
+    "id": "es-us-c",
+    "name": "University of Santiago de Compostela",
+    "slug": "university-of-santiago-de-compostela",
+    "country_code": "ES",
+    "country": "Spain",
+    "city": "Santiago de Compostela",
+    "type": "Public",
+    "official_website": "https://www.usc.gal",
+    "tuition_info_url": "https://www.usc.gal",
+    "admissions_url": "https://www.usc.gal",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": true,
+    "tuition_eu": "Low public tuition: Bachelor’s ≈ €700–€1,700/yr; Master’s ≈ €1,000–€3,500/yr",
+    "mandatory_semester_fee": "Small administrative and insurance fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 1200,
+    "study_fields": [
+      "Medicine",
+      "Humanities",
+      "Natural Sciences",
+      "Law",
+      "Engineering"
+    ],
+    "specialities": [
+      "Medicine",
+      "Humanities",
+      "Natural Sciences",
+      "Law",
+      "Engineering"
+    ],
+    "unique_strength": "A historic Galician university, strong in medicine, the sciences and the humanities.",
+    "language_requirements": "Spanish-taught programmes require Spanish (commonly B2); English programmes require English proof.",
+    "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) where the programme is taught in English; threshold set per programme.",
+    "application_deadlines": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+    "admission_requirements": "Entry follows Spain admission rules: a recognised secondary qualification for a Bachelor’s and a relevant Bachelor’s degree for a Master’s. See the official admissions page.",
+    "admission": {
+      "eligibility": "A recognised secondary school qualification for a Bachelor’s degree; a relevant Bachelor’s degree for a Master’s. Entry follows Spain admission rules.",
+      "language": "Spanish-taught programmes require Spanish (commonly B2); English programmes require English proof.",
+      "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) for English-taught programmes; threshold set per programme.",
+      "documents": [
+        "Secondary school certificate + transcript",
+        "Bachelor’s degree + transcript (for Master’s)",
+        "Language certificate",
+        "Passport / ID copy"
+      ],
+      "deadlines": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+      "apply_url": "https://www.usc.gal",
+      "notes": "Typical requirements for Spain. Confirm exact documents and deadlines on the official admissions page."
+    },
+    "deadlines": {
+      "opens": "≈ spring",
+      "closes": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+      "documents": "Credential recognition via UNEDasiss/MECD; certified copies + sworn translations.",
+      "note": "Undergraduate admission per autonomous community."
+    },
+    "application_platform": "Regional university admission systems and direct institution portals.",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "contact": {
+      "website": "https://www.usc.gal",
+      "admissions_url": "https://www.usc.gal",
+      "email": null,
+      "phone": null,
+      "address": null,
+      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
+      "verified": false
+    },
+    "notes": "A historic Galician university, strong in medicine, the sciences and the humanities.",
+    "last_verified": "2026-09-23",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "University of Santiago de Compostela official website",
+        "url": "https://www.usc.gal"
+      }
+    ],
+    "verification_status": "Partially verified (national policy verified)",
+    "programme_structure": [
+      {
+        "level": "Bachelor",
+        "ects": 180,
+        "duration": "3 years",
+        "languages": "Spanish"
+      },
+      {
+        "level": "Master",
+        "ects": 120,
+        "duration": "2 years",
+        "languages": "Spanish / English"
+      },
+      {
+        "level": "PhD",
+        "ects": 180,
+        "duration": "3–4 years",
+        "languages": "Spanish / English"
+      }
+    ],
+    "teaching_languages": "Spanish · Spanish / English"
+  },
+  {
+    "id": "es-ua",
+    "name": "University of Alicante",
+    "slug": "university-of-alicante",
+    "country_code": "ES",
+    "country": "Spain",
+    "city": "Alicante",
+    "type": "Public",
+    "official_website": "https://www.ua.es",
+    "tuition_info_url": "https://www.ua.es",
+    "admissions_url": "https://www.ua.es",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": true,
+    "tuition_eu": "Low public tuition: Bachelor’s ≈ €700–€1,700/yr; Master’s ≈ €1,000–€3,500/yr",
+    "mandatory_semester_fee": "Small administrative and insurance fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 1200,
+    "study_fields": [
+      "Law",
+      "Economics",
+      "Engineering",
+      "Humanities",
+      "Natural Sciences"
+    ],
+    "specialities": [
+      "Law",
+      "Economics",
+      "Engineering",
+      "Humanities",
+      "Natural Sciences"
+    ],
+    "unique_strength": "A modern Mediterranean university, strong in law, economics and computer science.",
+    "language_requirements": "Spanish-taught programmes require Spanish (commonly B2); English programmes require English proof.",
+    "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) where the programme is taught in English; threshold set per programme.",
+    "application_deadlines": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+    "admission_requirements": "Entry follows Spain admission rules: a recognised secondary qualification for a Bachelor’s and a relevant Bachelor’s degree for a Master’s. See the official admissions page.",
+    "admission": {
+      "eligibility": "A recognised secondary school qualification for a Bachelor’s degree; a relevant Bachelor’s degree for a Master’s. Entry follows Spain admission rules.",
+      "language": "Spanish-taught programmes require Spanish (commonly B2); English programmes require English proof.",
+      "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) for English-taught programmes; threshold set per programme.",
+      "documents": [
+        "Secondary school certificate + transcript",
+        "Bachelor’s degree + transcript (for Master’s)",
+        "Language certificate",
+        "Passport / ID copy"
+      ],
+      "deadlines": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+      "apply_url": "https://www.ua.es",
+      "notes": "Typical requirements for Spain. Confirm exact documents and deadlines on the official admissions page."
+    },
+    "deadlines": {
+      "opens": "≈ spring",
+      "closes": "Regional admission rounds ≈ June–July; Master’s deadlines vary",
+      "documents": "Credential recognition via UNEDasiss/MECD; certified copies + sworn translations.",
+      "note": "Undergraduate admission per autonomous community."
+    },
+    "application_platform": "Regional university admission systems and direct institution portals.",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "contact": {
+      "website": "https://www.ua.es",
+      "admissions_url": "https://www.ua.es",
+      "email": null,
+      "phone": null,
+      "address": null,
+      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
+      "verified": false
+    },
+    "notes": "A modern Mediterranean university, strong in law, economics and computer science.",
+    "last_verified": "2026-09-23",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "University of Alicante official website",
+        "url": "https://www.ua.es"
+      }
+    ],
+    "verification_status": "Partially verified (national policy verified)",
+    "programme_structure": [
+      {
+        "level": "Bachelor",
+        "ects": 180,
+        "duration": "3 years",
+        "languages": "Spanish"
+      },
+      {
+        "level": "Master",
+        "ects": 120,
+        "duration": "2 years",
+        "languages": "Spanish / English"
+      },
+      {
+        "level": "PhD",
+        "ects": 180,
+        "duration": "3–4 years",
+        "languages": "Spanish / English"
+      }
+    ],
+    "teaching_languages": "Spanish · Spanish / English"
+  },
+  {
+    "id": "fi-abo",
+    "name": "Åbo Akademi University",
+    "slug": "bo-akademi-university",
+    "country_code": "FI",
+    "country": "Finland",
+    "city": "Turku",
+    "type": "Public",
+    "official_website": "https://www.abo.fi",
+    "tuition_info_url": "https://www.abo.fi",
+    "admissions_url": "https://www.abo.fi",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": true,
+    "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+    "mandatory_semester_fee": "Compulsory student union fee of roughly €60–€120 per year (varies between universities; includes student health care), plus a small one-off registration/administrative fee at some institutions",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 80,
+    "study_fields": [
+      "Humanities",
+      "Natural Sciences",
+      "Engineering",
+      "Social Sciences",
+      "Education"
+    ],
+    "specialities": [
+      "Humanities",
+      "Natural Sciences",
+      "Engineering",
+      "Social Sciences",
+      "Education"
+    ],
+    "unique_strength": "Finland’s Swedish-language multidisciplinary university.",
+    "language_requirements": "English-taught programmes require English proof (commonly IELTS 6.5 / TOEFL 92, set per programme); Finnish/Swedish-taught programmes require national language proof.",
+    "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) where the programme is taught in English; threshold set per programme.",
+    "application_deadlines": "≈ 22 January (joint application, autumn intake)",
+    "admission_requirements": "Entry follows Finland admission rules: a recognised secondary qualification for a Bachelor’s and a relevant Bachelor’s degree for a Master’s. See the official admissions page.",
+    "admission": {
+      "eligibility": "A recognised secondary school qualification for a Bachelor’s degree; a relevant Bachelor’s degree for a Master’s. Entry follows Finland admission rules.",
+      "language": "English-taught programmes require English proof (commonly IELTS 6.5 / TOEFL 92, set per programme); Finnish/Swedish-taught programmes require national language proof.",
+      "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) for English-taught programmes; threshold set per programme.",
+      "documents": [
+        "Secondary school certificate + transcript",
+        "Bachelor’s degree + transcript (for Master’s)",
+        "Language certificate",
+        "Passport / ID copy"
+      ],
+      "deadlines": "≈ 22 January (joint application, autumn intake)",
+      "apply_url": "https://www.abo.fi",
+      "notes": "Typical requirements for Finland. Confirm exact documents and deadlines on the official admissions page."
+    },
+    "deadlines": {
+      "opens": "Early January",
+      "closes": "≈ 22 January (joint application, autumn intake)",
+      "documents": "Upload certificates to the Studyinfo application; certified copies may be requested later.",
+      "note": "Some Master’s programmes have separate, later rounds."
+    },
+    "application_platform": "Studyinfo (opintopolku.fi) national joint application; some Master's admissions are direct.",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "contact": {
+      "website": "https://www.abo.fi",
+      "admissions_url": "https://www.abo.fi",
+      "email": null,
+      "phone": "+358 2 215 4142",
+      "address": null,
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
+    },
+    "notes": "Finland’s Swedish-language multidisciplinary university.",
+    "last_verified": "2026-09-23",
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "sources": [
+      {
+        "label": "Åbo Akademi University official website",
+        "url": "https://www.abo.fi"
+      }
+    ],
+    "verification_status": "Partially verified (national policy verified)",
+    "programme_structure": [
+      {
+        "level": "Bachelor",
+        "ects": 180,
+        "duration": "3 years",
+        "languages": "Finnish/Swedish / English"
+      },
+      {
+        "level": "Master",
+        "ects": 120,
+        "duration": "2 years",
+        "languages": "Finnish/Swedish / English"
+      },
+      {
+        "level": "PhD",
+        "ects": 180,
+        "duration": "3–4 years",
+        "languages": "Finnish/Swedish / English"
+      }
+    ],
+    "teaching_languages": "Finnish/Swedish / English"
+  },
+  {
+    "id": "fi-uef",
+    "name": "University of Eastern Finland",
+    "slug": "university-of-eastern-finland",
+    "country_code": "FI",
+    "country": "Finland",
+    "city": "Joensuu",
+    "type": "Public",
+    "official_website": "https://www.uef.fi",
+    "tuition_info_url": "https://www.uef.fi",
+    "admissions_url": "https://www.uef.fi",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": true,
+    "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+    "mandatory_semester_fee": "Compulsory student union fee of roughly €60–€120 per year (varies between universities; includes student health care), plus a small one-off registration/administrative fee at some institutions",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 80,
+    "study_fields": [
+      "Medicine",
+      "Natural Sciences",
+      "Education",
+      "Social Sciences",
+      "Computer Science"
+    ],
+    "specialities": [
+      "Medicine",
+      "Natural Sciences",
+      "Education",
+      "Social Sciences",
+      "Computer Science"
+    ],
+    "unique_strength": "Formed from Joensuu and Kuopio universities; strong in health, forestry and photonics.",
+    "language_requirements": "English-taught programmes require English proof (commonly IELTS 6.5 / TOEFL 92, set per programme); Finnish/Swedish-taught programmes require national language proof.",
+    "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) where the programme is taught in English; threshold set per programme.",
+    "application_deadlines": "≈ 22 January (joint application, autumn intake)",
+    "admission_requirements": "Entry follows Finland admission rules: a recognised secondary qualification for a Bachelor’s and a relevant Bachelor’s degree for a Master’s. See the official admissions page.",
+    "admission": {
+      "eligibility": "A recognised secondary school qualification for a Bachelor’s degree; a relevant Bachelor’s degree for a Master’s. Entry follows Finland admission rules.",
+      "language": "English-taught programmes require English proof (commonly IELTS 6.5 / TOEFL 92, set per programme); Finnish/Swedish-taught programmes require national language proof.",
+      "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) for English-taught programmes; threshold set per programme.",
+      "documents": [
+        "Secondary school certificate + transcript",
+        "Bachelor’s degree + transcript (for Master’s)",
+        "Language certificate",
+        "Passport / ID copy"
+      ],
+      "deadlines": "≈ 22 January (joint application, autumn intake)",
+      "apply_url": "https://www.uef.fi",
+      "notes": "Typical requirements for Finland. Confirm exact documents and deadlines on the official admissions page."
+    },
+    "deadlines": {
+      "opens": "Early January",
+      "closes": "≈ 22 January (joint application, autumn intake)",
+      "documents": "Upload certificates to the Studyinfo application; certified copies may be requested later.",
+      "note": "Some Master’s programmes have separate, later rounds."
+    },
+    "application_platform": "Studyinfo (opintopolku.fi) national joint application; some Master's admissions are direct.",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "contact": {
+      "website": "https://www.uef.fi",
+      "admissions_url": "https://www.uef.fi",
+      "email": "admissions@uef.fi",
+      "phone": null,
+      "address": null,
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
+    },
+    "notes": "Formed from Joensuu and Kuopio universities; strong in health, forestry and photonics.",
+    "last_verified": "2026-09-23",
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "sources": [
+      {
+        "label": "University of Eastern Finland official website",
+        "url": "https://www.uef.fi"
+      }
+    ],
+    "verification_status": "Partially verified (national policy verified)",
+    "programme_structure": [
+      {
+        "level": "Bachelor",
+        "ects": 180,
+        "duration": "3 years",
+        "languages": "Finnish/Swedish / English"
+      },
+      {
+        "level": "Master",
+        "ects": 120,
+        "duration": "2 years",
+        "languages": "Finnish/Swedish / English"
+      },
+      {
+        "level": "PhD",
+        "ects": 180,
+        "duration": "3–4 years",
+        "languages": "Finnish/Swedish / English"
+      }
+    ],
+    "teaching_languages": "Finnish/Swedish / English"
+  },
+  {
+    "id": "no-uis",
+    "name": "University of Stavanger",
+    "slug": "university-of-stavanger",
+    "country_code": "NO",
+    "country": "Norway",
+    "city": "Stavanger",
+    "type": "Public",
+    "official_website": "https://www.uis.no",
+    "tuition_info_url": "https://www.uis.no",
+    "admissions_url": "https://www.uis.no",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": true,
+    "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+    "mandatory_semester_fee": "Semester fee (semesteravgift) of roughly NOK 500–NOK 800 per semester, covering the student welfare organisation and student union",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 100,
+    "study_fields": [
+      "Engineering",
+      "Social Sciences",
+      "Natural Sciences",
+      "Education",
+      "Medicine"
+    ],
+    "specialities": [
+      "Engineering",
+      "Social Sciences",
+      "Natural Sciences",
+      "Education",
+      "Medicine"
+    ],
+    "unique_strength": "Distinctive for petroleum/energy engineering and innovation research.",
+    "language_requirements": "English-taught programmes require English proof; Norwegian-taught programmes require Norwegian proof.",
+    "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) where the programme is taught in English; threshold set per programme.",
+    "application_deadlines": "1 December (non-EEA) / 15 April (EU/EEA)",
+    "admission_requirements": "Entry follows Norway admission rules: a recognised secondary qualification for a Bachelor’s and a relevant Bachelor’s degree for a Master’s. See the official admissions page.",
+    "admission": {
+      "eligibility": "A recognised secondary school qualification for a Bachelor’s degree; a relevant Bachelor’s degree for a Master’s. Entry follows Norway admission rules.",
+      "language": "English-taught programmes require English proof; Norwegian-taught programmes require Norwegian proof.",
+      "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) for English-taught programmes; threshold set per programme.",
+      "documents": [
+        "Secondary school certificate + transcript",
+        "Bachelor’s degree + transcript (for Master’s)",
+        "Language certificate",
+        "Passport / ID copy"
+      ],
+      "deadlines": "1 December (non-EEA) / 15 April (EU/EEA)",
+      "apply_url": "https://www.uis.no",
+      "notes": "Typical requirements for Norway. Confirm exact documents and deadlines on the official admissions page."
+    },
+    "deadlines": {
+      "opens": "≈ autumn",
+      "closes": "1 December (non-EEA) / 15 April (EU/EEA)",
+      "documents": "Certified copies + translations; documentation of financing (non-EEA).",
+      "note": "Apply directly to the institution."
+    },
+    "application_platform": "Direct university portals; some joint national arrangements.",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "contact": {
+      "website": "https://www.uis.no",
+      "admissions_url": "https://www.uis.no",
+      "email": "admissions@uis.no",
+      "phone": "+47 51 83 15 44",
+      "address": null,
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
+    },
+    "notes": "Distinctive for petroleum/energy engineering and innovation research.",
+    "last_verified": "2026-09-23",
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "sources": [
+      {
+        "label": "University of Stavanger official website",
+        "url": "https://www.uis.no"
+      }
+    ],
+    "verification_status": "Partially verified (national policy verified)",
+    "programme_structure": [
+      {
+        "level": "Bachelor",
+        "ects": 180,
+        "duration": "3 years",
+        "languages": "Norwegian"
+      },
+      {
+        "level": "Master",
+        "ects": 120,
+        "duration": "2 years",
+        "languages": "Norwegian / English"
+      },
+      {
+        "level": "PhD",
+        "ects": 180,
+        "duration": "3–4 years",
+        "languages": "Norwegian / English"
+      }
+    ],
+    "teaching_languages": "Norwegian · Norwegian / English"
   }
 ]

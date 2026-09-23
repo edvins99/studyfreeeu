@@ -94,6 +94,12 @@ function layout({ title, description, depth, body, canonical, extraHead = '', ac
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:type" content="website">
+<meta property="og:image" content="${SITE}/${p}assets/img/og-image.jpg">
+<meta property="og:url" content="${SITE}/${canonical || ''}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+<meta name="twitter:description" content="${esc(description)}">
+<meta name="twitter:image" content="${SITE}/${p}assets/img/og-image.jpg">
 <meta name="theme-color" content="#003399">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23003399'/%3E%3Ctext x='16' y='22' font-size='16' font-family='Arial' font-weight='bold' fill='%23ffcc00' text-anchor='middle'%3EEU%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="${p}assets/css/styles.css">

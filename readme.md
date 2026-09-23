@@ -42,7 +42,7 @@ The primary database focuses on categories **1 and 2**.
 StudyFreeEU/
 ├─ data/                     # The knowledge base (source of truth)
 │  ├─ countries.json         # 31 countries: 27 EU members + 4 other European countries
-│  ├─ universities.json      # 112 universities with tuition/fee/admission fields
+│  ├─ universities.json      # 120 universities with tuition/fee/admission fields
 │  ├─ programs.json          # 624 programme entries (level × field × language × ECTS)
 │  └─ sources.json           # Registry of 38 official data sources
 ├─ db/
@@ -90,10 +90,10 @@ assets/{css,js,data}
 - **Data layer:** JSON knowledge base → PostgreSQL (`db/schema.sql`) via `scripts/seed-db.mjs`
 - **Coverage:** all 27 EU member states carry a verified country-level tuition policy; 15 previously pending countries were deep-verified against national portals, ministries, Eurydice and university pages
 - **Per record:** admission requirements, application + document deadlines, available specialities with an institutional profile, and admission contacts
-- **Programmes:** 1362 entries across 112 universities — level × field × language with standard Bologna ECTS (Bachelor 180 / Master 120 / PhD ≈ 180); programme-structure tables on every university page; 23 programmes verified against official catalogues
+- **Programmes:** 1458 entries across 120 universities — level × field × language with standard Bologna ECTS (Bachelor 180 / Master 120 / PhD ≈ 180); programme-structure tables on every university page; 23 programmes verified against official catalogues
 - **New universities (rounds 2–4):** 61 added in total, bringing the database to **112** (round 2: TU Berlin, Hamburg, TU Dresden, JKU Linz, Tampere, LUT, KTH, Chalmers, Aalborg, Bergen, Utrecht, Leiden, Sapienza, Politecnico di Milano, UAB Barcelona, Ghent, Galway, Masaryk; round 3: Freiburg, Göttingen, Stuttgart, Mannheim, Cologne, FAU Erlangen-Nürnberg, Milan, Padua, Turin, Naples Federico II, Politecnico di Torino, Pisa, Oulu, Jyväskylä, Gothenburg, Linköping, Umeå, Southern Denmark, Roskilde, UiT Tromsø, Innsbruck; round 4: Valencia, Granada, Seville, UAM Madrid, Pompeu Fabra, UPC Barcelona, Porto, Coimbra, NOVA Lisbon, Grenoble Alpes, Aix-Marseille, Strasbourg, Bordeaux, Lyon 1, Warsaw University of Technology, AGH Kraków, Wrocław, Adam Mickiewicz, Patras, Crete, Szeged, Debrecen).
 - **Verified deadlines:** 53 universities carry official application windows or dates confirmed against their own pages / national admission authorities; the remaining (newly added) universities use the country-typical window, clearly labelled.
-- **Admission contacts:** verified email/phone/address for 64 universities; every other university links to its official admissions page (with a “verify” label).
+- **Admission contacts:** verified email/phone/address for 73 universities; every other university links to its official admissions page (with a “verify” label).
 - **Extras:** living costs / housing / scholarships per country, a glossary of terms, a FAQ, and a country-grouped university view
 - **Front end:** static generation, hand-written CSS + vanilla JS (no framework, no CDN)
 - **Search / filters / compare / favourites:** fully client-side (works with zero backend)
