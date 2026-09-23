@@ -121,6 +121,14 @@ Barcelona) and **11 new source records**.
 
 ## Update log (newest first)
 
+### 2026-09-23 — admission contacts round 9
+- **10 more universities with verified contacts** (now **83**): Heidelberg
+  (studierendenadministration@uni-heidelberg.de), Aarhus (au@au.dk), AUTH
+  (internat-rel@auth.gr), University of Warsaw (admission@uw.edu.pl), TU Delft
+  (faculty Internationaloffice-tbm@tudelft.nl), Trinity (registry@tcd.ie),
+  Lisbon (estudanteinternacional@ulisboa.pt), Malta (info@um.edu.mt), Luxembourg
+  (seve.infos@uni.lu), Zagreb (incoming@unizg.hr).
+
 ### 2026-09-23 — university round 5 + contacts round 8 + OG image
 - **8 new universities** (now **120**): Salamanca, Zaragoza, Basque Country, Santiago de Compostela, Alicante (ES); Åbo Akademi, Eastern Finland (FI); Stavanger (NO). Programmes: 1 458.
 - **Contacts** (now **73**): Oulu (study@oulu.fi), UEF (admissions@uef.fi), Stavanger (admissions@uis.no), LUT (admission@lut.fi), Salamanca, Zaragoza, Åbo, Umeå, UiT, Gothenburg (phones).

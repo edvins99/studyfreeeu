@@ -305,11 +305,11 @@
     "contact": {
       "website": "https://www.uni-heidelberg.de",
       "admissions_url": "https://www.uni-heidelberg.de",
-      "email": null,
+      "email": "studierendenadministration@uni-heidelberg.de",
       "phone": null,
       "address": null,
-      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
-      "verified": false
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
     },
     "programme_structure": [
       {
@@ -1869,11 +1869,11 @@
     "contact": {
       "website": "https://www.au.dk",
       "admissions_url": "https://www.au.dk",
-      "email": null,
-      "phone": null,
+      "email": "au@au.dk",
+      "phone": "+45 8715 0000",
       "address": null,
-      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
-      "verified": false
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
     },
     "programme_structure": [
       {
@@ -2541,11 +2541,11 @@
     "contact": {
       "website": "https://www.auth.gr",
       "admissions_url": "https://www.auth.gr",
-      "email": null,
-      "phone": null,
+      "email": "internat-rel@auth.gr",
+      "phone": "+30 2310 996742",
       "address": null,
-      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
-      "verified": false
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
     },
     "programme_structure": [
       {
@@ -2874,11 +2874,11 @@
     "contact": {
       "website": "https://www.uw.edu.pl",
       "admissions_url": "https://www.uw.edu.pl",
-      "email": null,
-      "phone": null,
+      "email": "admission@uw.edu.pl",
+      "phone": "+48 22 552 4126",
       "address": null,
-      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
-      "verified": false
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
     },
     "programme_structure": [
       {
@@ -3767,11 +3767,11 @@
     "contact": {
       "website": "https://www.tudelft.nl",
       "admissions_url": "https://www.tudelft.nl",
-      "email": null,
+      "email": "Internationaloffice-tbm@tudelft.nl",
       "phone": null,
       "address": null,
-      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
-      "verified": false
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
     },
     "programme_structure": [
       {
@@ -3879,11 +3879,11 @@
     "contact": {
       "website": "https://www.tcd.ie",
       "admissions_url": "https://www.tcd.ie",
-      "email": null,
-      "phone": null,
+      "email": "registry@tcd.ie",
+      "phone": "+353 1 896 4500",
       "address": null,
-      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
-      "verified": false
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
     },
     "programme_structure": [
       {
@@ -4435,11 +4435,11 @@
     "contact": {
       "website": "https://www.ulisboa.pt",
       "admissions_url": "https://www.ulisboa.pt",
-      "email": null,
-      "phone": null,
+      "email": "estudanteinternacional@ulisboa.pt",
+      "phone": "+351 210 443 468",
       "address": null,
-      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
-      "verified": false
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
     },
     "programme_structure": [
       {
@@ -4547,11 +4547,11 @@
     "contact": {
       "website": "https://www.uni.lu",
       "admissions_url": "https://www.uni.lu",
-      "email": null,
-      "phone": null,
+      "email": "seve.infos@uni.lu",
+      "phone": "+352 46 66 44 6060",
       "address": null,
-      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
-      "verified": false
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
     },
     "programme_structure": [
       {
@@ -4660,11 +4660,11 @@
     "contact": {
       "website": "https://www.um.edu.mt",
       "admissions_url": "https://www.um.edu.mt",
-      "email": null,
-      "phone": null,
+      "email": "info@um.edu.mt",
+      "phone": "+356 2340 2340",
       "address": null,
-      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
-      "verified": false
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
     },
     "programme_structure": [
       {
@@ -4996,11 +4996,11 @@
     "contact": {
       "website": "https://www.unizg.hr",
       "admissions_url": "https://www.unizg.hr",
-      "email": null,
-      "phone": null,
+      "email": "incoming@unizg.hr",
+      "phone": "+385 1 4698 101",
       "address": null,
-      "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
-      "verified": false
+      "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
+      "verified": true
     },
     "programme_structure": [
       {
