@@ -121,7 +121,8 @@ Barcelona) and **11 new source records**.
 
 ## Update log (newest first)
 
-### 2026-09-23 — hero dizains: ES siluets ar caurspīdīgu fonu
+### 2026-09-23 — hero dizains: zelta kontūra, bez baltā fona
+- Lietotāja ziņoja, ka joprojām redzams balts kvadrāts (oriģināla fons ir gradīents balts→zils). Pārtaisu ar **lokālā kontrasta** metodi: fons aplēsts kā izpludināta versija, atstāti tikai pikseļi, kas no tā atšķiras (kontūra, zvaigznes), pārkrāsoti zeltā uz caurspīdīga fona. Fails 6.7 KB.
 - Lietotāja augšupielādētais ES kartes attēls (siluets + zvaigznes) apstrādāts ar
   PowerShell/System.Drawing: tumšais fons padarīts caurspīdīgs ( brightness → alpha),
   atstājot tikai siluetu un zvaigznes. CSS: noņemts mix-blend-mode, opacity .9 —
