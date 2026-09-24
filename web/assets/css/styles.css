@@ -213,3 +213,33 @@ td.num{text-align:right;white-space:nowrap}
   .hero{padding:40px 0 34px}
   .editor{grid-template-columns:1fr}
 }
+/* ===== a11y + dizaina uzlabojumi (pielikt faila beigās) ===== */
+:focus-visible{outline:2px solid var(--eu-blue);outline-offset:2px;border-radius:4px}
+.hero :focus-visible{outline-color:#fff}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+  html{scroll-behavior:auto}
+}
+.nav a{transition:background .15s,color .15s}
+.nav a.active{background:var(--eu-blue-soft)}
+.nav-toggle[aria-expanded="true"]{background:var(--eu-blue-soft);border-color:#c3d4f5}
+.search-cta input{background:rgba(255,255,255,.08);color:#fff;transition:border-color .15s,background .15s}
+.search-cta input::placeholder{color:#c7d5f5}
+.search-cta input:focus{border-color:var(--eu-gold);background:rgba(255,255,255,.14);outline:none}
+.search-cta button{transition:background .15s,transform .15s}
+.search-cta button:hover{transform:translateY(-1px)}
+.card{transition:box-shadow .2s,transform .2s,border-color .2s}
+.card:hover{transform:translateY(-2px);border-color:#cdd8e8}
+.uni-card h3 a{transition:color .15s}
+.uni-card h3 a:hover{color:var(--eu-blue)}
+.btn{transition:background .15s,border-color .15s,color .15s,transform .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn.is-disabled{opacity:.5;pointer-events:none}
+.field select,.field input{transition:border-color .15s,box-shadow .15s}
+.field select:focus,.field input:focus{border-color:var(--eu-blue);box-shadow:0 0 0 3px var(--eu-blue-soft);outline:none}
+.check input{accent-color:var(--eu-blue)}
+.pagination button{transition:background .15s,border-color .15s,color .15s}
+.pagination button:hover:not(:disabled):not(.active){background:var(--eu-blue-soft);border-color:#c3d4f5;color:var(--eu-blue)}
+tbody tr{transition:background .12s}
+tbody tr:hover{background:#f6f9fe}
+.compare-bar{background:rgba(255,255,255,.96);backdrop-filter:blur(10px)}
