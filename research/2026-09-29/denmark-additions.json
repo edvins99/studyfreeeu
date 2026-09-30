@@ -1,0 +1,50 @@
+{
+  "country": { "code": "DK", "slug": "denmark", "name": "Denmark" },
+  "universities": [
+    {
+      "name": "Copenhagen Business School",
+      "city": "Frederiksberg",
+      "type": "Public",
+      "official_website": "https://www.cbs.dk",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "No mandatory fee for EU students",
+      "est_annual_mandatory_cost_eur": 0,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": true,
+      "study_fields": ["Business", "Economics", "Management", "Finance"],
+      "tuition_status": "Tuition-Free",
+      "notes": "CBS — one of Europe's leading business schools; English-taught BSc and MSc programmes. Non-EU/EEA pay tuition.",
+      "sources": [{ "label": "Copenhagen Business School official website", "url": "https://www.cbs.dk" }],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-29"
+    },
+    {
+      "name": "IT University of Copenhagen",
+      "city": "Copenhagen",
+      "type": "Public",
+      "official_website": "https://en.itu.dk",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "No mandatory fee for EU students",
+      "est_annual_mandatory_cost_eur": 0,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": true,
+      "study_fields": ["Computer Science", "Data Science", "Games", "Business IT"],
+      "tuition_status": "Tuition-Free",
+      "notes": "Specialised IT university in Copenhagen; several BSc and MSc programmes taught in English. Non-EU/EEA pay tuition.",
+      "sources": [{ "label": "IT University of Copenhagen official website", "url": "https://en.itu.dk" }],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-29"
+    }
+  ],
+  "sources": [
+    { "label": "Study in Denmark – official portal", "url": "https://studyindenmark.dk/" }
+  ]
+}
