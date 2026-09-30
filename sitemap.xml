@@ -33,6 +33,8 @@
   <url><loc>https://studyfree.eu/universities/masaryk-university/</loc></url>
   <url><loc>https://studyfree.eu/universities/aalborg-university/</loc></url>
   <url><loc>https://studyfree.eu/universities/aarhus-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/copenhagen-business-school/</loc></url>
+  <url><loc>https://studyfree.eu/universities/it-university-of-copenhagen/</loc></url>
   <url><loc>https://studyfree.eu/universities/roskilde-university/</loc></url>
   <url><loc>https://studyfree.eu/universities/technical-university-of-denmark/</loc></url>
   <url><loc>https://studyfree.eu/universities/university-of-copenhagen/</loc></url>
@@ -41,13 +43,17 @@
   <url><loc>https://studyfree.eu/universities/university-of-tartu/</loc></url>
   <url><loc>https://studyfree.eu/universities/aalto-university/</loc></url>
   <url><loc>https://studyfree.eu/universities/bo-akademi-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/hanken-school-of-economics/</loc></url>
   <url><loc>https://studyfree.eu/universities/lut-university/</loc></url>
   <url><loc>https://studyfree.eu/universities/tampere-university/</loc></url>
   <url><loc>https://studyfree.eu/universities/university-of-eastern-finland/</loc></url>
   <url><loc>https://studyfree.eu/universities/university-of-helsinki/</loc></url>
   <url><loc>https://studyfree.eu/universities/university-of-jyv-skyl/</loc></url>
+  <url><loc>https://studyfree.eu/universities/university-of-lapland/</loc></url>
   <url><loc>https://studyfree.eu/universities/university-of-oulu/</loc></url>
+  <url><loc>https://studyfree.eu/universities/university-of-the-arts-helsinki/</loc></url>
   <url><loc>https://studyfree.eu/universities/university-of-turku/</loc></url>
+  <url><loc>https://studyfree.eu/universities/university-of-vaasa/</loc></url>
   <url><loc>https://studyfree.eu/universities/aix-marseille-university/</loc></url>
   <url><loc>https://studyfree.eu/universities/sorbonne-university/</loc></url>
   <url><loc>https://studyfree.eu/universities/universit-claude-bernard-lyon-1/</loc></url>
@@ -128,10 +134,22 @@
   <url><loc>https://studyfree.eu/universities/vilnius-university/</loc></url>
   <url><loc>https://studyfree.eu/universities/university-of-luxembourg/</loc></url>
   <url><loc>https://studyfree.eu/universities/university-of-malta/</loc></url>
+  <url><loc>https://studyfree.eu/universities/amsterdam-university-of-applied-sciences/</loc></url>
   <url><loc>https://studyfree.eu/universities/tu-delft/</loc></url>
+  <url><loc>https://studyfree.eu/universities/eindhoven-university-of-technology/</loc></url>
+  <url><loc>https://studyfree.eu/universities/erasmus-university-rotterdam/</loc></url>
   <url><loc>https://studyfree.eu/universities/leiden-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/maastricht-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/open-university-of-the-netherlands/</loc></url>
+  <url><loc>https://studyfree.eu/universities/radboud-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/rotterdam-university-of-applied-sciences/</loc></url>
+  <url><loc>https://studyfree.eu/universities/the-hague-university-of-applied-sciences/</loc></url>
   <url><loc>https://studyfree.eu/universities/university-of-amsterdam/</loc></url>
+  <url><loc>https://studyfree.eu/universities/university-of-groningen/</loc></url>
+  <url><loc>https://studyfree.eu/universities/university-of-twente/</loc></url>
   <url><loc>https://studyfree.eu/universities/utrecht-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/vrije-universiteit-amsterdam/</loc></url>
+  <url><loc>https://studyfree.eu/universities/wageningen-university-research/</loc></url>
   <url><loc>https://studyfree.eu/universities/ntnu/</loc></url>
   <url><loc>https://studyfree.eu/universities/uit-the-arctic-university-of-norway/</loc></url>
   <url><loc>https://studyfree.eu/universities/university-of-bergen/</loc></url>
@@ -164,13 +182,29 @@
   <url><loc>https://studyfree.eu/universities/university-of-the-basque-country/</loc></url>
   <url><loc>https://studyfree.eu/universities/university-of-valencia/</loc></url>
   <url><loc>https://studyfree.eu/universities/university-of-zaragoza/</loc></url>
+  <url><loc>https://studyfree.eu/universities/blekinge-institute-of-technology/</loc></url>
   <url><loc>https://studyfree.eu/universities/chalmers-university-of-technology/</loc></url>
+  <url><loc>https://studyfree.eu/universities/dalarna-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/halmstad-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/jonkoping-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/karlstad-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/kristianstad-university/</loc></url>
   <url><loc>https://studyfree.eu/universities/kth-royal-institute-of-technology/</loc></url>
   <url><loc>https://studyfree.eu/universities/link-ping-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/linnaeus-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/lulea-university-of-technology/</loc></url>
   <url><loc>https://studyfree.eu/universities/lund-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/malardalen-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/mid-sweden-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/orebro-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/sodertorn-university/</loc></url>
   <url><loc>https://studyfree.eu/universities/stockholm-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/swedish-university-of-agricultural-sciences/</loc></url>
   <url><loc>https://studyfree.eu/universities/ume-university/</loc></url>
+  <url><loc>https://studyfree.eu/universities/university-of-boras/</loc></url>
+  <url><loc>https://studyfree.eu/universities/university-of-gavle/</loc></url>
   <url><loc>https://studyfree.eu/universities/university-of-gothenburg/</loc></url>
+  <url><loc>https://studyfree.eu/universities/university-of-skovde/</loc></url>
   <url><loc>https://studyfree.eu/universities/uppsala-university/</loc></url>
   <url><loc>https://studyfree.eu/countries/germany/</loc></url>
   <url><loc>https://studyfree.eu/countries/austria/</loc></url>
