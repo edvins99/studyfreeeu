@@ -42,9 +42,9 @@ The primary database focuses on categories **1 and 2**.
 StudyFreeEU/
 ├─ data/                     # The knowledge base (source of truth)
 │  ├─ countries.json         # 31 countries: 27 EU members + 4 other European countries
-│  ├─ universities.json      # 120 universities with tuition/fee/admission fields
-│  ├─ programs.json          # 624 programme entries (level × field × language × ECTS)
-│  └─ sources.json           # Registry of 38 official data sources
+│  ├─ universities.json      # 188 universities with tuition/fee/admission fields
+│  ├─ programs.json          # 2252 programme entries (level × field × language × ECTS)
+│  └─ sources.json           # Registry of 48 official data sources
 ├─ db/
 │  ├─ schema.sql             # Normalized PostgreSQL schema (Supabase compatible)
 │  └─ migrations/0001_init.sql
@@ -82,7 +82,7 @@ admin/index.html                        # Data maintenance console
 how-it-works/  about/                   # Editorial pages
 tuition-free-universities-for-eu-students/ … # SEO landing pages
 sitemap.xml  robots.txt
-assets/{css,js,data}
+assets/{css,js,data,partials}
 ```
 
 ## Tech stack
@@ -90,7 +90,8 @@ assets/{css,js,data}
 - **Data layer:** JSON knowledge base → PostgreSQL (`db/schema.sql`) via `scripts/seed-db.mjs`
 - **Coverage:** all 27 EU member states carry a verified country-level tuition policy; 15 previously pending countries were deep-verified against national portals, ministries, Eurydice and university pages
 - **Per record:** admission requirements, application + document deadlines, available specialities with an institutional profile, and admission contacts
-- **Programmes:** 1458 entries across 120 universities — level × field × language with standard Bologna ECTS (Bachelor 180 / Master 120 / PhD ≈ 180); programme-structure tables on every university page; 23 programmes verified against official catalogues
+- **Programmes:** 2252 entries across 188 universities — level × field × language with standard Bologna ECTS (Bachelor 180 / Master 120 / PhD ≈ 180); programme-structure tables on every university page; 23 programmes verified against official catalogues
+- **New universities (rounds 5–6, 2026-09-29 → 30):** **68 added in total** — 34 German public universities (KIT, Münster, Tübingen … Potsdam), 16 Swedish (Luleå, SLU, Örebro … BTH), 2 Danish (Copenhagen Business School, IT University of Copenhagen), 4 Finnish (Vaasa, Lapland, Hanken, Uniarts Helsinki) and 12 Dutch (VU Amsterdam … Hogeschool Rotterdam) — database now at **188 universities**.
 - **New universities (rounds 2–4):** 61 added in total, bringing the database to **112** (round 2: TU Berlin, Hamburg, TU Dresden, JKU Linz, Tampere, LUT, KTH, Chalmers, Aalborg, Bergen, Utrecht, Leiden, Sapienza, Politecnico di Milano, UAB Barcelona, Ghent, Galway, Masaryk; round 3: Freiburg, Göttingen, Stuttgart, Mannheim, Cologne, FAU Erlangen-Nürnberg, Milan, Padua, Turin, Naples Federico II, Politecnico di Torino, Pisa, Oulu, Jyväskylä, Gothenburg, Linköping, Umeå, Southern Denmark, Roskilde, UiT Tromsø, Innsbruck; round 4: Valencia, Granada, Seville, UAM Madrid, Pompeu Fabra, UPC Barcelona, Porto, Coimbra, NOVA Lisbon, Grenoble Alpes, Aix-Marseille, Strasbourg, Bordeaux, Lyon 1, Warsaw University of Technology, AGH Kraków, Wrocław, Adam Mickiewicz, Patras, Crete, Szeged, Debrecen).
 - **Verified deadlines:** 53 universities carry official application windows or dates confirmed against their own pages / national admission authorities; the remaining (newly added) universities use the country-typical window, clearly labelled.
 - **Admission contacts:** verified email/phone/address for 83 universities; every other university links to its official admissions page (with a “verify” label).

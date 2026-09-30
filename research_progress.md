@@ -4,9 +4,9 @@ Country-by-country research tracker. Country policy is researched **before**
 individual universities are imported, so every institution inherits a verified
 country baseline.
 
-**Snapshot:** 31 countries · 120 universities · 1458 programme entries · 48 sources
+**Snapshot:** 31 countries · 188 universities · 2252 programme entries · 48 sources
 **Academic year in focus:** 2026/2027 (some national figures still quote 2025/2026)
-**Last updated:** 2026-09-22
+**Last updated:** 2026-09-30
 
 Legend — status: `✅ Verified (country policy)` · `🟡 Partially verified` ·
 `⚠️ Conflicting official sources` · `⏳ Needs verification` · `○ Queued`
@@ -17,39 +17,39 @@ Legend — status: `✅ Verified (country policy)` · `🟡 Partially verified` 
 
 | Country | Code | Universities | Policy status | Note |
 |---|---|---|---|---|
-| Germany | DE | 6 | ✅ | Tuition-free; semester contribution only |
-| Austria | AT | 3 | ✅ | €0 within regular duration; €363.36/sem after +2 semesters |
-| Finland | FI | 3 | ✅ | EU/EEA/Swiss exempt |
-| Sweden | SE | 3 | ✅ | EU/EEA/Swiss exempt |
-| Denmark | DK | 3 | ✅ | Free for EU/EEA/Swiss |
-| Greece | GR | 2 | ✅ | Undergrad Greek-taught free |
-| Czechia | CZ | 2 | ✅ | Free in Czech; English fee-based |
-| Poland | PL | 2 | ✅ | Free in Polish for EU; English fee-based |
+| Germany | DE | 49 | ✅ | Tuition-free; semester contribution only |
+| Austria | AT | 5 | ✅ | €0 within regular duration; €363.36/sem after +2 semesters |
+| Finland | FI | 13 | ✅ | EU/EEA/Swiss exempt |
+| Sweden | SE | 24 | ✅ | EU/EEA/Swiss exempt |
+| Denmark | DK | 8 | ✅ | Free for EU/EEA/Swiss |
+| Greece | GR | 4 | ✅ | Undergrad Greek-taught free |
+| Czechia | CZ | 3 | ✅ | Free in Czech; English fee-based |
+| Poland | PL | 6 | ✅ | Free in Polish for EU; English fee-based |
 | Slovenia | SI | 1 | ✅ | Full-time free for EU/EEA |
 | Estonia | EE | 2 | ✅ | Free in Estonian study places; English fee-based |
-| France | FR | 2 | ✅ | €178 B / €254 M national rate |
-| Netherlands | NL | 2 | ✅ | Statutory fee €2,694 (2026-2027) |
-| Ireland | IE | 2 | ✅ | Free Fees Initiative + €2,500 contribution |
-| Hungary | HU | 1 | ✅ | Free in state-funded places |
-| **Belgium** | **BE** | **1** | **✅ (new)** | **Flemish ≈ €1,181.40; W-B Federation max €1,194 (EU/EEA)** |
+| France | FR | 7 | ✅ | €178 B / €254 M national rate |
+| Netherlands | NL | 16 | ✅ | Statutory fee €2,694 (2026-2027) |
+| Ireland | IE | 3 | ✅ | Free Fees Initiative + €2,500 contribution |
+| Hungary | HU | 3 | ✅ | Free in state-funded places |
+| **Belgium** | **BE** | **2** | **✅ (new)** | **Flemish ≈ €1,181.40; W-B Federation max €1,194 (EU/EEA)** |
 | **Bulgaria** | **BG** | **1** | **✅ (new)** | **All students pay tuition (low); no free route** |
 | **Croatia** | **HR** | **1** | **✅ (new)** | **Croatian-taught degrees tuition-free** |
 | **Cyprus** | **CY** | **1** | **⚠️ (new)** | **Conflict: EU portal says 1st-cycle free; UCY lists ~€3,417/yr** |
-| **Italy** | **IT** | **1** | **✅ (new)** | **Income-based; public ≈ €900–€4,000/yr** |
+| **Italy** | **IT** | **9** | **✅ (new)** | **Income-based; public ≈ €900–€4,000/yr** |
 | **Latvia** | **LV** | **1** | **✅ (new)** | **Free only in limited state-funded places** |
 | **Lithuania** | **LT** | **1** | **✅ (new)** | **State-funded places free; otherwise from ~€1,300/yr** |
 | **Luxembourg** | **LU** | **1** | **🟡 (new)** | **Low tuition ≈ €800/yr; some programmes free** |
 | **Malta** | **MT** | **1** | **🟡 (new)** | **Free in most full-time programmes; course/bench fees exist** |
-| **Portugal** | **PT** | **1** | **✅ (new)** | **Capped: €697 (B) / up to €2,750 (M), 2025/26** |
+| **Portugal** | **PT** | **4** | **✅ (new)** | **Capped: €697 (B) / up to €2,750 (M), 2025/26** |
 | **Romania** | **RO** | **1** | **✅ (new)** | **Free for state-funded students** |
 | **Slovakia** | **SK** | **1** | **✅ (new)** | **Free in Slovak; English €1,000–€3,000/yr** |
-| **Spain** | **ES** | **2** | **✅ (new)** | **B ≈ €700–€1,700; M ≈ €1,000–€3,500 (by region)** |
+| **Spain** | **ES** | **14** | **✅ (new)** | **B ≈ €700–€1,700; M ≈ €1,000–€3,500 (by region)** |
 
 ## Other European countries (separate section)
 
 | Country | Code | Universities | Policy status | Note |
 |---|---|---|---|---|
-| Norway (EEA) | NO | 2 | ✅ | EU/EEA free; non-EEA charged since 2023 |
+| Norway (EEA) | NO | 5 | ✅ | EU/EEA free; non-EEA charged since 2023 |
 | Iceland (EEA) | IS | 1 | ✅ | No tuition; registration fee only |
 | **Switzerland** | **CH** | **0** | **🟡 (new)** | **Cantonal ≈ CHF 1,000–1,500/yr; ETH/EPFL higher for foreign** |
 | **Liechtenstein (EEA)** | **LI** | **0** | **✅ (new)** | **CHF 950/semester for EU/EEA & Swiss (uni.li)** |
@@ -120,6 +120,24 @@ Barcelona) and **11 new source records**.
 ---
 
 ## Update log (newest first)
+
+### 2026-09-30 — Zviedrija, Dānija, Somija, Nīderlande: +34 augstskolas; vietnes pārbūve
+- **Zviedrija +16**: Luleå University of Technology, SLU, Örebro, Linnaeus, Karlstad, Mid Sweden, Södertörn, Mälardalen, Halmstad, Jönköping (fondaugstskola; angļu bakalaurs), Skövde, Borås, Gävle, Dalarna, Kristianstad, BTH — visas oficiālās vietnes pārbaudītas.
+- **Dānija +2**: Copenhagen Business School, IT University of Copenhagen.
+- **Somija +4**: University of Vaasa, University of Lapland, Hanken, Uniarts Helsinki.
+- **Nīderlande +12**: VU Amsterdam, Groningen, Erasmus, Maastricht, Radboud (13 angļu bakalaura programmas — apstiprināts oficiālajā lapā), Wageningen, TU/e, Twente, Open Universiteit + 3 lietišķo zinātņu universitātes (HvA, THUAS, Hogeschool Rotterdam).
+- Maksas: Zviedrijā/Dānijā obligāto semestra maksu nav (arodbiedrība neobligāta); Somijā studentu savienības maksa obligāta bakalaura līmenī (~€50–70/gadā); Nīderlandē statūtu maksa ≈ €2,694 (2026/27).
+- **Programmu katalogs:** +389 strukturālie ieraksti; kopā **2252**.
+- **Datubāze:** **188 universitātes · 2252 programmas** · 31 valsts.
+- **Vietnes būve:** lielie saraksti/datubāzes faili sadalīti sīkfailos (chunked <script> ielāde) — visi faili zem izvietošanas limita; lokāli izturētas visas DOM pārbaudes (188 kartītes, meklēšana, salīdzināšana, admin tabula, 2252 programmu kartītes).
+- Publicēts: zars `deploy-2026-09-30` → PR #1 (squash) → `gh-pages`.
+
+### 2026-09-29 — Vācijas paplašināšana: +34 augstskolas
+- Pievienotas **34 jaunas Vācijas publiskās universitātes** (KIT, Münster, Tübingen, TU Darmstadt, Bremen, Düsseldorf, Würzburg, Leipzig, Jena, Halle-Wittenberg, Rostock, Kiel, Mainz, Saarland, Konstanz, Bielefeld, Bochum, Duisburg-Essen, TU Dortmund, Hannover, TU Braunschweig, Oldenburg, Regensburg, Augsburg, Bayreuth, TU Chemnitz, Magdeburg, Greifswald, Marburg, Gießen, Kassel, Passau, Trier, Potsdam).
+- Verificētas semestra maksas no oficiālajām lapām: Münster **€369,50**, Rostock **€352,00**, Konstanz **€209,00**, Duisburg-Essen **€367,80** (pārējām — "semester contribution, varies").
+- Programmu katalogs: **+405 strukturālie ieraksti** (Bologna formāts) jaunajām augstskolām.
+- Datubāze pēc atjauninājuma: **154 universitātes · 1863 programmu ieraksti**.
+- Nākamie soļi šajā kārtā: Zviedrijas, Dānijas, Somijas un Nīderlandes paplašināšana (pētnieki darbā).
 
 ### 2026-09-23 — hero dizains: zelta kontūra, bez baltā fona
 - Lietotāja ziņoja, ka joprojām redzams balts kvadrāts (oriģināla fons ir gradīents balts→zils). Pārtaisu ar **lokālā kontrasta** metodi: fons aplēsts kā izpludināta versija, atstāti tikai pikseļi, kas no tā atšķiras (kontūra, zvaigznes), pārkrāsoti zeltā uz caurspīdīga fona. Fails 6.7 KB.

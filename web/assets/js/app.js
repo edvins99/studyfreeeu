@@ -336,6 +336,13 @@
       });
     }
 
+    if (window.SFE_UNIVERSITIES && window.SFE_PROGRAMS && window.SFE_COUNTRIES) {
+      state.universities = window.SFE_UNIVERSITIES;
+      state.programs = window.SFE_PROGRAMS;
+      state.countries = window.SFE_COUNTRIES;
+      render();
+      return;
+    }
     Promise.all([
       fetch('../assets/data/universities.json').then(function (r) { return r.json(); }),
       fetch('../assets/data/programs.json').then(function (r) { return r.json(); }),
@@ -344,7 +351,7 @@
       state.universities = res[0]; state.programs = res[1]; state.countries = res[2];
       render();
     }).catch(function () {
-      root.innerHTML = '<div class="empty">Could not load the dataset. Open this page from the deployed site (the JSON lives under <code>assets/data/</code>).</div>';
+      root.innerHTML = '<div class="empty">Could not load the dataset. Open this page from the deployed site (the dataset ships with the page as chunked scripts).</div>';
     });
   }
 
