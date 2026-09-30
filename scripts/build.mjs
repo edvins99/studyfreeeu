@@ -104,7 +104,14 @@ const STATUS_CLASS = {
   'Paid': 'b-paid',
   'Unknown / Needs Verification': 'b-unknown'
 };
-const statusBadge = (s) => `<span class="badge ${STATUS_CLASS[s] || 'b-unknown'}">${esc(s)}</span>`;
+const BADGE_LABEL = {
+  'Tuition-Free': '€0 tuition',
+  'Tuition-Free + Mandatory Fees': '€0 tuition + fees',
+  'Conditional Tuition-Free': '€0 with conditions',
+  'Low Tuition': 'Low tuition',
+};
+const statusBadge = (s) => `<span class="badge ${STATUS_CLASS[s] || 'b-unknown'}" title="${esc(s)}">${esc(BADGE_LABEL[s] || s)}</span>`;
+const levelShort = (u) => [u.bachelor_available && 'Bachelor', u.master_available && 'Master', u.phd_available && 'PhD'].filter(Boolean).join(' · ');
 const money = (v) => (v == null ? 'Not yet verified' : '€' + Number(v).toLocaleString('en-IE'));
 const levelsOf = (u) => [u.bachelor_available && 'b', u.master_available && 'm', u.phd_available && 'p'].filter(Boolean).join(',');
 const levelWords = (u) => [u.bachelor_available && 'Bachelor', u.master_available && 'Master', u.phd_available && 'PhD'].filter(Boolean).join(', ');
@@ -161,7 +168,7 @@ ${extraHead}
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="${p}index.html"><span class="brand-mark">EU</span>StudyFreeEU</a>
-    <button class="nav-toggle" aria-label="Menu">☰</button>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="nav" aria-label="Main">
       ${NAV.map(([label, href]) => `<a href="${p}${href}" class="${active === label ? 'active' : ''}">${label}</a>`).join('\n      ')}
     </nav>
@@ -231,21 +238,26 @@ function uniCard(u, depth) {
     data-status="${esc(u.tuition_status)}" data-levels="${levelsOf(u)}"
     data-english="${hasEnglish(u) ? 1 : 0}" data-cost="${u.est_annual_mandatory_cost_eur == null ? '' : u.est_annual_mandatory_cost_eur}"
     data-fields="${esc(fieldsOf(u))}">
-    <h3><a href="${p}universities/${u.slug}/index.html">${esc(u.name)}</a></h3>
-    <div class="meta">📍 ${esc(u.city)}, ${esc(u.country)} · <span class="pill-note">${esc(u.type)}</span></div>
+    <div class="uc-head">
+      <span class="uc-flag" aria-hidden="true">${flag(u.country_code)}</span>
+      <div class="uc-title">
+        <h3><a href="${p}universities/${u.slug}/index.html">${esc(u.name)}</a></h3>
+        <div class="meta">${esc(u.city)}, ${esc(u.country)} · ${esc(u.type)}</div>
+      </div>
+    </div>
     <div class="badges">
       ${statusBadge(u.tuition_status)}
-      ${u.type === 'Public' ? '<span class="badge b-plain">PUBLIC UNIVERSITY</span>' : ''}
-      ${hasEnglish(u) ? '<span class="badge b-en">ENGLISH PROGRAMS</span>' : ''}
+      ${hasEnglish(u) ? '<span class="badge b-en">English-taught</span>' : ''}
     </div>
-    <div class="cost-line"><span>EU tuition</span><b>${esc(u.tuition_eu)}</b></div>
-    <div class="cost-line"><span>Estimated mandatory cost / year</span><b>${money(u.est_annual_mandatory_cost_eur)}</b></div>
-    <div class="cost-line"><span>Degree levels</span><b>${levelWords(u) || '—'}</b></div>
-    <div class="cost-line"><span>Last verified</span><b>${u.last_verified || 'Not yet verified'}</b></div>
+    <p class="uc-tuition">${esc(u.tuition_eu)}</p>
+    <dl class="uc-facts">
+      <div><dt>Mandatory cost / yr</dt><dd>${money(u.est_annual_mandatory_cost_eur)}</dd></div>
+      <div><dt>Degree levels</dt><dd>${levelShort(u) || '—'}</dd></div>
+    </dl>
     <div class="card-actions">
-      <a class="btn" href="${p}universities/${u.slug}/index.html">View university →</a>
-      <button class="btn js-fav" type="button" data-id="${u.id}">☆ Save</button>
-      <button class="btn js-compare" type="button" data-id="${u.id}" data-name="${esc(u.name)}">⇄ Compare</button>
+      <a class="btn primary" href="${p}universities/${u.slug}/index.html">View details</a>
+      <button class="btn icon js-fav" type="button" data-id="${u.id}" aria-label="Save ${esc(u.name)}" title="Save">☆</button>
+      <button class="btn icon js-compare" type="button" data-id="${u.id}" data-name="${esc(u.name)}" aria-label="Compare ${esc(u.name)}" title="Compare">⇄</button>
     </div>
   </article>`;
 }
@@ -265,7 +277,7 @@ function programCard(pr, depth) {
     <h3>${esc(pr.program_name)}</h3>
     <div class="meta">🎓 ${esc(pr.degree_level)} · ${esc(pr.language)} · ${pr.duration || '—'}${pr.ects ? ' · ' + pr.ects + ' ECTS' : ''}</div>
     <div class="meta">${c ? esc(c.name) : ''} · <a href="${p}universities/${u.slug}/index.html">${esc(u.name)}</a></div>
-    <div class="badges">${statusBadge(pr.tuition_status)}<span class="badge b-plain">${esc(pr.field)}</span>${(pr.language || '').toLowerCase().indexOf('english') !== -1 ? '<span class="badge b-en">ENGLISH TAUGHT</span>' : ''}</div>
+    <div class="badges">${statusBadge(pr.tuition_status)}<span class="badge b-plain">${esc(pr.field)}</span>${(pr.language || '').toLowerCase().indexOf('english') !== -1 ? '<span class="badge b-en">English-taught</span>' : ''}</div>
     <div class="cost-line"><span>Tuition (EU)</span><b>${esc(pr.tuition_eu)}</b></div>
     <div class="cost-line"><span>Mandatory fees</span><b>${esc(pr.mandatory_fees || 'Not yet verified')}</b></div>
     <div class="cost-line"><span>Deadline</span><b>${esc(pr.application_deadline)}</b></div>
@@ -318,7 +330,7 @@ function buildHome() {
       ${nordicCountries.map((c) => {
         const list = universities.filter((u) => u.country_code === c.code);
         const english = list.filter((u) => u.english_bachelor || u.english_master || u.english_phd).length;
-        return `<article class="card" style="border:2px solid #f5c518">
+        return `<article class="card country-feature">
           <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
             <span style="font-size:1.6rem">${flag(c.code)}</span>
             <h3 style="margin:0"><a href="countries/${c.slug}/index.html">${esc(c.name)}</a></h3>
@@ -340,9 +352,9 @@ function buildHome() {
   const body = `
 <section class="hero">
   <div class="container">
-    <span class="eyebrow">For EU citizens · no standard tuition</span>
-    <h1>Find Tuition-Free Universities in Europe</h1>
-    <p class="sub">Discover universities and English-taught degree programmes where EU citizens can study with no standard tuition fees — and see exactly which mandatory semester fees still apply.</p>
+    <span class="eyebrow">For EU citizens · English-taught degrees</span>
+    <h1>Study in Europe for free <span class="h1-soft">or almost free.</span></h1>
+    <p class="sub">Universities where EU citizens can earn an English-taught degree with €0 tuition or a low fee of up to ≈ $3,000 a year — with every mandatory fee shown upfront.</p>
     <div class="search-cta">
       <input id="hero-search" type="search" placeholder="Search a university, country, city or programme…" aria-label="Search" data-prefix="">
       <button id="hero-search-btn" type="button">Search</button>
@@ -352,6 +364,7 @@ function buildHome() {
       <div class="stat"><b>${programs.length}</b><span>programme entries</span></div>
       <div class="stat"><b>${euCountries.length}</b><span>EU countries covered</span></div>
       <div class="stat"><b>${freeUnis.length + condUnis.length}</b><span>with €0 tuition</span></div>
+      <div class="stat"><b>${universities.filter((u) => u.tuition_status === 'Low Tuition').length}</b><span>with low tuition</span></div>
     </div>
   </div>
 </section>
@@ -536,8 +549,8 @@ function buildUniversityPages() {
     <div class="page-header">
       <div class="badges">
         ${statusBadge(u.tuition_status)}
-        ${u.type === 'Public' ? '<span class="badge b-plain">PUBLIC UNIVERSITY</span>' : '<span class="badge b-plain">PRIVATE</span>'}
-        ${hasEnglish(u) ? '<span class="badge b-en">ENGLISH PROGRAMS</span>' : ''}
+        ${u.type === 'Public' ? '<span class="badge b-plain">Public university</span>' : '<span class="badge b-plain">Private</span>'}
+        ${hasEnglish(u) ? '<span class="badge b-en">English-taught</span>' : ''}
       </div>
       <h1>${esc(u.name)}</h1>
       <p class="muted">${esc(u.city)}, ${esc(u.country)} · <a href="../../countries/${c.slug}/index.html">${esc(u.country)} tuition policy</a></p>
