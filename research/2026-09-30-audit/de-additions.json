@@ -1,0 +1,1007 @@
+{
+  "country": {
+    "code": "DE",
+    "slug": "germany",
+    "name": "Germany"
+  },
+  "universities": [
+    {
+      "name": "Humboldt University of Berlin",
+      "city": "Berlin",
+      "type": "Public",
+      "official_website": "https://www.hu-berlin.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Humanities",
+        "Social Sciences",
+        "Natural Sciences",
+        "Law"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Humboldt University of Berlin — official website",
+          "url": "https://www.hu-berlin.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Goethe University Frankfurt",
+      "city": "Frankfurt am Main",
+      "type": "Public",
+      "official_website": "https://www.uni-frankfurt.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Business & Economics",
+        "Natural Sciences",
+        "Humanities",
+        "Law"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Goethe University Frankfurt — official website",
+          "url": "https://www.uni-frankfurt.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "University of Hohenheim",
+      "city": "Stuttgart",
+      "type": "Public",
+      "official_website": "https://www.uni-hohenheim.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Agriculture",
+        "Natural Sciences",
+        "Business & Economics"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Baden-Württemberg: non-EU students pay €1,500/semester; EU/EEA citizens are exempt. Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "University of Hohenheim — official website",
+          "url": "https://www.uni-hohenheim.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Ulm University",
+      "city": "Ulm",
+      "type": "Public",
+      "official_website": "https://www.uni-ulm.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Natural Sciences",
+        "Engineering",
+        "Medicine",
+        "Computer Science"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Baden-Württemberg: non-EU students pay €1,500/semester; EU/EEA citizens are exempt. Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Ulm University — official website",
+          "url": "https://www.uni-ulm.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Hamburg University of Technology (TUHH)",
+      "city": "Hamburg",
+      "type": "Public",
+      "official_website": "https://www.tuhh.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Computer Science"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Hamburg University of Technology (TUHH) — official website",
+          "url": "https://www.tuhh.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "TU Ilmenau",
+      "city": "Ilmenau",
+      "type": "Public",
+      "official_website": "https://www.tu-ilmenau.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Computer Science",
+        "Natural Sciences"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "TU Ilmenau — official website",
+          "url": "https://www.tu-ilmenau.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "TU Bergakademie Freiberg",
+      "city": "Freiberg",
+      "type": "Public",
+      "official_website": "https://tu-freiberg.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Natural Sciences",
+        "Business & Economics"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "TU Bergakademie Freiberg — official website",
+          "url": "https://tu-freiberg.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Clausthal University of Technology",
+      "city": "Clausthal-Zellerfeld",
+      "type": "Public",
+      "official_website": "https://www.tu-clausthal.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Natural Sciences"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Clausthal University of Technology — official website",
+          "url": "https://www.tu-clausthal.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "RPTU Kaiserslautern-Landau",
+      "city": "Kaiserslautern",
+      "type": "Public",
+      "official_website": "https://rptu.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Computer Science",
+        "Natural Sciences"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "RPTU Kaiserslautern-Landau — official website",
+          "url": "https://rptu.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Bauhaus-Universität Weimar",
+      "city": "Weimar",
+      "type": "Public",
+      "official_website": "https://www.uni-weimar.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Architecture",
+        "Design",
+        "Engineering",
+        "Media"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Bauhaus-Universität Weimar — official website",
+          "url": "https://www.uni-weimar.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Brandenburg University of Technology Cottbus-Senftenberg",
+      "city": "Cottbus",
+      "type": "Public",
+      "official_website": "https://www.b-tu.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Environmental Sciences",
+        "Architecture"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Brandenburg University of Technology Cottbus-Senftenberg — official website",
+          "url": "https://www.b-tu.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Paderborn University",
+      "city": "Paderborn",
+      "type": "Public",
+      "official_website": "https://www.uni-paderborn.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Computer Science",
+        "Engineering",
+        "Business & Economics"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Paderborn University — official website",
+          "url": "https://www.uni-paderborn.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "University of Siegen",
+      "city": "Siegen",
+      "type": "Public",
+      "official_website": "https://www.uni-siegen.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Computer Science",
+        "Humanities"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "University of Siegen — official website",
+          "url": "https://www.uni-siegen.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "University of Bamberg",
+      "city": "Bamberg",
+      "type": "Public",
+      "official_website": "https://www.uni-bamberg.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Humanities",
+        "Social Sciences",
+        "Computer Science"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "University of Bamberg — official website",
+          "url": "https://www.uni-bamberg.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Leuphana University Lüneburg",
+      "city": "Lüneburg",
+      "type": "Public",
+      "official_website": "https://www.leuphana.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Business & Economics",
+        "Environmental Sciences",
+        "Social Sciences"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Leuphana University Lüneburg — official website",
+          "url": "https://www.leuphana.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Osnabrück University",
+      "city": "Osnabrück",
+      "type": "Public",
+      "official_website": "https://www.uni-osnabrueck.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Social Sciences",
+        "Natural Sciences",
+        "Humanities"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Osnabrück University — official website",
+          "url": "https://www.uni-osnabrueck.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "University of Lübeck",
+      "city": "Lübeck",
+      "type": "Public",
+      "official_website": "https://www.uni-luebeck.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Medicine",
+        "Computer Science",
+        "Natural Sciences"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "University of Lübeck — official website",
+          "url": "https://www.uni-luebeck.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "European University Viadrina",
+      "city": "Frankfurt (Oder)",
+      "type": "Public",
+      "official_website": "https://www.europa-uni.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Law",
+        "Business & Economics",
+        "Social Sciences"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "European University Viadrina — official website",
+          "url": "https://www.europa-uni.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Rhine-Waal University of Applied Sciences",
+      "city": "Kleve",
+      "type": "Public",
+      "official_website": "https://www.hochschule-rhein-waal.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Business",
+        "Life Sciences",
+        "Social Sciences"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Most degree programmes are taught in English. Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Rhine-Waal University of Applied Sciences — official website",
+          "url": "https://www.hochschule-rhein-waal.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Deggendorf Institute of Technology",
+      "city": "Deggendorf",
+      "type": "Public",
+      "official_website": "https://www.th-deg.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Computer Science",
+        "Health",
+        "Business"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Deggendorf Institute of Technology — official website",
+          "url": "https://www.th-deg.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Hamm-Lippstadt University of Applied Sciences",
+      "city": "Hamm",
+      "type": "Public",
+      "official_website": "https://www.hshl.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Computer Science",
+        "Business"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Hamm-Lippstadt University of Applied Sciences — official website",
+          "url": "https://www.hshl.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Bonn-Rhein-Sieg University of Applied Sciences",
+      "city": "Sankt Augustin",
+      "type": "Public",
+      "official_website": "https://www.h-brs.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Computer Science",
+        "Engineering",
+        "Business"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Bonn-Rhein-Sieg University of Applied Sciences — official website",
+          "url": "https://www.h-brs.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Hochschule Bremen – City University of Applied Sciences",
+      "city": "Bremen",
+      "type": "Public",
+      "official_website": "https://www.hs-bremen.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Business",
+        "Social Sciences"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Hochschule Bremen – City University of Applied Sciences — official website",
+          "url": "https://www.hs-bremen.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Technische Hochschule Ingolstadt",
+      "city": "Ingolstadt",
+      "type": "Public",
+      "official_website": "https://www.thi.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Business",
+        "Computer Science"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Technische Hochschule Ingolstadt — official website",
+          "url": "https://www.thi.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Hof University of Applied Sciences",
+      "city": "Hof",
+      "type": "Public",
+      "official_website": "https://www.hof-university.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Computer Science",
+        "Engineering"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Hof University of Applied Sciences — official website",
+          "url": "https://www.hof-university.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Frankfurt University of Applied Sciences",
+      "city": "Frankfurt am Main",
+      "type": "Public",
+      "official_website": "https://www.frankfurt-university.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Computer Science",
+        "Business"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Frankfurt University of Applied Sciences — official website",
+          "url": "https://www.frankfurt-university.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "HTW Berlin – University of Applied Sciences",
+      "city": "Berlin",
+      "type": "Public",
+      "official_website": "https://www.htw-berlin.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Business",
+        "Computer Science",
+        "Design"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "HTW Berlin – University of Applied Sciences — official website",
+          "url": "https://www.htw-berlin.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "TH Köln – University of Applied Sciences",
+      "city": "Cologne",
+      "type": "Public",
+      "official_website": "https://www.th-koeln.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Computer Science",
+        "Social Sciences"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "TH Köln – University of Applied Sciences — official website",
+          "url": "https://www.th-koeln.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Anhalt University of Applied Sciences",
+      "city": "Köthen",
+      "type": "Public",
+      "official_website": "https://www.hs-anhalt.de",
+      "tuition_eu": "€0 tuition (public university)",
+      "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Computer Science",
+        "Agriculture",
+        "Architecture"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Anhalt University of Applied Sciences — official website",
+          "url": "https://www.hs-anhalt.de"
+        },
+        {
+          "label": "DAAD — study in Germany, tuition and semester contribution",
+          "url": "https://www.daad.de/en/studying-in-germany/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    }
+  ],
+  "sources": [
+    {
+      "label": "DAAD — study in Germany, tuition and semester contribution",
+      "url": "https://www.daad.de/en/studying-in-germany/"
+    }
+  ]
+}

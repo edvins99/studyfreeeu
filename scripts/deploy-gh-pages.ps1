@@ -1,5 +1,5 @@
 param(
-  [string]$SiteRoot = "C:\Users\user\.openclaw-autoclaw\workspace\projects\website-8ccfbe4126ddbf44b2f2aeb8",
+  [string]$SiteRoot = (Join-Path $PSScriptRoot "..\dist"),
   [string]$Remote = "https://github.com/edvins99/studyfreeeu.git"
 )
 $ErrorActionPreference = "Stop"

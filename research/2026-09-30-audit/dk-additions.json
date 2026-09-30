@@ -1,0 +1,182 @@
+{
+  "country": {
+    "code": "DK",
+    "slug": "denmark",
+    "name": "Denmark"
+  },
+  "universities": [
+    {
+      "name": "Copenhagen Business Academy (Cphbusiness)",
+      "city": "Copenhagen",
+      "type": "Public",
+      "official_website": "https://www.cphbusiness.dk",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "No mandatory semester fee for EU/EEA students",
+      "est_annual_mandatory_cost_eur": 0,
+      "bachelor_available": true,
+      "master_available": false,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": false,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Information Technology"
+      ],
+      "tuition_status": "Tuition-Free",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Copenhagen Business Academy (Cphbusiness) — official website",
+          "url": "https://www.cphbusiness.dk"
+        },
+        {
+          "label": "Study in Denmark — tuition fees",
+          "url": "https://studyindenmark.dk/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Business Academy Aarhus (EAAA)",
+      "city": "Aarhus",
+      "type": "Public",
+      "official_website": "https://www.eaaa.dk",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "No mandatory semester fee for EU/EEA students",
+      "est_annual_mandatory_cost_eur": 0,
+      "bachelor_available": true,
+      "master_available": false,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": false,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Information Technology",
+        "Technology"
+      ],
+      "tuition_status": "Tuition-Free",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Business Academy Aarhus (EAAA) — official website",
+          "url": "https://www.eaaa.dk"
+        },
+        {
+          "label": "Study in Denmark — tuition fees",
+          "url": "https://studyindenmark.dk/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Business Academy SouthWest (EASV)",
+      "city": "Esbjerg",
+      "type": "Public",
+      "official_website": "https://www.easv.dk",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "No mandatory semester fee for EU/EEA students",
+      "est_annual_mandatory_cost_eur": 0,
+      "bachelor_available": true,
+      "master_available": false,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": false,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Information Technology"
+      ],
+      "tuition_status": "Tuition-Free",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Business Academy SouthWest (EASV) — official website",
+          "url": "https://www.easv.dk"
+        },
+        {
+          "label": "Study in Denmark — tuition fees",
+          "url": "https://studyindenmark.dk/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "IBA Erhvervsakademi Kolding",
+      "city": "Kolding",
+      "type": "Public",
+      "official_website": "https://www.iba.dk",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "No mandatory semester fee for EU/EEA students",
+      "est_annual_mandatory_cost_eur": 0,
+      "bachelor_available": true,
+      "master_available": false,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": false,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Design"
+      ],
+      "tuition_status": "Tuition-Free",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "IBA Erhvervsakademi Kolding — official website",
+          "url": "https://www.iba.dk"
+        },
+        {
+          "label": "Study in Denmark — tuition fees",
+          "url": "https://studyindenmark.dk/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Zealand – Academy of Technologies and Business",
+      "city": "Roskilde",
+      "type": "Public",
+      "official_website": "https://www.zealand.dk",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "No mandatory semester fee for EU/EEA students",
+      "est_annual_mandatory_cost_eur": 0,
+      "bachelor_available": true,
+      "master_available": false,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": false,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Information Technology",
+        "Hospitality"
+      ],
+      "tuition_status": "Tuition-Free",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Zealand – Academy of Technologies and Business — official website",
+          "url": "https://www.zealand.dk"
+        },
+        {
+          "label": "Study in Denmark — tuition fees",
+          "url": "https://studyindenmark.dk/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Study in Denmark — tuition fees",
+      "url": "https://studyindenmark.dk/"
+    }
+  ]
+}

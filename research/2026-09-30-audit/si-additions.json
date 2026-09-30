@@ -1,0 +1,49 @@
+{
+  "country": {
+    "code": "SI",
+    "slug": "slovenia",
+    "name": "Slovenia"
+  },
+  "universities": [
+    {
+      "name": "University of Nova Gorica",
+      "city": "Nova Gorica",
+      "type": "Public",
+      "official_website": "https://www.ung.si",
+      "tuition_eu": "€0 tuition for EU citizens in all Bachelor’s and selected full-time Master’s programmes",
+      "mandatory_semester_fee": "Enrolment/administrative fee applies (verify)",
+      "est_annual_mandatory_cost_eur": null,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Natural Sciences",
+        "Engineering",
+        "Humanities"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "University of Nova Gorica — official website",
+          "url": "https://www.ung.si"
+        },
+        {
+          "label": "University of Nova Gorica — tuition for EU citizens",
+          "url": "https://www.ung.si/en/admissions"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    }
+  ],
+  "sources": [
+    {
+      "label": "University of Nova Gorica — tuition for EU citizens",
+      "url": "https://www.ung.si/en/admissions"
+    }
+  ]
+}

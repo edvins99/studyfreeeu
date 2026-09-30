@@ -17,8 +17,8 @@ const ROOT = path.resolve(__dirname, '..');
 const DATA = path.join(ROOT, 'data');
 const WEB = path.join(ROOT, 'web');
 const OUT = process.argv[2] || process.env.OUT_DIR ||
-  path.resolve(ROOT, '..', 'projects', 'website-8ccfbe4126ddbf44b2f2aeb8');
-const SITE = 'https://studyfree.eu';
+  path.resolve(ROOT, 'dist');
+const SITE = (process.env.SITE_URL || 'https://edvins99.github.io/studyfreeeu').replace(/\/$/, '');
 
 const read = (f) => JSON.parse(fs.readFileSync(path.join(DATA, f), 'utf8'));
 const countries = read('countries.json');
@@ -146,12 +146,12 @@ function layout({ title, description, depth, body, canonical, extraHead = '', ac
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:type" content="website">
-<meta property="og:image" content="${SITE}/${p}assets/img/og-image.jpg">
+<meta property="og:image" content="${SITE}/assets/img/og-image.jpg">
 <meta property="og:url" content="${SITE}/${canonical || ''}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(description)}">
-<meta name="twitter:image" content="${SITE}/${p}assets/img/og-image.jpg">
+<meta name="twitter:image" content="${SITE}/assets/img/og-image.jpg">
 <meta name="theme-color" content="#003399">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23003399'/%3E%3Ctext x='16' y='22' font-size='16' font-family='Arial' font-weight='bold' fill='%23ffcc00' text-anchor='middle'%3EEU%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="${p}assets/css/styles.css">
@@ -334,7 +334,7 @@ function buildHome() {
       }).join('')}
     </div>
     <div class="grid cols-3" style="margin-top:14px">${nordicFeatured.map((u) => uniCard(u, 0)).join('')}</div>
-    <p class="small muted" style="margin-top:12px">Also popular with our readers: <a href="universities/index.html?country=NL">Netherlands</a> (statutory fee) and <a href="universities/index.html?country=DE">Germany</a> (€0 tuition + semester fees).</p>
+    <p class="small muted" style="margin-top:12px">Also popular with our readers: <a href="universities/index.html?country=DE">Germany</a> (€0 tuition + semester fees), <a href="universities/index.html?country=NO">Norway</a> and <a href="universities/index.html?country=AT">Austria</a>.</p>
   </div>
 </section>`;
   const body = `
@@ -403,7 +403,7 @@ ${nordicBand}
   <div class="container">
     <div class="section-head">
       <h2>Browse by country</h2>
-      <p>All 27 EU member states, with the tuition policy for EU citizens. Other EEA countries are listed separately below.</p>
+      <p>All 27 EU member states, with the tuition policy for EU citizens. Universities are listed only where EU citizens can study tuition-free in English. Other EEA countries are listed separately below.</p>
     </div>
     <div class="cc-grid">
       ${euCountries.map((c) => `<a class="cc" href="countries/${c.slug}/index.html"><span class="flag">${flag(c.code)}</span><span><span class="nm">${esc(c.name)}</span><br><span class="st">${esc(shortStatus(c.tuition_status))}</span></span></a>`).join('')}

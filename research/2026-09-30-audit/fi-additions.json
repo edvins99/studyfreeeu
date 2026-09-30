@@ -1,0 +1,526 @@
+{
+  "country": {
+    "code": "FI",
+    "slug": "finland",
+    "name": "Finland"
+  },
+  "universities": [
+    {
+      "name": "JAMK University of Applied Sciences",
+      "city": "Jyväskylä",
+      "type": "Public",
+      "official_website": "https://www.jamk.fi",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
+      "est_annual_mandatory_cost_eur": 60,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Engineering",
+        "Health",
+        "Hospitality"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "JAMK University of Applied Sciences — official website",
+          "url": "https://www.jamk.fi"
+        },
+        {
+          "label": "Study in Finland — tuition fees",
+          "url": "https://www.studyinfinland.fi/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Savonia University of Applied Sciences",
+      "city": "Kuopio",
+      "type": "Public",
+      "official_website": "https://www.savonia.fi",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
+      "est_annual_mandatory_cost_eur": 60,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Health",
+        "Business"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Savonia University of Applied Sciences — official website",
+          "url": "https://www.savonia.fi"
+        },
+        {
+          "label": "Study in Finland — tuition fees",
+          "url": "https://www.studyinfinland.fi/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Seinäjoki University of Applied Sciences (SeAMK)",
+      "city": "Seinäjoki",
+      "type": "Public",
+      "official_website": "https://www.seamk.fi",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
+      "est_annual_mandatory_cost_eur": 60,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Agriculture",
+        "Health"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Seinäjoki University of Applied Sciences (SeAMK) — official website",
+          "url": "https://www.seamk.fi"
+        },
+        {
+          "label": "Study in Finland — tuition fees",
+          "url": "https://www.studyinfinland.fi/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Karelia University of Applied Sciences",
+      "city": "Joensuu",
+      "type": "Public",
+      "official_website": "https://www.karelia.fi",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
+      "est_annual_mandatory_cost_eur": 60,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Engineering",
+        "Health"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Karelia University of Applied Sciences — official website",
+          "url": "https://www.karelia.fi"
+        },
+        {
+          "label": "Study in Finland — tuition fees",
+          "url": "https://www.studyinfinland.fi/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Lapland University of Applied Sciences",
+      "city": "Rovaniemi",
+      "type": "Public",
+      "official_website": "https://www.lapinamk.fi",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
+      "est_annual_mandatory_cost_eur": 60,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Engineering",
+        "Hospitality"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Lapland University of Applied Sciences — official website",
+          "url": "https://www.lapinamk.fi"
+        },
+        {
+          "label": "Study in Finland — tuition fees",
+          "url": "https://www.studyinfinland.fi/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Satakunta University of Applied Sciences (SAMK)",
+      "city": "Pori",
+      "type": "Public",
+      "official_website": "https://www.samk.fi",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
+      "est_annual_mandatory_cost_eur": 60,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Engineering",
+        "Health",
+        "Marine Studies"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Satakunta University of Applied Sciences (SAMK) — official website",
+          "url": "https://www.samk.fi"
+        },
+        {
+          "label": "Study in Finland — tuition fees",
+          "url": "https://www.studyinfinland.fi/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Häme University of Applied Sciences (HAMK)",
+      "city": "Hämeenlinna",
+      "type": "Public",
+      "official_website": "https://www.hamk.fi",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
+      "est_annual_mandatory_cost_eur": 60,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Business",
+        "Agriculture"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Häme University of Applied Sciences (HAMK) — official website",
+          "url": "https://www.hamk.fi"
+        },
+        {
+          "label": "Study in Finland — tuition fees",
+          "url": "https://www.studyinfinland.fi/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Laurea University of Applied Sciences",
+      "city": "Vantaa",
+      "type": "Public",
+      "official_website": "https://www.laurea.fi",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
+      "est_annual_mandatory_cost_eur": 60,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Health",
+        "Social Sciences"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Laurea University of Applied Sciences — official website",
+          "url": "https://www.laurea.fi"
+        },
+        {
+          "label": "Study in Finland — tuition fees",
+          "url": "https://www.studyinfinland.fi/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Arcada University of Applied Sciences",
+      "city": "Helsinki",
+      "type": "Public",
+      "official_website": "https://www.arcada.fi",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
+      "est_annual_mandatory_cost_eur": 60,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Engineering",
+        "Health"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Arcada University of Applied Sciences — official website",
+          "url": "https://www.arcada.fi"
+        },
+        {
+          "label": "Study in Finland — tuition fees",
+          "url": "https://www.studyinfinland.fi/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Novia University of Applied Sciences",
+      "city": "Vaasa",
+      "type": "Public",
+      "official_website": "https://www.novia.fi",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
+      "est_annual_mandatory_cost_eur": 60,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Marine Studies",
+        "Business"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Novia University of Applied Sciences — official website",
+          "url": "https://www.novia.fi"
+        },
+        {
+          "label": "Study in Finland — tuition fees",
+          "url": "https://www.studyinfinland.fi/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Centria University of Applied Sciences",
+      "city": "Kokkola",
+      "type": "Public",
+      "official_website": "https://www.centria.fi",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
+      "est_annual_mandatory_cost_eur": 60,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Business",
+        "Health"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Centria University of Applied Sciences — official website",
+          "url": "https://www.centria.fi"
+        },
+        {
+          "label": "Study in Finland — tuition fees",
+          "url": "https://www.studyinfinland.fi/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Kajaani University of Applied Sciences",
+      "city": "Kajaani",
+      "type": "Public",
+      "official_website": "https://www.kamk.fi",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
+      "est_annual_mandatory_cost_eur": 60,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Hospitality",
+        "Information Technology",
+        "Business"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Kajaani University of Applied Sciences — official website",
+          "url": "https://www.kamk.fi"
+        },
+        {
+          "label": "Study in Finland — tuition fees",
+          "url": "https://www.studyinfinland.fi/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Vaasa University of Applied Sciences (VAMK)",
+      "city": "Vaasa",
+      "type": "Public",
+      "official_website": "https://www.vamk.fi",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
+      "est_annual_mandatory_cost_eur": 60,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Business",
+        "Health"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Vaasa University of Applied Sciences (VAMK) — official website",
+          "url": "https://www.vamk.fi"
+        },
+        {
+          "label": "Study in Finland — tuition fees",
+          "url": "https://www.studyinfinland.fi/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "South-Eastern Finland University of Applied Sciences (Xamk)",
+      "city": "Kouvola",
+      "type": "Public",
+      "official_website": "https://www.xamk.fi",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
+      "est_annual_mandatory_cost_eur": 60,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Engineering",
+        "Health"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "South-Eastern Finland University of Applied Sciences (Xamk) — official website",
+          "url": "https://www.xamk.fi"
+        },
+        {
+          "label": "Study in Finland — tuition fees",
+          "url": "https://www.studyinfinland.fi/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Diaconia University of Applied Sciences (Diak)",
+      "city": "Helsinki",
+      "type": "Public",
+      "official_website": "https://www.diak.fi",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
+      "est_annual_mandatory_cost_eur": 60,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Social Work",
+        "Health"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Diaconia University of Applied Sciences (Diak) — official website",
+          "url": "https://www.diak.fi"
+        },
+        {
+          "label": "Study in Finland — tuition fees",
+          "url": "https://www.studyinfinland.fi/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Study in Finland — tuition fees",
+      "url": "https://www.studyinfinland.fi/"
+    }
+  ]
+}

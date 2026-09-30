@@ -1,0 +1,252 @@
+{
+  "country": {
+    "code": "NO",
+    "slug": "norway",
+    "name": "Norway"
+  },
+  "universities": [
+    {
+      "name": "Norwegian University of Life Sciences (NMBU)",
+      "city": "Ås",
+      "type": "Public",
+      "official_website": "https://www.nmbu.no",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "Semester fee to the student welfare organisation (≈ NOK 600–1,000/semester)",
+      "est_annual_mandatory_cost_eur": 100,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Agriculture",
+        "Environmental Sciences",
+        "Life Sciences",
+        "Veterinary Medicine"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Norwegian University of Life Sciences (NMBU) — official website",
+          "url": "https://www.nmbu.no"
+        },
+        {
+          "label": "Study in Norway — costs",
+          "url": "https://www.studyinnorway.no/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "NHH Norwegian School of Economics",
+      "city": "Bergen",
+      "type": "Public",
+      "official_website": "https://www.nhh.no",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "Semester fee to the student welfare organisation (≈ NOK 600–1,000/semester)",
+      "est_annual_mandatory_cost_eur": 100,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Business & Economics"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "NHH Norwegian School of Economics — official website",
+          "url": "https://www.nhh.no"
+        },
+        {
+          "label": "Study in Norway — costs",
+          "url": "https://www.studyinnorway.no/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "University of Agder",
+      "city": "Kristiansand",
+      "type": "Public",
+      "official_website": "https://www.uia.no",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "Semester fee to the student welfare organisation (≈ NOK 600–1,000/semester)",
+      "est_annual_mandatory_cost_eur": 100,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Business & Economics",
+        "Humanities"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "University of Agder — official website",
+          "url": "https://www.uia.no"
+        },
+        {
+          "label": "Study in Norway — costs",
+          "url": "https://www.studyinnorway.no/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Nord University",
+      "city": "Bodø",
+      "type": "Public",
+      "official_website": "https://www.nord.no",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "Semester fee to the student welfare organisation (≈ NOK 600–1,000/semester)",
+      "est_annual_mandatory_cost_eur": 100,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Life Sciences",
+        "Social Sciences"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Nord University — official website",
+          "url": "https://www.nord.no"
+        },
+        {
+          "label": "Study in Norway — costs",
+          "url": "https://www.studyinnorway.no/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "OsloMet – Oslo Metropolitan University",
+      "city": "Oslo",
+      "type": "Public",
+      "official_website": "https://www.oslomet.no",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "Semester fee to the student welfare organisation (≈ NOK 600–1,000/semester)",
+      "est_annual_mandatory_cost_eur": 100,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Health",
+        "Social Sciences",
+        "Engineering",
+        "Education"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "OsloMet – Oslo Metropolitan University — official website",
+          "url": "https://www.oslomet.no"
+        },
+        {
+          "label": "Study in Norway — costs",
+          "url": "https://www.studyinnorway.no/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Western Norway University of Applied Sciences (HVL)",
+      "city": "Bergen",
+      "type": "Public",
+      "official_website": "https://www.hvl.no",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "Semester fee to the student welfare organisation (≈ NOK 600–1,000/semester)",
+      "est_annual_mandatory_cost_eur": 100,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Health",
+        "Education"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Western Norway University of Applied Sciences (HVL) — official website",
+          "url": "https://www.hvl.no"
+        },
+        {
+          "label": "Study in Norway — costs",
+          "url": "https://www.studyinnorway.no/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Molde University College",
+      "city": "Molde",
+      "type": "Public",
+      "official_website": "https://www.himolde.no",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "Semester fee to the student welfare organisation (≈ NOK 600–1,000/semester)",
+      "est_annual_mandatory_cost_eur": 100,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Business",
+        "Management"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Molde University College — official website",
+          "url": "https://www.himolde.no"
+        },
+        {
+          "label": "Study in Norway — costs",
+          "url": "https://www.studyinnorway.no/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Study in Norway — costs",
+      "url": "https://www.studyinnorway.no/"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "country": {
+    "code": "IS",
+    "slug": "iceland",
+    "name": "Iceland"
+  },
+  "universities": [
+    {
+      "name": "University of Akureyri",
+      "city": "Akureyri",
+      "type": "Public",
+      "official_website": "https://www.unak.is",
+      "tuition_eu": "No tuition at public universities (annual registration fee only)",
+      "mandatory_semester_fee": "Annual registration fee ≈ ISK 75,000",
+      "est_annual_mandatory_cost_eur": 500,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Law",
+        "Social Sciences",
+        "Natural Sciences"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "University of Akureyri — official website",
+          "url": "https://www.unak.is"
+        },
+        {
+          "label": "Study in Iceland",
+          "url": "https://www.studyiniceland.is/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Study in Iceland",
+      "url": "https://www.studyiniceland.is/"
+    }
+  ]
+}

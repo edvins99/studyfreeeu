@@ -1,0 +1,50 @@
+{
+  "country": {
+    "code": "MT",
+    "slug": "malta",
+    "name": "Malta"
+  },
+  "universities": [
+    {
+      "name": "Malta College of Arts, Science and Technology (MCAST)",
+      "city": "Paola",
+      "type": "Public",
+      "official_website": "https://www.mcast.edu.mt",
+      "tuition_eu": "Courses are free for Maltese and EU candidates",
+      "mandatory_semester_fee": "No tuition for EU candidates",
+      "est_annual_mandatory_cost_eur": 0,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Business",
+        "Information Technology",
+        "Health"
+      ],
+      "tuition_status": "Tuition-Free",
+      "notes": "Vocational/professional institution; courses are taught in English. Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Malta College of Arts, Science and Technology (MCAST) — official website",
+          "url": "https://www.mcast.edu.mt"
+        },
+        {
+          "label": "MCAST — key information for full-time programmes",
+          "url": "https://mcast.edu.mt/key-information-for-full-time-programmes"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MCAST — key information for full-time programmes",
+      "url": "https://mcast.edu.mt/key-information-for-full-time-programmes"
+    }
+  ]
+}

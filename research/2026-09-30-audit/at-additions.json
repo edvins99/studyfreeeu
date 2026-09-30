@@ -1,0 +1,220 @@
+{
+  "country": {
+    "code": "AT",
+    "slug": "austria",
+    "name": "Austria"
+  },
+  "universities": [
+    {
+      "name": "Graz University of Technology (TU Graz)",
+      "city": "Graz",
+      "type": "Public",
+      "official_website": "https://www.tugraz.at",
+      "tuition_eu": "€0 tuition for EU/EEA within minimum duration + 2 tolerance semesters",
+      "mandatory_semester_fee": "ÖH student union fee ≈ €25/semester",
+      "est_annual_mandatory_cost_eur": 50,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Computer Science",
+        "Natural Sciences"
+      ],
+      "tuition_status": "Conditional Tuition-Free",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Graz University of Technology (TU Graz) — official website",
+          "url": "https://www.tugraz.at"
+        },
+        {
+          "label": "Study in Austria — tuition fees",
+          "url": "https://studyinaustria.at/en/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "WU Vienna University of Economics and Business",
+      "city": "Vienna",
+      "type": "Public",
+      "official_website": "https://www.wu.ac.at",
+      "tuition_eu": "€0 tuition for EU/EEA within minimum duration + 2 tolerance semesters",
+      "mandatory_semester_fee": "ÖH student union fee ≈ €25/semester",
+      "est_annual_mandatory_cost_eur": 50,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Business & Economics",
+        "Law",
+        "Social Sciences"
+      ],
+      "tuition_status": "Conditional Tuition-Free",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "WU Vienna University of Economics and Business — official website",
+          "url": "https://www.wu.ac.at"
+        },
+        {
+          "label": "Study in Austria — tuition fees",
+          "url": "https://studyinaustria.at/en/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "BOKU University",
+      "city": "Vienna",
+      "type": "Public",
+      "official_website": "https://boku.ac.at",
+      "tuition_eu": "€0 tuition for EU/EEA within minimum duration + 2 tolerance semesters",
+      "mandatory_semester_fee": "ÖH student union fee ≈ €25/semester",
+      "est_annual_mandatory_cost_eur": 50,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Agriculture",
+        "Environmental Sciences",
+        "Life Sciences",
+        "Engineering"
+      ],
+      "tuition_status": "Conditional Tuition-Free",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "BOKU University — official website",
+          "url": "https://boku.ac.at"
+        },
+        {
+          "label": "Study in Austria — tuition fees",
+          "url": "https://studyinaustria.at/en/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Montanuniversität Leoben",
+      "city": "Leoben",
+      "type": "Public",
+      "official_website": "https://www.unileoben.ac.at",
+      "tuition_eu": "€0 tuition for EU/EEA within minimum duration + 2 tolerance semesters",
+      "mandatory_semester_fee": "ÖH student union fee ≈ €25/semester",
+      "est_annual_mandatory_cost_eur": 50,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Engineering",
+        "Natural Sciences"
+      ],
+      "tuition_status": "Conditional Tuition-Free",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Montanuniversität Leoben — official website",
+          "url": "https://www.unileoben.ac.at"
+        },
+        {
+          "label": "Study in Austria — tuition fees",
+          "url": "https://studyinaustria.at/en/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "University of Klagenfurt",
+      "city": "Klagenfurt",
+      "type": "Public",
+      "official_website": "https://www.aau.at",
+      "tuition_eu": "€0 tuition for EU/EEA within minimum duration + 2 tolerance semesters",
+      "mandatory_semester_fee": "ÖH student union fee ≈ €25/semester",
+      "est_annual_mandatory_cost_eur": 50,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Computer Science",
+        "Business & Economics",
+        "Humanities"
+      ],
+      "tuition_status": "Conditional Tuition-Free",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "University of Klagenfurt — official website",
+          "url": "https://www.aau.at"
+        },
+        {
+          "label": "Study in Austria — tuition fees",
+          "url": "https://studyinaustria.at/en/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    },
+    {
+      "name": "Paris Lodron University of Salzburg",
+      "city": "Salzburg",
+      "type": "Public",
+      "official_website": "https://www.plus.ac.at",
+      "tuition_eu": "€0 tuition for EU/EEA within minimum duration + 2 tolerance semesters",
+      "mandatory_semester_fee": "ÖH student union fee ≈ €25/semester",
+      "est_annual_mandatory_cost_eur": 50,
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "study_fields": [
+        "Natural Sciences",
+        "Humanities",
+        "Social Sciences",
+        "Law"
+      ],
+      "tuition_status": "Conditional Tuition-Free",
+      "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+      "sources": [
+        {
+          "label": "Paris Lodron University of Salzburg — official website",
+          "url": "https://www.plus.ac.at"
+        },
+        {
+          "label": "Study in Austria — tuition fees",
+          "url": "https://studyinaustria.at/en/"
+        }
+      ],
+      "verification_status": "Partially verified (national policy verified)",
+      "last_verified": "2026-09-30"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Study in Austria — tuition fees",
+      "url": "https://studyinaustria.at/en/"
+    }
+  ]
+}
