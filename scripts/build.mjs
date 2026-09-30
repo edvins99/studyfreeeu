@@ -403,7 +403,7 @@ ${nordicBand}
   <div class="container">
     <div class="section-head">
       <h2>Browse by country</h2>
-      <p>All 27 EU member states, with the tuition policy for EU citizens. Universities are listed only where EU citizens can study tuition-free in English. Other EEA countries are listed separately below.</p>
+      <p>All 27 EU member states, with the tuition policy for EU citizens. Universities are listed where EU citizens can study in English for free or for a low fee (up to ≈ $3,000 / €2,700 per year). Other EEA countries are listed separately below.</p>
     </div>
     <div class="cc-grid">
       ${euCountries.map((c) => `<a class="cc" href="countries/${c.slug}/index.html"><span class="flag">${flag(c.code)}</span><span><span class="nm">${esc(c.name)}</span><br><span class="st">${esc(shortStatus(c.tuition_status))}</span></span></a>`).join('')}

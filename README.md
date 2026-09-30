@@ -42,8 +42,8 @@ The primary database focuses on categories **1 and 2**.
 StudyFreeEU/
 ├─ data/                     # The knowledge base (source of truth)
 │  ├─ countries.json         # 31 countries: 27 EU members + 4 other European countries (policy info)
-│  ├─ universities.json      # 196 universities — all €0 tuition for EU citizens + English-taught degrees
-│  ├─ programs.json          # 2002 programme entries (level × field × language × ECTS)
+│  ├─ universities.json      # 261 universities — €0 or low tuition (≤ ≈ $3,000/yr) for EU citizens + English-taught degrees
+│  ├─ programs.json          # 2771 programme entries (level × field × language × ECTS)
 │  └─ sources.json           # Registry of 48 official data sources
 ├─ db/
 │  ├─ schema.sql             # Normalized PostgreSQL schema (Supabase compatible)
@@ -90,8 +90,8 @@ assets/{css,js,data,partials}
 - **Data layer:** JSON knowledge base → PostgreSQL (`db/schema.sql`) via `scripts/seed-db.mjs`
 - **Coverage:** all 27 EU member states carry a verified country-level tuition policy; 15 previously pending countries were deep-verified against national portals, ministries, Eurydice and university pages
 - **Per record:** admission requirements, application + document deadlines, available specialities with an institutional profile, and admission contacts
-- **Programmes:** 2002 entries across 196 universities — level × field × language with standard Bologna ECTS (Bachelor 180 / Master 120 / PhD ≈ 180); programme-structure tables on every university page; 23 programmes verified against official catalogues
-- **2026-09-30 audit:** 81 institutions removed (EU citizens pay tuition for English-taught study, or no English-taught degree) and 65 added (29 DE, 6 AT, 7 NO, 5 DK, 15 FI, IS, SI, MT) — database now at **196 universities**, all €0 tuition for EU citizens with English-taught degrees. Details: `AUDIT_2026-09-30.md`.
+- **Programmes:** 2771 entries across 261 universities — level × field × language with standard Bologna ECTS (Bachelor 180 / Master 120 / PhD ≈ 180); programme-structure tables on every university page; 23 programmes verified against official catalogues
+- **2026-09-30 audit:** 16 institutions removed (English-taught fees for EU citizens above ≈ $3,000/yr, or no English-taught degree) and 65 added (29 DE, 6 AT, 7 NO, 5 DK, 15 FI, IS, SI, MT) — database now at **261 universities**. Details: `AUDIT_2026-09-30.md`.
 - **Earlier history — rounds 5–6 (2026-09-29 → 30):** **68 added in total** — 34 German public universities (KIT, Münster, Tübingen … Potsdam), 16 Swedish (Luleå, SLU, Örebro … BTH), 2 Danish (Copenhagen Business School, IT University of Copenhagen), 4 Finnish (Vaasa, Lapland, Hanken, Uniarts Helsinki) and 12 Dutch (VU Amsterdam … Hogeschool Rotterdam) — database now at **192 universities**; a follow-up round added Malmö University, Karolinska Institutet, University West and Stockholm School of Economics (Sweden), and a completeness audit brought Sweden, Denmark and Finland to full coverage of their main universities and colleges (212 universities total).
 - **Earlier history — rounds 2–4:** 61 added in total, bringing the database to **112** (round 2: TU Berlin, Hamburg, TU Dresden, JKU Linz, Tampere, LUT, KTH, Chalmers, Aalborg, Bergen, Utrecht, Leiden, Sapienza, Politecnico di Milano, UAB Barcelona, Ghent, Galway, Masaryk; round 3: Freiburg, Göttingen, Stuttgart, Mannheim, Cologne, FAU Erlangen-Nürnberg, Milan, Padua, Turin, Naples Federico II, Politecnico di Torino, Pisa, Oulu, Jyväskylä, Gothenburg, Linköping, Umeå, Southern Denmark, Roskilde, UiT Tromsø, Innsbruck; round 4: Valencia, Granada, Seville, UAM Madrid, Pompeu Fabra, UPC Barcelona, Porto, Coimbra, NOVA Lisbon, Grenoble Alpes, Aix-Marseille, Strasbourg, Bordeaux, Lyon 1, Warsaw University of Technology, AGH Kraków, Wrocław, Adam Mickiewicz, Patras, Crete, Szeged, Debrecen).
 - **Verified deadlines:** 53 universities carry official application windows or dates confirmed against their own pages / national admission authorities; the remaining (newly added) universities use the country-typical window, clearly labelled.
@@ -123,12 +123,12 @@ node scripts/seed-db.mjs
 
 ## Inclusion rule (since the 2026-09-30 audit)
 
-A university is listed only if **EU citizens pay €0 tuition** (mandatory semester /
-union / registration fees are allowed and shown) **and** it offers at least one
-**English-taught full degree** programme. Countries where EU citizens pay tuition
-for English-taught study (e.g. NL, ES, IT, FR, PT, IE, BE, PL, CZ, HU …) remain on the
-country pages for information, but their universities are not listed.
-See `AUDIT_2026-09-30.md` for the full list of removed and added institutions.
+A university is listed if it offers at least one **English-taught full degree** and
+EU citizens pay either **€0 tuition** (mandatory semester / union / registration fees
+shown separately) or a **low tuition fee of up to ≈ $3,000 (≈ €2,700) per year**.
+Not listed (English-taught fees for EU citizens usually above that): Hungary, Greece,
+Latvia, Lithuania, Croatia, Slovakia, Cyprus, Charles University and CTU Prague.
+See `AUDIT_2026-09-30.md` for details.
 
 ## Accuracy rule
 
