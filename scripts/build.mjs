@@ -44,6 +44,58 @@ function copyDir(src, dest) {
     if (e.isDirectory()) copyDir(s, d); else fs.copyFileSync(s, d);
   }
 }
+
+/* ------------------------------------------------------------------------
+ * Deploy-friendly chunking.
+ * The publishing ingress for this project accepts only small payloads
+ * (≤ ~100 KB per file), so large client payloads — the university/programme
+ * card lists and the client-side datasets — are emitted as numbered chunk
+ * files loaded with plain <script> tags instead of being inlined.
+ * HTML chunks are split only between complete elements and injected
+ * synchronously during parsing (document.currentScript), so the resulting DOM
+ * is identical to the previous inlined markup and the existing filter code in
+ * app.js keeps working unchanged.
+ * ---------------------------------------------------------------------- */
+function chunkItems(items, render, maxBytes = 55000) {
+  const chunks = [];
+  let cur = '';
+  for (const it of items) {
+    const piece = render(it);
+    if (cur && cur.length + piece.length > maxBytes) { chunks.push(cur); cur = ''; }
+    cur += piece;
+  }
+  if (cur) chunks.push(cur);
+  return chunks;
+}
+function writePartials(folder, chunks, depth) {
+  return chunks.map((c, i) => {
+    const name = `${folder}/chunk-${String(i + 1).padStart(2, '0')}.js`;
+    write(
+      `assets/partials/${name}`,
+      `document.currentScript.insertAdjacentHTML('beforebegin', ${JSON.stringify(c)
+        .replace(/\u2028/g, '\\u2028')
+        .replace(/\u2029/g, '\\u2029')});\n`,
+    );
+    return `<script src="${prefix(depth)}assets/partials/${name}"></script>`;
+  }).join('\n');
+}
+function writeDataChunks(varName, name, items, depth, mapFn = (x) => x, maxBytes = 55000) {
+  const chunks = [];
+  let cur = [];
+  let curSize = 0;
+  for (const it of items) {
+    const j = JSON.stringify(mapFn(it));
+    if (cur.length && curSize + j.length > maxBytes) { chunks.push(cur); cur = []; curSize = 0; }
+    cur.push(j);
+    curSize += j.length + 1;
+  }
+  if (cur.length) chunks.push(cur);
+  return chunks.map((c, i) => {
+    const file = `assets/data/${name}-${String(i + 1).padStart(2, '0')}.js`;
+    write(file, `window.${varName}=(window.${varName}||[]).concat([${c.join(',')}]);\n`);
+    return `<script src="${prefix(depth)}${file}"></script>`;
+  }).join('\n');
+}
 const STATUS_CLASS = {
   'Tuition-Free': 'b-free',
   'Tuition-Free + Mandatory Fees': 'b-fees',
@@ -411,7 +463,7 @@ function buildUniversitiesIndex() {
           <select id="sort"><option value="name">Name (A–Z)</option><option value="cost-asc">Estimated cost (low → high)</option><option value="cost-desc">Estimated cost (high → low)</option><option value="country">Country</option></select>
         </label>
       </div>
-      <div class="results" id="results">${universities.map((u) => uniCard(u, 1)).join('')}</div>
+      <div class="results" id="results">${writePartials('unis', chunkItems(universities, (u) => uniCard(u, 1)), 1)}</div>
       <div id="empty" class="empty hidden">No universities match these filters. Try widening them.</div>
       <div class="pagination"></div>
     </div>
@@ -599,7 +651,7 @@ function buildUniversitiesByCountry() {
         <div class="grid cols-3">${list.map((u) => uniCard(u, 2)).join('')}</div>
       </div>
     </section>`;
-  }).join('');
+  }).filter(Boolean);
   const idx = order.filter((c) => universities.some((u) => u.country_code === c.code))
     .map((c) => `<a class="cc" href="#${c.slug}"><span class="flag">${flag(c.code)}</span><span><span class="nm">${esc(c.name)}</span><br><span class="st">${universities.filter((u) => u.country_code === c.code).length} universities</span></span></a>`).join('');
   const body = `
@@ -611,7 +663,7 @@ function buildUniversitiesByCountry() {
 <section class="section" style="padding-top:20px"><div class="container">
   <div class="cc-grid">${idx}</div>
 </div></section>
-${sections}`;
+${writePartials('bycountry', chunkItems(sections, (s) => s), 2)}`;
   write('universities/by-country/index.html', layout({
     title: 'Universities by Country — Tuition-Free Study in Europe | StudyFreeEU',
     description: 'All European universities in the StudyFreeEU database, grouped by country, with their tuition status for EU citizens.',
@@ -749,7 +801,7 @@ function buildProgramsIndex() {
     <div class="toolbar"><span class="count" id="result-count"></span>
       <label class="small">Sort <select id="sort"><option value="name">Name (A–Z)</option><option value="cost-asc">Cost (low → high)</option><option value="cost-desc">Cost (high → low)</option><option value="country">Country</option></select></label>
     </div>
-    <div class="results" id="results">${programs.map((p) => programCard(p, 1)).join('')}</div>
+    <div class="results" id="results">${writePartials('progs', chunkItems(programs, (p) => programCard(p, 1)), 1)}</div>
     <div id="empty" class="empty hidden">No programmes match these filters.</div>
     <div class="pagination"></div>
   </div>
@@ -877,7 +929,7 @@ function buildCompare() {
 <section class="section" style="padding-top:22px"><div class="container">
   <div id="compare-table"></div>
 </div></section>
-<script>window.SFE_UNIVERSITIES = ${JSON.stringify(universities.map((u) => ({
+${writeDataChunks('SFE_UNIVERSITIES', 'unis-lite', universities, 1, (u) => ({
     id: u.id, slug: u.slug, name: u.name, country: u.country, city: u.city, type: u.type,
     tuition_status: u.tuition_status, tuition_eu: u.tuition_eu,
     mandatory_semester_fee: u.mandatory_semester_fee, est_annual_mandatory_cost_eur: u.est_annual_mandatory_cost_eur,
@@ -885,7 +937,7 @@ function buildCompare() {
     english_bachelor: u.english_bachelor, english_master: u.english_master, english_phd: u.english_phd,
     admission_requirements: u.admission_requirements, application_deadlines: u.application_deadlines, last_verified: u.last_verified,
     contact: u.contact, deadlines: u.deadlines
-  })))};</script>`;
+  }))}`;
   write('compare/index.html', layout({
     title: 'Compare Universities — Tuition, Fees & Programs | StudyFreeEU',
     description: 'Compare up to four European universities side by side on tuition for EU citizens, mandatory fees, English-taught programmes, admissions and deadlines.',
@@ -901,7 +953,10 @@ function buildAdmin() {
   <div class="page-header" style="border:0;padding-bottom:0"><h1>Data maintenance console</h1>
   <p class="muted">Review and update tuition status, verification status and mandatory costs. Records older than 6 and 12 months are highlighted for re-verification. This is a static editing surface — export the JSON and commit it to <code>data/</code>.</p></div>
 </div></section>
-<section class="section" style="padding-top:22px"><div class="container"><div id="admin-root"><div class="empty">Loading dataset…</div></div></div></section>`;
+<section class="section" style="padding-top:22px"><div class="container">${writeDataChunks('SFE_UNIVERSITIES', 'unis', universities, 1)}
+${writeDataChunks('SFE_PROGRAMS', 'progs', programs, 1)}
+${writeDataChunks('SFE_COUNTRIES', 'countries', countries, 1)}
+<div id="admin-root"><div class="empty">Loading dataset…</div></div></div></section>`;
   write('admin/index.html', layout({
     title: 'Data Console — StudyFreeEU',
     description: 'Internal data maintenance console for reviewing verification status and re-verification of tuition records.',
@@ -1127,7 +1182,11 @@ console.log('Building StudyFreeEU →', OUT);
 fs.mkdirSync(OUT, { recursive: true });
 copyDir(path.join(WEB, 'assets'), path.join(OUT, 'assets'));
 fs.mkdirSync(path.join(OUT, 'assets', 'data'), { recursive: true });
-for (const f of ['countries.json', 'universities.json', 'programs.json', 'sources.json']) {
+// Only the small registry files are shipped as raw JSON. The two large datasets
+// (universities.json, programs.json) exceed this project's per-file deploy
+// payload limit and ship as chunked JS instead (see writeDataChunks); raw
+// copies are intentionally NOT emitted for them.
+for (const f of ['countries.json', 'sources.json']) {
   fs.copyFileSync(path.join(DATA, f), path.join(OUT, 'assets', 'data', f));
 }
 buildHome();
