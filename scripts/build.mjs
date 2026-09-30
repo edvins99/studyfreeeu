@@ -294,6 +294,49 @@ function buildHome() {
   const freeUnis = universities.filter((u) => u.tuition_status === 'Tuition-Free' || u.tuition_status === 'Tuition-Free + Mandatory Fees');
   const condUnis = universities.filter((u) => u.tuition_status === 'Conditional Tuition-Free');
   const featured = freeUnis.slice(0, 6);
+
+  // ⭐ Nordic focus band (Sweden · Denmark · Finland) — reader request
+  const nordicCountries = ['SE', 'DK', 'FI'].map((code) => byCode.get(code)).filter(Boolean);
+  const pickBy = (code, re) => universities.find((u) => u.country_code === code && re.test(u.name));
+  const nordicFeatured = [
+    pickBy('SE', /Lund University/),
+    pickBy('SE', /KTH/),
+    pickBy('DK', /University of Copenhagen$/),
+    pickBy('DK', /Copenhagen Business School/),
+    pickBy('FI', /Aalto/),
+    pickBy('FI', /University of Helsinki/),
+  ].filter(Boolean);
+  const nordicBand = `
+<section class="section" id="nordic-focus" style="padding-bottom:0">
+  <div class="container">
+    <div class="section-head" style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+      <h2 style="margin:0">⭐ Nordic focus: Sweden · Denmark · Finland</h2>
+      <span class="badge b-free">Readers' favourite</span>
+    </div>
+    <p class="muted" style="margin:4px 0 14px">The three most-requested countries in our inbox: tuition-free public universities for EU citizens with a wide choice of English-taught programmes.</p>
+    <div class="grid cols-3">
+      ${nordicCountries.map((c) => {
+        const list = universities.filter((u) => u.country_code === c.code);
+        const english = list.filter((u) => u.english_bachelor || u.english_master || u.english_phd).length;
+        return `<article class="card" style="border:2px solid #f5c518">
+          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+            <span style="font-size:1.6rem">${flag(c.code)}</span>
+            <h3 style="margin:0"><a href="countries/${c.slug}/index.html">${esc(c.name)}</a></h3>
+            ${statusBadge(c.tuition_status)}
+          </div>
+          <p class="small" style="margin:10px 0 4px"><b>${list.length}</b> universities · <b>${english}</b> with English-taught programmes</p>
+          <p class="small muted" style="margin:0">${esc(c.eu_tuition)}${c.mandatory_fee_estimate_eur_year ? ' Mandatory fees ≈ ' + money(c.mandatory_fee_estimate_eur_year) + '/year.' : ' No significant mandatory fees.'}</p>
+          <p style="margin:12px 0 0;display:flex;gap:8px;flex-wrap:wrap">
+            <a class="btn primary" href="universities/index.html?country=${c.code}">Universities</a>
+            <a class="btn" href="programs/index.html?country=${c.code}&amp;eng=1">English programmes</a>
+          </p>
+        </article>`;
+      }).join('')}
+    </div>
+    <div class="grid cols-3" style="margin-top:14px">${nordicFeatured.map((u) => uniCard(u, 0)).join('')}</div>
+    <p class="small muted" style="margin-top:12px">Also popular with our readers: <a href="universities/index.html?country=NL">Netherlands</a> (statutory fee) and <a href="universities/index.html?country=DE">Germany</a> (€0 tuition + semester fees).</p>
+  </div>
+</section>`;
   const body = `
 <section class="hero">
   <div class="container">
@@ -316,6 +359,7 @@ function buildHome() {
 <section class="section" style="padding-top:26px;padding-bottom:0">
   <div class="container">
     <div class="pill-nav">
+      <a href="#nordic-focus">⭐ Nordic focus</a>
       <a href="universities/index.html">🔎 All universities</a>
       <a href="universities/index.html?status=Tuition-Free%20%2B%20Mandatory%20Fees">🟦 €0 tuition + fees</a>
       <a href="programs/index.html?eng=1&amp;maxcost=0">🇬🇧 English-taught &amp; €0</a>
@@ -327,6 +371,8 @@ function buildHome() {
     </div>
   </div>
 </section>
+
+${nordicBand}
 
 <section class="section">
   <div class="container">
@@ -431,6 +477,7 @@ function buildUniversitiesIndex() {
     <div class="breadcrumb"><a href="../index.html">Home</a> / Universities</div>
     <div class="page-header" style="border:0;padding-bottom:0">
       <h1>Universities</h1>
+      <p class="small" style="margin:6px 0 0">⭐ <b>Nordic focus:</b> <a href="?country=SE">Sweden</a> · <a href="?country=DK">Denmark</a> · <a href="?country=FI">Finland</a></p>
       <p class="muted">${universities.length} universities across Europe. Filter by tuition status, degree level, language and estimated mandatory cost.</p>
       <p><a class="btn" href="by-country/index.html">🌍 Grouped by country →</a></p>
     </div>
@@ -681,6 +728,7 @@ function buildCountryPages() {
 </div></section>
 <section class="section" style="padding-top:22px"><div class="container">
   <h2 style="font-size:1.2rem">EU member states</h2>
+  <p class="small" style="margin:6px 0 12px">⭐ <b>Nordic focus:</b> <a href="sweden/index.html">Sweden</a> · <a href="denmark/index.html">Denmark</a> · <a href="finland/index.html">Finland</a></p>
   <div class="grid cols-4" style="margin-bottom:32px">${sorted.filter((c) => c.is_eu).map((c) => countryCard(c, 1)).join('')}</div>
   <h2 style="font-size:1.2rem">Other European countries</h2>
   <div class="grid cols-4">${sorted.filter((c) => !c.is_eu).map((c) => countryCard(c, 1)).join('')}</div>
@@ -699,6 +747,7 @@ function buildCountryPages() {
   <div class="page-header">
     <div class="badges">${statusBadge(c.tuition_status)}${c.is_eu ? '<span class="badge b-plain">EU MEMBER</span>' : '<span class="badge b-plain">OTHER EUROPEAN COUNTRY</span>'}</div>
     <h1>Tuition-Free Universities in ${esc(c.name)}</h1>
+    ${['SE', 'DK', 'FI'].includes(c.code) ? '<p style="margin:6px 0 0"><span class="badge b-free">⭐ Nordic focus country</span></p>' : ''}
     <p class="muted">${esc(c.eu_tuition)}</p>
   </div>
 </div></section>
