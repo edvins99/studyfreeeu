@@ -4,7 +4,7 @@ Country-by-country research tracker. Country policy is researched **before**
 individual universities are imported, so every institution inherits a verified
 country baseline.
 
-**Snapshot:** 31 countries · 192 universities · 2301 programme entries · 48 sources
+**Snapshot:** 31 countries · 212 universities · 2468 programme entries · 48 sources
 **Academic year in focus:** 2026/2027 (some national figures still quote 2025/2026)
 **Last updated:** 2026-09-30
 
@@ -19,9 +19,9 @@ Legend — status: `✅ Verified (country policy)` · `🟡 Partially verified` 
 |---|---|---|---|---|
 | Germany | DE | 49 | ✅ | Tuition-free; semester contribution only |
 | Austria | AT | 5 | ✅ | €0 within regular duration; €363.36/sem after +2 semesters |
-| Finland | FI | 13 | ✅ | EU/EEA/Swiss exempt |
-| Sweden | SE | 28 | ✅ | EU/EEA/Swiss exempt |
-| Denmark | DK | 8 | ✅ | Free for EU/EEA/Swiss |
+| Finland | FI | 19 | ✅ | EU/EEA/Swiss exempt |
+| Sweden | SE | 34 | ✅ | EU/EEA/Swiss exempt |
+| Denmark | DK | 16 | ✅ | Free for EU/EEA/Swiss |
 | Greece | GR | 4 | ✅ | Undergrad Greek-taught free |
 | Czechia | CZ | 3 | ✅ | Free in Czech; English fee-based |
 | Poland | PL | 6 | ✅ | Free in Polish for EU; English fee-based |
@@ -120,6 +120,12 @@ Barcelona) and **11 new source records**.
 ---
 
 ## Update log (newest first)
+
+### 2026-09-30 (3) — Pilnīguma audits: SE/DK/FI +20 augstskolas
+- **Zviedrija +6** (atlikušās valsts augstskolas): GIH (sports un veselība), Konstfack, Kungl. Konsthögskolan (KKH), Kungl. Musikhögskolan (KMH), Stockholms konstnärliga högskola (SKH), Försvarshögskolan (FHS). Zviedrija tagad **34** iestādes.
+- **Dānija +8**: 5 profesiju augstskolas (Københavns Professionshøjskole, VIA, UCL, UCN, Absalon) + 3 mākslas/arhitektūras skolas (Det Kongelige Akademi, Arkitektskolen Aarhus, Designskolen Kolding).
+- **Somija +6**: lielākās lietišķo zinātņu augstskolas (Metropolia, Haaga-Helia, LAB, Turku UAS, TAMK, Oamk).
+- Kopā: **212 universitātes · 2468 programmas**.
 
 ### 2026-09-30 (2) — Iztrūkstošās Zviedrijas augstskolas: +4
 - Pēc lietotāja norādes pievienotas: **Malmö University** (plašs angļu bakalaura/maģistra klāsts; tostarp *Interaction Design* (TGIDE) bakalaurs — 180 ECTS, uzņemšana 15. janvārī), **Karolinska Institutet**, **University West** (Trollhättan) un **Stockholm School of Economics**.
