@@ -18,6 +18,10 @@ import url from 'node:url';
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 const DATA = path.resolve(__dirname, '..', 'data');
 const apply = process.argv.includes('--apply');
+const onlyIdx = process.argv.indexOf('--only');
+const only = onlyIdx >= 0
+  ? new Set((process.argv[onlyIdx + 1] || '').split(',').map((s) => s.trim()).filter(Boolean))
+  : null;
 
 const universities = JSON.parse(fs.readFileSync(path.join(DATA, 'universities.json'), 'utf8'));
 const programs = JSON.parse(fs.readFileSync(path.join(DATA, 'programs.json'), 'utf8'));
@@ -54,7 +58,9 @@ let added = 0;
 const summary = [];
 
 for (const u of universities) {
-  if ((progsByUni.get(u.id) || 0) > 0) continue;
+  if (only) {
+    if (!only.has(u.id)) continue;
+  } else if ((progsByUni.get(u.id) || 0) > 0) continue;
   const natLang = NATIONAL_LANGUAGE[u.country_code] || 'National language';
   const fields = (u.study_fields && u.study_fields.length ? u.study_fields : ['General']).slice(0, 4);
   let count = 0;

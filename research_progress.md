@@ -4,7 +4,7 @@ Country-by-country research tracker. Country policy is researched **before**
 individual universities are imported, so every institution inherits a verified
 country baseline.
 
-**Snapshot:** 31 countries · 188 universities · 2252 programme entries · 48 sources
+**Snapshot:** 31 countries · 192 universities · 2301 programme entries · 48 sources
 **Academic year in focus:** 2026/2027 (some national figures still quote 2025/2026)
 **Last updated:** 2026-09-30
 
@@ -20,7 +20,7 @@ Legend — status: `✅ Verified (country policy)` · `🟡 Partially verified` 
 | Germany | DE | 49 | ✅ | Tuition-free; semester contribution only |
 | Austria | AT | 5 | ✅ | €0 within regular duration; €363.36/sem after +2 semesters |
 | Finland | FI | 13 | ✅ | EU/EEA/Swiss exempt |
-| Sweden | SE | 24 | ✅ | EU/EEA/Swiss exempt |
+| Sweden | SE | 28 | ✅ | EU/EEA/Swiss exempt |
 | Denmark | DK | 8 | ✅ | Free for EU/EEA/Swiss |
 | Greece | GR | 4 | ✅ | Undergrad Greek-taught free |
 | Czechia | CZ | 3 | ✅ | Free in Czech; English fee-based |
@@ -120,6 +120,11 @@ Barcelona) and **11 new source records**.
 ---
 
 ## Update log (newest first)
+
+### 2026-09-30 (2) — Iztrūkstošās Zviedrijas augstskolas: +4
+- Pēc lietotāja norādes pievienotas: **Malmö University** (plašs angļu bakalaura/maģistra klāsts; tostarp *Interaction Design* (TGIDE) bakalaurs — 180 ECTS, uzņemšana 15. janvārī), **Karolinska Institutet**, **University West** (Trollhättan) un **Stockholm School of Economics**.
+- TGIDE pārbaudīts oficiālajā programmas lapā: 3 gadi, angļu valodā, EU/EEA bez maksas (ne-EU pilna maksa 520 000 SEK); Malmö doktorantūras pieejamība apstiprināta.
+- Datubāze: **192 universitātes · 2301 programmas**.
 
 ### 2026-09-30 — Zviedrija, Dānija, Somija, Nīderlande: +34 augstskolas; vietnes pārbūve
 - **Zviedrija +16**: Luleå University of Technology, SLU, Örebro, Linnaeus, Karlstad, Mid Sweden, Södertörn, Mälardalen, Halmstad, Jönköping (fondaugstskola; angļu bakalaurs), Skövde, Borås, Gävle, Dalarna, Kristianstad, BTH — visas oficiālās vietnes pārbaudītas.
