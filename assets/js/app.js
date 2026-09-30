@@ -10,7 +10,7 @@
   /* ---------- mobile nav ---------- */
   function initNav() {
     var t = document.querySelector('.nav-toggle'), n = document.querySelector('.nav');
-    if (t && n) t.addEventListener('click', function () { n.classList.toggle('open'); });
+    if (t && n) t.addEventListener('click', function () { var o = n.classList.toggle('open'); t.setAttribute('aria-expanded', o ? 'true' : 'false'); });
   }
 
   /* ---------- home search ---------- */
@@ -33,7 +33,9 @@
       document.querySelectorAll('.js-fav').forEach(function (b) {
         var on = favs.indexOf(b.getAttribute('data-id')) !== -1;
         b.classList.toggle('is-on', on);
-        b.textContent = on ? '★ Saved' : '☆ Save';
+        var ic = b.classList.contains('icon');
+        b.textContent = ic ? (on ? '★' : '☆') : (on ? '★ Saved' : '☆ Save');
+        b.setAttribute('aria-pressed', on ? 'true' : 'false');
       });
       var c = document.getElementById('fav-count');
       if (c) c.textContent = favs.length;
@@ -77,7 +79,9 @@
     document.querySelectorAll('.js-compare').forEach(function (b) {
       var on = ids.indexOf(b.getAttribute('data-id')) !== -1;
       b.classList.toggle('is-on', on);
-      b.textContent = on ? '✓ In compare' : '⇄ Compare';
+      var ic = b.classList.contains('icon');
+      b.textContent = ic ? (on ? '✓' : '⇄') : (on ? '✓ In compare' : '⇄ Compare');
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
   }
   function initCompare() {

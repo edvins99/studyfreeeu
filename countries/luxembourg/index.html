@@ -24,7 +24,7 @@
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="../../index.html"><span class="brand-mark">EU</span>StudyFreeEU</a>
-    <button class="nav-toggle" aria-label="Menu">☰</button>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="nav" aria-label="Main">
       <a href="../../universities/index.html" class="">Universities</a>
       <a href="../../programs/index.html" class="">Programs</a>
@@ -42,7 +42,7 @@
 <section class="section" style="padding-bottom:0"><div class="container">
   <div class="breadcrumb"><a href="../../index.html">Home</a> / <a href="../index.html">Countries</a> / Luxembourg</div>
   <div class="page-header">
-    <div class="badges"><span class="badge b-low">Low Tuition</span><span class="badge b-plain">EU MEMBER</span></div>
+    <div class="badges"><span class="badge b-low" title="Low Tuition">Low tuition</span><span class="badge b-plain">EU MEMBER</span></div>
     <h1>Tuition-Free Universities in Luxembourg</h1>
     
     <p class="muted">Low tuition: ≈ €800/year (≈ €400/semester); some programmes free</p>
@@ -94,21 +94,26 @@
     data-status="Low Tuition" data-levels="b,m,p"
     data-english="1" data-cost="800"
     data-fields="law,economics,computer science,humanities,engineering">
-    <h3><a href="../../universities/university-of-luxembourg/index.html">University of Luxembourg</a></h3>
-    <div class="meta">📍 Esch-sur-Alzette, Luxembourg · <span class="pill-note">Public</span></div>
-    <div class="badges">
-      <span class="badge b-low">Low Tuition</span>
-      <span class="badge b-plain">PUBLIC UNIVERSITY</span>
-      <span class="badge b-en">ENGLISH PROGRAMS</span>
+    <div class="uc-head">
+      <span class="uc-flag" aria-hidden="true">🇱🇺</span>
+      <div class="uc-title">
+        <h3><a href="../../universities/university-of-luxembourg/index.html">University of Luxembourg</a></h3>
+        <div class="meta">Esch-sur-Alzette, Luxembourg · Public</div>
+      </div>
     </div>
-    <div class="cost-line"><span>EU tuition</span><b>≈ €800/year (≈ €400/semester); some programmes free</b></div>
-    <div class="cost-line"><span>Estimated mandatory cost / year</span><b>€800</b></div>
-    <div class="cost-line"><span>Degree levels</span><b>Bachelor, Master, PhD</b></div>
-    <div class="cost-line"><span>Last verified</span><b>2026-09-22</b></div>
+    <div class="badges">
+      <span class="badge b-low" title="Low Tuition">Low tuition</span>
+      <span class="badge b-en">English-taught</span>
+    </div>
+    <p class="uc-tuition">≈ €800/year (≈ €400/semester); some programmes free</p>
+    <dl class="uc-facts">
+      <div><dt>Mandatory cost / yr</dt><dd>€800</dd></div>
+      <div><dt>Degree levels</dt><dd>Bachelor · Master · PhD</dd></div>
+    </dl>
     <div class="card-actions">
-      <a class="btn" href="../../universities/university-of-luxembourg/index.html">View university →</a>
-      <button class="btn js-fav" type="button" data-id="lu-uni">☆ Save</button>
-      <button class="btn js-compare" type="button" data-id="lu-uni" data-name="University of Luxembourg">⇄ Compare</button>
+      <a class="btn primary" href="../../universities/university-of-luxembourg/index.html">View details</a>
+      <button class="btn icon js-fav" type="button" data-id="lu-uni" aria-label="Save University of Luxembourg" title="Save">☆</button>
+      <button class="btn icon js-compare" type="button" data-id="lu-uni" data-name="University of Luxembourg" aria-label="Compare University of Luxembourg" title="Compare">⇄</button>
     </div>
   </article></div>
     </div>
