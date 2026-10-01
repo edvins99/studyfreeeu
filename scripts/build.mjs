@@ -19,6 +19,7 @@ const DATA = path.join(ROOT, 'data');
 const WEB = path.join(ROOT, 'web');
 const OUT = process.argv[2] || process.env.OUT_DIR ||
   path.resolve(ROOT, 'dist');
+const CONTACT_EMAIL = 'studyfreeeu@gmail.com';
 const SITE = (process.env.SITE_URL || 'https://edvins99.github.io/studyfreeeu').replace(/\/$/, '');
 
 const read = (f) => JSON.parse(fs.readFileSync(path.join(DATA, f), 'utf8'));
@@ -138,7 +139,8 @@ const NAV = [
   ['Study Fields', 'fields/index.html'],
   ['Glossary', 'glossary/index.html'],
   ['How It Works', 'how-it-works/index.html'],
-  ['About', 'about/index.html']
+  ['About', 'about/index.html'],
+  ['Contact', 'contact/index.html']
 ];
 
 function layout({ title, description, depth, body, canonical, extraHead = '', active = '' }) {
@@ -193,6 +195,7 @@ ${body}
       <div>
         <div class="brand" style="color:#fff"><span class="brand-mark">EU</span>StudyFreeEU</div>
         <p class="small" style="color:#9fb2da;margin-top:10px">An independent, source-backed directory of European universities and English-taught programmes where EU citizens can study without paying standard tuition fees.</p>
+        <p class="small" style="margin-top:10px"><a class="footer-mail" href="mailto:${CONTACT_EMAIL}">✉ ${CONTACT_EMAIL}</a></p>
       </div>
       <div><h4>Explore</h4><ul>
         <li><a href="${p}universities/index.html">Universities</a></li>
@@ -204,6 +207,7 @@ ${body}
       <div><h4>Learn</h4><ul>
         <li><a href="${p}how-it-works/index.html">How It Works</a></li>
         <li><a href="${p}about/index.html">About &amp; Sources</a></li>
+        <li><a href="${p}contact/index.html">Contact</a></li>
         <li><a href="${p}glossary/index.html">Glossary</a></li>
         <li><a href="${p}compare/index.html">Compare universities</a></li>
         <li><a href="${p}admin/index.html">Data console</a></li>
@@ -1231,7 +1235,7 @@ function buildDeadlines() {
 
 /* ------------------------------------------------------- 11. sitemap etc */
 function buildMeta() {
-  const urls = ['', 'universities/', 'universities/by-country/', 'programs/', 'countries/', 'deadlines/', 'fields/', 'glossary/', 'how-it-works/', 'about/', 'compare/',
+  const urls = ['', 'universities/', 'universities/by-country/', 'programs/', 'countries/', 'deadlines/', 'fields/', 'glossary/', 'how-it-works/', 'about/', 'contact/', 'compare/',
     'tuition-free-universities-for-eu-students/', 'english-taught-tuition-free-bachelors/',
     'english-taught-tuition-free-masters/', 'free-computer-science-degrees-europe/', 'free-engineering-degrees-europe/',
     'free-business-degrees-europe/', 'tuition-free-phd-in-europe/']
@@ -1243,6 +1247,47 @@ ${urls.map((u) => `  <url><loc>${SITE}/${u}</loc></url>`).join('\n')}
 </urlset>`;
   write('sitemap.xml', sitemap);
   write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: ${SITE}/sitemap.xml\n`);
+}
+
+
+/* ------------------------------------------------------------ contact */
+function buildContact() {
+  const mail = CONTACT_EMAIL;
+  const subj = (t) => `mailto:${mail}?subject=${encodeURIComponent(t)}`;
+  const body = `
+<section class="section" style="padding-bottom:0"><div class="container">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / Contact</div>
+  <div class="page-header" style="border:0;padding-bottom:0"><h1>Contact us</h1>
+  <p class="muted">Questions, corrections or suggestions? Write to us — we read every message.</p></div>
+</div></section>
+<section class="section" style="padding-top:22px"><div class="container">
+  <div class="contact-hero">
+    <div class="contact-ico" aria-hidden="true">✉</div>
+    <div class="contact-main">
+      <span class="contact-label">Email</span>
+      <a class="contact-email" href="mailto:${mail}">${mail}</a>
+      <p class="small muted" style="margin:6px 0 0">Please write in English or Latvian.</p>
+    </div>
+    <div class="contact-actions">
+      <a class="btn primary" href="mailto:${mail}">Send an email</a>
+      <button class="btn js-copy-email" type="button" data-email="${mail}">Copy address</button>
+    </div>
+  </div>
+
+  <h2 style="font-size:1.2rem;margin:30px 0 12px">What you can write to us about</h2>
+  <div class="grid cols-3">
+    <a class="card contact-topic" href="${subj('Data correction')}"><h3>✏️ Report a correction</h3><p class="small muted">A fee, deadline or tuition rule has changed? Send the university name and a link to the official source.</p><span class="go">Email a correction →</span></a>
+    <a class="card contact-topic" href="${subj('University suggestion')}"><h3>🎓 Suggest a university</h3><p class="small muted">Know a university with €0 or low tuition for EU citizens and English-taught degrees that we have not listed yet?</p><span class="go">Suggest a university →</span></a>
+    <a class="card contact-topic" href="${subj('Question / feedback')}"><h3>💬 Questions &amp; feedback</h3><p class="small muted">Ideas for the site, partnership requests or anything else about StudyFreeEU.</p><span class="go">Send feedback →</span></a>
+  </div>
+
+  <div class="disclaimer" style="margin-top:26px"><b>Please note.</b> StudyFreeEU is an independent information site — we are not a university and cannot process applications or make admission decisions. For applications, admission requirements and official fees, contact the university directly via the admissions page linked on each university profile.</div>
+</div></section>`;
+  write('contact/index.html', layout({
+    title: 'Contact — StudyFreeEU',
+    description: `Contact StudyFreeEU at ${mail}: report a data correction, suggest a tuition-free university or send questions and feedback.`,
+    depth: 1, body, canonical: 'contact/', active: 'Contact'
+  }));
 }
 
 /* ------------------------------------------------------------------ build */
@@ -1268,6 +1313,7 @@ buildFieldsPage();
 buildDeadlines();
 buildGlossary();
 buildStatic();
+buildContact();
 buildCompare();
 buildAdmin();
 buildSeoPages();

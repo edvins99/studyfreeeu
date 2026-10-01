@@ -393,7 +393,19 @@
     });
   }
 
+  /* ---------- contact: copy email address ---------- */
+  function initCopyEmail() {
+    document.querySelectorAll('.js-copy-email').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var email = b.getAttribute('data-email'), label = b.textContent;
+        function done() { b.textContent = '\u2713 Copied'; setTimeout(function () { b.textContent = label; }, 1800); }
+        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(email).then(done, function () { window.prompt('Copy this address:', email); });
+        else window.prompt('Copy this address:', email);
+      });
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
-    initNav(); initHeroSearch(); initFavorites(); initCompare(); initListing(); initComparePage(); initAdmin();
+    initNav(); initHeroSearch(); initFavorites(); initCompare(); initListing(); initComparePage(); initAdmin(); initCopyEmail();
   });
 })();
