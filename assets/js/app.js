@@ -196,8 +196,42 @@
     if (reset) reset.addEventListener('click', function () {
       ['f-search', 'f-country', 'f-level', 'f-status', 'f-field', 'f-maxcost'].forEach(function (id) { var e = $(id); if (e) e.value = ''; });
       var e = $('f-english'); if (e) e.checked = false;
-      page = 1; render();
+      page = 1; themeCountry(); render();
     });
+
+    /* flag-colour theme for the country selector, filter panel and banner */
+    function setTheme(el, code) {
+      if (!el) return;
+      el.className = el.className.replace(/\bcf-[A-Z]{2}\b/g, '').replace(/\s+/g, ' ').trim();
+      el.classList.toggle('has-country', !!code);
+      if (code) el.classList.add('cf-' + code);
+    }
+    function themeCountry() {
+      var sel = $('f-country');
+      if (!sel) return;
+      var code = sel.value || '';
+      setTheme(sel, code);
+      setTheme(sel.closest('.filters'), code);
+      var banner = $('country-banner');
+      if (!banner) return;
+      if (!code) { banner.classList.add('hidden'); banner.innerHTML = ''; return; }
+      var opt = sel.options[sel.selectedIndex];
+      var name = (opt.textContent || '').replace(/\s*\(other\)$/, '');
+      var slug = opt.getAttribute('data-slug');
+      var pre = banner.getAttribute('data-prefix') || '';
+      setTheme(banner, code);
+      banner.classList.remove('hidden', 'has-country');
+      banner.innerHTML = '<span class="flag-ico fi-xl cf-' + code + '" aria-hidden="true"></span>' +
+        '<div><div class="cb-name"></div><div class="cb-sub">Showing results in this country only</div></div>' +
+        '<div class="cb-actions">' + (slug ? '<a class="btn" href="' + pre + 'countries/' + slug + '/index.html">Tuition policy \u2192</a>' : '') +
+        '<button type="button" class="js-cb-clear">\u00d7 All countries</button></div>';
+      banner.querySelector('.cb-name').textContent = name;
+      banner.querySelector('.js-cb-clear').addEventListener('click', function () {
+        sel.value = ''; page = 1; themeCountry(); render();
+      });
+    }
+    if ($('f-country')) $('f-country').addEventListener('change', themeCountry);
+    themeCountry();
 
     render();
   }
