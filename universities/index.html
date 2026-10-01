@@ -18,6 +18,7 @@
 <meta name="theme-color" content="#003399">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23003399'/%3E%3Ctext x='16' y='22' font-size='16' font-family='Arial' font-weight='bold' fill='%23ffcc00' text-anchor='middle'%3EEU%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../assets/css/styles.css">
+<link rel="stylesheet" href="../assets/css/flags.css">
 
 </head>
 <body>
@@ -55,7 +56,7 @@
     <aside class="filters" aria-label="Filters">
       <h3>Filters</h3>
       <div class="field"><label for="f-search">Search</label><input id="f-search" type="search" placeholder="University, city…"></div>
-      <div class="field"><label for="f-country">Country</label><select id="f-country"><option value="">All countries</option><option value="DE">Germany</option><option value="AT">Austria</option><option value="FI">Finland</option><option value="SE">Sweden</option><option value="DK">Denmark</option><option value="NO">Norway (other)</option><option value="IS">Iceland (other)</option><option value="GR">Greece</option><option value="CZ">Czechia</option><option value="PL">Poland</option><option value="SI">Slovenia</option><option value="EE">Estonia</option><option value="FR">France</option><option value="NL">Netherlands</option><option value="IE">Ireland</option><option value="HU">Hungary</option><option value="BE">Belgium</option><option value="BG">Bulgaria</option><option value="HR">Croatia</option><option value="CY">Cyprus</option><option value="IT">Italy</option><option value="LV">Latvia</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MT">Malta</option><option value="PT">Portugal</option><option value="RO">Romania</option><option value="SK">Slovakia</option><option value="ES">Spain</option><option value="CH">Switzerland (other)</option><option value="LI">Liechtenstein (other)</option></select></div>
+      <div class="field"><label for="f-country">Country</label><select id="f-country"><option value="">All countries</option><option value="DE" data-slug="germany">Germany</option><option value="AT" data-slug="austria">Austria</option><option value="FI" data-slug="finland">Finland</option><option value="SE" data-slug="sweden">Sweden</option><option value="DK" data-slug="denmark">Denmark</option><option value="NO" data-slug="norway">Norway (other)</option><option value="IS" data-slug="iceland">Iceland (other)</option><option value="GR" data-slug="greece">Greece</option><option value="CZ" data-slug="czechia">Czechia</option><option value="PL" data-slug="poland">Poland</option><option value="SI" data-slug="slovenia">Slovenia</option><option value="EE" data-slug="estonia">Estonia</option><option value="FR" data-slug="france">France</option><option value="NL" data-slug="netherlands">Netherlands</option><option value="IE" data-slug="ireland">Ireland</option><option value="HU" data-slug="hungary">Hungary</option><option value="BE" data-slug="belgium">Belgium</option><option value="BG" data-slug="bulgaria">Bulgaria</option><option value="HR" data-slug="croatia">Croatia</option><option value="CY" data-slug="cyprus">Cyprus</option><option value="IT" data-slug="italy">Italy</option><option value="LV" data-slug="latvia">Latvia</option><option value="LT" data-slug="lithuania">Lithuania</option><option value="LU" data-slug="luxembourg">Luxembourg</option><option value="MT" data-slug="malta">Malta</option><option value="PT" data-slug="portugal">Portugal</option><option value="RO" data-slug="romania">Romania</option><option value="SK" data-slug="slovakia">Slovakia</option><option value="ES" data-slug="spain">Spain</option><option value="CH" data-slug="switzerland">Switzerland (other)</option><option value="LI" data-slug="liechtenstein">Liechtenstein (other)</option></select></div>
       <div class="field"><label for="f-level">Degree level</label><select id="f-level"><option value="">Any level</option><option value="b">Bachelor's</option><option value="m">Master's</option><option value="p">PhD</option></select></div>
       <div class="field"><label for="f-status">Tuition status</label><select id="f-status"><option value="">Any status</option>
         <option>Tuition-Free</option><option>Tuition-Free + Mandatory Fees</option><option>Conditional Tuition-Free</option><option>Low Tuition</option></select></div>
@@ -77,6 +78,7 @@
           <select id="sort"><option value="name">Name (A–Z)</option><option value="cost-asc">Estimated cost (low → high)</option><option value="cost-desc">Estimated cost (high → low)</option><option value="country">Country</option></select>
         </label>
       </div>
+      <div class="country-banner hidden" id="country-banner" data-prefix="../"></div>
       <div class="results" id="results"><script src="../assets/partials/unis/chunk-01.js"></script>
 <script src="../assets/partials/unis/chunk-02.js"></script>
 <script src="../assets/partials/unis/chunk-03.js"></script>
@@ -131,7 +133,7 @@
     </div>
     <div class="footer-bottom">
       <p>Tuition rules may change. Always verify current fees and admission requirements on the university's official website before applying. This site is informational and is not affiliated with any university or the European Union.</p>
-      <p>Data version 2026/2027 · last built 2026-09-30</p>
+      <p>Data version 2026/2027 · last built 2026-10-01</p>
     </div>
   </div>
 </footer>
