@@ -11,6 +11,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import url from 'node:url';
+import { flagsCss, flagIcon } from './flags.mjs';
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -118,7 +119,7 @@ const levelWords = (u) => [u.bachelor_available && 'Bachelor', u.master_availabl
 const engWords = (u) => [u.english_bachelor && 'Bachelor', u.english_master && 'Master', u.english_phd && 'PhD'].filter(Boolean).join(', ');
 const fieldsOf = (u) => (u.study_fields || []).map((f) => f.toLowerCase()).join(',');
 const hasEnglish = (u) => !!(u.english_bachelor || u.english_master || u.english_phd);
-const flag = (cc) => cc.toUpperCase().replace(/./g, (ch) => String.fromCodePoint(127397 + ch.charCodeAt(0)));
+const flag = (cc, size = 'md') => flagIcon(cc.toUpperCase(), size);
 const SHORT_STATUS = {
   'Tuition-Free': '€0 tuition',
   'Tuition-Free + Mandatory Fees': '€0 + fees',
@@ -162,6 +163,7 @@ function layout({ title, description, depth, body, canonical, extraHead = '', ac
 <meta name="theme-color" content="#003399">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23003399'/%3E%3Ctext x='16' y='22' font-size='16' font-family='Arial' font-weight='bold' fill='%23ffcc00' text-anchor='middle'%3EEU%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="${p}assets/css/styles.css">
+<link rel="stylesheet" href="${p}assets/css/flags.css">
 ${extraHead}
 </head>
 <body>
@@ -232,14 +234,14 @@ const disclaimer = `<div class="disclaimer"><b>Always verify.</b> Tuition rules 
 function uniCard(u, depth) {
   const p = prefix(depth);
   const c = byCode.get(u.country_code);
-  return `<article class="uni-card card"
+  return `<article class="uni-card card cf-${u.country_code} flag-top"
     data-id="${u.id}" data-name="${esc((u.name + ' ' + u.country + ' ' + u.city).toLowerCase())}"
     data-city="${esc((u.city || '').toLowerCase())}" data-country="${u.country_code}"
     data-status="${esc(u.tuition_status)}" data-levels="${levelsOf(u)}"
     data-english="${hasEnglish(u) ? 1 : 0}" data-cost="${u.est_annual_mandatory_cost_eur == null ? '' : u.est_annual_mandatory_cost_eur}"
     data-fields="${esc(fieldsOf(u))}">
     <div class="uc-head">
-      <span class="uc-flag" aria-hidden="true">${flag(u.country_code)}</span>
+      <span class="uc-flag">${flag(u.country_code)}</span>
       <div class="uc-title">
         <h3><a href="${p}universities/${u.slug}/index.html">${esc(u.name)}</a></h3>
         <div class="meta">${esc(u.city)}, ${esc(u.country)} · ${esc(u.type)}</div>
@@ -268,7 +270,7 @@ function programCard(pr, depth) {
   const c = byCode.get(pr.country_code);
   const free = pr.tuition_status === 'Tuition-Free' || pr.tuition_status === 'Tuition-Free + Mandatory Fees';
   const cost = free ? 0 : (pr.tuition_status === 'Low Tuition' ? 2000 : '');
-  return `<article class="uni-card card"
+  return `<article class="uni-card card cf-${pr.country_code} flag-top"
     data-id="${pr.id}" data-name="${esc((pr.program_name + ' ' + pr.university + ' ' + pr.field + ' ' + pr.language).toLowerCase())}"
     data-city="" data-country="${pr.country_code}" data-status="${esc(pr.tuition_status)}"
     data-levels="${pr.degree_level === 'Bachelor' ? 'b' : pr.degree_level === 'Master' ? 'm' : 'p'}"
@@ -276,7 +278,7 @@ function programCard(pr, depth) {
     data-cost="${cost}" data-fields="${esc((pr.field || '').toLowerCase())}">
     <h3>${esc(pr.program_name)}</h3>
     <div class="meta">🎓 ${esc(pr.degree_level)} · ${esc(pr.language)} · ${pr.duration || '—'}${pr.ects ? ' · ' + pr.ects + ' ECTS' : ''}</div>
-    <div class="meta">${c ? esc(c.name) : ''} · <a href="${p}universities/${u.slug}/index.html">${esc(u.name)}</a></div>
+    <div class="meta">${c ? flag(c.code, 'sm') + ' ' + esc(c.name) : ''} · <a href="${p}universities/${u.slug}/index.html">${esc(u.name)}</a></div>
     <div class="badges">${statusBadge(pr.tuition_status)}<span class="badge b-plain">${esc(pr.field)}</span>${(pr.language || '').toLowerCase().indexOf('english') !== -1 ? '<span class="badge b-en">English-taught</span>' : ''}</div>
     <div class="cost-line"><span>Tuition (EU)</span><b>${esc(pr.tuition_eu)}</b></div>
     <div class="cost-line"><span>Mandatory fees</span><b>${esc(pr.mandatory_fees || 'Not yet verified')}</b></div>
@@ -288,12 +290,12 @@ function programCard(pr, depth) {
 function countryCard(c, depth) {
   const p = prefix(depth);
   const n = universities.filter((u) => u.country_code === c.code).length;
-  return `<article class="card">
+  return `<article class="card country-card cf-${c.code} flag-top">
     <div class="badges" style="margin-bottom:8px">
       ${statusBadge(c.tuition_status)}
       ${c.is_eu ? '<span class="badge b-plain">EU MEMBER</span>' : '<span class="badge b-plain">OTHER EUROPE</span>'}
     </div>
-    <h3 style="margin:4px 0"><a href="${p}countries/${c.slug}/index.html">${esc(c.name)}</a></h3>
+    <h3 class="cc-title">${flag(c.code, 'lg')}<a href="${p}countries/${c.slug}/index.html">${esc(c.name)}</a></h3>
     <p class="small muted" style="margin:6px 0">${esc(c.eu_tuition)}</p>
     <p class="small">${n} universit${n === 1 ? 'y' : 'ies'} in database · priority ${c.priority}</p>
   </article>`;
@@ -330,9 +332,9 @@ function buildHome() {
       ${nordicCountries.map((c) => {
         const list = universities.filter((u) => u.country_code === c.code);
         const english = list.filter((u) => u.english_bachelor || u.english_master || u.english_phd).length;
-        return `<article class="card country-feature">
+        return `<article class="card country-feature cf-${c.code} flag-top">
           <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-            <span style="font-size:1.6rem">${flag(c.code)}</span>
+            ${flag(c.code, 'lg')}
             <h3 style="margin:0"><a href="countries/${c.slug}/index.html">${esc(c.name)}</a></h3>
             ${statusBadge(c.tuition_status)}
           </div>
@@ -419,7 +421,7 @@ ${nordicBand}
       <p>All 27 EU member states, with the tuition policy for EU citizens. Universities are listed where EU citizens can study in English for free or for a low fee (up to ≈ $3,000 / €2,700 per year). Other EEA countries are listed separately below.</p>
     </div>
     <div class="cc-grid">
-      ${euCountries.map((c) => `<a class="cc" href="countries/${c.slug}/index.html"><span class="flag">${flag(c.code)}</span><span><span class="nm">${esc(c.name)}</span><br><span class="st">${esc(shortStatus(c.tuition_status))}</span></span></a>`).join('')}
+      ${euCountries.map((c) => `<a class="cc cf-${c.code}" href="countries/${c.slug}/index.html"><span class="flag">${flag(c.code, 'lg')}</span><span><span class="nm">${esc(c.name)}</span><br><span class="st">${esc(shortStatus(c.tuition_status))}</span></span></a>`).join('')}
     </div>
     <p style="margin-top:18px"><a class="btn" href="countries/index.html">All countries &amp; policies →</a></p>
   </div>
@@ -482,7 +484,7 @@ ${otherCountries.length ? `<section class="section" style="background:#fff;borde
 
 /* --------------------------------------------------- 2. universities index */
 function buildUniversitiesIndex() {
-  const opts = (list) => list.map((c) => `<option value="${c.code}">${esc(c.name)}${c.is_eu ? '' : ' (other)'}</option>`).join('');
+  const opts = (list) => list.map((c) => `<option value="${c.code}" data-slug="${c.slug}">${esc(c.name)}${c.is_eu ? '' : ' (other)'}</option>`).join('');
   const fieldSet = new Set(); universities.forEach((u) => (u.study_fields || []).forEach((f) => fieldSet.add(f)));
   const body = `
 <section class="section" style="padding-bottom:0">
@@ -523,6 +525,7 @@ function buildUniversitiesIndex() {
           <select id="sort"><option value="name">Name (A–Z)</option><option value="cost-asc">Estimated cost (low → high)</option><option value="cost-desc">Estimated cost (high → low)</option><option value="country">Country</option></select>
         </label>
       </div>
+      <div class="country-banner hidden" id="country-banner" data-prefix="../"></div>
       <div class="results" id="results">${writePartials('unis', chunkItems(universities, (u) => uniCard(u, 1)), 1)}</div>
       <div id="empty" class="empty hidden">No universities match these filters. Try widening them.</div>
       <div class="pagination"></div>
@@ -546,7 +549,8 @@ function buildUniversityPages() {
 <section class="section" style="padding-bottom:0">
   <div class="container">
     <div class="breadcrumb"><a href="../../index.html">Home</a> / <a href="../index.html">Universities</a> / ${esc(u.name)}</div>
-    <div class="page-header">
+    <div class="page-header country-hero cf-${u.country_code}">
+      <span class="country-hero-flag">${flag(u.country_code, 'xl')}</span>
       <div class="badges">
         ${statusBadge(u.tuition_status)}
         ${u.type === 'Public' ? '<span class="badge b-plain">Public university</span>' : '<span class="badge b-plain">Private</span>'}
@@ -700,10 +704,10 @@ function buildUniversitiesByCountry() {
   const sections = order.map((c) => {
     const list = universities.filter((u) => u.country_code === c.code);
     if (!list.length) return '';
-    return `<section class="section" id="${c.slug}" style="padding:22px 0;border-top:1px solid var(--line)">
+    return `<section class="section country-section cf-${c.code}" id="${c.slug}" style="padding:22px 0">
       <div class="container">
         <div class="section-head" style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
-          <h2 style="margin:0;font-size:1.3rem"><span style="font-size:1.5rem">${flag(c.code)}</span> ${esc(c.name)}</h2>
+          <h2 class="country-h2">${flag(c.code, 'lg')} ${esc(c.name)}</h2>
           ${statusBadge(c.tuition_status)}
           <span class="muted small">${list.length} universit${list.length === 1 ? 'y' : 'ies'}</span>
           <a class="btn" style="margin-left:auto" href="../../countries/${c.slug}/index.html">Country policy →</a>
@@ -713,7 +717,7 @@ function buildUniversitiesByCountry() {
     </section>`;
   }).filter(Boolean);
   const idx = order.filter((c) => universities.some((u) => u.country_code === c.code))
-    .map((c) => `<a class="cc" href="#${c.slug}"><span class="flag">${flag(c.code)}</span><span><span class="nm">${esc(c.name)}</span><br><span class="st">${universities.filter((u) => u.country_code === c.code).length} universities</span></span></a>`).join('');
+    .map((c) => `<a class="cc cf-${c.code}" href="#${c.slug}"><span class="flag">${flag(c.code, 'lg')}</span><span><span class="nm">${esc(c.name)}</span><br><span class="st">${universities.filter((u) => u.country_code === c.code).length} universities</span></span></a>`).join('');
   const body = `
 <section class="section" style="padding-bottom:0"><div class="container">
   <div class="breadcrumb"><a href="../../index.html">Home</a> / <a href="../index.html">Universities</a> / By country</div>
@@ -757,7 +761,8 @@ function buildCountryPages() {
     const body = `
 <section class="section" style="padding-bottom:0"><div class="container">
   <div class="breadcrumb"><a href="../../index.html">Home</a> / <a href="../index.html">Countries</a> / ${esc(c.name)}</div>
-  <div class="page-header">
+  <div class="page-header country-hero cf-${c.code}">
+    <span class="country-hero-flag">${flag(c.code, 'xl')}</span>
     <div class="badges">${statusBadge(c.tuition_status)}${c.is_eu ? '<span class="badge b-plain">EU MEMBER</span>' : '<span class="badge b-plain">OTHER EUROPEAN COUNTRY</span>'}</div>
     <h1>Tuition-Free Universities in ${esc(c.name)}</h1>
     ${['SE', 'DK', 'FI'].includes(c.code) ? '<p style="margin:6px 0 0"><span class="badge b-free">⭐ Nordic focus country</span></p>' : ''}
@@ -850,7 +855,7 @@ function buildProgramsIndex() {
   <aside class="filters" aria-label="Filters">
     <h3>Filters</h3>
     <div class="field"><label for="f-search">Search</label><input id="f-search" type="search" placeholder="Programme, university…"></div>
-    <div class="field"><label for="f-country">Country</label><select id="f-country"><option value="">All countries</option>${countries.map((c) => `<option value="${c.code}">${esc(c.name)}</option>`).join('')}</select></div>
+    <div class="field"><label for="f-country">Country</label><select id="f-country"><option value="">All countries</option>${countries.map((c) => `<option value="${c.code}" data-slug="${c.slug}">${esc(c.name)}</option>`).join('')}</select></div>
     <div class="field"><label for="f-level">Degree level</label><select id="f-level"><option value="">Any level</option><option value="b">Bachelor's</option><option value="m">Master's</option><option value="p">PhD</option></select></div>
     <div class="field"><label for="f-status">Tuition status</label><select id="f-status"><option value="">Any status</option>
       <option>Tuition-Free</option><option>Tuition-Free + Mandatory Fees</option><option>Conditional Tuition-Free</option><option>Low Tuition</option><option>Paid</option></select></div>
@@ -863,6 +868,7 @@ function buildProgramsIndex() {
     <div class="toolbar"><span class="count" id="result-count"></span>
       <label class="small">Sort <select id="sort"><option value="name">Name (A–Z)</option><option value="cost-asc">Cost (low → high)</option><option value="cost-desc">Cost (high → low)</option><option value="country">Country</option></select></label>
     </div>
+    <div class="country-banner hidden" id="country-banner" data-prefix="../"></div>
     <div class="results" id="results">${writePartials('progs', chunkItems(programs, (p) => programCard(p, 1)), 1)}</div>
     <div id="empty" class="empty hidden">No programmes match these filters.</div>
     <div class="pagination"></div>
@@ -1243,6 +1249,7 @@ ${urls.map((u) => `  <url><loc>${SITE}/${u}</loc></url>`).join('\n')}
 console.log('Building StudyFreeEU →', OUT);
 fs.mkdirSync(OUT, { recursive: true });
 copyDir(path.join(WEB, 'assets'), path.join(OUT, 'assets'));
+write('assets/css/flags.css', flagsCss());
 fs.mkdirSync(path.join(OUT, 'assets', 'data'), { recursive: true });
 // Only the small registry files are shipped as raw JSON. The two large datasets
 // (universities.json, programs.json) exceed this project's per-file deploy
