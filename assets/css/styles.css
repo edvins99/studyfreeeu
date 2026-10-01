@@ -458,3 +458,29 @@ main > .section:first-child:not(.hero){padding-top:28px}
 .country-banner .cb-actions a{border-color:var(--fa);color:var(--fa);background:#fff}
 .country-banner .cb-actions button{border:0;background:transparent;color:var(--muted);cursor:pointer;font:inherit;font-size:.85rem;padding:8px}
 .country-banner .cb-actions button:hover{color:var(--ink)}
+
+/* ---------- contact page ---------- */
+.contact-hero{position:relative;overflow:hidden;display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding:28px 26px 24px;border:1px solid color-mix(in srgb,var(--eu-blue) 25%,var(--line));border-radius:var(--radius);background:linear-gradient(120deg,var(--eu-blue-soft) 0%,#fff 65%)}
+.contact-hero::before{content:"";position:absolute;left:0;right:0;top:0;height:6px;background:linear-gradient(90deg,var(--eu-blue) 0 70%,var(--eu-gold) 70% 100%)}
+.contact-ico{width:58px;height:58px;border-radius:14px;background:var(--eu-blue);color:var(--eu-gold);display:grid;place-items:center;font-size:1.7rem;flex:none}
+.contact-main{min-width:0;flex:1 1 260px}
+.contact-label{display:block;font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.contact-email{display:inline-block;font-size:clamp(1.25rem,3vw,1.7rem);font-weight:800;letter-spacing:-.01em;color:var(--eu-blue);overflow-wrap:anywhere}
+.contact-actions{display:flex;gap:10px;flex-wrap:wrap}
+.contact-topic{display:flex;flex-direction:column;color:var(--ink);transition:border-color .18s,transform .18s,box-shadow .18s}
+.contact-topic:hover{text-decoration:none;border-color:var(--eu-blue);transform:translateY(-2px);box-shadow:var(--shadow)}
+.contact-topic h3{margin:0 0 6px;font-size:1.02rem}
+.contact-topic .go{margin-top:auto;padding-top:8px;font-weight:700;font-size:.88rem;color:var(--eu-blue)}
+.footer-mail{color:#fff;font-weight:600}
+.footer-mail:hover{color:var(--eu-gold)}
+@media(max-width:680px){.contact-hero{padding:24px 18px 18px}.contact-actions{width:100%}.contact-actions .btn{flex:1;justify-content:center;text-align:center}}
+
+/* header nav: keep one line on desktop, hamburger menu on narrower screens */
+.nav{flex-wrap:nowrap;gap:2px}
+.nav a{padding:8px 9px;font-size:.88rem;white-space:nowrap}
+@media(max-width:1120px){
+  .nav-toggle{display:flex}
+  .nav{display:none;position:absolute;left:12px;right:12px;top:64px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:8px;flex-direction:column;align-items:stretch;margin-left:0}
+  .nav.open{display:flex}
+  .nav a{padding:12px 12px;min-height:44px;font-size:.92rem}
+}
