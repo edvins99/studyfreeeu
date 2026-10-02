@@ -947,18 +947,43 @@ function buildProgramsIndex() {
 /* ------------------------------------------------------- 6. fields page */
 function buildFieldsPage() {
   const counts = new Map();
-  universities.forEach((u) => (u.study_fields || []).forEach((f) => counts.set(f, (counts.get(f) || 0) + 1)));
+  const byField = new Map();
+  universities.forEach((u) => (u.study_fields || []).forEach((f) => {
+    counts.set(f, (counts.get(f) || 0) + 1);
+    if (!byField.has(f)) byField.set(f, new Map());
+    const m = byField.get(f); m.set(u.country_code, (m.get(u.country_code) || 0) + 1);
+  }));
   const items = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  const main = items.filter(([, n]) => n >= 10);
+  const more = items.filter(([, n]) => n < 10);
+  const max = main.length ? main[0][1] : 1;
+  const ICON = { 'Natural Sciences': 'flask', 'Engineering': 'cog', 'Humanities': 'book', 'Social Sciences': 'users', 'Medicine': 'steth',
+    'Business': 'briefcase', 'Computer Science': 'laptop', 'Law': 'scale', 'Economics': 'chart', 'Health': 'heart', 'Education': 'cap',
+    'Architecture': 'landmark', 'Business & Economics': 'chart', 'Design': 'palette', 'Agriculture': 'leaf' };
+  const href = (f) => `../universities/index.html?field=${encodeURIComponent(f.toLowerCase())}`;
   const body = `
-<section class="section" style="padding-bottom:0"><div class="container">
+<section class="section page-hero" style="padding-bottom:0"><div class="container">
   <div class="breadcrumb"><a href="../index.html">Home</a> / Study Fields</div>
-  <div class="page-header" style="border:0;padding-bottom:0"><h1>Study fields</h1><p class="muted">Jump straight to the fields where EU citizens can study without tuition.</p></div>
-</div></section>
-<section class="section" style="padding-top:22px"><div class="container">
-  <div class="grid cols-3">
-    ${items.map(([f, n]) => `<a class="card" href="../universities/index.html?field=${encodeURIComponent(f.toLowerCase())}">
-      <h3>${esc(f)}</h3><p class="small muted">${n} universit${n === 1 ? 'y' : 'ies'} with this field</p></a>`).join('')}
+  <div class="page-header" style="border:0;padding-bottom:0">
+    <span class="kicker">${ic('layers')} ${main.length + more.length} fields</span>
+    <h1>Study fields</h1><p class="muted">Pick a field to see every university where EU citizens can study it with €0 or low tuition.</p>
   </div>
+</div></section>
+<section class="section" style="padding-top:26px"><div class="container">
+  <div class="field-grid">
+    ${main.map(([f, n], i) => {
+      const top = [...byField.get(f).entries()].sort((a, b) => b[1] - a[1]).slice(0, 4);
+      return `<a class="field-card" href="${href(f)}" style="--h:${(i * 37) % 360}">
+        <span class="fc-ico">${ic(ICON[f] || 'sparkles')}</span>
+        <h3>${esc(f)}</h3>
+        <div class="fc-count"><b>${n}</b> universit${n === 1 ? 'y' : 'ies'}</div>
+        <div class="fc-bar"><span style="width:${Math.max(6, Math.round((n / max) * 100))}%"></span></div>
+        <div class="fc-flags" title="Most universities in">${top.map(([cc]) => flag(cc, 'sm')).join('')}<span class="fc-go">${ic('arrow')}</span></div>
+      </a>`;
+    }).join('')}
+  </div>
+  ${more.length ? `<h2 class="sub-h" style="margin-top:44px">More specialised fields <span class="muted small">${more.length} fields offered at fewer universities</span></h2>
+  <div class="chip-cloud">${more.map(([f, n]) => `<a href="${href(f)}">${esc(f)} <span>${n}</span></a>`).join('')}</div>` : ''}
 </div></section>`;
   write('fields/index.html', layout({
     title: 'Study Fields — Tuition-Free Study in Europe | StudyFreeEU',
@@ -970,39 +995,54 @@ function buildFieldsPage() {
 /* ------------------------------------------------ 7. how it works + about */
 function buildStatic() {
   const hiw = `
-<section class="section" style="padding-bottom:0"><div class="container">
+<section class="section page-hero" style="padding-bottom:0"><div class="container">
   <div class="breadcrumb"><a href="../index.html">Home</a> / How It Works</div>
-  <div class="page-header" style="border:0;padding-bottom:0"><h1>How it works</h1><p class="muted">From homepage to a shortlist of suitable universities in under three clicks.</p></div>
+  <div class="page-header" style="border:0;padding-bottom:0">
+    <span class="kicker">${ic('sparkles')} Three steps</span>
+    <h1>How it works</h1><p class="muted">From the homepage to a shortlist of suitable universities in under three clicks.</p>
+  </div>
 </div></section>
-<section class="section" style="padding-top:22px"><div class="container">
-  <div class="grid cols-3">
-    <div class="card"><h3>1 · Pick a route</h3><p class="small">Use the homepage shortcuts: €0 tuition (fees only), English-taught &amp; €0 tuition, Master's, Bachelor's, or a specific field.</p></div>
-    <div class="card"><h3>2 · Filter the list</h3><p class="small">On the universities page, narrow by country, degree level, tuition status, English-taught and maximum estimated mandatory cost.</p></div>
-    <div class="card"><h3>3 · Compare &amp; save</h3><p class="small">Save favourites and compare up to four universities side by side on tuition, mandatory fees, English programmes, admissions and deadlines.</p></div>
-  </div>
-  <div class="panel" style="margin-top:24px">
+<section class="section" style="padding-top:26px"><div class="container">
+  <ol class="hiw-steps">
+    <li><span class="hs-n">1</span><span class="hs-ic">${ic('search')}</span><h3>Pick a route</h3><p>Use the homepage shortcuts: €0 tuition (fees only), English-taught &amp; €0 tuition, Master's, Bachelor's, or a specific field.</p></li>
+    <li><span class="hs-n">2</span><span class="hs-ic">${ic('filter')}</span><h3>Filter the list</h3><p>On the universities page, narrow by country, degree level, tuition status, English-taught and maximum estimated mandatory cost.</p></li>
+    <li><span class="hs-n">3</span><span class="hs-ic">${ic('compare')}</span><h3>Compare &amp; save</h3><p>Save favourites and compare up to four universities side by side on tuition, fees, English programmes, admissions and deadlines.</p></li>
+  </ol>
+
+  <div class="section-head" style="margin-top:64px">
+    <span class="kicker">${ic('layers')} Our classification</span>
     <h2>The seven tuition categories we use</h2>
-    <div class="table-wrap"><table><thead><tr><th>Category</th><th>What it means</th><th>In main database?</th></tr></thead><tbody>
-      <tr><td>1 · €0 tuition</td><td>No tuition at all.</td><td>Yes</td></tr>
-      <tr><td>2 · €0 tuition + mandatory fees</td><td>No tuition, but compulsory semester/union/administrative fees.</td><td>Yes</td></tr>
-      <tr><td>3 · Low tuition</td><td>Small, often capped or income-based tuition.</td><td>Listed, clearly flagged</td></tr>
-      <tr><td>4 · Conditional tuition-free</td><td>Free only under conditions (national language, study duration, study-place type).</td><td>Listed, clearly flagged</td></tr>
-      <tr><td>5 · Nationality/residency-limited</td><td>Free only for specific nationalities or residency categories.</td><td>Noted per record</td></tr>
-      <tr><td>6 · Level-limited</td><td>Free only at certain degree levels (e.g. PhD only).</td><td>Noted per record</td></tr>
-      <tr><td>7 · Scholarship-made affordable</td><td>A paid programme made effectively free by a scholarship.</td><td>Separate concept</td></tr>
-    </tbody></table></div>
+    <p>We never reduce a university to the word “free”. Every record falls into one of these categories.</p>
   </div>
-  <div class="grid cols-2" style="margin-top:24px">
-    <div class="card"><h3>Why not just say “FREE”?</h3><p class="small">Because it misleads. Every record shows tuition, then the mandatory semester fee, then an estimated mandatory university cost per year. A semester ticket is not free, and neither is an ÖH or CVEC charge.</p></div>
-    <div class="card"><h3>How we verify</h3><p class="small">Tuition claims are tied to official sources (university pages, national portals, ministries, the EU education portal). Records that are not yet verified are labelled <span class="pill-note">Needs Verification</span> and never presented as fact.</p></div>
+  <div class="cat-grid">
+    ${[
+      ['€0 tuition', 'No tuition at all.', 'Main database', 'free'],
+      ['€0 tuition + mandatory fees', 'No tuition, but compulsory semester, union or administrative fees.', 'Main database', 'free'],
+      ['Low tuition', 'Small, often capped or income-based tuition.', 'Listed, clearly flagged', 'low'],
+      ['Conditional tuition-free', 'Free only under conditions: national language, study duration or study-place type.', 'Listed, clearly flagged', 'cond'],
+      ['Nationality / residency-limited', 'Free only for specific nationalities or residency categories.', 'Noted per record', 'note'],
+      ['Level-limited', 'Free only at certain degree levels (e.g. PhD only).', 'Noted per record', 'note'],
+      ['Scholarship-made affordable', 'A paid programme made effectively free by a scholarship.', 'Separate concept', 'sep'],
+    ].map(([t, d, where, k], i) => `<div class="cat cat-${k}"><span class="cat-n">${i + 1}</span><h3>${t}</h3><p>${d}</p><span class="cat-where">${where}</span></div>`).join('')}
   </div>
-  <div class="panel" style="margin-top:24px">
+
+  <div class="tip-grid" style="margin-top:40px">
+    <div class="tip">${ic('receipt', 'tip-ic')}<div><h3>Why not just say “FREE”?</h3><p class="small">Because it misleads. Every record shows tuition, then the mandatory semester fee, then an estimated mandatory university cost per year. A semester ticket is not free, and neither is an ÖH or CVEC charge.</p></div></div>
+    <div class="tip">${ic('shield', 'tip-ic')}<div><h3>How we verify</h3><p class="small">Tuition claims are tied to official sources (university pages, national portals, ministries, the EU education portal). Records that are not yet verified are labelled <span class="pill-note">Needs Verification</span> and never presented as fact.</p></div></div>
+  </div>
+
+  <div class="section-head" style="margin-top:64px">
+    <span class="kicker">${ic('chat')} FAQ</span>
     <h2>Frequently asked questions</h2>
-    <h3>Is “tuition-free” really free?</h3><p class="small">No standard tuition — but you almost always pay a mandatory semester/student fee (e.g. a German Semesterbeitrag or the Austrian ÖH fee). Every record shows tuition, the mandatory fee and an estimated mandatory cost per year.</p>
-    <h3>Do EU citizens pay more than nationals?</h3><p class="small">Generally no — EU/EEA citizens are treated like nationals in the countries covered here, except where the rule is language- or study-place-based (e.g. Czechia, Poland, Slovakia, Estonia, Latvia, Lithuania, Croatia).</p>
-    <h3>Do I need a visa?</h3><p class="small">As an EU/EEA citizen you do not need a visa or residence permit to study in another EU/EEA country; you register locally after arrival.</p>
-    <h3>Are there English-taught options?</h3><p class="small">Yes — use the “English-taught only” filter and the “English-taught &amp; €0 tuition” preset on the programmes page.</p>
-    <h3>How current is the data?</h3><p class="small">Each record carries a “last verified” date and a verification status; the academic year in focus is 2026/2027. Always confirm on the official page before applying.</p>
+  </div>
+  <div class="faq">
+    ${[
+      ['Is “tuition-free” really free?', 'No standard tuition — but you almost always pay a mandatory semester/student fee (e.g. a German Semesterbeitrag or the Austrian ÖH fee). Every record shows tuition, the mandatory fee and an estimated mandatory cost per year.'],
+      ['Do EU citizens pay more than nationals?', 'Generally no — EU/EEA citizens are treated like nationals in the countries covered here, except where the rule is language- or study-place-based (e.g. Czechia, Poland, Slovakia, Estonia, Latvia, Lithuania, Croatia).'],
+      ['Do I need a visa?', 'As an EU/EEA citizen you do not need a visa or residence permit to study in another EU/EEA country; you register locally after arrival.'],
+      ['Are there English-taught options?', 'Yes — use the “English-taught only” filter and the “English-taught &amp; €0 tuition” preset on the programmes page.'],
+      ['How current is the data?', 'Each record carries a “last verified” date and a verification status; the academic year in focus is 2026/2027. Always confirm on the official page before applying.'],
+    ].map(([q, a], i) => `<details${i === 0 ? ' open' : ''}><summary>${q}<span class="faq-ic">${ic('chevron')}</span></summary><div class="faq-a"><p>${a}</p></div></details>`).join('')}
   </div>
   ${disclaimer}
 </div></section>`;
@@ -1243,15 +1283,34 @@ function buildGlossary() {
     ['Erasmus+', 'The EU programme supporting study, training and exchanges across European countries.'],
     ['Academic year 2026/2027', 'The academic year in focus in this database; some national sources still quote 2025/2026 until the authorities update them.']
   ];
+  const GROUP = { 'ECTS': 'Degrees', 'Bachelor / Master / PhD': 'Degrees', 'Academic year 2026/2027': 'Degrees', 'Erasmus+': 'Degrees', 'EEA': 'Eligibility',
+    'State-funded place': 'Eligibility', 'Conditional tuition-free': 'Eligibility', 'Semester fee (Semesterbeitrag)': 'Fees', 'Students’ union fee (ÖH fee)': 'Fees',
+    'CVEC': 'Fees', 'ISEE': 'Fees', 'Propina': 'Fees' };
+  const grp = (k) => GROUP[k] || 'Documents';
+  const GICON = { Degrees: 'cap', Eligibility: 'shield', Fees: 'euro', Documents: 'file' };
+  const groups = ['Fees', 'Eligibility', 'Documents', 'Degrees'];
   const body = `
-<section class="section" style="padding-bottom:0"><div class="container">
+<section class="section page-hero" style="padding-bottom:0"><div class="container">
   <div class="breadcrumb"><a href="../index.html">Home</a> / Glossary</div>
-  <div class="page-header" style="border:0;padding-bottom:0"><h1>Glossary</h1><p class="muted">Quick definitions of the terms you’ll meet when applying to a European university.</p></div>
+  <div class="page-header" style="border:0;padding-bottom:0">
+    <span class="kicker">${ic('book')} ${T.length} terms explained</span>
+    <h1>Glossary</h1><p class="muted">Quick definitions of the fees, documents and terms you’ll meet when applying to a European university.</p>
+  </div>
 </div></section>
-<section class="section" style="padding-top:22px"><div class="container">
-  <div class="table-wrap"><table><thead><tr><th style="width:220px">Term</th><th>Meaning</th></tr></thead><tbody>
-  ${T.map(([k, v]) => `<tr><th style="position:static;background:#fff">${esc(k)}</th><td>${esc(v)}</td></tr>`).join('')}
-  </tbody></table></div>
+<section class="section" style="padding-top:26px"><div class="container">
+  <div class="gloss-tools">
+    <div class="gloss-search">${ic('search')}<input id="gloss-q" type="search" placeholder="Search a term… e.g. ECTS, apostille, ÖH" aria-label="Search glossary"></div>
+    <div class="gloss-tabs" role="tablist">
+      <button type="button" class="is-on" data-g="">All <span>${T.length}</span></button>
+      ${groups.map((g) => `<button type="button" data-g="${g}">${ic(GICON[g])} ${g} <span>${T.filter(([k]) => grp(k) === g).length}</span></button>`).join('')}
+    </div>
+  </div>
+  <div class="gloss-grid" id="gloss-grid">
+    ${T.map(([k, v]) => `<article class="gloss-card" data-g="${grp(k)}" data-q="${esc((k + ' ' + v).toLowerCase())}">
+      <span class="gc-tag g-${grp(k).toLowerCase()}">${ic(GICON[grp(k)])} ${grp(k)}</span>
+      <h3>${esc(k)}</h3><p>${esc(v)}</p></article>`).join('')}
+  </div>
+  <div id="gloss-empty" class="empty hidden">No term matches your search.</div>
   ${disclaimer}
 </div></section>`;
   write('glossary/index.html', layout({
@@ -1264,24 +1323,50 @@ function buildGlossary() {
 /* ------------------------------------------------- 9b. deadlines page */
 function buildDeadlines() {
   const rows = [...countries].sort((a, b) => (a.is_eu === b.is_eu ? a.name.localeCompare(b.name) : (a.is_eu ? -1 : 1)));
+  const verified = universities.filter((u) => u.deadlines_verified).sort((a, b) => a.country.localeCompare(b.country) || a.name.localeCompare(b.name));
   const body = `
-<section class="section" style="padding-bottom:0"><div class="container">
+<section class="section page-hero" style="padding-bottom:0"><div class="container">
   <div class="breadcrumb"><a href="../index.html">Home</a> / Deadlines</div>
-  <div class="page-header" style="border:0;padding-bottom:0"><h1>Application &amp; document deadlines</h1>
-  <p class="muted">Typical application windows and document-submission rules for EU citizens, by country. Dates are typical for the <b>2026/2027</b> cycle — always confirm the exact date on the official admissions page.</p></div>
+  <div class="page-header" style="border:0;padding-bottom:0">
+    <span class="kicker">${ic('calendar')} Deadlines 2026/2027</span>
+    <h1>Application &amp; document deadlines</h1><p class="muted">Typical application windows and document rules for EU citizens in ${countries.length} countries, for the <b>2026/2027</b> cycle.</p>
+  </div>
 </div></section>
-<section class="section" style="padding-top:22px"><div class="container">
-  <div class="table-wrap"><table><thead><tr><th>Country</th><th>Applications open</th><th>Applications close</th><th>Documents</th><th></th></tr></thead><tbody>
-  ${rows.map((c) => `<tr><td><a href="../countries/${c.slug}/index.html">${flag(c.code)} ${esc(c.name)}</a></td><td>${esc(c.document_submission?.opens || '—')}</td><td>${esc(c.document_submission?.closes || '—')}</td><td>${esc(c.document_submission?.documents || '—')}</td><td><a href="../countries/${c.slug}/index.html">details →</a></td></tr>`).join('')}
-  </tbody></table></div>
-  <h2 style="font-size:1.2rem;margin-top:30px">Verified deadlines — selected universities</h2>
-  <p class="small muted" style="margin-top:-6px">Dates confirmed against the universities’ own pages (2026-09-22).</p>
-  <div class="table-wrap"><table><thead><tr><th>University</th><th>Country</th><th>Official dates</th><th>Status</th><th></th></tr></thead><tbody>
-  ${universities.filter((u) => u.deadlines_verified).sort((a, b) => a.country.localeCompare(b.country) || a.name.localeCompare(b.name)).map((u) => `<tr><td>${esc(u.name)}</td><td>${esc(u.country)}</td><td>${esc(u.deadlines_verified.window)}</td><td><span class="badge ${u.deadlines_verified.status === 'verified' ? 'b-free' : 'b-cond'}">${u.deadlines_verified.status === 'verified' ? 'VERIFIED' : 'PARTLY'}</span></td><td><a href="../universities/${u.slug}/index.html">details →</a></td></tr>`).join('')}
-  </tbody></table></div>
-  <div class="grid cols-2" style="margin-top:22px">
-    <div class="card"><h3>How to submit documents</h3><p class="small">Most countries require <b>certified copies</b> of your certificates and transcripts, often with <b>certified translations</b>; originals are checked at enrolment. Some require <b>legalisation/apostille</b> (e.g. Poland, Bulgaria) or a <b>recognition procedure</b> (e.g. Czechia, Slovakia, Romania, Spain, Italy).</p></div>
-    <div class="card"><h3>Don’t miss the window</h3><p class="small">EU/EEA applicants usually have a later deadline than non-EU applicants, but not always (e.g. Belgium, the Netherlands). Apply 4–6 weeks before the deadline if documents must be verified by a central service such as uni-assist.</p></div>
+<section class="section" style="padding-top:26px"><div class="container">
+  <div class="dl-tools">
+    <div class="gloss-search">${ic('search')}<input id="dl-q" type="search" placeholder="Find a country…" aria-label="Find a country"></div>
+    <span class="muted small">${ic('info')} Typical dates for EU/EEA applicants — always confirm on the official admissions page.</span>
+  </div>
+  <div class="dl-grid" id="dl-grid">
+    ${rows.map((c) => `<article class="dl-card cf-${c.code} flag-top" data-q="${esc(c.name.toLowerCase())}">
+      <header>${flag(c.code, 'lg')}<h3><a href="../countries/${c.slug}/index.html">${esc(c.name)}</a></h3>${c.is_eu ? '' : '<span class="badge b-plain">Other Europe</span>'}</header>
+      <div class="dl-dates">
+        <div class="dl-d open">${ic('calOpen')}<div><span>Applications open</span><b>${esc(c.document_submission?.opens || '—')}</b></div></div>
+        <div class="dl-d close">${ic('calClose')}<div><span>Applications close</span><b>${esc(c.document_submission?.closes || '—')}</b></div></div>
+      </div>
+      <p class="dl-docs">${ic('file')}<span>${esc(c.document_submission?.documents || 'See the country page for document rules.')}</span></p>
+      <a class="dl-more" href="../countries/${c.slug}/index.html">Country details ${ic('arrow')}</a>
+    </article>`).join('')}
+  </div>
+  <div id="dl-empty" class="empty hidden">No country matches your search.</div>
+
+  <div class="section-head" style="margin-top:56px">
+    <span class="kicker">${ic('shield')} Checked at the source</span>
+    <h2>Verified deadlines — selected universities</h2>
+    <p>Dates confirmed against the universities’ own pages (2026-09-22).</p>
+  </div>
+  <div class="vd-list">
+    ${verified.map((u) => `<a class="vd-row cf-${u.country_code}" href="../universities/${u.slug}/index.html">
+      ${flag(u.country_code, 'md')}
+      <span class="vd-name"><b>${esc(u.name)}</b><small>${esc(u.country)}</small></span>
+      <span class="vd-win">${ic('clock')} ${esc(u.deadlines_verified.window)}</span>
+      <span class="badge ${u.deadlines_verified.status === 'verified' ? 'b-free' : 'b-cond'}">${u.deadlines_verified.status === 'verified' ? 'Verified' : 'Partly verified'}</span>
+    </a>`).join('')}
+  </div>
+
+  <div class="tip-grid">
+    <div class="tip">${ic('file', 'tip-ic')}<div><h3>How to submit documents</h3><p class="small">Most countries require <b>certified copies</b> of your certificates and transcripts, often with <b>certified translations</b>; originals are checked at enrolment. Some require <b>legalisation/apostille</b> (e.g. Poland, Bulgaria) or a <b>recognition procedure</b> (e.g. Czechia, Slovakia, Romania, Spain, Italy).</p></div></div>
+    <div class="tip">${ic('clock', 'tip-ic')}<div><h3>Don’t miss the window</h3><p class="small">EU/EEA applicants usually have a later deadline than non-EU applicants, but not always (e.g. Belgium, the Netherlands). Apply 4–6 weeks before the deadline if documents must be verified by a central service such as uni-assist.</p></div></div>
   </div>
   ${disclaimer}
 </div></section>`;

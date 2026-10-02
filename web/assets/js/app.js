@@ -393,6 +393,79 @@
     });
   }
 
+
+  /* ---------- motion: reveal on scroll, counters, header shadow ---------- */
+  function initMotion() {
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var header = document.querySelector('.site-header');
+    if (header) {
+      var onScroll = function () { header.classList.toggle('scrolled', window.scrollY > 8); };
+      window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+    }
+    if (reduce || !('IntersectionObserver' in window)) return;
+    document.documentElement.classList.add('anim');
+    var sel = ['.section-head', '.tile', '.cc', '.country-feature', '.fee-card', '.how-list li', '.guides a', '.cta-inner',
+      '.field-card', '.chip-cloud', '.gloss-card', '.dl-card', '.vd-row', '.tip', '.hiw-steps li', '.cat', '.faq details',
+      '.panel', '.country-card', '.contact-hero', '.contact-topic', '.page-header', '.quick', '#nordic-focus .uni-card', '.section:not(.page-hero) .grid > .uni-card'].join(',');
+    var els = Array.prototype.slice.call(document.querySelectorAll(sel)).filter(function (el) { return !el.closest('#results') && !el.closest('.hero'); });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        e.target.classList.add('in'); io.unobserve(e.target);
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    els.forEach(function (el) {
+      var parent = el.parentElement, idx = 0;
+      if (parent) { var sib = Array.prototype.filter.call(parent.children, function (c) { return els.indexOf(c) !== -1; }); idx = sib.indexOf(el); }
+      el.style.setProperty('--rd', Math.min(idx, 8) * 0.06 + 's');
+      el.classList.add('rv'); io.observe(el);
+    });
+    // count-up numbers in the stats card
+    var nums = document.querySelectorAll('.stats-card b');
+    var cio = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return; cio.unobserve(e.target);
+        var el = e.target, txt = el.textContent, target = parseInt(txt.replace(/[^0-9]/g, ''), 10);
+        if (!target) return;
+        var t0 = performance.now(), dur = 1400;
+        (function tick(t) {
+          var k = Math.min(1, (t - t0) / dur), v = Math.round(target * (1 - Math.pow(1 - k, 3)));
+          el.textContent = v.toLocaleString('en-IE');
+          if (k < 1) requestAnimationFrame(tick); else el.textContent = txt;
+        })(t0);
+      });
+    }, { threshold: 0.4 });
+    nums.forEach(function (n) { cio.observe(n); });
+  }
+
+  /* ---------- glossary + deadlines search / tabs ---------- */
+  function initGlossary() {
+    var grid = document.getElementById('gloss-grid'); if (!grid) return;
+    var q = document.getElementById('gloss-q'), tabs = document.querySelectorAll('.gloss-tabs button'), group = '';
+    var cards = grid.querySelectorAll('.gloss-card'), empty = document.getElementById('gloss-empty');
+    function run() {
+      var term = (q.value || '').trim().toLowerCase(), shown = 0;
+      cards.forEach(function (c) {
+        var ok = (!group || c.getAttribute('data-g') === group) && (!term || c.getAttribute('data-q').indexOf(term) !== -1);
+        c.classList.toggle('hide', !ok); if (ok) { shown++; c.classList.add('in'); }
+      });
+      if (empty) empty.classList.toggle('hidden', shown !== 0);
+    }
+    q.addEventListener('input', run);
+    tabs.forEach(function (b) { b.addEventListener('click', function () {
+      tabs.forEach(function (x) { x.classList.remove('is-on'); }); b.classList.add('is-on'); group = b.getAttribute('data-g'); run();
+    }); });
+  }
+  function initDeadlines() {
+    var grid = document.getElementById('dl-grid'); if (!grid) return;
+    var q = document.getElementById('dl-q'), cards = grid.querySelectorAll('.dl-card'), empty = document.getElementById('dl-empty');
+    q.addEventListener('input', function () {
+      var term = q.value.trim().toLowerCase(), shown = 0;
+      cards.forEach(function (c) { var ok = !term || c.getAttribute('data-q').indexOf(term) !== -1; c.classList.toggle('hide', !ok); if (ok) { shown++; c.classList.add('in'); } });
+      if (empty) empty.classList.toggle('hidden', shown !== 0);
+    });
+  }
+
   /* ---------- contact: copy email address ---------- */
   function initCopyEmail() {
     document.querySelectorAll('.js-copy-email').forEach(function (b) {
@@ -406,6 +479,6 @@
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    initNav(); initHeroSearch(); initFavorites(); initCompare(); initListing(); initComparePage(); initAdmin(); initCopyEmail();
+    initNav(); initHeroSearch(); initFavorites(); initCompare(); initListing(); initComparePage(); initAdmin(); initCopyEmail(); initGlossary(); initDeadlines(); initMotion();
   });
 })();
