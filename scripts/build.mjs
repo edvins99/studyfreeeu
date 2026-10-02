@@ -12,6 +12,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import url from 'node:url';
 import { flagsCss, flagIcon } from './flags.mjs';
+import { ic, euStars } from './icons.mjs';
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -164,6 +165,7 @@ function layout({ title, description, depth, body, canonical, extraHead = '', ac
 <meta name="twitter:image" content="${SITE}/assets/img/og-image.jpg">
 <meta name="theme-color" content="#003399">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23003399'/%3E%3Ctext x='16' y='22' font-size='16' font-family='Arial' font-weight='bold' fill='%23ffcc00' text-anchor='middle'%3EEU%3C/text%3E%3C/svg%3E">
+<link rel="preload" href="${p}assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${p}assets/css/styles.css">
 <link rel="stylesheet" href="${p}assets/css/flags.css">
 ${extraHead}
@@ -171,7 +173,7 @@ ${extraHead}
 <body>
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="${p}index.html"><span class="brand-mark">EU</span>StudyFreeEU</a>
+    <a class="brand" href="${p}index.html"><span class="brand-mark">${euStars('bm-stars', 34, 7)}</span><span>Study<b>Free</b>EU</span></a>
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="nav" aria-label="Main">
       ${NAV.map(([label, href]) => `<a href="${p}${href}" class="${active === label ? 'active' : ''}">${label}</a>`).join('\n      ')}
@@ -193,9 +195,9 @@ ${body}
   <div class="container">
     <div class="footer-grid">
       <div>
-        <div class="brand" style="color:#fff"><span class="brand-mark">EU</span>StudyFreeEU</div>
+        <div class="brand" style="color:#fff"><span class="brand-mark">${euStars('bm-stars', 34, 7)}</span><span>Study<b>Free</b>EU</span></div>
         <p class="small" style="color:#9fb2da;margin-top:10px">An independent, source-backed directory of European universities and English-taught programmes where EU citizens can study without paying standard tuition fees.</p>
-        <p class="small" style="margin-top:10px"><a class="footer-mail" href="mailto:${CONTACT_EMAIL}">✉ ${CONTACT_EMAIL}</a></p>
+        <p class="small" style="margin-top:10px"><a class="footer-mail" href="mailto:${CONTACT_EMAIL}">${ic('mail')} ${CONTACT_EMAIL}</a></p>
       </div>
       <div><h4>Explore</h4><ul>
         <li><a href="${p}universities/index.html">Universities</a></li>
@@ -281,7 +283,7 @@ function programCard(pr, depth) {
     data-english="${(pr.language || '').toLowerCase().indexOf('english') !== -1 ? 1 : 0}"
     data-cost="${cost}" data-fields="${esc((pr.field || '').toLowerCase())}">
     <h3>${esc(pr.program_name)}</h3>
-    <div class="meta">🎓 ${esc(pr.degree_level)} · ${esc(pr.language)} · ${pr.duration || '—'}${pr.ects ? ' · ' + pr.ects + ' ECTS' : ''}</div>
+    <div class="meta">${ic('cap')} ${esc(pr.degree_level)} · ${esc(pr.language)} · ${pr.duration || '—'}${pr.ects ? ' · ' + pr.ects + ' ECTS' : ''}</div>
     <div class="meta">${c ? flag(c.code, 'sm') + ' ' + esc(c.name) : ''} · <a href="${p}universities/${u.slug}/index.html">${esc(u.name)}</a></div>
     <div class="badges">${statusBadge(pr.tuition_status)}<span class="badge b-plain">${esc(pr.field)}</span>${(pr.language || '').toLowerCase().indexOf('english') !== -1 ? '<span class="badge b-en">English-taught</span>' : ''}</div>
     <div class="cost-line"><span>Tuition (EU)</span><b>${esc(pr.tuition_eu)}</b></div>
@@ -309,174 +311,231 @@ function countryCard(c, depth) {
 function buildHome() {
   const euCountries = countries.filter((c) => c.is_eu);
   const otherCountries = countries.filter((c) => !c.is_eu);
-  const freeUnis = universities.filter((u) => u.tuition_status === 'Tuition-Free' || u.tuition_status === 'Tuition-Free + Mandatory Fees');
+  const isFree = (u) => u.tuition_status === 'Tuition-Free' || u.tuition_status === 'Tuition-Free + Mandatory Fees';
+  const freeUnis = universities.filter(isFree);
   const condUnis = universities.filter((u) => u.tuition_status === 'Conditional Tuition-Free');
-  const featured = freeUnis.slice(0, 6);
+  const countIn = (code) => universities.filter((u) => u.country_code === code).length;
+  const uniLabel = (code) => { const n = countIn(code); return n ? `${n} universit${n === 1 ? 'y' : 'ies'}` : 'Policy guide'; };
 
-  // ⭐ Nordic focus band (Sweden · Denmark · Finland) — reader request
+  // Nordic focus band (Sweden · Denmark · Finland) — reader request
   const nordicCountries = ['SE', 'DK', 'FI'].map((code) => byCode.get(code)).filter(Boolean);
   const pickBy = (code, re) => universities.find((u) => u.country_code === code && re.test(u.name));
   const nordicFeatured = [
-    pickBy('SE', /Lund University/),
-    pickBy('SE', /KTH/),
-    pickBy('DK', /University of Copenhagen$/),
-    pickBy('DK', /Copenhagen Business School/),
-    pickBy('FI', /Aalto/),
-    pickBy('FI', /University of Helsinki/),
+    pickBy('SE', /Lund University/), pickBy('SE', /KTH/),
+    pickBy('DK', /University of Copenhagen$/), pickBy('DK', /Copenhagen Business School/),
+    pickBy('FI', /Aalto/), pickBy('FI', /University of Helsinki/),
   ].filter(Boolean);
+
+  // Featured: one €0-tuition university per country (round-robin), outside the Nordic band
+  const featured = [];
+  const seen = new Set(nordicFeatured.map((u) => u.id));
+  const nordic = new Set(['SE', 'DK', 'FI']);
+  const byCountry = new Map();
+  for (const u of freeUnis) {
+    if (seen.has(u.id) || nordic.has(u.country_code)) continue;
+    if (!byCountry.has(u.country_code)) byCountry.set(u.country_code, []);
+    byCountry.get(u.country_code).push(u);
+  }
+  const score = (u) => (hasEnglish(u) ? 2 : 0) + (u.est_annual_mandatory_cost_eur != null ? 1 : 0);
+  for (const list of byCountry.values()) list.sort((a, b) => score(b) - score(a));
+  const order = [...byCountry.keys()].sort((a, b) => (byCode.get(a)?.priority ?? 99) - (byCode.get(b)?.priority ?? 99));
+  for (let round = 0; featured.length < 6 && round < 5; round++) {
+    for (const code of order) { const u = byCountry.get(code)[round]; if (u && featured.length < 6) featured.push(u); }
+  }
+
+  // Hero panel: most popular countries
+  const heroCountries = ['DE', 'SE', 'FI', 'DK', 'AT', 'NO'].map((code) => byCode.get(code)).filter(Boolean);
+  const feeExample = universities.find((u) => u.slug === 'university-of-munster') ||
+    universities.find((u) => u.country_code === 'DE' && u.est_annual_mandatory_cost_eur);
+
   const nordicBand = `
-<section class="section" id="nordic-focus" style="padding-bottom:0">
+<section class="section" id="nordic-focus">
   <div class="container">
-    <div class="section-head" style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
-      <h2 style="margin:0">⭐ Nordic focus: Sweden · Denmark · Finland</h2>
-      <span class="badge b-free">Readers' favourite</span>
+    <div class="section-head split">
+      <div>
+        <span class="kicker">${ic('star')} Readers' favourite</span>
+        <h2>Nordic focus: Sweden, Denmark &amp; Finland</h2>
+        <p>The three most-requested countries in our inbox: tuition-free public universities for EU citizens with a wide choice of English-taught programmes.</p>
+      </div>
     </div>
-    <p class="muted" style="margin:4px 0 14px">The three most-requested countries in our inbox: tuition-free public universities for EU citizens with a wide choice of English-taught programmes.</p>
     <div class="grid cols-3">
       ${nordicCountries.map((c) => {
         const list = universities.filter((u) => u.country_code === c.code);
-        const english = list.filter((u) => u.english_bachelor || u.english_master || u.english_phd).length;
+        const english = list.filter(hasEnglish).length;
         return `<article class="card country-feature cf-${c.code} flag-top">
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+          <div class="cf-head">
             ${flag(c.code, 'lg')}
-            <h3 style="margin:0"><a href="countries/${c.slug}/index.html">${esc(c.name)}</a></h3>
+            <h3><a href="countries/${c.slug}/index.html">${esc(c.name)}</a></h3>
             ${statusBadge(c.tuition_status)}
           </div>
-          <p class="small" style="margin:10px 0 4px"><b>${list.length}</b> universities · <b>${english}</b> with English-taught programmes</p>
-          <p class="small muted" style="margin:0">${esc(c.eu_tuition)}${c.mandatory_fee_estimate_eur_year ? ' Mandatory fees ≈ ' + money(c.mandatory_fee_estimate_eur_year) + '/year.' : ' No significant mandatory fees.'}</p>
-          <p style="margin:12px 0 0;display:flex;gap:8px;flex-wrap:wrap">
+          <div class="cf-stats">
+            <div><b>${list.length}</b><span>universities</span></div>
+            <div><b>${english}</b><span>in English</span></div>
+            <div><b>${c.mandatory_fee_estimate_eur_year ? money(c.mandatory_fee_estimate_eur_year) : '€0'}</b><span>fees / year</span></div>
+          </div>
+          <p class="small muted">${esc(c.eu_tuition)}</p>
+          <div class="cf-actions">
             <a class="btn primary" href="universities/index.html?country=${c.code}">Universities</a>
             <a class="btn" href="programs/index.html?country=${c.code}&amp;eng=1">English programmes</a>
-          </p>
+          </div>
         </article>`;
       }).join('')}
     </div>
-    <div class="grid cols-3" style="margin-top:14px">${nordicFeatured.map((u) => uniCard(u, 0)).join('')}</div>
-    <p class="small muted" style="margin-top:12px">Also popular with our readers: <a href="universities/index.html?country=DE">Germany</a> (€0 tuition + semester fees), <a href="universities/index.html?country=NO">Norway</a> and <a href="universities/index.html?country=AT">Austria</a>.</p>
+    <div class="grid cols-3" style="margin-top:16px">${nordicFeatured.map((u) => uniCard(u, 0)).join('')}</div>
+    <p class="small muted" style="margin-top:14px">Also popular with our readers: <a href="universities/index.html?country=DE">Germany</a> (€0 tuition + semester fees), <a href="universities/index.html?country=NO">Norway</a> and <a href="universities/index.html?country=AT">Austria</a>.</p>
   </div>
 </section>`;
+
   const body = `
 <section class="hero">
-  <div class="container">
-    <span class="eyebrow">For EU citizens · English-taught degrees</span>
-    <h1>Study in Europe for free <span class="h1-soft">or almost free.</span></h1>
-    <p class="sub">Universities where EU citizens can earn an English-taught degree with €0 tuition or a low fee of up to ≈ $3,000 a year — with every mandatory fee shown upfront.</p>
-    <div class="search-cta">
-      <input id="hero-search" type="search" placeholder="Search a university, country, city or programme…" aria-label="Search" data-prefix="">
-      <button id="hero-search-btn" type="button">Search</button>
+  ${euStars('hero-stars')}
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">For EU citizens · English-taught degrees</span>
+      <h1>Study in Europe for free <span class="h1-soft">or almost free.</span></h1>
+      <p class="sub">Universities where EU citizens can earn an English-taught degree with €0 tuition or a low fee of up to ≈ $3,000 a year — with every mandatory fee shown upfront.</p>
+      <div class="search-cta">
+        ${ic('search', 'search-ic')}
+        <input id="hero-search" type="search" placeholder="Search a university, country, city or programme…" aria-label="Search" data-prefix="">
+        <button id="hero-search-btn" type="button">Search</button>
+      </div>
+      <ul class="hero-trust">
+        <li>${ic('shield')} Official sources</li>
+        <li>${ic('receipt')} Every fee shown</li>
+        <li>${ic('check')} No account needed</li>
+      </ul>
     </div>
-    <div class="hero-stats">
-      <div class="stat"><b>${universities.length}</b><span>universities mapped</span></div>
-      <div class="stat"><b>${programs.length}</b><span>programme entries</span></div>
-      <div class="stat"><b>${euCountries.length}</b><span>EU countries covered</span></div>
-      <div class="stat"><b>${freeUnis.length + condUnis.length}</b><span>with €0 tuition</span></div>
-      <div class="stat"><b>${universities.filter((u) => u.tuition_status === 'Low Tuition').length}</b><span>with low tuition</span></div>
-    </div>
+    <aside class="hero-panel" aria-label="Popular countries">
+      <div class="hp-head"><span>Popular countries</span><a href="countries/index.html">All ${countries.length} →</a></div>
+      <ul class="hp-list">
+        ${heroCountries.map((c) => `<li><a class="cf-${c.code}" href="countries/${c.slug}/index.html">${flag(c.code, 'lg')}<span class="hp-name">${esc(c.name)}<small>${uniLabel(c.code)}</small></span>${statusBadge(c.tuition_status)}</a></li>`).join('')}
+      </ul>
+    </aside>
   </div>
 </section>
 
-<section class="section" style="padding-top:26px;padding-bottom:0">
+<section class="stats-wrap">
   <div class="container">
-    <div class="pill-nav">
-      <a href="#nordic-focus">⭐ Nordic focus</a>
-      <a href="universities/index.html">🔎 All universities</a>
-      <a href="universities/index.html?status=Tuition-Free%20%2B%20Mandatory%20Fees">🟦 €0 tuition + fees</a>
-      <a href="programs/index.html?eng=1&amp;maxcost=0">🇬🇧 English-taught &amp; €0</a>
-      <a href="universities/index.html?level=b">🎓 Bachelor's</a>
-      <a href="universities/index.html?level=m">🎓 Master's</a>
-      <a href="universities/index.html?field=computer%20science">💻 Computer Science</a>
-      <a href="countries/index.html">🌍 Countries</a>
-      <a href="compare/index.html">⇄ Compare</a>
+    <div class="stats-card">
+      <div class="stat">${ic('landmark')}<div><b>${universities.length}</b><span>universities mapped</span></div></div>
+      <div class="stat">${ic('book')}<div><b>${programs.length.toLocaleString('en-IE')}</b><span>programme entries</span></div></div>
+      <div class="stat">${ic('globe')}<div><b>${euCountries.length}</b><span>EU countries covered</span></div></div>
+      <div class="stat">${ic('euro')}<div><b>${freeUnis.length + condUnis.length}</b><span>with €0 tuition</span></div></div>
+      <div class="stat">${ic('sparkles')}<div><b>${universities.filter((u) => u.tuition_status === 'Low Tuition').length}</b><span>with low tuition</span></div></div>
+    </div>
+    <div class="quick">
+      <span class="quick-label">Popular searches</span>
+      <div class="pill-nav">
+        <a href="#nordic-focus">${ic('star')} Nordic focus</a>
+        <a href="universities/index.html?status=Tuition-Free%20%2B%20Mandatory%20Fees">${ic('euro')} €0 tuition + fees</a>
+        <a href="programs/index.html?eng=1&amp;maxcost=0">${ic('lang')} English-taught &amp; €0</a>
+        <a href="universities/index.html?level=b">${ic('cap')} Bachelor's</a>
+        <a href="universities/index.html?level=m">${ic('cap')} Master's</a>
+        <a href="universities/index.html?field=computer%20science">${ic('laptop')} Computer Science</a>
+        <a href="compare/index.html">${ic('compare')} Compare</a>
+      </div>
     </div>
   </div>
 </section>
 
 ${nordicBand}
 
-<section class="section">
+<section class="section alt">
   <div class="container">
     <div class="section-head">
-      <h2>Start here</h2>
-      <p>Three fast routes from the homepage to a shortlist — no account, no clutter.</p>
+      <span class="kicker">${ic('arrow')} Start here</span>
+      <h2>Three fast routes to a shortlist</h2>
+      <p>No account, no clutter — pick how you want to search.</p>
     </div>
     <div class="tiles">
-      <a class="tile" href="universities/index.html"><span class="ico">🎓</span><h3>Find a university</h3><p>Search ${universities.length} universities by country, degree level, tuition status and estimated mandatory cost.</p><span class="go">Browse universities →</span></a>
-      <a class="tile" href="programs/index.html"><span class="ico">📚</span><h3>Find a programme</h3><p>Filter programmes — including the “English-taught &amp; €0 tuition” set — by field, level and cost.</p><span class="go">Browse programmes →</span></a>
-      <a class="tile" href="compare/index.html"><span class="ico">⇄</span><h3>Compare &amp; shortlist</h3><p>Save favourites and compare up to four universities on tuition, fees, admissions and deadlines.</p><span class="go">Open comparison →</span></a>
+      <a class="tile" href="universities/index.html"><span class="ico">${ic('landmark')}</span><h3>Find a university</h3><p>Search ${universities.length} universities by country, degree level, tuition status and estimated mandatory cost.</p><span class="go">Browse universities ${ic('arrow')}</span></a>
+      <a class="tile" href="programs/index.html"><span class="ico">${ic('book')}</span><h3>Find a programme</h3><p>Filter programmes — including the “English-taught &amp; €0 tuition” set — by field, level and cost.</p><span class="go">Browse programmes ${ic('arrow')}</span></a>
+      <a class="tile" href="compare/index.html"><span class="ico">${ic('compare')}</span><h3>Compare &amp; shortlist</h3><p>Save favourites and compare up to four universities on tuition, fees, admissions and deadlines.</p><span class="go">Open comparison ${ic('arrow')}</span></a>
     </div>
   </div>
 </section>
 
-<section class="section" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+<section class="section">
   <div class="container">
-    <div class="section-head">
-      <h2>Featured: €0 tuition for EU citizens</h2>
-      <p>Every entry below is backed by an official source. Fees shown are <b>estimated mandatory university cost</b>, not full cost of living.</p>
+    <div class="section-head split">
+      <div>
+        <span class="kicker">${ic('euro')} Featured</span>
+        <h2>€0 tuition for EU citizens</h2>
+        <p>A pick from across Europe. Every entry is backed by an official source; fees shown are the <b>estimated mandatory university cost</b>, not living costs.</p>
+      </div>
+      <a class="btn" href="universities/index.html">Browse all ${universities.length} ${ic('arrow')}</a>
     </div>
     <div class="grid cols-3">${featured.map((u) => uniCard(u, 0)).join('')}</div>
-    <p style="margin-top:20px"><a class="btn primary" href="universities/index.html">Browse all ${universities.length} universities →</a></p>
   </div>
 </section>
 
-<section class="section alt">
+<section class="section alt" id="countries">
   <div class="container">
-    <div class="section-head">
-      <h2>Browse by country</h2>
-      <p>All 27 EU member states, with the tuition policy for EU citizens. Universities are listed where EU citizens can study in English for free or for a low fee (up to ≈ $3,000 / €2,700 per year). Other EEA countries are listed separately below.</p>
+    <div class="section-head split">
+      <div>
+        <span class="kicker">${ic('globe')} Browse by country</span>
+        <h2>All 27 EU member states</h2>
+        <p>Tuition policy for EU citizens at a glance. Universities are listed where you can study in English for free or for a low fee (up to ≈ $3,000 / €2,700 per year).</p>
+      </div>
+      <a class="btn" href="countries/index.html">All countries &amp; policies ${ic('arrow')}</a>
     </div>
     <div class="cc-grid">
-      ${euCountries.map((c) => `<a class="cc cf-${c.code}" href="countries/${c.slug}/index.html"><span class="flag">${flag(c.code, 'lg')}</span><span><span class="nm">${esc(c.name)}</span><br><span class="st">${esc(shortStatus(c.tuition_status))}</span></span></a>`).join('')}
+      ${euCountries.map((c) => `<a class="cc cf-${c.code}" href="countries/${c.slug}/index.html"><span class="flag">${flag(c.code, 'lg')}</span><span><span class="nm">${esc(c.name)}</span><br><span class="st">${esc(shortStatus(c.tuition_status))} · ${uniLabel(c.code)}</span></span></a>`).join('')}
     </div>
-    <p style="margin-top:18px"><a class="btn" href="countries/index.html">All countries &amp; policies →</a></p>
+    ${otherCountries.length ? `
+    <h3 class="sub-h">Other European countries <span class="muted small">EEA &amp; close partners, kept separate from EU member states</span></h3>
+    <div class="cc-grid">
+      ${otherCountries.map((c) => `<a class="cc cf-${c.code}" href="countries/${c.slug}/index.html"><span class="flag">${flag(c.code, 'lg')}</span><span><span class="nm">${esc(c.name)}</span><br><span class="st">${esc(shortStatus(c.tuition_status))} · ${uniLabel(c.code)}</span></span></a>`).join('')}
+    </div>` : ''}
   </div>
 </section>
 
-${otherCountries.length ? `<section class="section" style="background:#fff;border-top:1px solid var(--line)">
-  <div class="container">
-    <div class="section-head"><h2>Other European countries</h2><p>Non-EU countries in the EEA or with close EU ties that also offer tuition-free or highly subsidised study. Kept separate from EU member states.</p></div>
-    <div class="grid cols-4">${otherCountries.map((c) => countryCard(c, 0)).join('')}</div>
-  </div>
-</section>` : ''}
-
 <section class="section">
-  <div class="container">
-    <div class="section-head">
-      <h2>How it works</h2>
-      <p>From homepage to a shortlist in under three clicks.</p>
+  <div class="container honest">
+    <div>
+      <span class="kicker">${ic('shield')} Honest numbers</span>
+      <h2>We never just say “FREE”</h2>
+      <p class="muted">“Tuition-free” rarely means you pay nothing. Every record shows <b>tuition</b>, then the <b>mandatory semester fee</b>, then an <b>estimated mandatory university cost per year</b> — plus admission requirements and deadlines.</p>
+      <ol class="how-list">
+        <li><span>1</span><div><b>Pick a route</b><p>€0 tuition, English-taught &amp; €0, Master's, Bachelor's or a specific field.</p></div></li>
+        <li><span>2</span><div><b>Filter the list</b><p>By country, degree level, tuition status, language and maximum mandatory cost.</p></div></li>
+        <li><span>3</span><div><b>Compare &amp; save</b><p>Shortlist favourites and compare up to four universities side by side.</p></div></li>
+      </ol>
+      <p><a href="how-it-works/index.html">How we classify tuition ${ic('arrow')}</a></p>
     </div>
-    <div class="steps">
-      <div class="step"><span class="n">1</span><h3>Pick a route</h3><p>Use the shortcuts above: €0 tuition, English-taught &amp; €0, Master's, Bachelor's or a specific field.</p></div>
-      <div class="step"><span class="n">2</span><h3>Filter the list</h3><p>Narrow by country, degree level, tuition status, English-taught and maximum estimated mandatory cost.</p></div>
-      <div class="step"><span class="n">3</span><h3>Compare &amp; save</h3><p>Save favourites and compare up to four universities on tuition, fees, admissions and deadlines.</p></div>
-    </div>
+    ${feeExample ? `<div class="fee-card cf-${feeExample.country_code} flag-top">
+      <div class="fee-top">${flag(feeExample.country_code, 'lg')}<div><span class="muted small">Example record</span><h3><a href="universities/${feeExample.slug}/index.html">${esc(feeExample.name)}</a></h3></div></div>
+      <div class="fee-row"><span>Tuition (EU citizens)</span><b class="ok">${esc(feeExample.tuition_eu)}</b></div>
+      <div class="fee-row"><span>Mandatory semester fee</span><b>${esc(feeExample.mandatory_semester_fee || 'Not yet verified')}</b></div>
+      <div class="fee-row total"><span>Est. mandatory cost / year</span><b>${money(feeExample.est_annual_mandatory_cost_eur)}</b></div>
+      <p class="small muted" style="margin:12px 0 0">Mandatory university cost only — living costs are shown separately on each country page.</p>
+    </div>` : ''}
   </div>
 </section>
 
 <section class="section alt">
   <div class="container">
-    <div class="grid cols-2">
-      <div class="card"><h3>What “tuition-free” really means</h3>
-        <p class="small">We distinguish seven situations: <b>€0 tuition</b>; <b>€0 tuition + mandatory fees</b>; <b>low tuition</b>; <b>conditional</b> (e.g. free only in the national language or within the regular duration); <b>nationality/residency-limited</b>; <b>level-limited</b>; and <b>scholarship-made-affordable</b>. The main database focuses on the first two.</p>
-      </div>
-      <div class="card"><h3>Read a record the right way</h3>
-        <p class="small">We never show just “FREE”. Every record shows <b>tuition</b>, then the <b>mandatory semester fee</b>, then an <b>estimated mandatory university cost per year</b> — plus admission requirements and deadlines.</p>
-      </div>
+    <div class="section-head"><span class="kicker">${ic('book')} Guides</span><h2>Popular guides</h2></div>
+    <div class="guides">
+      <a href="tuition-free-universities-for-eu-students/index.html">${ic('landmark')} Tuition-free universities for EU students <span class="arw">${ic('arrow')}</span></a>
+      <a href="english-taught-tuition-free-masters/index.html">${ic('cap')} English-taught tuition-free Master's <span class="arw">${ic('arrow')}</span></a>
+      <a href="english-taught-tuition-free-bachelors/index.html">${ic('cap')} English-taught tuition-free Bachelor's <span class="arw">${ic('arrow')}</span></a>
+      <a href="free-computer-science-degrees-europe/index.html">${ic('laptop')} Free Computer Science degrees <span class="arw">${ic('arrow')}</span></a>
+      <a href="free-engineering-degrees-europe/index.html">${ic('layers')} Free Engineering degrees <span class="arw">${ic('arrow')}</span></a>
+      <a href="tuition-free-phd-in-europe/index.html">${ic('sparkles')} Tuition-free PhD in Europe <span class="arw">${ic('arrow')}</span></a>
     </div>
+    ${disclaimer}
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="section-head"><h2>Popular guides</h2><p>Hand-picked starting points.</p></div>
-    <div class="guides">
-      <a href="tuition-free-universities-for-eu-students/index.html">Tuition-free universities for EU students <span class="arw">→</span></a>
-      <a href="english-taught-tuition-free-masters/index.html">English-taught tuition-free Master's <span class="arw">→</span></a>
-      <a href="english-taught-tuition-free-bachelors/index.html">English-taught tuition-free Bachelor's <span class="arw">→</span></a>
-      <a href="free-computer-science-degrees-europe/index.html">Free Computer Science degrees <span class="arw">→</span></a>
-      <a href="free-engineering-degrees-europe/index.html">Free Engineering degrees <span class="arw">→</span></a>
-      <a href="how-it-works/index.html">How it works <span class="arw">→</span></a>
+<section class="cta-band">
+  ${euStars('cta-stars')}
+  <div class="container cta-inner">
+    <div>
+      <h2>Found a mistake or missing university?</h2>
+      <p>Tuition rules change every year. Tell us and we'll check it against the official source.</p>
     </div>
-    ${disclaimer}
+    <a class="btn gold" href="contact/index.html">${ic('mail')} Contact us</a>
   </div>
 </section>`;
   write('index.html', layout({
@@ -496,9 +555,9 @@ function buildUniversitiesIndex() {
     <div class="breadcrumb"><a href="../index.html">Home</a> / Universities</div>
     <div class="page-header" style="border:0;padding-bottom:0">
       <h1>Universities</h1>
-      <p class="small" style="margin:6px 0 0">⭐ <b>Nordic focus:</b> <a href="?country=SE">Sweden</a> · <a href="?country=DK">Denmark</a> · <a href="?country=FI">Finland</a></p>
+      <p class="small nordic-line" style="margin:6px 0 0">${ic('star')} <b>Nordic focus:</b> <a href="?country=SE">Sweden</a> · <a href="?country=DK">Denmark</a> · <a href="?country=FI">Finland</a></p>
       <p class="muted">${universities.length} universities across Europe. Filter by tuition status, degree level, language and estimated mandatory cost.</p>
-      <p><a class="btn" href="by-country/index.html">🌍 Grouped by country →</a></p>
+      <p><a class="btn" href="by-country/index.html">${ic('globe')} Grouped by country ${ic('arrow')}</a></p>
     </div>
   </div>
 </section>
@@ -749,7 +808,7 @@ function buildCountryPages() {
 </div></section>
 <section class="section" style="padding-top:22px"><div class="container">
   <h2 style="font-size:1.2rem">EU member states</h2>
-  <p class="small" style="margin:6px 0 12px">⭐ <b>Nordic focus:</b> <a href="sweden/index.html">Sweden</a> · <a href="denmark/index.html">Denmark</a> · <a href="finland/index.html">Finland</a></p>
+  <p class="small nordic-line" style="margin:6px 0 12px">${ic('star')} <b>Nordic focus:</b> <a href="sweden/index.html">Sweden</a> · <a href="denmark/index.html">Denmark</a> · <a href="finland/index.html">Finland</a></p>
   <div class="grid cols-4" style="margin-bottom:32px">${sorted.filter((c) => c.is_eu).map((c) => countryCard(c, 1)).join('')}</div>
   <h2 style="font-size:1.2rem">Other European countries</h2>
   <div class="grid cols-4">${sorted.filter((c) => !c.is_eu).map((c) => countryCard(c, 1)).join('')}</div>
@@ -769,7 +828,7 @@ function buildCountryPages() {
     <span class="country-hero-flag">${flag(c.code, 'xl')}</span>
     <div class="badges">${statusBadge(c.tuition_status)}${c.is_eu ? '<span class="badge b-plain">EU MEMBER</span>' : '<span class="badge b-plain">OTHER EUROPEAN COUNTRY</span>'}</div>
     <h1>Tuition-Free Universities in ${esc(c.name)}</h1>
-    ${['SE', 'DK', 'FI'].includes(c.code) ? '<p style="margin:6px 0 0"><span class="badge b-free">⭐ Nordic focus country</span></p>' : ''}
+    ${['SE', 'DK', 'FI'].includes(c.code) ? '<p style="margin:6px 0 0"><span class="badge b-free">★ Nordic focus country</span></p>' : ''}
     <p class="muted">${esc(c.eu_tuition)}</p>
   </div>
 </div></section>
@@ -852,7 +911,7 @@ function buildProgramsIndex() {
   <div class="page-header" style="border:0;padding-bottom:0">
     <h1>Degree programs</h1>
     <p class="muted">${programs.length} programme entries. Use the <b>English-taught &amp; €0 tuition</b> filter to find exactly where EU citizens can study in English without tuition.</p>
-    <p><a class="btn primary" href="index.html?eng=1&amp;maxcost=0">★ English-taught programs with €0 tuition</a></p>
+    <p><a class="btn primary" href="index.html?eng=1&amp;maxcost=0">${ic('lang')} English-taught programs with €0 tuition</a></p>
   </div>
 </div></section>
 <section class="section" style="padding-top:22px"><div class="container layout">
@@ -1262,7 +1321,7 @@ function buildContact() {
 </div></section>
 <section class="section" style="padding-top:22px"><div class="container">
   <div class="contact-hero">
-    <div class="contact-ico" aria-hidden="true">✉</div>
+    <div class="contact-ico">${ic('mail')}</div>
     <div class="contact-main">
       <span class="contact-label">Email</span>
       <a class="contact-email" href="mailto:${mail}">${mail}</a>
@@ -1276,9 +1335,9 @@ function buildContact() {
 
   <h2 style="font-size:1.2rem;margin:30px 0 12px">What you can write to us about</h2>
   <div class="grid cols-3">
-    <a class="card contact-topic" href="${subj('Data correction')}"><h3>✏️ Report a correction</h3><p class="small muted">A fee, deadline or tuition rule has changed? Send the university name and a link to the official source.</p><span class="go">Email a correction →</span></a>
-    <a class="card contact-topic" href="${subj('University suggestion')}"><h3>🎓 Suggest a university</h3><p class="small muted">Know a university with €0 or low tuition for EU citizens and English-taught degrees that we have not listed yet?</p><span class="go">Suggest a university →</span></a>
-    <a class="card contact-topic" href="${subj('Question / feedback')}"><h3>💬 Questions &amp; feedback</h3><p class="small muted">Ideas for the site, partnership requests or anything else about StudyFreeEU.</p><span class="go">Send feedback →</span></a>
+    <a class="card contact-topic" href="${subj('Data correction')}"><h3>${ic('pencil')} Report a correction</h3><p class="small muted">A fee, deadline or tuition rule has changed? Send the university name and a link to the official source.</p><span class="go">Email a correction →</span></a>
+    <a class="card contact-topic" href="${subj('University suggestion')}"><h3>${ic('cap')} Suggest a university</h3><p class="small muted">Know a university with €0 or low tuition for EU citizens and English-taught degrees that we have not listed yet?</p><span class="go">Suggest a university →</span></a>
+    <a class="card contact-topic" href="${subj('Question / feedback')}"><h3>${ic('chat')} Questions &amp; feedback</h3><p class="small muted">Ideas for the site, partnership requests or anything else about StudyFreeEU.</p><span class="go">Send feedback →</span></a>
   </div>
 
   <div class="disclaimer" style="margin-top:26px"><b>Please note.</b> StudyFreeEU is an independent information site — we are not a university and cannot process applications or make admission decisions. For applications, admission requirements and official fees, contact the university directly via the admissions page linked on each university profile.</div>
