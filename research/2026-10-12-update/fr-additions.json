@@ -1,0 +1,54 @@
+{
+  "country": {
+    "code": "FR",
+    "slug": "france",
+    "name": "France"
+  },
+  "universities": [
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "Université Paris Cité",
+      "city": "Paris",
+      "official_website": "https://u-paris.fr",
+      "tuition_eu": "National rate: €178/year Bachelor’s, €255/year Master’s (2026-2027)",
+      "mandatory_semester_fee": "CVEC campus contribution €105 per year (2026-2027)",
+      "est_annual_mandatory_cost_eur": 360,
+      "study_fields": [
+        "Medicine",
+        "Life Sciences",
+        "Humanities",
+        "Social Sciences"
+      ],
+      "tuition_status": "Low Tuition",
+      "sources": [
+        {
+          "label": "Université Paris Cité — programmes taught in English",
+          "url": "https://u-paris.fr/language/en/programs-taught-in-english"
+        },
+        {
+          "label": "Service-Public.fr — frais d'inscription 2026-2027",
+          "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17481"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Université Paris Cité — programmes taught in English",
+      "url": "https://u-paris.fr/language/en/programs-taught-in-english"
+    },
+    {
+      "label": "Service-Public.fr — frais d'inscription 2026-2027",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17481"
+    }
+  ]
+}

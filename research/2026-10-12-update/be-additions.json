@@ -1,0 +1,228 @@
+{
+  "country": {
+    "code": "BE",
+    "slug": "belgium",
+    "name": "Belgium"
+  },
+  "universities": [
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "University of Antwerp",
+      "city": "Antwerp",
+      "official_website": "https://www.uantwerpen.be",
+      "tuition_eu": "≈ €1,181/year (Flemish Community EU/EEA rate, 2026-2027: €305.40 + €14.60/credit for 60 credits)",
+      "est_annual_mandatory_cost_eur": 1181,
+      "study_fields": [
+        "Business",
+        "Engineering",
+        "Social Sciences",
+        "Life Sciences"
+      ],
+      "tuition_status": "Low Tuition",
+      "tuition_info_url": "https://www.uantwerpen.be/en/study/admission-and-enrolment/enrolment/tuition-fees/tuition-fees-2026-2027/",
+      "sources": [
+        {
+          "label": "University of Antwerp — tuition fees 2026-2027",
+          "url": "https://www.uantwerpen.be/en/study/admission-and-enrolment/enrolment/tuition-fees/tuition-fees-2026-2027/"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "Vrije Universiteit Brussel (VUB)",
+      "city": "Brussels",
+      "official_website": "https://www.vub.be",
+      "tuition_eu": "≈ €1,181/year (Flemish Community EU/EEA rate, 2026-2027: €305.40 + €14.60/credit for 60 credits)",
+      "est_annual_mandatory_cost_eur": 1181,
+      "study_fields": [
+        "Engineering",
+        "Social Sciences",
+        "Life Sciences",
+        "Business"
+      ],
+      "tuition_status": "Low Tuition",
+      "tuition_info_url": "https://www.vub.be/en/studying-vub/practical-info-for-students/how-much-does-studying-cost/tuition-fees",
+      "sources": [
+        {
+          "label": "VUB — tuition fees",
+          "url": "https://www.vub.be/en/studying-vub/practical-info-for-students/how-much-does-studying-cost/tuition-fees"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "Hasselt University",
+      "city": "Hasselt",
+      "official_website": "https://www.uhasselt.be",
+      "tuition_eu": "≈ €1,181/year (Flemish Community EU/EEA rate, 2026-2027: €305.40 + €14.60/credit for 60 credits)",
+      "est_annual_mandatory_cost_eur": 1181,
+      "study_fields": [
+        "Business",
+        "Engineering",
+        "Architecture",
+        "Life Sciences"
+      ],
+      "tuition_status": "Low Tuition",
+      "tuition_info_url": "https://www.uhasselt.be/en/study/application-and-admission/tuition-fees",
+      "sources": [
+        {
+          "label": "Hasselt University — tuition fees 2026-2027",
+          "url": "https://www.uhasselt.be/en/study/application-and-admission/tuition-fees"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "UCLouvain",
+      "city": "Louvain-la-Neuve",
+      "official_website": "https://uclouvain.be",
+      "tuition_eu": "Max. €1,194/year (Wallonia-Brussels Federation EU/EEA rate from 2026-2027; reduced €835 / €374 by income)",
+      "est_annual_mandatory_cost_eur": 1194,
+      "study_fields": [
+        "Engineering",
+        "Business",
+        "Social Sciences",
+        "Natural Sciences"
+      ],
+      "tuition_status": "Low Tuition",
+      "tuition_info_url": "https://uclouvain.be/fr/inscriptions/montant-droits-inscription",
+      "sources": [
+        {
+          "label": "UCLouvain — montant du minerval",
+          "url": "https://uclouvain.be/fr/inscriptions/montant-droits-inscription"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "Université libre de Bruxelles (ULB)",
+      "city": "Brussels",
+      "official_website": "https://www.ulb.be",
+      "tuition_eu": "Max. €1,194/year (Wallonia-Brussels Federation EU/EEA rate from 2026-2027; reduced €835 / €374 by income)",
+      "est_annual_mandatory_cost_eur": 1194,
+      "study_fields": [
+        "Engineering",
+        "Social Sciences",
+        "Business",
+        "Natural Sciences"
+      ],
+      "tuition_status": "Low Tuition",
+      "tuition_info_url": "https://www.ulb.be/fr/inscriptions/frais-d-inscription",
+      "sources": [
+        {
+          "label": "ULB — frais d'inscription",
+          "url": "https://www.ulb.be/fr/inscriptions/frais-d-inscription"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "University of Liège (ULiège)",
+      "city": "Liège",
+      "official_website": "https://www.uliege.be",
+      "tuition_eu": "Max. €1,194/year (Wallonia-Brussels Federation EU/EEA rate from 2026-2027; reduced €835 / €374 by income)",
+      "est_annual_mandatory_cost_eur": 1194,
+      "study_fields": [
+        "Engineering",
+        "Business",
+        "Life Sciences",
+        "Natural Sciences"
+      ],
+      "tuition_status": "Low Tuition",
+      "sources": [
+        {
+          "label": "ULiège — minerval 2026-2027",
+          "url": "https://www.enseignement.uliege.be/cms/c_20689857/fr/l-universite-de-liege-instaure-son-propre-taux-pour-prendre-en-charge-une-partie-voire-la-totalite-du-minerval-des-etudiants-en-situation-de-precarite"
+        },
+        {
+          "label": "UCLouvain — FWB minerval amounts (national rate reference)",
+          "url": "https://uclouvain.be/fr/inscriptions/montant-droits-inscription"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "University of Antwerp — tuition fees 2026-2027",
+      "url": "https://www.uantwerpen.be/en/study/admission-and-enrolment/enrolment/tuition-fees/tuition-fees-2026-2027/"
+    },
+    {
+      "label": "VUB — tuition fees",
+      "url": "https://www.vub.be/en/studying-vub/practical-info-for-students/how-much-does-studying-cost/tuition-fees"
+    },
+    {
+      "label": "Hasselt University — tuition fees 2026-2027",
+      "url": "https://www.uhasselt.be/en/study/application-and-admission/tuition-fees"
+    },
+    {
+      "label": "UCLouvain — montant du minerval",
+      "url": "https://uclouvain.be/fr/inscriptions/montant-droits-inscription"
+    },
+    {
+      "label": "ULB — frais d'inscription",
+      "url": "https://www.ulb.be/fr/inscriptions/frais-d-inscription"
+    },
+    {
+      "label": "ULiège — minerval 2026-2027",
+      "url": "https://www.enseignement.uliege.be/cms/c_20689857/fr/l-universite-de-liege-instaure-son-propre-taux-pour-prendre-en-charge-une-partie-voire-la-totalite-du-minerval-des-etudiants-en-situation-de-precarite"
+    },
+    {
+      "label": "UCLouvain — FWB minerval amounts (national rate reference)",
+      "url": "https://uclouvain.be/fr/inscriptions/montant-droits-inscription"
+    }
+  ]
+}

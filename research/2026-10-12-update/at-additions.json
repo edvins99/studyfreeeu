@@ -1,0 +1,91 @@
+{
+  "country": {
+    "code": "AT",
+    "slug": "austria",
+    "name": "Austria"
+  },
+  "universities": [
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "FH Technikum Wien",
+      "city": "Vienna",
+      "official_website": "https://www.technikum-wien.at",
+      "tuition_eu": "€363.36 per semester for EU/EEA students (University of Applied Sciences fee)",
+      "mandatory_semester_fee": "€363.36 tuition + ÖH fee €26.20 per semester",
+      "est_annual_mandatory_cost_eur": 779,
+      "study_fields": [
+        "Engineering",
+        "Computer Science",
+        "Health Sciences"
+      ],
+      "tuition_status": "Low Tuition",
+      "tuition_info_url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/",
+      "sources": [
+        {
+          "label": "FH Technikum Wien — tuition fees",
+          "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "FH JOANNEUM",
+      "city": "Graz",
+      "official_website": "https://www.fh-joanneum.at",
+      "tuition_eu": "€0 tuition for EU/EEA/Swiss students starting up to 2026/27; €363.36 per semester for new students from 2027/28",
+      "mandatory_semester_fee": "ÖH student union fee ≈ €26.20/semester",
+      "est_annual_mandatory_cost_eur": 52,
+      "study_fields": [
+        "Engineering",
+        "Business",
+        "Health Sciences",
+        "Design"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "tuition_info_url": "https://www.fh-joanneum.at/news/so-viel-kostet-studieren-an-der-fh-joanneum/",
+      "admissions_url": "https://www.fh-joanneum.at/en/international/international-degree-seeking-students/admissions/",
+      "sources": [
+        {
+          "label": "FH JOANNEUM — study costs",
+          "url": "https://www.fh-joanneum.at/news/so-viel-kostet-studieren-an-der-fh-joanneum/"
+        },
+        {
+          "label": "FH JOANNEUM — English-taught degree programmes / admissions",
+          "url": "https://www.fh-joanneum.at/en/international/international-degree-seeking-students/admissions/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "FH Technikum Wien — tuition fees",
+      "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
+    },
+    {
+      "label": "FH JOANNEUM — study costs",
+      "url": "https://www.fh-joanneum.at/news/so-viel-kostet-studieren-an-der-fh-joanneum/"
+    },
+    {
+      "label": "FH JOANNEUM — English-taught degree programmes / admissions",
+      "url": "https://www.fh-joanneum.at/en/international/international-degree-seeking-students/admissions/"
+    }
+  ]
+}

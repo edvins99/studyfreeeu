@@ -4,9 +4,9 @@ Country-by-country research tracker. Country policy is researched **before**
 individual universities are imported, so every institution inherits a verified
 country baseline.
 
-**Snapshot:** 31 countries · 212 universities · 2468 programme entries · 48 sources
+**Snapshot:** 31 countries · 285 universities · 3037 programme entries · 52 sources
 **Academic year in focus:** 2026/2027 (some national figures still quote 2025/2026)
-**Last updated:** 2026-09-30
+**Last updated:** 2026-10-12
 
 Legend — status: `✅ Verified (country policy)` · `🟡 Partially verified` ·
 `⚠️ Conflicting official sources` · `⏳ Needs verification` · `○ Queued`

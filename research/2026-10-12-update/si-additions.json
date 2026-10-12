@@ -1,0 +1,98 @@
+{
+  "country": {
+    "code": "SI",
+    "slug": "slovenia",
+    "name": "Slovenia"
+  },
+  "universities": [
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "University of Maribor",
+      "city": "Maribor",
+      "official_website": "https://www.um.si",
+      "tuition_eu": "€0 tuition for EU citizens in full-time Bachelor’s and Master’s study",
+      "mandatory_semester_fee": "Annual enrolment/administrative fee applies (verify)",
+      "est_annual_mandatory_cost_eur": null,
+      "study_fields": [
+        "Engineering",
+        "Business",
+        "Natural Sciences",
+        "Social Sciences"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "sources": [
+        {
+          "label": "University of Maribor — study",
+          "url": "https://www.um.si/en/study/"
+        },
+        {
+          "label": "Study in Slovenia — tuition and funding",
+          "url": "https://studyinslovenia.si/study/tuition-and-funding/"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": true,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "University of Primorska",
+      "city": "Koper",
+      "official_website": "https://www.upr.si",
+      "tuition_eu": "€0 tuition for EU citizens in full-time Bachelor’s and Master’s study",
+      "mandatory_semester_fee": "Annual enrolment/administrative fee applies (verify)",
+      "est_annual_mandatory_cost_eur": null,
+      "study_fields": [
+        "Computer Science",
+        "Mathematics",
+        "Natural Sciences",
+        "Business"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "tuition_info_url": "https://www.upr.si/en/study--enrolment/529-tuition-fees",
+      "sources": [
+        {
+          "label": "University of Primorska — tuition fees",
+          "url": "https://www.upr.si/en/study--enrolment/529-tuition-fees"
+        },
+        {
+          "label": "University of Primorska — 19 programmes fully in English",
+          "url": "https://welcome.upr.si/student/choose/study-programmes-in-english/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "University of Maribor — study",
+      "url": "https://www.um.si/en/study/"
+    },
+    {
+      "label": "Study in Slovenia — tuition and funding",
+      "url": "https://studyinslovenia.si/study/tuition-and-funding/"
+    },
+    {
+      "label": "University of Primorska — tuition fees",
+      "url": "https://www.upr.si/en/study--enrolment/529-tuition-fees"
+    },
+    {
+      "label": "University of Primorska — 19 programmes fully in English",
+      "url": "https://welcome.upr.si/student/choose/study-programmes-in-english/"
+    }
+  ]
+}

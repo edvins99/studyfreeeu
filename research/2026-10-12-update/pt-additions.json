@@ -1,0 +1,83 @@
+{
+  "country": {
+    "code": "PT",
+    "slug": "portugal",
+    "name": "Portugal"
+  },
+  "universities": [
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "University of Aveiro",
+      "city": "Aveiro",
+      "official_website": "https://www.ua.pt",
+      "tuition_eu": "Capped low tuition for EU/EEA students (2026/2027 fee order; Bachelor’s reference ≈ €697/year); Master’s fees set per programme",
+      "mandatory_semester_fee": "Enrolment fee = 2% of the annual tuition (includes school insurance)",
+      "est_annual_mandatory_cost_eur": 697,
+      "study_fields": [
+        "Engineering",
+        "Natural Sciences",
+        "Business",
+        "Arts"
+      ],
+      "tuition_status": "Low Tuition",
+      "tuition_info_url": "https://www.ua.pt/file/90554",
+      "sources": [
+        {
+          "label": "Universidade de Aveiro — propinas 2026/2027",
+          "url": "https://www.ua.pt/file/90554"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "University of Minho",
+      "city": "Braga",
+      "official_website": "https://www.uminho.pt",
+      "tuition_eu": "Capped low tuition for EU/EEA students (Bachelor’s reference ≈ €697/year, unchanged for 2026/27); Master’s fees set per programme",
+      "mandatory_semester_fee": "Small enrolment/administrative fees may apply",
+      "est_annual_mandatory_cost_eur": 697,
+      "study_fields": [
+        "Engineering",
+        "Business",
+        "Social Sciences",
+        "Computer Science"
+      ],
+      "tuition_status": "Low Tuition",
+      "tuition_info_url": "https://alunos.uminho.pt/PT/estudantes/paginas/infouteispropinas.aspx",
+      "sources": [
+        {
+          "label": "Universidade do Minho — propinas",
+          "url": "https://alunos.uminho.pt/PT/estudantes/paginas/infouteispropinas.aspx"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Universidade de Aveiro — propinas 2026/2027",
+      "url": "https://www.ua.pt/file/90554"
+    },
+    {
+      "label": "Universidade do Minho — propinas",
+      "url": "https://alunos.uminho.pt/PT/estudantes/paginas/infouteispropinas.aspx"
+    }
+  ]
+}

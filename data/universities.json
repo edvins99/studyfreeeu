@@ -14,9 +14,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA within minimum duration + 2 tolerance semesters",
-    "mandatory_semester_fee": "ÖH student union fee ≈ €25/semester",
+    "mandatory_semester_fee": "ÖH student union fee ≈ €26.20/semester (2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 50,
+    "est_annual_mandatory_cost_eur": 52,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -35,7 +35,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Conditional Tuition-Free",
     "sources": [
       {
@@ -45,9 +45,108 @@
       {
         "label": "Study in Austria — tuition fees",
         "url": "https://studyinaustria.at/en/"
+      },
+      {
+        "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
+        "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
+  },
+  {
+    "id": "at-fh-joanneum",
+    "name": "FH JOANNEUM",
+    "slug": "fh-joanneum",
+    "country_code": "AT",
+    "country": "Austria",
+    "city": "Graz",
+    "type": "Public",
+    "official_website": "https://www.fh-joanneum.at",
+    "tuition_info_url": "https://www.fh-joanneum.at/news/so-viel-kostet-studieren-an-der-fh-joanneum/",
+    "admissions_url": "https://www.fh-joanneum.at/en/international/international-degree-seeking-students/admissions/",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": false,
+    "tuition_eu": "€0 tuition for EU/EEA/Swiss students starting up to 2026/27; €363.36 per semester for new students from 2027/28",
+    "mandatory_semester_fee": "ÖH student union fee ≈ €26.20/semester",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 52,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Engineering",
+      "Business",
+      "Health Sciences",
+      "Design"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "sources": [
+      {
+        "label": "FH JOANNEUM — study costs",
+        "url": "https://www.fh-joanneum.at/news/so-viel-kostet-studieren-an-der-fh-joanneum/"
+      },
+      {
+        "label": "FH JOANNEUM — English-taught degree programmes / admissions",
+        "url": "https://www.fh-joanneum.at/en/international/international-degree-seeking-students/admissions/"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
+    "id": "at-fh-technikum-wien",
+    "name": "FH Technikum Wien",
+    "slug": "fh-technikum-wien",
+    "country_code": "AT",
+    "country": "Austria",
+    "city": "Vienna",
+    "type": "Public",
+    "official_website": "https://www.technikum-wien.at",
+    "tuition_info_url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": false,
+    "tuition_eu": "€363.36 per semester for EU/EEA students (University of Applied Sciences fee)",
+    "mandatory_semester_fee": "€363.36 tuition + ÖH fee €26.20 per semester",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 779,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Engineering",
+      "Computer Science",
+      "Health Sciences"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "FH Technikum Wien — tuition fees",
+        "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
   },
   {
     "id": "at-graz-university-of-technology-tu-graz",
@@ -64,9 +163,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA within minimum duration + 2 tolerance semesters",
-    "mandatory_semester_fee": "ÖH student union fee ≈ €25/semester",
+    "mandatory_semester_fee": "ÖH student union fee ≈ €26.20/semester (2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 50,
+    "est_annual_mandatory_cost_eur": 52,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -84,7 +183,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Conditional Tuition-Free",
     "sources": [
       {
@@ -94,6 +193,10 @@
       {
         "label": "Study in Austria — tuition fees",
         "url": "https://studyinaustria.at/en/"
+      },
+      {
+        "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
+        "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -116,9 +219,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition for regular study duration; conditional fee afterwards",
-    "mandatory_semester_fee": "ÖH students' union fee of approximately €24",
+    "mandatory_semester_fee": "ÖH students' union fee of approximately €26.20",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 50,
+    "est_annual_mandatory_cost_eur": 52,
     "study_fields": [
       "Engineering",
       "Computer Science",
@@ -172,12 +275,16 @@
       "verified": true
     },
     "notes": "Upper Austria’s largest university, notable for mechatronics, computer science and law.",
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-10-12",
     "tuition_status": "Conditional Tuition-Free",
     "sources": [
       {
         "label": "Johannes Kepler University Linz official website",
         "url": "https://www.jku.at"
+      },
+      {
+        "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
+        "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -218,9 +325,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA within minimum duration + 2 tolerance semesters",
-    "mandatory_semester_fee": "ÖH student union fee ≈ €25/semester",
+    "mandatory_semester_fee": "ÖH student union fee ≈ €26.20/semester (2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 50,
+    "est_annual_mandatory_cost_eur": 52,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -237,7 +344,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Conditional Tuition-Free",
     "sources": [
       {
@@ -247,6 +354,10 @@
       {
         "label": "Study in Austria — tuition fees",
         "url": "https://studyinaustria.at/en/"
+      },
+      {
+        "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
+        "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -266,9 +377,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA within minimum duration + 2 tolerance semesters",
-    "mandatory_semester_fee": "ÖH student union fee ≈ €25/semester",
+    "mandatory_semester_fee": "ÖH student union fee ≈ €26.20/semester (2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 50,
+    "est_annual_mandatory_cost_eur": 52,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -287,7 +398,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Conditional Tuition-Free",
     "sources": [
       {
@@ -297,6 +408,10 @@
       {
         "label": "Study in Austria — tuition fees",
         "url": "https://studyinaustria.at/en/"
+      },
+      {
+        "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
+        "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -316,9 +431,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA within minimum duration + 2 semesters",
-    "mandatory_semester_fee": "ÖH students' union fee (approx. €24.70 per semester)",
+    "mandatory_semester_fee": "ÖH students' union fee (approx. €26.20 per semester, 2026/27)",
     "other_mandatory_fees": "Conditional fee of €363.36 per semester if minimum duration + 2 semesters is exceeded (EU/EEA)",
-    "est_annual_mandatory_cost_eur": 50,
+    "est_annual_mandatory_cost_eur": 52,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -337,12 +452,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Austria's main technical university.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Conditional Tuition-Free",
     "sources": [
       {
         "label": "TU Wien official website",
         "url": "https://www.tuwien.at"
+      },
+      {
+        "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
+        "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -428,9 +547,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA within minimum duration + 2 semesters",
-    "mandatory_semester_fee": "ÖH students' union fee (approx. €24.70 per semester)",
+    "mandatory_semester_fee": "ÖH students' union fee (approx. €26.20 per semester, 2026/27)",
     "other_mandatory_fees": "Conditional fee of €363.36 per semester if minimum duration + 2 semesters is exceeded (EU/EEA)",
-    "est_annual_mandatory_cost_eur": 50,
+    "est_annual_mandatory_cost_eur": 52,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -449,12 +568,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Comprehensive university in Graz.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Conditional Tuition-Free",
     "sources": [
       {
         "label": "University of Graz official website",
         "url": "https://www.uni-graz.at"
+      },
+      {
+        "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
+        "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -542,9 +665,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition for regular study duration; conditional fee afterwards",
-    "mandatory_semester_fee": "ÖH students' union fee of approximately €24",
+    "mandatory_semester_fee": "ÖH students' union fee of approximately €26.20",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 50,
+    "est_annual_mandatory_cost_eur": 52,
     "study_fields": [
       "Natural Sciences",
       "Humanities",
@@ -598,12 +721,16 @@
       "verified": true
     },
     "notes": "Western Austria’s leading university, strong in the natural sciences, law and economics.",
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-10-12",
     "tuition_status": "Conditional Tuition-Free",
     "sources": [
       {
         "label": "University of Innsbruck official website",
         "url": "https://www.uibk.ac.at"
+      },
+      {
+        "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
+        "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -644,9 +771,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA within minimum duration + 2 tolerance semesters",
-    "mandatory_semester_fee": "ÖH student union fee ≈ €25/semester",
+    "mandatory_semester_fee": "ÖH student union fee ≈ €26.20/semester (2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 50,
+    "est_annual_mandatory_cost_eur": 52,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -664,7 +791,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Conditional Tuition-Free",
     "sources": [
       {
@@ -674,6 +801,10 @@
       {
         "label": "Study in Austria — tuition fees",
         "url": "https://studyinaustria.at/en/"
+      },
+      {
+        "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
+        "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -693,9 +824,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA within minimum duration + 2 semesters",
-    "mandatory_semester_fee": "ÖH students' union fee (approx. €24.70 per semester)",
+    "mandatory_semester_fee": "ÖH students' union fee (approx. €26.20 per semester, 2026/27)",
     "other_mandatory_fees": "Conditional fee of €363.36 per semester if minimum duration + 2 semesters is exceeded (EU/EEA)",
-    "est_annual_mandatory_cost_eur": 50,
+    "est_annual_mandatory_cost_eur": 52,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -715,12 +846,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Largest Austrian university. Non-EU/EEA pay €726.72 per semester.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Conditional Tuition-Free",
     "sources": [
       {
         "label": "University of Vienna – tuition and ÖH fee",
         "url": "https://studieren.univie.ac.at/"
+      },
+      {
+        "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
+        "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
       }
     ],
     "verification_status": "Verified (fee amounts from official university page)",
@@ -806,9 +941,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA within minimum duration + 2 tolerance semesters",
-    "mandatory_semester_fee": "ÖH student union fee ≈ €25/semester",
+    "mandatory_semester_fee": "ÖH student union fee ≈ €26.20/semester (2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 50,
+    "est_annual_mandatory_cost_eur": 52,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -826,7 +961,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Conditional Tuition-Free",
     "sources": [
       {
@@ -836,6 +971,10 @@
       {
         "label": "Study in Austria — tuition fees",
         "url": "https://studyinaustria.at/en/"
+      },
+      {
+        "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
+        "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -944,6 +1083,52 @@
       }
     ],
     "teaching_languages": "Dutch/French · Dutch/French / English"
+  },
+  {
+    "id": "be-hasselt-university",
+    "name": "Hasselt University",
+    "slug": "hasselt-university",
+    "country_code": "BE",
+    "country": "Belgium",
+    "city": "Hasselt",
+    "type": "Public",
+    "official_website": "https://www.uhasselt.be",
+    "tuition_info_url": "https://www.uhasselt.be/en/study/application-and-admission/tuition-fees",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "≈ €1,181/year (Flemish Community EU/EEA rate, 2026-2027: €305.40 + €14.60/credit for 60 credits)",
+    "mandatory_semester_fee": "Semester/administrative contribution — see official site",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 1181,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Business",
+      "Engineering",
+      "Architecture",
+      "Life Sciences"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "Hasselt University — tuition fees 2026-2027",
+        "url": "https://www.uhasselt.be/en/study/application-and-admission/tuition-fees"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
   },
   {
     "id": "be-kuleuven",
@@ -1055,6 +1240,240 @@
       }
     ],
     "teaching_languages": "Dutch/French / English"
+  },
+  {
+    "id": "be-uclouvain",
+    "name": "UCLouvain",
+    "slug": "uclouvain",
+    "country_code": "BE",
+    "country": "Belgium",
+    "city": "Louvain-la-Neuve",
+    "type": "Public",
+    "official_website": "https://uclouvain.be",
+    "tuition_info_url": "https://uclouvain.be/fr/inscriptions/montant-droits-inscription",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "Max. €1,194/year (Wallonia-Brussels Federation EU/EEA rate from 2026-2027; reduced €835 / €374 by income)",
+    "mandatory_semester_fee": "Semester/administrative contribution — see official site",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 1194,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Engineering",
+      "Business",
+      "Social Sciences",
+      "Natural Sciences"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "UCLouvain — montant du minerval",
+        "url": "https://uclouvain.be/fr/inscriptions/montant-droits-inscription"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
+    "id": "be-universite-libre-de-bruxelles-ulb",
+    "name": "Université libre de Bruxelles (ULB)",
+    "slug": "universite-libre-de-bruxelles-ulb",
+    "country_code": "BE",
+    "country": "Belgium",
+    "city": "Brussels",
+    "type": "Public",
+    "official_website": "https://www.ulb.be",
+    "tuition_info_url": "https://www.ulb.be/fr/inscriptions/frais-d-inscription",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "Max. €1,194/year (Wallonia-Brussels Federation EU/EEA rate from 2026-2027; reduced €835 / €374 by income)",
+    "mandatory_semester_fee": "Semester/administrative contribution — see official site",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 1194,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Engineering",
+      "Social Sciences",
+      "Business",
+      "Natural Sciences"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "ULB — frais d'inscription",
+        "url": "https://www.ulb.be/fr/inscriptions/frais-d-inscription"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
+    "id": "be-university-of-antwerp",
+    "name": "University of Antwerp",
+    "slug": "university-of-antwerp",
+    "country_code": "BE",
+    "country": "Belgium",
+    "city": "Antwerp",
+    "type": "Public",
+    "official_website": "https://www.uantwerpen.be",
+    "tuition_info_url": "https://www.uantwerpen.be/en/study/admission-and-enrolment/enrolment/tuition-fees/tuition-fees-2026-2027/",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "≈ €1,181/year (Flemish Community EU/EEA rate, 2026-2027: €305.40 + €14.60/credit for 60 credits)",
+    "mandatory_semester_fee": "Semester/administrative contribution — see official site",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 1181,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Business",
+      "Engineering",
+      "Social Sciences",
+      "Life Sciences"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "University of Antwerp — tuition fees 2026-2027",
+        "url": "https://www.uantwerpen.be/en/study/admission-and-enrolment/enrolment/tuition-fees/tuition-fees-2026-2027/"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
+    "id": "be-university-of-liege-uliege",
+    "name": "University of Liège (ULiège)",
+    "slug": "university-of-liege-uliege",
+    "country_code": "BE",
+    "country": "Belgium",
+    "city": "Liège",
+    "type": "Public",
+    "official_website": "https://www.uliege.be",
+    "tuition_info_url": null,
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "Max. €1,194/year (Wallonia-Brussels Federation EU/EEA rate from 2026-2027; reduced €835 / €374 by income)",
+    "mandatory_semester_fee": "Semester/administrative contribution — see official site",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 1194,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Engineering",
+      "Business",
+      "Life Sciences",
+      "Natural Sciences"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "ULiège — minerval 2026-2027",
+        "url": "https://www.enseignement.uliege.be/cms/c_20689857/fr/l-universite-de-liege-instaure-son-propre-taux-pour-prendre-en-charge-une-partie-voire-la-totalite-du-minerval-des-etudiants-en-situation-de-precarite"
+      },
+      {
+        "label": "UCLouvain — FWB minerval amounts (national rate reference)",
+        "url": "https://uclouvain.be/fr/inscriptions/montant-droits-inscription"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
+    "id": "be-vrije-universiteit-brussel-vub",
+    "name": "Vrije Universiteit Brussel (VUB)",
+    "slug": "vrije-universiteit-brussel-vub",
+    "country_code": "BE",
+    "country": "Belgium",
+    "city": "Brussels",
+    "type": "Public",
+    "official_website": "https://www.vub.be",
+    "tuition_info_url": "https://www.vub.be/en/studying-vub/practical-info-for-students/how-much-does-studying-cost/tuition-fees",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "≈ €1,181/year (Flemish Community EU/EEA rate, 2026-2027: €305.40 + €14.60/credit for 60 credits)",
+    "mandatory_semester_fee": "Semester/administrative contribution — see official site",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 1181,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Engineering",
+      "Social Sciences",
+      "Life Sciences",
+      "Business"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "VUB — tuition fees",
+        "url": "https://www.vub.be/en/studying-vub/practical-info-for-students/how-much-does-studying-cost/tuition-fees"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
   },
   {
     "admissions_url": null,
@@ -4948,10 +5367,10 @@
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
-    "tuition_eu": "National rate: €178/year Bachelor's, €254/year Master's",
-    "mandatory_semester_fee": "Additional contributions such as the CVEC campus contribution (around €100–€175 per year) may apply",
+    "tuition_eu": "National rate: €178/year Bachelor's, €255/year Master's (2026-2027)",
+    "mandatory_semester_fee": "CVEC campus contribution €105 per year (2026-2027)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 400,
+    "est_annual_mandatory_cost_eur": 360,
     "study_fields": [
       "Medicine",
       "Natural Sciences",
@@ -5005,12 +5424,16 @@
       "verified": true
     },
     "notes": "France’s largest university by student numbers, strong in medicine, the sciences and law.",
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "Aix-Marseille University official website",
         "url": "https://www.univ-amu.fr"
+      },
+      {
+        "label": "Service-Public.fr — frais d'inscription 2026-2027",
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17481"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -5050,10 +5473,10 @@
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
-    "tuition_eu": "National rate: €178/year Bachelor's, €254/year Master's",
-    "mandatory_semester_fee": "CVEC campus contribution (approx. €100–€175 per year)",
+    "tuition_eu": "National rate: €178/year Bachelor's, €255/year Master's (2026-2027)",
+    "mandatory_semester_fee": "CVEC campus contribution €105 per year (2026-2027)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 400,
+    "est_annual_mandatory_cost_eur": 360,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -5073,12 +5496,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Low national tuition rates for EU/EEA students.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "EU Education portal – France",
         "url": "https://education.ec.europa.eu/study-in-europe/country-profiles/france"
+      },
+      {
+        "label": "Service-Public.fr — frais d'inscription 2026-2027",
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17481"
       }
     ],
     "verification_status": "Partially verified (national rate verified)",
@@ -5165,10 +5592,10 @@
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
-    "tuition_eu": "National rate: €178/year Bachelor's, €254/year Master's",
-    "mandatory_semester_fee": "Additional contributions such as the CVEC campus contribution (around €100–€175 per year) may apply",
+    "tuition_eu": "National rate: €178/year Bachelor's, €255/year Master's (2026-2027)",
+    "mandatory_semester_fee": "CVEC campus contribution €105 per year (2026-2027)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 400,
+    "est_annual_mandatory_cost_eur": 360,
     "study_fields": [
       "Medicine",
       "Natural Sciences",
@@ -5222,12 +5649,16 @@
       "verified": false
     },
     "notes": "A large science and health university, strong in medicine, biology and engineering.",
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "Université Claude Bernard Lyon 1 official website",
         "url": "https://www.univ-lyon1.fr"
+      },
+      {
+        "label": "Service-Public.fr — frais d'inscription 2026-2027",
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17481"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -5270,10 +5701,10 @@
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
-    "tuition_eu": "National rate: €178/year Bachelor's, €254/year Master's",
-    "mandatory_semester_fee": "Additional contributions such as the CVEC campus contribution (around €100–€175 per year) may apply",
+    "tuition_eu": "National rate: €178/year Bachelor's, €255/year Master's (2026-2027)",
+    "mandatory_semester_fee": "CVEC campus contribution €105 per year (2026-2027)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 400,
+    "est_annual_mandatory_cost_eur": 360,
     "study_fields": [
       "Engineering",
       "Natural Sciences",
@@ -5327,12 +5758,16 @@
       "verified": true
     },
     "notes": "A major science and technology university, strong in engineering, physics and computer science.",
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "Université Grenoble Alpes official website",
         "url": "https://www.univ-grenoble-alpes.fr"
+      },
+      {
+        "label": "Service-Public.fr — frais d'inscription 2026-2027",
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17481"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -5359,6 +5794,56 @@
     "teaching_languages": "French · French / English"
   },
   {
+    "id": "fr-universite-paris-cite",
+    "name": "Université Paris Cité",
+    "slug": "universite-paris-cite",
+    "country_code": "FR",
+    "country": "France",
+    "city": "Paris",
+    "type": "Public",
+    "official_website": "https://u-paris.fr",
+    "tuition_info_url": null,
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "National rate: €178/year Bachelor’s, €255/year Master’s (2026-2027)",
+    "mandatory_semester_fee": "CVEC campus contribution €105 per year (2026-2027)",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 360,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Medicine",
+      "Life Sciences",
+      "Humanities",
+      "Social Sciences"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "Université Paris Cité — programmes taught in English",
+        "url": "https://u-paris.fr/language/en/programs-taught-in-english"
+      },
+      {
+        "label": "Service-Public.fr — frais d'inscription 2026-2027",
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17481"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
     "id": "fr-paris-saclay",
     "name": "Université Paris-Saclay",
     "slug": "universite-paris-saclay",
@@ -5372,10 +5857,10 @@
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
-    "tuition_eu": "National rate: €178/year Bachelor's, €254/year Master's",
-    "mandatory_semester_fee": "CVEC campus contribution (approx. €100–€175 per year)",
+    "tuition_eu": "National rate: €178/year Bachelor's, €255/year Master's (2026-2027)",
+    "mandatory_semester_fee": "CVEC campus contribution €105 per year (2026-2027)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 400,
+    "est_annual_mandatory_cost_eur": 360,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": true,
@@ -5395,12 +5880,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Large science and engineering cluster near Paris.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "Université Paris-Saclay official website",
         "url": "https://www.universite-paris-saclay.fr"
+      },
+      {
+        "label": "Service-Public.fr — frais d'inscription 2026-2027",
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17481"
       }
     ],
     "verification_status": "Partially verified (national rate verified)",
@@ -5489,10 +5978,10 @@
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
-    "tuition_eu": "National rate: €178/year Bachelor's, €254/year Master's",
-    "mandatory_semester_fee": "Additional contributions such as the CVEC campus contribution (around €100–€175 per year) may apply",
+    "tuition_eu": "National rate: €178/year Bachelor's, €255/year Master's (2026-2027)",
+    "mandatory_semester_fee": "CVEC campus contribution €105 per year (2026-2027)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 400,
+    "est_annual_mandatory_cost_eur": 360,
     "study_fields": [
       "Life Sciences",
       "Engineering",
@@ -5546,12 +6035,16 @@
       "verified": false
     },
     "notes": "A leading French research university, strong in the life sciences, chemistry and engineering.",
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "University of Bordeaux official website",
         "url": "https://www.u-bordeaux.fr"
+      },
+      {
+        "label": "Service-Public.fr — frais d'inscription 2026-2027",
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17481"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -5594,10 +6087,10 @@
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
-    "tuition_eu": "National rate: €178/year Bachelor's, €254/year Master's",
-    "mandatory_semester_fee": "Additional contributions such as the CVEC campus contribution (around €100–€175 per year) may apply",
+    "tuition_eu": "National rate: €178/year Bachelor's, €255/year Master's (2026-2027)",
+    "mandatory_semester_fee": "CVEC campus contribution €105 per year (2026-2027)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 400,
+    "est_annual_mandatory_cost_eur": 360,
     "study_fields": [
       "Medicine",
       "Law",
@@ -5651,12 +6144,16 @@
       "verified": false
     },
     "notes": "A historic university (1538) and a leading research centre, strong in medicine, law and chemistry.",
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "University of Strasbourg official website",
         "url": "https://www.unistra.fr"
+      },
+      {
+        "label": "Service-Public.fr — frais d'inscription 2026-2027",
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17481"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -5837,15 +6334,15 @@
     "city": "Sankt Augustin",
     "type": "Public",
     "official_website": "https://www.h-brs.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.h-brs.de/de/d5/gebuehren",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€367.00 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 734,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -5863,7 +6360,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -5873,6 +6370,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Bonn-Rhein-Sieg University of Applied Sciences — semester contribution",
+        "url": "https://www.h-brs.de/de/d5/gebuehren"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -6091,9 +6592,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition at public universities",
-    "mandatory_semester_fee": "Semester contribution (Semesterbeitrag) of roughly €150–€400 per semester, varying by university; it usually includes a public transport semester ticket and student services",
+    "mandatory_semester_fee": "€82.00 per semester (Studierendenwerk contribution; semester ticket optional)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 300,
+    "est_annual_mandatory_cost_eur": 164,
     "study_fields": [
       "Engineering",
       "Natural Sciences",
@@ -6147,12 +6648,16 @@
       "verified": true
     },
     "notes": "A large research university in Bavaria, strong in engineering, materials science and medicine.",
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "FAU Erlangen-Nürnberg official website",
         "url": "https://www.fau.eu"
+      },
+      {
+        "label": "FAU Erlangen-Nürnberg — semester contribution",
+        "url": "https://www.fau.de/studium/bewerbung-und-zulassung/alle-fristen-und-termine/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -6236,15 +6741,15 @@
     "city": "Berlin",
     "type": "Public",
     "official_website": "https://www.fu-berlin.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.fu-berlin.de/studium/studieren/studienorganisation/gebuehren/index.html",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (incl. transport ticket)",
+    "mandatory_semester_fee": "€376.80 per semester (new enrolment, winter semester 2026/27; incl. semester ticket)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 400,
+    "est_annual_mandatory_cost_eur": 754,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -6263,12 +6768,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Large comprehensive university in Berlin.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "FU Berlin official website",
         "url": "https://www.fu-berlin.de"
+      },
+      {
+        "label": "Free University of Berlin — semester contribution",
+        "url": "https://www.fu-berlin.de/studium/studieren/studienorganisation/gebuehren/index.html"
       }
     ],
     "verification_status": "Partially verified (national policy verified; institution fees pending)",
@@ -6540,15 +7049,15 @@
     "city": "Heidelberg",
     "type": "Public",
     "official_website": "https://www.uni-heidelberg.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-heidelberg.de/de/studium/studienorganisation/beitraege-gebuehren",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (student services + semester ticket)",
+    "mandatory_semester_fee": "€189.80 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 300,
+    "est_annual_mandatory_cost_eur": 380,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -6567,12 +7076,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Germany's oldest university.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Heidelberg University official website",
         "url": "https://www.uni-heidelberg.de"
+      },
+      {
+        "label": "Heidelberg University — semester contribution",
+        "url": "https://www.uni-heidelberg.de/de/studium/studienorganisation/beitraege-gebuehren"
       }
     ],
     "verification_status": "Partially verified (national policy verified; institution fees pending)",
@@ -6995,9 +7508,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university, EU citizens exempt from Baden-Württemberg non-EU fee)",
-    "mandatory_semester_fee": "Semester contribution ~€150-200 incl. transport (verify amount)",
+    "mandatory_semester_fee": "Semester contribution incl. Studierendenwerk €92 + administration fee; total not yet verified",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 350,
+    "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -7021,6 +7534,10 @@
       {
         "label": "KIT official website",
         "url": "https://www.kit.edu"
+      },
+      {
+        "label": "Karlsruhe Institute of Technology — semester contribution",
+        "url": "https://www.sle.kit.edu/imstudium/gebuehren.php"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7221,15 +7738,15 @@
     "city": "Munich",
     "type": "Public",
     "official_website": "https://www.lmu.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.lmu.de/de/workspace-fuer-studierende/1x1-des-studiums/rueckmeldung/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (student services + semester ticket)",
+    "mandatory_semester_fee": "€97.00 per semester (winter semester 2026/27; semester ticket optional)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 300,
+    "est_annual_mandatory_cost_eur": 194,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -7249,12 +7766,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Comprehensive research university.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "LMU official website",
         "url": "https://www.lmu.de"
+      },
+      {
+        "label": "LMU Munich (Ludwig Maximilian University) — semester contribution",
+        "url": "https://www.lmu.de/de/workspace-fuer-studierende/1x1-des-studiums/rueckmeldung/"
       }
     ],
     "verification_status": "Partially verified (national policy verified; institution fees pending)",
@@ -7429,15 +7950,15 @@
     "city": "Magdeburg",
     "type": "Public",
     "official_website": "https://www.ovgu.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.ovgu.de/rueckmeldung.html",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€329.30 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 659,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -7456,12 +7977,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Engineering- and medicine-focused university with strong ties to Max Planck and Fraunhofer institutes. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Otto von Guericke University Magdeburg official website",
         "url": "https://www.ovgu.de"
+      },
+      {
+        "label": "Otto von Guericke University Magdeburg — semester contribution",
+        "url": "https://www.ovgu.de/rueckmeldung.html"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7675,9 +8200,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (student services + semester ticket)",
+    "mandatory_semester_fee": "Semester contribution incl. semester ticket; total for 2026/27 not yet verified",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 320,
+    "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -7842,9 +8367,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition at public universities",
-    "mandatory_semester_fee": "Semester contribution (Semesterbeitrag) of roughly €150–€400 per semester, varying by university; it usually includes a public transport semester ticket and student services",
+    "mandatory_semester_fee": "€149.56 per semester excl. semester ticket (winter semester 2026/27); add semester ticket — verify total",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 300,
+    "est_annual_mandatory_cost_eur": null,
     "study_fields": [
       "Engineering",
       "Computer Science",
@@ -7902,6 +8427,10 @@
       {
         "label": "Technical University of Berlin official website",
         "url": "https://www.tu.berlin"
+      },
+      {
+        "label": "Technical University of Berlin — semester contribution",
+        "url": "https://www.tu.berlin/studierendensekretariat/themen-a-z/semesterbeitraege"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -7936,15 +8465,15 @@
     "city": "Munich",
     "type": "Public",
     "official_website": "https://www.tum.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.tum.de/studium/studienfinanzierung",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (student services + semester ticket)",
+    "mandatory_semester_fee": "€97.00 per semester (Munich/Garching/Weihenstephan; semester ticket optional)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 300,
+    "est_annual_mandatory_cost_eur": 194,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -7964,12 +8493,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Flagship technical university. English-taught Master's catalogue is large; English-taught Bachelor's are limited.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "TUM official website",
         "url": "https://www.tum.de"
+      },
+      {
+        "label": "Technical University of Munich — semester contribution",
+        "url": "https://www.tum.de/studium/studienfinanzierung"
       }
     ],
     "verification_status": "Partially verified (national policy verified; institution fees pending)",
@@ -8394,9 +8927,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition at public universities",
-    "mandatory_semester_fee": "Semester contribution (Semesterbeitrag) of roughly €150–€400 per semester, varying by university; it usually includes a public transport semester ticket and student services",
+    "mandatory_semester_fee": "€361.00 per semester (winter semester 2026/27; incl. semester ticket)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 300,
+    "est_annual_mandatory_cost_eur": 722,
     "study_fields": [
       "Engineering",
       "Computer Science",
@@ -8448,12 +8981,16 @@
       "verified": true
     },
     "notes": "A leading technical university in eastern Germany, strong in engineering, microelectronics and materials science.",
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "TU Dresden official website",
         "url": "https://tu-dresden.de"
+      },
+      {
+        "label": "TU Dresden — semester contribution",
+        "url": "https://tu-dresden.de/studium/im-studium/studienorganisation/rueckmeldung"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -8734,9 +9271,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (student services + semester ticket)",
+    "mandatory_semester_fee": "Semester contribution incl. semester ticket (student body share €248.07 for 2026/27); total not yet verified",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 350,
+    "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -8762,6 +9299,10 @@
       {
         "label": "University of Bonn official website",
         "url": "https://www.uni-bonn.de"
+      },
+      {
+        "label": "University of Bonn — semester contribution",
+        "url": "https://sp.uni-bonn.de/dokumente/idx/Ordnungen/BO.html"
       }
     ],
     "verification_status": "Partially verified (national policy verified; institution fees pending)",
@@ -8900,9 +9441,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition at public universities",
-    "mandatory_semester_fee": "Semester contribution (Semesterbeitrag) of roughly €150–€400 per semester, varying by university; it usually includes a public transport semester ticket and student services",
+    "mandatory_semester_fee": "€355.65 per semester (winter semester 2026/27; incl. semester ticket)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 300,
+    "est_annual_mandatory_cost_eur": 711,
     "study_fields": [
       "Economics",
       "Law",
@@ -8956,12 +9497,16 @@
       "verified": true
     },
     "notes": "One of Germany’s largest universities, strong in economics, law and medicine.",
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Cologne official website",
         "url": "https://www.uni-koeln.de"
+      },
+      {
+        "label": "University of Cologne — semester contribution",
+        "url": "https://studsek.uni-koeln.de/studium/rueckmeldung__semesterbeitrag/uebersicht_semesterbeitraege_seit_dem_sommersemester_2015/index_ger.html"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -9055,9 +9600,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition at public universities",
-    "mandatory_semester_fee": "Semester contribution (Semesterbeitrag) of roughly €150–€400 per semester, varying by university; it usually includes a public transport semester ticket and student services",
+    "mandatory_semester_fee": "€190.00 per semester (current amount)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 300,
+    "est_annual_mandatory_cost_eur": 380,
     "study_fields": [
       "Humanities",
       "Natural Sciences",
@@ -9111,12 +9656,16 @@
       "verified": true
     },
     "notes": "One of Germany’s oldest universities (1457), strong in the life sciences, medicine and the humanities.",
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Freiburg official website",
         "url": "https://uni-freiburg.de"
+      },
+      {
+        "label": "University of Freiburg — semester contribution",
+        "url": "https://uni-freiburg.de/studium/im-studium/semesterbeitrag-studiengebuehren/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -9160,9 +9709,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition at public universities",
-    "mandatory_semester_fee": "Semester contribution (Semesterbeitrag) of roughly €150–€400 per semester, varying by university; it usually includes a public transport semester ticket and student services",
+    "mandatory_semester_fee": "Semester contribution incl. semester ticket; total for 2026/27 not yet verified",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 300,
+    "est_annual_mandatory_cost_eur": null,
     "study_fields": [
       "Natural Sciences",
       "Mathematics",
@@ -9222,6 +9771,10 @@
       {
         "label": "University of Göttingen official website",
         "url": "https://www.uni-goettingen.de"
+      },
+      {
+        "label": "University of Göttingen — semester contribution",
+        "url": "https://www.uni-goettingen.de/de/40054.html"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -9311,9 +9864,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition at public universities",
-    "mandatory_semester_fee": "Semester contribution (Semesterbeitrag) of roughly €150–€400 per semester, varying by university; it usually includes a public transport semester ticket and student services",
+    "mandatory_semester_fee": "€402.00 per semester (winter semester 2026/27; incl. semester ticket)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 300,
+    "est_annual_mandatory_cost_eur": 804,
     "study_fields": [
       "Humanities",
       "Natural Sciences",
@@ -9367,12 +9920,16 @@
       "verified": false
     },
     "notes": "A major comprehensive research university in northern Germany, strong in the natural sciences, law and the humanities.",
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Hamburg official website",
         "url": "https://www.uni-hamburg.de"
+      },
+      {
+        "label": "University of Hamburg — semester contribution",
+        "url": "https://www.uni-hamburg.de/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren/semesterbeitrag.html"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -9614,9 +10171,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition at public universities",
-    "mandatory_semester_fee": "Semester contribution (Semesterbeitrag) of roughly €150–€400 per semester, varying by university; it usually includes a public transport semester ticket and student services",
+    "mandatory_semester_fee": "€194.00 per semester (autumn/winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 300,
+    "est_annual_mandatory_cost_eur": 388,
     "study_fields": [
       "Business",
       "Economics",
@@ -9670,12 +10227,16 @@
       "verified": true
     },
     "notes": "Germany’s leading business and economics university, with strong social sciences.",
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Mannheim official website",
         "url": "https://www.uni-mannheim.de"
+      },
+      {
+        "label": "University of Mannheim — semester contribution",
+        "url": "https://www.uni-mannheim.de/studium/im-studium/studienorganisation/beitraege-und-gebuehren/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -10099,9 +10660,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition at public universities",
-    "mandatory_semester_fee": "Semester contribution (Semesterbeitrag) of roughly €150–€400 per semester, varying by university; it usually includes a public transport semester ticket and student services",
+    "mandatory_semester_fee": "€184.00 per semester (current amount)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 300,
+    "est_annual_mandatory_cost_eur": 368,
     "study_fields": [
       "Engineering",
       "Computer Science",
@@ -10153,12 +10714,16 @@
       "verified": true
     },
     "notes": "A leading technical university, strong in automotive, aerospace and materials engineering.",
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Stuttgart official website",
         "url": "https://www.uni-stuttgart.de"
+      },
+      {
+        "label": "University of Stuttgart — semester contribution",
+        "url": "https://uni-stuttgart.de/rueckmeldung"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -10496,6 +11061,102 @@
     }
   },
   {
+    "id": "ie-dublin-city-university",
+    "name": "Dublin City University",
+    "slug": "dublin-city-university",
+    "country_code": "IE",
+    "country": "Ireland",
+    "city": "Dublin",
+    "type": "Public",
+    "official_website": "https://www.dcu.ie",
+    "tuition_info_url": "https://www.dcu.ie/fees/faqs",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 tuition under Free Fees Initiative (eligible EU/EEA undergraduates)",
+    "mandatory_semester_fee": "Student contribution €2,350 (2026/27, after Budget 2027 €150 cut) if eligible",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 2350,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": true,
+    "study_fields": [
+      "Business",
+      "Engineering",
+      "Computer Science",
+      "Social Sciences"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Conditional Tuition-Free",
+    "sources": [
+      {
+        "label": "DCU — student fees FAQs",
+        "url": "https://www.dcu.ie/fees/faqs"
+      },
+      {
+        "label": "Irish Times — Budget 2027 student contribution €2,350",
+        "url": "https://www.irishtimes.com/your-money/2026/10/06/students-set-for-lower-fees-as-budget-brings-increase-in-education-spending/"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
+    "id": "ie-maynooth-university",
+    "name": "Maynooth University",
+    "slug": "maynooth-university",
+    "country_code": "IE",
+    "country": "Ireland",
+    "city": "Maynooth",
+    "type": "Public",
+    "official_website": "https://www.maynoothuniversity.ie",
+    "tuition_info_url": "https://www.maynoothuniversity.ie/student-fees-grants/undergraduate",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 tuition under Free Fees Initiative (eligible EU/EEA undergraduates)",
+    "mandatory_semester_fee": "Student contribution €2,350 (2026/27, after Budget 2027 €150 cut) if eligible",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 2350,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": true,
+    "study_fields": [
+      "Humanities",
+      "Social Sciences",
+      "Computer Science",
+      "Natural Sciences"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Conditional Tuition-Free",
+    "sources": [
+      {
+        "label": "Maynooth University — undergraduate EU fees 2026/27",
+        "url": "https://www.maynoothuniversity.ie/student-fees-grants/undergraduate"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
     "id": "ie-tcd",
     "name": "Trinity College Dublin",
     "slug": "trinity-college-dublin",
@@ -10510,9 +11171,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition if eligible for Free Fees Initiative (EU/EEA)",
-    "mandatory_semester_fee": "Student contribution charge €2,500 (2025/26) if eligible",
+    "mandatory_semester_fee": "Student contribution €2,350 (2026/27, after Budget 2027 €150 cut) if eligible",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 2500,
+    "est_annual_mandatory_cost_eur": 2350,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": true,
@@ -10532,12 +11193,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Free Fees eligibility depends on residency/education criteria. Free Fees Initiative covers undergraduate study only; Master’s programmes are fee-paying.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "HEA – Free Fees Initiative",
         "url": "https://hea.ie/"
+      },
+      {
+        "label": "Maynooth University — 2026/27 student contribution €2,350 (Budget 2027)",
+        "url": "https://www.maynoothuniversity.ie/student-fees-grants/undergraduate"
       }
     ],
     "verification_status": "Verified (national scheme, official source)",
@@ -10608,6 +11273,56 @@
     }
   },
   {
+    "id": "ie-university-college-cork",
+    "name": "University College Cork",
+    "slug": "university-college-cork",
+    "country_code": "IE",
+    "country": "Ireland",
+    "city": "Cork",
+    "type": "Public",
+    "official_website": "https://www.ucc.ie",
+    "tuition_info_url": "https://www.ucc.ie/en/sfsa/budgeting/fees",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 tuition under Free Fees Initiative (eligible EU/EEA undergraduates)",
+    "mandatory_semester_fee": "Student contribution €2,350 (2026/27, after Budget 2027 €150 cut) if eligible",
+    "other_mandatory_fees": "Capitation fee also applies (see UCC fees page)",
+    "est_annual_mandatory_cost_eur": 2350,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": true,
+    "study_fields": [
+      "Business",
+      "Engineering",
+      "Life Sciences",
+      "Humanities"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Conditional Tuition-Free",
+    "sources": [
+      {
+        "label": "UCC — university fees",
+        "url": "https://www.ucc.ie/en/sfsa/budgeting/fees"
+      },
+      {
+        "label": "Irish Times — Budget 2027 student contribution €2,350",
+        "url": "https://www.irishtimes.com/your-money/2026/10/06/students-set-for-lower-fees-as-budget-brings-increase-in-education-spending/"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
     "id": "ie-ucd",
     "name": "University College Dublin",
     "slug": "university-college-dublin",
@@ -10622,9 +11337,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition if eligible for Free Fees Initiative (EU/EEA)",
-    "mandatory_semester_fee": "Student contribution charge €2,500 (2025/26) if eligible",
+    "mandatory_semester_fee": "Student contribution €2,350 (2026/27, after Budget 2027 €150 cut) if eligible",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 2500,
+    "est_annual_mandatory_cost_eur": 2350,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": true,
@@ -10644,12 +11359,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Free Fees eligibility depends on residency/education criteria. Free Fees Initiative covers undergraduate study only; Master’s programmes are fee-paying.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "UCD – Free Fees Initiative",
         "url": "https://www.ucd.ie/"
+      },
+      {
+        "label": "Maynooth University — 2026/27 student contribution €2,350 (Budget 2027)",
+        "url": "https://www.maynoothuniversity.ie/student-fees-grants/undergraduate"
       }
     ],
     "verification_status": "Verified (national scheme, official source)",
@@ -10735,10 +11454,10 @@
     "english_bachelor": true,
     "english_master": true,
     "english_phd": true,
-    "tuition_eu": "€0 tuition under Free Fees Initiative; student contribution ≈ €2,500–€3,000/year",
-    "mandatory_semester_fee": "Student contribution charge of €2,500 for 2025/26 (may rise), payable by eligible students",
+    "tuition_eu": "€0 tuition under Free Fees Initiative; student contribution €2,350/year (2026/27)",
+    "mandatory_semester_fee": "Student contribution €2,350 for 2026/27 (after Budget 2027 €150 cut), payable by eligible students",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 2500,
+    "est_annual_mandatory_cost_eur": 2350,
     "study_fields": [
       "Medicine",
       "Engineering",
@@ -10792,12 +11511,16 @@
       "verified": false
     },
     "notes": "A leading Irish university, strong in medicine, engineering and marine science. Free Fees Initiative covers undergraduate study only; Master’s programmes are fee-paying.",
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "University of Galway official website",
         "url": "https://www.universityofgalway.ie"
+      },
+      {
+        "label": "Maynooth University — 2026/27 student contribution €2,350 (Budget 2027)",
+        "url": "https://www.maynoothuniversity.ie/student-fees-grants/undergraduate"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -10822,6 +11545,52 @@
       }
     ],
     "teaching_languages": "English"
+  },
+  {
+    "id": "ie-university-of-limerick",
+    "name": "University of Limerick",
+    "slug": "university-of-limerick",
+    "country_code": "IE",
+    "country": "Ireland",
+    "city": "Limerick",
+    "type": "Public",
+    "official_website": "https://www.ul.ie",
+    "tuition_info_url": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 tuition under Free Fees Initiative (eligible EU/EEA undergraduates)",
+    "mandatory_semester_fee": "Student contribution €2,350 (2026/27, after Budget 2027 €150 cut) if eligible",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 2350,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": true,
+    "study_fields": [
+      "Engineering",
+      "Business",
+      "Health Sciences",
+      "Computer Science"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Conditional Tuition-Free",
+    "sources": [
+      {
+        "label": "University of Limerick — undergraduate fees 2026-2027",
+        "url": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
   },
   {
     "id": "it-polimi",
@@ -11561,6 +12330,52 @@
     "teaching_languages": "Italian · Italian / English"
   },
   {
+    "id": "it-university-of-pavia",
+    "name": "University of Pavia",
+    "slug": "university-of-pavia",
+    "country_code": "IT",
+    "country": "Italy",
+    "city": "Pavia",
+    "type": "Public",
+    "official_website": "https://www.unipv.it",
+    "tuition_info_url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/fees-and-funding/fees/prospective-students/eu-students",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "Income-based (ISEE) tuition for EU citizens; €130/year with ISEE ≤ €26,887.93 (2026-27), higher for higher incomes",
+    "mandatory_semester_fee": "Regional tax and stamp duty included in the all-inclusive fee (verify)",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Medicine",
+      "Engineering",
+      "Economics",
+      "Life Sciences"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "University of Pavia — EU students fees",
+        "url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/fees-and-funding/fees/prospective-students/eu-students"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
     "id": "it-unipi",
     "name": "University of Pisa",
     "slug": "university-of-pisa",
@@ -11664,6 +12479,52 @@
       }
     ],
     "teaching_languages": "Italian · Italian / English"
+  },
+  {
+    "id": "it-university-of-trento",
+    "name": "University of Trento",
+    "slug": "university-of-trento",
+    "country_code": "IT",
+    "country": "Italy",
+    "city": "Trento",
+    "type": "Public",
+    "official_website": "https://www.unitn.it",
+    "tuition_info_url": "https://www.unitn.it/en/study/fees-scholarships-accommodation/tuition-fees/eu-and-related-countries",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "Income-based (ISEE) tuition for EU citizens; ≈ €146–€366/year with ISEE up to €26,000, higher for higher incomes",
+    "mandatory_semester_fee": "€16 stamp duty; regional tax may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Engineering",
+      "Computer Science",
+      "Economics",
+      "Social Sciences"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "UniTrento — tuition fees for EU citizens",
+        "url": "https://www.unitn.it/en/study/fees-scholarships-accommodation/tuition-fees/eu-and-related-countries"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
   },
   {
     "id": "it-unito",
@@ -12630,6 +13491,52 @@
     "verification_status": "Partially verified (statutory fee level, national source)"
   },
   {
+    "id": "nl-tilburg-university",
+    "name": "Tilburg University",
+    "slug": "tilburg-university",
+    "country_code": "NL",
+    "country": "Netherlands",
+    "city": "Tilburg",
+    "type": "Public",
+    "official_website": "https://www.tilburguniversity.edu",
+    "tuition_info_url": "https://www.tilburguniversity.edu/students/administration/tuition-fees/rates",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "Statutory fee ≈ €2,694 for 2026-2027 (EU/EEA)",
+    "mandatory_semester_fee": "Semester/administrative contribution — see official site",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 2694,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": true,
+    "study_fields": [
+      "Business",
+      "Economics",
+      "Law",
+      "Social Sciences"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "Tilburg University — tuition fee rates 2026-2027",
+        "url": "https://www.tilburguniversity.edu/students/administration/tuition-fees/rates"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
     "id": "nl-uva",
     "name": "University of Amsterdam",
     "slug": "university-of-amsterdam",
@@ -13030,6 +13937,56 @@
     "verification_status": "Partially verified (statutory fee level, national source)"
   },
   {
+    "id": "no-inland-norway-university-of-applied-sciences-inn",
+    "name": "Inland Norway University of Applied Sciences (INN)",
+    "slug": "inland-norway-university-of-applied-sciences-inn",
+    "country_code": "NO",
+    "country": "Norway",
+    "city": "Lillehammer",
+    "type": "Public",
+    "official_website": "https://www.inn.no",
+    "tuition_info_url": "https://www.inn.no/english/study-options/incoming-full-degree-students/application-guidelines/tuition/",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+    "mandatory_semester_fee": "Semester fee (student welfare organisation), approx. NOK 600–1,000 per semester",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Business",
+      "Life Sciences",
+      "Arts",
+      "Computer Science"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "sources": [
+      {
+        "label": "INN — tuition (non-EU/EEA only)",
+        "url": "https://www.inn.no/english/study-options/incoming-full-degree-students/application-guidelines/tuition/"
+      },
+      {
+        "label": "European Commission — Study in Norway",
+        "url": "https://education.ec.europa.eu/study-in-europe/country-profiles/norway"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
     "id": "no-molde-university-college",
     "name": "Molde University College",
     "slug": "molde-university-college",
@@ -13385,6 +14342,96 @@
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
+  },
+  {
+    "id": "no-stfold-university-college",
+    "name": "Østfold University College",
+    "slug": "stfold-university-college",
+    "country_code": "NO",
+    "country": "Norway",
+    "city": "Halden",
+    "type": "Public",
+    "official_website": "https://www.hiof.no",
+    "tuition_info_url": "https://www.hiof.no/english/studies/admission/tuition-fees.html",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": false,
+    "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+    "mandatory_semester_fee": "Semester fee (student welfare organisation), approx. NOK 600–1,000 per semester",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Computer Science",
+      "Engineering",
+      "Education",
+      "Business"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "sources": [
+      {
+        "label": "Østfold University College — tuition fees",
+        "url": "https://www.hiof.no/english/studies/admission/tuition-fees.html"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
+    "id": "no-the-oslo-school-of-architecture-and-design-aho",
+    "name": "The Oslo School of Architecture and Design (AHO)",
+    "slug": "the-oslo-school-of-architecture-and-design-aho",
+    "country_code": "NO",
+    "country": "Norway",
+    "city": "Oslo",
+    "type": "Public",
+    "official_website": "https://www.aho.no",
+    "tuition_info_url": "https://www.aho.no/english/for-students/manage-studies/tuition-fees.html",
+    "admissions_url": null,
+    "bachelor_available": false,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+    "mandatory_semester_fee": "Semester fee (student welfare organisation), approx. NOK 600–1,000 per semester",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Architecture",
+      "Design"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "sources": [
+      {
+        "label": "AHO — tuition fees",
+        "url": "https://www.aho.no/english/for-students/manage-studies/tuition-fees.html"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
   },
   {
     "id": "no-uit",
@@ -13756,6 +14803,52 @@
       }
     ],
     "teaching_languages": "Norwegian · Norwegian / English"
+  },
+  {
+    "id": "no-university-of-south-eastern-norway-usn",
+    "name": "University of South-Eastern Norway (USN)",
+    "slug": "university-of-south-eastern-norway-usn",
+    "country_code": "NO",
+    "country": "Norway",
+    "city": "Kongsberg",
+    "type": "Public",
+    "official_website": "https://www.usn.no",
+    "tuition_info_url": "https://www.usn.no/english/academics/how-to-apply/admission-information/tuition-fees",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+    "mandatory_semester_fee": "Semester fee (student welfare organisation), approx. NOK 600–1,000 per semester",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Engineering",
+      "Business",
+      "Social Sciences",
+      "Health Sciences"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "sources": [
+      {
+        "label": "USN — tuition fees",
+        "url": "https://www.usn.no/english/academics/how-to-apply/admission-information/tuition-fees"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
   },
   {
     "id": "no-uis",
@@ -14670,6 +15763,52 @@
     "teaching_languages": "Portuguese · Portuguese / English"
   },
   {
+    "id": "pt-university-of-aveiro",
+    "name": "University of Aveiro",
+    "slug": "university-of-aveiro",
+    "country_code": "PT",
+    "country": "Portugal",
+    "city": "Aveiro",
+    "type": "Public",
+    "official_website": "https://www.ua.pt",
+    "tuition_info_url": "https://www.ua.pt/file/90554",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "Capped low tuition for EU/EEA students (2026/2027 fee order; Bachelor’s reference ≈ €697/year); Master’s fees set per programme",
+    "mandatory_semester_fee": "Enrolment fee = 2% of the annual tuition (includes school insurance)",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 697,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Business",
+      "Arts"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "Universidade de Aveiro — propinas 2026/2027",
+        "url": "https://www.ua.pt/file/90554"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
     "id": "pt-coimbra",
     "name": "University of Coimbra",
     "slug": "university-of-coimbra",
@@ -14884,6 +16023,52 @@
       "source_label": "University of Lisbon – International students: access and admission",
       "source_url": "https://www.ulisboa.pt/"
     }
+  },
+  {
+    "id": "pt-university-of-minho",
+    "name": "University of Minho",
+    "slug": "university-of-minho",
+    "country_code": "PT",
+    "country": "Portugal",
+    "city": "Braga",
+    "type": "Public",
+    "official_website": "https://www.uminho.pt",
+    "tuition_info_url": "https://alunos.uminho.pt/PT/estudantes/paginas/infouteispropinas.aspx",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "Capped low tuition for EU/EEA students (Bachelor’s reference ≈ €697/year, unchanged for 2026/27); Master’s fees set per programme",
+    "mandatory_semester_fee": "Small enrolment/administrative fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 697,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Engineering",
+      "Business",
+      "Social Sciences",
+      "Computer Science"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "Universidade do Minho — propinas",
+        "url": "https://alunos.uminho.pt/PT/estudantes/paginas/infouteispropinas.aspx"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
   },
   {
     "id": "pt-porto",
@@ -15223,6 +16408,56 @@
     }
   },
   {
+    "id": "si-university-of-maribor",
+    "name": "University of Maribor",
+    "slug": "university-of-maribor",
+    "country_code": "SI",
+    "country": "Slovenia",
+    "city": "Maribor",
+    "type": "Public",
+    "official_website": "https://www.um.si",
+    "tuition_info_url": null,
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 tuition for EU citizens in full-time Bachelor’s and Master’s study",
+    "mandatory_semester_fee": "Annual enrolment/administrative fee applies (verify)",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Engineering",
+      "Business",
+      "Natural Sciences",
+      "Social Sciences"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "sources": [
+      {
+        "label": "University of Maribor — study",
+        "url": "https://www.um.si/en/study/"
+      },
+      {
+        "label": "Study in Slovenia — tuition and funding",
+        "url": "https://studyinslovenia.si/study/tuition-and-funding/"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
     "id": "si-university-of-nova-gorica",
     "name": "University of Nova Gorica",
     "slug": "university-of-nova-gorica",
@@ -15270,6 +16505,56 @@
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
+  },
+  {
+    "id": "si-university-of-primorska",
+    "name": "University of Primorska",
+    "slug": "university-of-primorska",
+    "country_code": "SI",
+    "country": "Slovenia",
+    "city": "Koper",
+    "type": "Public",
+    "official_website": "https://www.upr.si",
+    "tuition_info_url": "https://www.upr.si/en/study--enrolment/529-tuition-fees",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 tuition for EU citizens in full-time Bachelor’s and Master’s study",
+    "mandatory_semester_fee": "Annual enrolment/administrative fee applies (verify)",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": true,
+    "study_fields": [
+      "Computer Science",
+      "Mathematics",
+      "Natural Sciences",
+      "Business"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "sources": [
+      {
+        "label": "University of Primorska — tuition fees",
+        "url": "https://www.upr.si/en/study--enrolment/529-tuition-fees"
+      },
+      {
+        "label": "University of Primorska — 19 programmes fully in English",
+        "url": "https://welcome.upr.si/student/choose/study-programmes-in-english/"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
   },
   {
     "id": "es-uab",

@@ -1,0 +1,161 @@
+{
+  "country": {
+    "code": "NO",
+    "slug": "norway",
+    "name": "Norway"
+  },
+  "universities": [
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "University of South-Eastern Norway (USN)",
+      "city": "Kongsberg",
+      "official_website": "https://www.usn.no",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "Semester fee (student welfare organisation), approx. NOK 600–1,000 per semester",
+      "est_annual_mandatory_cost_eur": null,
+      "study_fields": [
+        "Engineering",
+        "Business",
+        "Social Sciences",
+        "Health Sciences"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "tuition_info_url": "https://www.usn.no/english/academics/how-to-apply/admission-information/tuition-fees",
+      "sources": [
+        {
+          "label": "USN — tuition fees",
+          "url": "https://www.usn.no/english/academics/how-to-apply/admission-information/tuition-fees"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "Inland Norway University of Applied Sciences (INN)",
+      "city": "Lillehammer",
+      "official_website": "https://www.inn.no",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "Semester fee (student welfare organisation), approx. NOK 600–1,000 per semester",
+      "est_annual_mandatory_cost_eur": null,
+      "study_fields": [
+        "Business",
+        "Life Sciences",
+        "Arts",
+        "Computer Science"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "tuition_info_url": "https://www.inn.no/english/study-options/incoming-full-degree-students/application-guidelines/tuition/",
+      "sources": [
+        {
+          "label": "INN — tuition (non-EU/EEA only)",
+          "url": "https://www.inn.no/english/study-options/incoming-full-degree-students/application-guidelines/tuition/"
+        },
+        {
+          "label": "European Commission — Study in Norway",
+          "url": "https://education.ec.europa.eu/study-in-europe/country-profiles/norway"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": false,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "Østfold University College",
+      "city": "Halden",
+      "official_website": "https://www.hiof.no",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "Semester fee (student welfare organisation), approx. NOK 600–1,000 per semester",
+      "est_annual_mandatory_cost_eur": null,
+      "study_fields": [
+        "Computer Science",
+        "Engineering",
+        "Education",
+        "Business"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "tuition_info_url": "https://www.hiof.no/english/studies/admission/tuition-fees.html",
+      "sources": [
+        {
+          "label": "Østfold University College — tuition fees",
+          "url": "https://www.hiof.no/english/studies/admission/tuition-fees.html"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": false,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "The Oslo School of Architecture and Design (AHO)",
+      "city": "Oslo",
+      "official_website": "https://www.aho.no",
+      "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
+      "mandatory_semester_fee": "Semester fee (student welfare organisation), approx. NOK 600–1,000 per semester",
+      "est_annual_mandatory_cost_eur": null,
+      "study_fields": [
+        "Architecture",
+        "Design"
+      ],
+      "tuition_status": "Tuition-Free + Mandatory Fees",
+      "tuition_info_url": "https://www.aho.no/english/for-students/manage-studies/tuition-fees.html",
+      "sources": [
+        {
+          "label": "AHO — tuition fees",
+          "url": "https://www.aho.no/english/for-students/manage-studies/tuition-fees.html"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "USN — tuition fees",
+      "url": "https://www.usn.no/english/academics/how-to-apply/admission-information/tuition-fees"
+    },
+    {
+      "label": "INN — tuition (non-EU/EEA only)",
+      "url": "https://www.inn.no/english/study-options/incoming-full-degree-students/application-guidelines/tuition/"
+    },
+    {
+      "label": "European Commission — Study in Norway",
+      "url": "https://education.ec.europa.eu/study-in-europe/country-profiles/norway"
+    },
+    {
+      "label": "Østfold University College — tuition fees",
+      "url": "https://www.hiof.no/english/studies/admission/tuition-fees.html"
+    },
+    {
+      "label": "AHO — tuition fees",
+      "url": "https://www.aho.no/english/for-students/manage-studies/tuition-fees.html"
+    }
+  ]
+}

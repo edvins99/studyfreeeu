@@ -1,0 +1,46 @@
+{
+  "country": {
+    "code": "NL",
+    "slug": "netherlands",
+    "name": "Netherlands"
+  },
+  "universities": [
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": true,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "Tilburg University",
+      "city": "Tilburg",
+      "official_website": "https://www.tilburguniversity.edu",
+      "tuition_eu": "Statutory fee ≈ €2,694 for 2026-2027 (EU/EEA)",
+      "est_annual_mandatory_cost_eur": 2694,
+      "study_fields": [
+        "Business",
+        "Economics",
+        "Law",
+        "Social Sciences"
+      ],
+      "tuition_status": "Low Tuition",
+      "tuition_info_url": "https://www.tilburguniversity.edu/students/administration/tuition-fees/rates",
+      "sources": [
+        {
+          "label": "Tilburg University — tuition fee rates 2026-2027",
+          "url": "https://www.tilburguniversity.edu/students/administration/tuition-fees/rates"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Tilburg University — tuition fee rates 2026-2027",
+      "url": "https://www.tilburguniversity.edu/students/administration/tuition-fees/rates"
+    }
+  ]
+}

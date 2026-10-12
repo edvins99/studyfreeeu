@@ -1,0 +1,172 @@
+{
+  "country": {
+    "code": "IE",
+    "slug": "ireland",
+    "name": "Ireland"
+  },
+  "universities": [
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": true,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "University College Cork",
+      "city": "Cork",
+      "official_website": "https://www.ucc.ie",
+      "tuition_eu": "€0 tuition under Free Fees Initiative (eligible EU/EEA undergraduates)",
+      "mandatory_semester_fee": "Student contribution €2,350 (2026/27, after Budget 2027 €150 cut) if eligible",
+      "other_mandatory_fees": "Capitation fee also applies (see UCC fees page)",
+      "est_annual_mandatory_cost_eur": 2350,
+      "study_fields": [
+        "Business",
+        "Engineering",
+        "Life Sciences",
+        "Humanities"
+      ],
+      "tuition_status": "Conditional Tuition-Free",
+      "tuition_info_url": "https://www.ucc.ie/en/sfsa/budgeting/fees",
+      "sources": [
+        {
+          "label": "UCC — university fees",
+          "url": "https://www.ucc.ie/en/sfsa/budgeting/fees"
+        },
+        {
+          "label": "Irish Times — Budget 2027 student contribution €2,350",
+          "url": "https://www.irishtimes.com/your-money/2026/10/06/students-set-for-lower-fees-as-budget-brings-increase-in-education-spending/"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": true,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "Dublin City University",
+      "city": "Dublin",
+      "official_website": "https://www.dcu.ie",
+      "tuition_eu": "€0 tuition under Free Fees Initiative (eligible EU/EEA undergraduates)",
+      "mandatory_semester_fee": "Student contribution €2,350 (2026/27, after Budget 2027 €150 cut) if eligible",
+      "est_annual_mandatory_cost_eur": 2350,
+      "study_fields": [
+        "Business",
+        "Engineering",
+        "Computer Science",
+        "Social Sciences"
+      ],
+      "tuition_status": "Conditional Tuition-Free",
+      "tuition_info_url": "https://www.dcu.ie/fees/faqs",
+      "sources": [
+        {
+          "label": "DCU — student fees FAQs",
+          "url": "https://www.dcu.ie/fees/faqs"
+        },
+        {
+          "label": "Irish Times — Budget 2027 student contribution €2,350",
+          "url": "https://www.irishtimes.com/your-money/2026/10/06/students-set-for-lower-fees-as-budget-brings-increase-in-education-spending/"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": true,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "University of Limerick",
+      "city": "Limerick",
+      "official_website": "https://www.ul.ie",
+      "tuition_eu": "€0 tuition under Free Fees Initiative (eligible EU/EEA undergraduates)",
+      "mandatory_semester_fee": "Student contribution €2,350 (2026/27, after Budget 2027 €150 cut) if eligible",
+      "est_annual_mandatory_cost_eur": 2350,
+      "study_fields": [
+        "Engineering",
+        "Business",
+        "Health Sciences",
+        "Computer Science"
+      ],
+      "tuition_status": "Conditional Tuition-Free",
+      "tuition_info_url": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027",
+      "sources": [
+        {
+          "label": "University of Limerick — undergraduate fees 2026-2027",
+          "url": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": true,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "Maynooth University",
+      "city": "Maynooth",
+      "official_website": "https://www.maynoothuniversity.ie",
+      "tuition_eu": "€0 tuition under Free Fees Initiative (eligible EU/EEA undergraduates)",
+      "mandatory_semester_fee": "Student contribution €2,350 (2026/27, after Budget 2027 €150 cut) if eligible",
+      "est_annual_mandatory_cost_eur": 2350,
+      "study_fields": [
+        "Humanities",
+        "Social Sciences",
+        "Computer Science",
+        "Natural Sciences"
+      ],
+      "tuition_status": "Conditional Tuition-Free",
+      "tuition_info_url": "https://www.maynoothuniversity.ie/student-fees-grants/undergraduate",
+      "sources": [
+        {
+          "label": "Maynooth University — undergraduate EU fees 2026/27",
+          "url": "https://www.maynoothuniversity.ie/student-fees-grants/undergraduate"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "UCC — university fees",
+      "url": "https://www.ucc.ie/en/sfsa/budgeting/fees"
+    },
+    {
+      "label": "Irish Times — Budget 2027 student contribution €2,350",
+      "url": "https://www.irishtimes.com/your-money/2026/10/06/students-set-for-lower-fees-as-budget-brings-increase-in-education-spending/"
+    },
+    {
+      "label": "DCU — student fees FAQs",
+      "url": "https://www.dcu.ie/fees/faqs"
+    },
+    {
+      "label": "Irish Times — Budget 2027 student contribution €2,350",
+      "url": "https://www.irishtimes.com/your-money/2026/10/06/students-set-for-lower-fees-as-budget-brings-increase-in-education-spending/"
+    },
+    {
+      "label": "University of Limerick — undergraduate fees 2026-2027",
+      "url": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027"
+    },
+    {
+      "label": "Maynooth University — undergraduate EU fees 2026/27",
+      "url": "https://www.maynoothuniversity.ie/student-fees-grants/undergraduate"
+    }
+  ]
+}

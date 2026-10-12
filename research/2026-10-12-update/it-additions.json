@@ -1,0 +1,83 @@
+{
+  "country": {
+    "code": "IT",
+    "slug": "italy",
+    "name": "Italy"
+  },
+  "universities": [
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "University of Trento",
+      "city": "Trento",
+      "official_website": "https://www.unitn.it",
+      "tuition_eu": "Income-based (ISEE) tuition for EU citizens; ≈ €146–€366/year with ISEE up to €26,000, higher for higher incomes",
+      "mandatory_semester_fee": "€16 stamp duty; regional tax may apply",
+      "est_annual_mandatory_cost_eur": null,
+      "study_fields": [
+        "Engineering",
+        "Computer Science",
+        "Economics",
+        "Social Sciences"
+      ],
+      "tuition_status": "Low Tuition",
+      "tuition_info_url": "https://www.unitn.it/en/study/fees-scholarships-accommodation/tuition-fees/eu-and-related-countries",
+      "sources": [
+        {
+          "label": "UniTrento — tuition fees for EU citizens",
+          "url": "https://www.unitn.it/en/study/fees-scholarships-accommodation/tuition-fees/eu-and-related-countries"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. Verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "name": "University of Pavia",
+      "city": "Pavia",
+      "official_website": "https://www.unipv.it",
+      "tuition_eu": "Income-based (ISEE) tuition for EU citizens; €130/year with ISEE ≤ €26,887.93 (2026-27), higher for higher incomes",
+      "mandatory_semester_fee": "Regional tax and stamp duty included in the all-inclusive fee (verify)",
+      "est_annual_mandatory_cost_eur": null,
+      "study_fields": [
+        "Medicine",
+        "Engineering",
+        "Economics",
+        "Life Sciences"
+      ],
+      "tuition_status": "Low Tuition",
+      "tuition_info_url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/fees-and-funding/fees/prospective-students/eu-students",
+      "sources": [
+        {
+          "label": "University of Pavia — EU students fees",
+          "url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/fees-and-funding/fees/prospective-students/eu-students"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "UniTrento — tuition fees for EU citizens",
+      "url": "https://www.unitn.it/en/study/fees-scholarships-accommodation/tuition-fees/eu-and-related-countries"
+    },
+    {
+      "label": "University of Pavia — EU students fees",
+      "url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/fees-and-funding/fees/prospective-students/eu-students"
+    }
+  ]
+}

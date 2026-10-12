@@ -206,7 +206,7 @@
     "applies_to": [
       "FR"
     ],
-    "notes": "National tuition rates: €178/year Bachelor's, €254/year Master's (2025-2026)."
+    "notes": "National tuition rates: €178/year Bachelor's, €255/year Master's, €398/year PhD; CVEC €105 (2026-2027)."
   },
   {
     "id": "src-france-servicepublic",
@@ -250,7 +250,7 @@
     "applies_to": [
       "IE"
     ],
-    "notes": "Eligible students pay a student contribution charge of €2,500 (2025/26)."
+    "notes": "Eligible students pay a student contribution charge of €2,350 (2026/27, after the Budget 2027 €150 cut)."
   },
   {
     "id": "src-citizensinformation",
@@ -526,5 +526,49 @@
       "EE"
     ],
     "notes": "National admission portal (Estonia)."
+  },
+  {
+    "id": "src-ie-maynooth-2026",
+    "type": "University (official)",
+    "publisher": "Maynooth University",
+    "title": "Maynooth University — 2026/27 student contribution €2,350 (Budget 2027)",
+    "url": "https://www.maynoothuniversity.ie/student-fees-grants/undergraduate",
+    "applies_to": [
+      "IE"
+    ],
+    "notes": "Checked 2026-10-12."
+  },
+  {
+    "id": "src-fr-service-public-2026",
+    "type": "Government portal",
+    "publisher": "Service-Public.fr (French government)",
+    "title": "Service-Public.fr — frais d'inscription 2026-2027",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17481",
+    "applies_to": [
+      "FR"
+    ],
+    "notes": "Checked 2026-10-12."
+  },
+  {
+    "id": "src-at-fhtw-2026",
+    "type": "University (official)",
+    "publisher": "FH Technikum Wien",
+    "title": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
+    "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/",
+    "applies_to": [
+      "AT"
+    ],
+    "notes": "Checked 2026-10-12."
+  },
+  {
+    "id": "src-ie-budget-2027",
+    "type": "News (secondary)",
+    "publisher": "The Irish Times",
+    "title": "Irish Times — Budget 2027 student contribution",
+    "url": "https://www.irishtimes.com/your-money/2026/10/06/students-set-for-lower-fees-as-budget-brings-increase-in-education-spending/",
+    "applies_to": [
+      "IE"
+    ],
+    "notes": "Checked 2026-10-12."
   }
 ]
