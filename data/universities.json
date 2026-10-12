@@ -8,7 +8,7 @@
     "city": "Vienna",
     "type": "Public",
     "official_website": "https://boku.ac.at",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://boku.ac.at/en/studienservices/themen/studienbeitraege-foerderungen/hoehe-des-studienbeitrages",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -28,9 +28,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "General admission deadline: 5 September (winter semester) / 5 February (summer semester); programmes with entrance procedures have earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Direct university online application portal",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -49,6 +49,14 @@
       {
         "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
         "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
+      },
+      {
+        "label": "BOKU University — tuition / fees (official)",
+        "url": "https://boku.ac.at/en/studienservices/themen/studienbeitraege-foerderungen/hoehe-des-studienbeitrages"
+      },
+      {
+        "label": "Study in Austria — application and admission",
+        "url": "https://studyinaustria.at/en/plan-your-studies/application-and-admission"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -157,7 +165,7 @@
     "city": "Graz",
     "type": "Public",
     "official_website": "https://www.tugraz.at",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.tugraz.at/en/studying-and-teaching/studying-at-tu-graz/prospective-students/financial-matters/tuition-fees-and-the-austrian-student-union-fee",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -176,9 +184,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "General admission deadline: 5 September (winter semester) / 5 February (summer semester); programmes with entrance procedures have earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Direct university online application portal",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -197,6 +205,14 @@
       {
         "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
         "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
+      },
+      {
+        "label": "Graz University of Technology (TU Graz) — tuition / fees (official)",
+        "url": "https://www.tugraz.at/en/studying-and-teaching/studying-at-tu-graz/prospective-students/financial-matters/tuition-fees-and-the-austrian-student-union-fee"
+      },
+      {
+        "label": "Study in Austria — application and admission",
+        "url": "https://studyinaustria.at/en/plan-your-studies/application-and-admission"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -319,7 +335,7 @@
     "city": "Leoben",
     "type": "Public",
     "official_website": "https://www.unileoben.ac.at",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://ssc.unileoben.ac.at/en/interest-in-studies/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -337,9 +353,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "General admission deadline: 5 September (winter semester) / 5 February (summer semester); programmes with entrance procedures have earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Direct university online application portal",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -358,6 +374,14 @@
       {
         "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
         "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
+      },
+      {
+        "label": "Montanuniversität Leoben — tuition / fees (official)",
+        "url": "https://ssc.unileoben.ac.at/en/interest-in-studies/tuition-fees"
+      },
+      {
+        "label": "Study in Austria — application and admission",
+        "url": "https://studyinaustria.at/en/plan-your-studies/application-and-admission"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -371,7 +395,7 @@
     "city": "Salzburg",
     "type": "Public",
     "official_website": "https://www.plus.ac.at",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.plus.ac.at/studium/vor-dem-studium-3/studienbeitrag/?lang=en",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -391,9 +415,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "General admission deadline: 5 September (winter semester) / 5 February (summer semester); programmes with entrance procedures have earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Direct university online application portal",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -412,6 +436,14 @@
       {
         "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
         "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
+      },
+      {
+        "label": "Paris Lodron University of Salzburg — tuition / fees (official)",
+        "url": "https://www.plus.ac.at/studium/vor-dem-studium-3/studienbeitrag/?lang=en"
+      },
+      {
+        "label": "Study in Austria — application and admission",
+        "url": "https://studyinaustria.at/en/plan-your-studies/application-and-admission"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -425,7 +457,7 @@
     "city": "Vienna",
     "type": "Public",
     "official_website": "https://www.tuwien.at",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.tuwien.at/en/studies/admission/students-union-fee-and-tuition-fee/tuition-fee",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -462,6 +494,10 @@
       {
         "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
         "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
+      },
+      {
+        "label": "TU Wien (Vienna University of Technology) — tuition / fees (official)",
+        "url": "https://www.tuwien.at/en/studies/admission/students-union-fee-and-tuition-fee/tuition-fee"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -541,7 +577,7 @@
     "city": "Graz",
     "type": "Public",
     "official_website": "https://www.uni-graz.at",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://welcome.uni-graz.at/en/study-international/costs/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -578,6 +614,10 @@
       {
         "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
         "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
+      },
+      {
+        "label": "University of Graz — tuition / fees (official)",
+        "url": "https://welcome.uni-graz.at/en/study-international/costs/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -765,7 +805,7 @@
     "city": "Klagenfurt",
     "type": "Public",
     "official_website": "https://www.aau.at",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.aau.at/en/study/studying-at-aau/during-your-programme/university-fees/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -784,9 +824,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "General admission deadline: 5 September (winter semester) / 5 February (summer semester); programmes with entrance procedures have earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Direct university online application portal",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -805,6 +845,14 @@
       {
         "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
         "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
+      },
+      {
+        "label": "University of Klagenfurt — tuition / fees (official)",
+        "url": "https://www.aau.at/en/study/studying-at-aau/during-your-programme/university-fees/"
+      },
+      {
+        "label": "Study in Austria — application and admission",
+        "url": "https://studyinaustria.at/en/plan-your-studies/application-and-admission"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -935,7 +983,7 @@
     "city": "Vienna",
     "type": "Public",
     "official_website": "https://www.wu.ac.at",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.wu.ac.at/en/students/getting-organized/tuition-fees-students-union-oeh-dues",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -954,9 +1002,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "General admission deadline: 5 September (winter semester) / 5 February (summer semester); programmes with entrance procedures have earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Direct university online application portal",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -975,6 +1023,14 @@
       {
         "label": "FH Technikum Wien — ÖH fee €26.20 (2026/27)",
         "url": "https://www.technikum-wien.at/studieninformationen/studienbeitrage-und-studienbeihilfen/"
+      },
+      {
+        "label": "WU Vienna University of Economics and Business — tuition / fees (official)",
+        "url": "https://www.wu.ac.at/en/students/getting-organized/tuition-fees-students-union-oeh-dues"
+      },
+      {
+        "label": "Study in Austria — application and admission",
+        "url": "https://studyinaustria.at/en/plan-your-studies/application-and-admission"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -1139,7 +1195,7 @@
     "city": "Leuven",
     "type": "Public",
     "official_website": "https://www.kuleuven.be",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.kuleuven.be/english/education/student/fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -1167,12 +1223,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Flemish-Community tuition rates apply; exact amount to verify.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "KU Leuven official website",
         "url": "https://www.kuleuven.be"
+      },
+      {
+        "label": "KU Leuven — tuition / fees (official)",
+        "url": "https://www.kuleuven.be/english/education/student/fees"
       }
     ],
     "verification_status": "Verified (regional official rate)",
@@ -1388,7 +1448,7 @@
     "city": "Liège",
     "type": "Public",
     "official_website": "https://www.uliege.be",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.enseignement.uliege.be/cms/c_17654509/en/registration-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -1425,6 +1485,10 @@
       {
         "label": "UCLouvain — FWB minerval amounts (national rate reference)",
         "url": "https://uclouvain.be/fr/inscriptions/montant-droits-inscription"
+      },
+      {
+        "label": "University of Liège (ULiège) — tuition / fees (official)",
+        "url": "https://www.enseignement.uliege.be/cms/c_17654509/en/registration-fees"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -1811,7 +1875,7 @@
     "city": "Aarhus",
     "type": "Public",
     "official_website": "https://www.au.dk",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://masters.au.dk/tuitionfees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -1839,12 +1903,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Comprehensive Danish university.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Aarhus University official website",
         "url": "https://www.au.dk"
+      },
+      {
+        "label": "Aarhus University — tuition / fees (official)",
+        "url": "https://masters.au.dk/tuitionfees"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -1922,7 +1990,7 @@
     "city": "Aarhus",
     "type": "Public",
     "official_website": "https://aarch.dk",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://aarch.dk/en/full-degree-student-admission/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -1940,14 +2008,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Bachelor: 15 March 12:00 CET via optagelse.dk (quota 2 / international applicants); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "optagelse.dk (Bachelor) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Aarhus School of Architecture — architecture at bachelor/master level. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -1957,6 +2025,14 @@
       {
         "label": "English-taught programmes (official)",
         "url": "https://aarch.dk/en/master-of-arts-in-architecture/"
+      },
+      {
+        "label": "Arkitektskolen Aarhus — tuition / fees (official)",
+        "url": "https://aarch.dk/en/full-degree-student-admission/"
+      },
+      {
+        "label": "Study in Denmark — how to apply",
+        "url": "https://studyindenmark.dk/study-options/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -1970,7 +2046,7 @@
     "city": "Aarhus",
     "type": "Public",
     "official_website": "https://www.eaaa.dk",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://baaa.dk/student-experience/practical-matters/tuition-fees/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": false,
@@ -1989,14 +2065,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Bachelor: 15 March 12:00 CET via optagelse.dk (quota 2 / international applicants); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "optagelse.dk (Bachelor) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -2006,6 +2082,14 @@
       {
         "label": "Study in Denmark — tuition fees",
         "url": "https://studyindenmark.dk/"
+      },
+      {
+        "label": "Business Academy Aarhus (EAAA) — tuition / fees (official)",
+        "url": "https://baaa.dk/student-experience/practical-matters/tuition-fees/"
+      },
+      {
+        "label": "Study in Denmark — how to apply",
+        "url": "https://studyindenmark.dk/study-options/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2037,14 +2121,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Bachelor: 15 March 12:00 CET via optagelse.dk (quota 2 / international applicants); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "optagelse.dk (Bachelor) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -2054,6 +2138,10 @@
       {
         "label": "Study in Denmark — tuition fees",
         "url": "https://studyindenmark.dk/"
+      },
+      {
+        "label": "Study in Denmark — how to apply",
+        "url": "https://studyindenmark.dk/study-options/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2085,14 +2173,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Bachelor: 15 March 12:00 CET via optagelse.dk (quota 2 / international applicants); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "optagelse.dk (Bachelor) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -2102,6 +2190,10 @@
       {
         "label": "Study in Denmark — tuition fees",
         "url": "https://studyindenmark.dk/"
+      },
+      {
+        "label": "Study in Denmark — how to apply",
+        "url": "https://studyindenmark.dk/study-options/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2135,19 +2227,23 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Bachelor: 15 March 12:00 CET via optagelse.dk (quota 2 / international applicants); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "optagelse.dk (Bachelor) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "CBS — one of Europe's leading business schools; English-taught BSc and MSc programmes. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Copenhagen Business School official website",
         "url": "https://www.cbs.dk"
+      },
+      {
+        "label": "Study in Denmark — how to apply",
+        "url": "https://studyindenmark.dk/study-options/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2161,7 +2257,7 @@
     "city": "Kolding",
     "type": "Public",
     "official_website": "https://www.designskolenkolding.dk",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.designskolenkolding.dk/en/the-school/international-students",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -2181,14 +2277,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Bachelor: 15 March 12:00 CET via optagelse.dk (quota 2 / international applicants); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "optagelse.dk (Bachelor) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Design School Kolding — design at bachelor/master level. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -2198,6 +2294,14 @@
       {
         "label": "English-taught programmes (official)",
         "url": "https://www.designskolenkolding.dk/en/study-at-the-school/master"
+      },
+      {
+        "label": "Designskolen Kolding — tuition / fees (official)",
+        "url": "https://www.designskolenkolding.dk/en/the-school/international-students"
+      },
+      {
+        "label": "Study in Denmark — how to apply",
+        "url": "https://studyindenmark.dk/study-options/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2211,7 +2315,7 @@
     "city": "Copenhagen",
     "type": "Public",
     "official_website": "https://kglakademi.dk",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://royaldanishacademy.com/en/tuitionfee",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -2231,14 +2335,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Bachelor: 15 March 12:00 CET via optagelse.dk (quota 2 / international applicants); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "optagelse.dk (Bachelor) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "The Royal Danish Academy — architecture, design, conservation (bachelor and master level; several master's programmes taught in English — verify per programme). Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -2248,6 +2352,14 @@
       {
         "label": "English-taught programmes (official)",
         "url": "https://royaldanishacademy.com/en/maprogrammes"
+      },
+      {
+        "label": "Det Kongelige Akademi (Royal Danish Academy) — tuition / fees (official)",
+        "url": "https://royaldanishacademy.com/en/tuitionfee"
+      },
+      {
+        "label": "Study in Denmark — how to apply",
+        "url": "https://studyindenmark.dk/study-options/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2279,14 +2391,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Bachelor: 15 March 12:00 CET via optagelse.dk (quota 2 / international applicants); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "optagelse.dk (Bachelor) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -2296,6 +2408,10 @@
       {
         "label": "Study in Denmark — tuition fees",
         "url": "https://studyindenmark.dk/"
+      },
+      {
+        "label": "Study in Denmark — how to apply",
+        "url": "https://studyindenmark.dk/study-options/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2309,7 +2425,7 @@
     "city": "Copenhagen",
     "type": "Public",
     "official_website": "https://en.itu.dk",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://en.itu.dk/Programmes/BSc-Programmes/Applying-to-a-BSc-programme/Application-and-tuition-fees/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -2329,19 +2445,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Bachelor: 15 March 12:00 CET via optagelse.dk (quota 2 / international applicants); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "optagelse.dk (Bachelor) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Specialised IT university in Copenhagen; several BSc and MSc programmes taught in English. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "IT University of Copenhagen official website",
         "url": "https://en.itu.dk"
+      },
+      {
+        "label": "IT University of Copenhagen — tuition / fees (official)",
+        "url": "https://en.itu.dk/Programmes/BSc-Programmes/Applying-to-a-BSc-programme/Application-and-tuition-fees/"
+      },
+      {
+        "label": "Study in Denmark — how to apply",
+        "url": "https://studyindenmark.dk/study-options/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2375,19 +2499,23 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Bachelor: 15 March 12:00 CET via optagelse.dk (quota 2 / international applicants); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "optagelse.dk (Bachelor) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Denmark's largest university college (professionshøjskole) — professional bachelor and master programmes; selected English-taught programmes (verify per programme). Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Københavns Professionshøjskole official website",
         "url": "https://www.kp.dk"
+      },
+      {
+        "label": "Study in Denmark — how to apply",
+        "url": "https://studyindenmark.dk/study-options/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2421,14 +2549,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Bachelor: 15 March 12:00 CET via optagelse.dk (quota 2 / international applicants); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "optagelse.dk (Bachelor) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "University College Nordjylland (Aalborg, Hjørring, Thisted); professional bachelor and master programmes. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -2438,6 +2566,10 @@
       {
         "label": "English-taught programmes (official)",
         "url": "http://ucn.dk/english/education-and-programmes"
+      },
+      {
+        "label": "Study in Denmark — how to apply",
+        "url": "https://studyindenmark.dk/study-options/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2554,7 +2686,7 @@
     "city": "Kongens Lyngby",
     "type": "Public",
     "official_website": "https://www.dtu.dk",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.dtu.dk/english/education/graduate/fees-and-funding",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -2580,12 +2712,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Denmark's leading technical university.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "DTU official website",
         "url": "https://www.dtu.dk"
+      },
+      {
+        "label": "Technical University of Denmark (DTU) — tuition / fees (official)",
+        "url": "https://www.dtu.dk/english/education/graduate/fees-and-funding"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -2663,7 +2799,7 @@
     "city": "Copenhagen",
     "type": "Public",
     "official_website": "https://www.ku.dk",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.ku.dk/studies/admission/application-deposit-fee-and-tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -2691,12 +2827,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Denmark's largest university. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Copenhagen official website",
         "url": "https://www.ku.dk"
+      },
+      {
+        "label": "University of Copenhagen — tuition / fees (official)",
+        "url": "https://www.ku.dk/studies/admission/application-deposit-fee-and-tuition-fees"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -2879,7 +3019,7 @@
     "city": "Aarhus",
     "type": "Public",
     "official_website": "https://www.via.dk",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://en.via.dk/programmes/bachelor/tuition",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -2899,19 +3039,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Bachelor: 15 March 12:00 CET via optagelse.dk (quota 2 / international applicants); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "optagelse.dk (Bachelor) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "One of Denmark's largest university colleges; offers a number of English-taught programmes (verify per programme). Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "VIA University College official website",
         "url": "https://www.via.dk"
+      },
+      {
+        "label": "VIA University College — tuition / fees (official)",
+        "url": "https://en.via.dk/programmes/bachelor/tuition"
+      },
+      {
+        "label": "Study in Denmark — how to apply",
+        "url": "https://studyindenmark.dk/study-options/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2944,14 +3092,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Bachelor: 15 March 12:00 CET via optagelse.dk (quota 2 / international applicants); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "optagelse.dk (Bachelor) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -2961,6 +3109,10 @@
       {
         "label": "Study in Denmark — tuition fees",
         "url": "https://studyindenmark.dk/"
+      },
+      {
+        "label": "Study in Denmark — how to apply",
+        "url": "https://studyindenmark.dk/study-options/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2974,7 +3126,7 @@
     "city": "Tallinn",
     "type": "Public",
     "official_website": "https://taltech.ee",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://taltech.ee/en/tuition-fee-rates",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -3001,7 +3153,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Estonia's technical university; strong IT/cyber programmes.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -3089,7 +3241,7 @@
     "city": "Tartu",
     "type": "Public",
     "official_website": "https://ut.ee",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://ut.ee/en/content/cost-tuition",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -3117,7 +3269,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Estonia's leading university. Some English-taught programmes offer scholarships.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Conditional Tuition-Free",
     "sources": [
       {
@@ -3127,6 +3279,10 @@
       {
         "label": "University of Tartu — scholarship / tuition-waiver information",
         "url": "https://ut.ee/en/content/scholarship-information"
+      },
+      {
+        "label": "University of Tartu — tuition / fees (official)",
+        "url": "https://ut.ee/en/content/cost-tuition"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -3204,7 +3360,7 @@
     "city": "Espoo",
     "type": "Public",
     "official_website": "https://www.aalto.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.aalto.fi/en/international-students/tuition-fees-and-scholarships",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -3232,12 +3388,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Design- and technology-focused university with strong English-taught offering.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Aalto University official website",
         "url": "https://www.aalto.fi"
+      },
+      {
+        "label": "Aalto University — tuition / fees (official)",
+        "url": "https://www.aalto.fi/en/international-students/tuition-fees-and-scholarships"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -3420,7 +3580,7 @@
     "city": "Helsinki",
     "type": "Public",
     "official_website": "https://www.arcada.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://start.arcada.fi/en/my-studies/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -3439,14 +3599,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -3456,6 +3616,14 @@
       {
         "label": "Study in Finland — tuition fees",
         "url": "https://www.studyinfinland.fi/"
+      },
+      {
+        "label": "Arcada University of Applied Sciences — tuition / fees (official)",
+        "url": "https://start.arcada.fi/en/my-studies/tuition-fees"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -3469,7 +3637,7 @@
     "city": "Kokkola",
     "type": "Public",
     "official_website": "https://www.centria.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://net.centria.fi/en/education/how-to-apply/funding-your-studies/bachelors-degree-programmes/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -3488,14 +3656,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -3505,6 +3673,14 @@
       {
         "label": "Study in Finland — tuition fees",
         "url": "https://www.studyinfinland.fi/"
+      },
+      {
+        "label": "Centria University of Applied Sciences — tuition / fees (official)",
+        "url": "https://net.centria.fi/en/education/how-to-apply/funding-your-studies/bachelors-degree-programmes/"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -3518,7 +3694,7 @@
     "city": "Helsinki",
     "type": "Public",
     "official_website": "https://www.diak.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.diak.fi/en/student-guide/study-path/study-related-rules-and-regulations/tuition-fees-and-scholarships/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -3536,14 +3712,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -3553,6 +3729,14 @@
       {
         "label": "Study in Finland — tuition fees",
         "url": "https://www.studyinfinland.fi/"
+      },
+      {
+        "label": "Diaconia University of Applied Sciences (Diak) — tuition / fees (official)",
+        "url": "https://www.diak.fi/en/student-guide/study-path/study-related-rules-and-regulations/tuition-fees-and-scholarships/"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -3566,7 +3750,7 @@
     "city": "Helsinki",
     "type": "Public",
     "official_website": "https://www.haaga-helia.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.haaga-helia.fi/en/apply/tuition-fees-and-scholarships",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -3586,19 +3770,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Business-focused university of applied sciences; notable English-taught offering (e.g. International Business). Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Haaga-Helia official website",
         "url": "https://www.haaga-helia.fi"
+      },
+      {
+        "label": "Haaga-Helia University of Applied Sciences — tuition / fees (official)",
+        "url": "https://www.haaga-helia.fi/en/apply/tuition-fees-and-scholarships"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -3612,7 +3804,7 @@
     "city": "Hämeenlinna",
     "type": "Public",
     "official_website": "https://www.hamk.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hamk.fi/en/come-to-study/tuition-fees-and-scholarships",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -3631,14 +3823,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -3648,6 +3840,14 @@
       {
         "label": "Study in Finland — tuition fees",
         "url": "https://www.studyinfinland.fi/"
+      },
+      {
+        "label": "Häme University of Applied Sciences (HAMK) — tuition / fees (official)",
+        "url": "https://www.hamk.fi/en/come-to-study/tuition-fees-and-scholarships"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -3661,7 +3861,7 @@
     "city": "Helsinki",
     "type": "Public",
     "official_website": "https://www.hanken.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hanken.fi/en/apply/study-hanken/international-students/tuition-fees-and-scholarships",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -3680,19 +3880,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Swedish-language business school with a full Bachelor's programme and Master's studies in English (Helsinki & Vaasa). Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Hanken School of Economics official website",
         "url": "https://www.hanken.fi"
+      },
+      {
+        "label": "Hanken School of Economics — tuition / fees (official)",
+        "url": "https://www.hanken.fi/en/apply/study-hanken/international-students/tuition-fees-and-scholarships"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -3706,7 +3914,7 @@
     "city": "Jyväskylä",
     "type": "Public",
     "official_website": "https://www.jamk.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.jamk.fi/en/apply-to-jamk/how-to-apply/tuition-fees-and-scholarships",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -3726,14 +3934,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -3743,6 +3951,14 @@
       {
         "label": "Study in Finland — tuition fees",
         "url": "https://www.studyinfinland.fi/"
+      },
+      {
+        "label": "JAMK University of Applied Sciences — tuition / fees (official)",
+        "url": "https://www.jamk.fi/en/apply-to-jamk/how-to-apply/tuition-fees-and-scholarships"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -3756,7 +3972,7 @@
     "city": "Kajaani",
     "type": "Public",
     "official_website": "https://www.kamk.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.kamk.fi/en/study-at-kamk/apply-to-kamk/tuition-fees-and-scholarship/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -3775,14 +3991,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -3792,6 +4008,14 @@
       {
         "label": "Study in Finland — tuition fees",
         "url": "https://www.studyinfinland.fi/"
+      },
+      {
+        "label": "Kajaani University of Applied Sciences — tuition / fees (official)",
+        "url": "https://www.kamk.fi/en/study-at-kamk/apply-to-kamk/tuition-fees-and-scholarship/"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -3805,7 +4029,7 @@
     "city": "Joensuu",
     "type": "Public",
     "official_website": "https://www.karelia.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.karelia.fi/en/tuition-fees/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -3824,14 +4048,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -3841,6 +4065,14 @@
       {
         "label": "Study in Finland — tuition fees",
         "url": "https://www.studyinfinland.fi/"
+      },
+      {
+        "label": "Karelia University of Applied Sciences — tuition / fees (official)",
+        "url": "https://www.karelia.fi/en/tuition-fees/"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -3854,7 +4086,7 @@
     "city": "Lahti",
     "type": "Public",
     "official_website": "https://lab.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://lab.fi/en/studies/admission/joint-application-guide/eligibility-and-student-selection/tuition-fee-and-residence-permit",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -3874,19 +4106,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "University of applied sciences with campuses in Lahti and Lappeenranta; several English-taught degrees. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "LAB University of Applied Sciences official website",
         "url": "https://lab.fi"
+      },
+      {
+        "label": "LAB University of Applied Sciences — tuition / fees (official)",
+        "url": "https://lab.fi/en/studies/admission/joint-application-guide/eligibility-and-student-selection/tuition-fee-and-residence-permit"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -3900,7 +4140,7 @@
     "city": "Rovaniemi",
     "type": "Public",
     "official_website": "https://www.lapinamk.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.lapinamk.fi/en/for-students/during-your-studies/study-guidelines-and-rules/tuition-fee-at-lapland-uas",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -3919,14 +4159,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -3936,6 +4176,14 @@
       {
         "label": "Study in Finland — tuition fees",
         "url": "https://www.studyinfinland.fi/"
+      },
+      {
+        "label": "Lapland University of Applied Sciences — tuition / fees (official)",
+        "url": "https://www.lapinamk.fi/en/for-students/during-your-studies/study-guidelines-and-rules/tuition-fee-at-lapland-uas"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -3949,7 +4197,7 @@
     "city": "Vantaa",
     "type": "Public",
     "official_website": "https://www.laurea.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.laurea.fi/en/education/apply-to-laurea/tuition-fees-and-scholarships/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -3968,14 +4216,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -3985,6 +4233,14 @@
       {
         "label": "Study in Finland — tuition fees",
         "url": "https://www.studyinfinland.fi/"
+      },
+      {
+        "label": "Laurea University of Applied Sciences — tuition / fees (official)",
+        "url": "https://www.laurea.fi/en/education/apply-to-laurea/tuition-fees-and-scholarships/"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -4101,7 +4357,7 @@
     "city": "Helsinki",
     "type": "Public",
     "official_website": "https://www.metropolia.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.metropolia.fi/en/study-at-metropolia/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -4121,19 +4377,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Finland's largest university of applied sciences (UAS); wide range of English-taught Bachelor's and Master's degrees. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Metropolia official website",
         "url": "https://www.metropolia.fi"
+      },
+      {
+        "label": "Metropolia University of Applied Sciences — tuition / fees (official)",
+        "url": "https://www.metropolia.fi/en/study-at-metropolia/tuition-fees"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -4147,7 +4411,7 @@
     "city": "Vaasa",
     "type": "Public",
     "official_website": "https://www.novia.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.novia.fi/en/study/admission/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -4166,14 +4430,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -4183,6 +4447,14 @@
       {
         "label": "Study in Finland — tuition fees",
         "url": "https://www.studyinfinland.fi/"
+      },
+      {
+        "label": "Novia University of Applied Sciences — tuition / fees (official)",
+        "url": "https://www.novia.fi/en/study/admission/tuition-fees"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -4196,7 +4468,7 @@
     "city": "Oulu",
     "type": "Public",
     "official_website": "https://oamk.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.oamk.fi/en/tuition-fees-and-scholarships/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -4216,19 +4488,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Oulu UAS in northern Finland; English-taught degrees available. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Oamk official website",
         "url": "https://oamk.fi"
+      },
+      {
+        "label": "Oulu University of Applied Sciences (Oamk) — tuition / fees (official)",
+        "url": "https://www.oamk.fi/en/tuition-fees-and-scholarships/"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -4242,7 +4522,7 @@
     "city": "Pori",
     "type": "Public",
     "official_website": "https://www.samk.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.samk.fi/en/apply-to-study/tuition-fees-and-scholarships/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -4262,14 +4542,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -4279,6 +4559,14 @@
       {
         "label": "Study in Finland — tuition fees",
         "url": "https://www.studyinfinland.fi/"
+      },
+      {
+        "label": "Satakunta University of Applied Sciences (SAMK) — tuition / fees (official)",
+        "url": "https://www.samk.fi/en/apply-to-study/tuition-fees-and-scholarships/"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -4292,7 +4580,7 @@
     "city": "Kuopio",
     "type": "Public",
     "official_website": "https://www.savonia.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.savonia.fi/en/savonia-uas/apply/masters-degree/tuition-masters/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -4311,14 +4599,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -4328,6 +4616,14 @@
       {
         "label": "Study in Finland — tuition fees",
         "url": "https://www.studyinfinland.fi/"
+      },
+      {
+        "label": "Savonia University of Applied Sciences — tuition / fees (official)",
+        "url": "https://www.savonia.fi/en/savonia-uas/apply/masters-degree/tuition-masters/"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -4341,7 +4637,7 @@
     "city": "Seinäjoki",
     "type": "Public",
     "official_website": "https://www.seamk.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.seamk.fi/en/admissions/tuition-fees/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -4360,14 +4656,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -4377,6 +4673,14 @@
       {
         "label": "Study in Finland — tuition fees",
         "url": "https://www.studyinfinland.fi/"
+      },
+      {
+        "label": "Seinäjoki University of Applied Sciences (SeAMK) — tuition / fees (official)",
+        "url": "https://www.seamk.fi/en/admissions/tuition-fees/"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -4390,7 +4694,7 @@
     "city": "Kouvola",
     "type": "Public",
     "official_website": "https://www.xamk.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.xamk.fi/en/education-and-degrees/applying/tuition-fees/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -4409,14 +4713,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -4426,6 +4730,14 @@
       {
         "label": "Study in Finland — tuition fees",
         "url": "https://www.studyinfinland.fi/"
+      },
+      {
+        "label": "South-Eastern Finland University of Applied Sciences (Xamk) — tuition / fees (official)",
+        "url": "https://www.xamk.fi/en/education-and-degrees/applying/tuition-fees/"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -4542,7 +4854,7 @@
     "city": "Tampere",
     "type": "Public",
     "official_website": "https://www.tuni.fi/en",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.tuni.fi/en/tamk/financial-matters-when-studying",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -4562,19 +4874,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "TAMK is part of the Tampere higher-education community (shares the tuni.fi portal with Tampere University); English-taught degrees available. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "TAMK / Tampere universities official website",
         "url": "https://www.tuni.fi/en"
+      },
+      {
+        "label": "Tampere University of Applied Sciences (TAMK) — tuition / fees (official)",
+        "url": "https://www.tuni.fi/en/tamk/financial-matters-when-studying"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -4608,19 +4928,23 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "One of Finland's largest UAS institutions; English-taught Bachelor's and Master's degrees. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Turku UAS official website",
         "url": "https://www.turkuamk.fi"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -4739,7 +5063,7 @@
     "city": "Helsinki",
     "type": "Public",
     "official_website": "https://www.helsinki.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/tuition-fees-and-scholarship-programme",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -4767,12 +5091,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Finland's largest university. Non-EU/EEA pay tuition in English-taught programmes.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Helsinki official website",
         "url": "https://www.helsinki.fi"
+      },
+      {
+        "label": "University of Helsinki — tuition / fees (official)",
+        "url": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/tuition-fees-and-scholarship-programme"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -4956,7 +5284,7 @@
     "city": "Rovaniemi",
     "type": "Public",
     "official_website": "https://www.ulapland.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.ulapland.fi/en/for-students/registration/tuition-fees-and-scholarships",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -4976,19 +5304,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Arctic university in Rovaniemi; known for Arctic studies, law and design; English-taught Master's programmes. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Lapland official website",
         "url": "https://www.ulapland.fi"
+      },
+      {
+        "label": "University of Lapland — tuition / fees (official)",
+        "url": "https://www.ulapland.fi/en/for-students/registration/tuition-fees-and-scholarships"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -5107,7 +5443,7 @@
     "city": "Helsinki",
     "type": "Public",
     "official_website": "https://www.uniarts.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uniarts.fi/en/general-info/tuition-fees/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -5127,19 +5463,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Finland's only university of the arts (Academy of Fine Arts, Sibelius Academy, Theatre Academy); several English-taught Master's programmes. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of the Arts Helsinki official website",
         "url": "https://www.uniarts.fi"
+      },
+      {
+        "label": "University of the Arts Helsinki — tuition / fees (official)",
+        "url": "https://www.uniarts.fi/en/general-info/tuition-fees/"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -5153,7 +5497,7 @@
     "city": "Turku",
     "type": "Public",
     "official_website": "https://www.utu.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.utu.fi/en/study-at-utu/scholarships-and-tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -5181,12 +5525,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Comprehensive university in Turku.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Turku official website",
         "url": "https://www.utu.fi"
+      },
+      {
+        "label": "University of Turku — tuition / fees (official)",
+        "url": "https://www.utu.fi/en/study-at-utu/scholarships-and-tuition-fees"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -5264,7 +5612,7 @@
     "city": "Vaasa",
     "type": "Public",
     "official_website": "https://www.uwasa.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uwasa.fi/en/education/apply/general-information-about-applying",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -5284,19 +5632,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Business-oriented university on Finland's west coast; English-taught Master's programmes; Bachelor's mainly in Finnish. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Vaasa official website",
         "url": "https://www.uwasa.fi"
+      },
+      {
+        "label": "University of Vaasa — tuition / fees (official)",
+        "url": "https://www.uwasa.fi/en/education/apply/general-information-about-applying"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -5310,7 +5666,7 @@
     "city": "Vaasa",
     "type": "Public",
     "official_website": "https://www.vamk.fi",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.vamk.fi/en/applicant/apply/tuitionfees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -5329,14 +5685,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "English-taught programmes: joint application 7–21 January 2027 (autumn 2027 intake); some programmes use separate rounds",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studyinfo (opintopolku.fi)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -5346,6 +5702,14 @@
       {
         "label": "Study in Finland — tuition fees",
         "url": "https://www.studyinfinland.fi/"
+      },
+      {
+        "label": "Vaasa University of Applied Sciences (VAMK) — tuition / fees (official)",
+        "url": "https://www.vamk.fi/en/applicant/apply/tuitionfees"
+      },
+      {
+        "label": "Studyinfo — joint application to higher education",
+        "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -5468,7 +5832,7 @@
     "city": "Paris",
     "type": "Public",
     "official_website": "https://www.sorbonne-universite.fr",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.sorbonne-universite.fr/en/information-international-students",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -5506,6 +5870,10 @@
       {
         "label": "Service-Public.fr — frais d'inscription 2026-2027",
         "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17481"
+      },
+      {
+        "label": "Sorbonne University — tuition / fees (official)",
+        "url": "https://www.sorbonne-universite.fr/en/information-international-students"
       }
     ],
     "verification_status": "Partially verified (national rate verified)",
@@ -5802,7 +6170,7 @@
     "city": "Paris",
     "type": "Public",
     "official_website": "https://u-paris.fr",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://u-paris.fr/droits-dinscription-tarifs-exonerations/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -5839,6 +6207,10 @@
       {
         "label": "Service-Public.fr — frais d'inscription 2026-2027",
         "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17481"
+      },
+      {
+        "label": "Université Paris Cité — tuition / fees (official)",
+        "url": "https://u-paris.fr/droits-dinscription-tarifs-exonerations/"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -5852,7 +6224,7 @@
     "city": "Gif-sur-Yvette",
     "type": "Public",
     "official_website": "https://www.universite-paris-saclay.fr",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.universite-paris-saclay.fr/en/admission/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -5890,6 +6262,10 @@
       {
         "label": "Service-Public.fr — frais d'inscription 2026-2027",
         "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17481"
+      },
+      {
+        "label": "Université Paris-Saclay — tuition / fees (official)",
+        "url": "https://www.universite-paris-saclay.fr/en/admission/tuition-fees"
       }
     ],
     "verification_status": "Partially verified (national rate verified)",
@@ -6504,7 +6880,7 @@
     "city": "Deggendorf",
     "type": "Public",
     "official_website": "https://www.th-deg.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.th-deg.de/en/students/documents/application-and-service-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -6531,7 +6907,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -6541,6 +6917,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Deggendorf Institute of Technology — tuition / fees (official)",
+        "url": "https://www.th-deg.de/en/students/documents/application-and-service-fees"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7313,7 +7693,7 @@
     "city": "Hof",
     "type": "Public",
     "official_website": "https://www.hof-university.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hof-university.com/studying-at-hof-university/preparing-your-stay/how-to-finance-your-studies.html",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -7339,7 +7719,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -7349,6 +7729,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Hof University of Applied Sciences — tuition / fees (official)",
+        "url": "https://www.hof-university.com/studying-at-hof-university/preparing-your-stay/how-to-finance-your-studies.html"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7570,7 +7954,7 @@
     "city": "Karlsruhe",
     "type": "Public",
     "official_website": "https://www.kit.edu",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.intl.kit.edu/istudies/12606.php",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -7596,7 +7980,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Leading technical university (TU9, Helmholtz Association) with strengths in engineering, computer science and natural sciences; extensive English-taught master's and doctoral programs. Non-EU students pay Baden-Württemberg's €1,500/semester tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -7606,6 +7990,10 @@
       {
         "label": "Karlsruhe Institute of Technology — semester contribution",
         "url": "https://www.sle.kit.edu/imstudium/gebuehren.php"
+      },
+      {
+        "label": "Karlsruhe Institute of Technology — tuition / fees (official)",
+        "url": "https://www.intl.kit.edu/istudies/12606.php"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -8302,7 +8690,7 @@
     "city": "Aachen",
     "type": "Public",
     "official_website": "https://www.rwth-aachen.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.rwth-aachen.de/cms/root/studium/im-studium/internationales/~inno/faq/?lidx=1",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -8329,12 +8717,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Leading German technical university.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "RWTH Aachen official website",
         "url": "https://www.rwth-aachen.de"
+      },
+      {
+        "label": "RWTH Aachen University — tuition / fees (official)",
+        "url": "https://www.rwth-aachen.de/cms/root/studium/im-studium/internationales/~inno/faq/?lidx=1"
       }
     ],
     "verification_status": "Partially verified (national policy verified; institution fees pending)",
@@ -8691,7 +9083,7 @@
     "city": "Ingolstadt",
     "type": "Public",
     "official_website": "https://www.thi.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.thi.de/studium/internationale-vollstudierende/studiengebuehren/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -8717,7 +9109,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -8727,6 +9119,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Technische Hochschule Ingolstadt — tuition / fees (official)",
+        "url": "https://www.thi.de/studium/internationale-vollstudierende/studiengebuehren/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -9413,7 +9809,7 @@
     "city": "Bonn",
     "type": "Public",
     "official_website": "https://www.uni-bonn.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -9441,7 +9837,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Research university with strong mathematics and economics.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -9451,6 +9847,10 @@
       {
         "label": "University of Bonn — semester contribution",
         "url": "https://sp.uni-bonn.de/dokumente/idx/Ordnungen/BO.html"
+      },
+      {
+        "label": "University of Bonn — tuition / fees (official)",
+        "url": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
       }
     ],
     "verification_status": "Partially verified (national policy verified; institution fees pending)",
@@ -9530,7 +9930,7 @@
     "city": "Bremen",
     "type": "Public",
     "official_website": "https://www.uni-bremen.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-bremen.de/studium/starten-studieren/formalitaeten/rueckmeldung-und-semesterbeitrag",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -9557,7 +9957,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Research university known for engineering, marine/environmental sciences and social sciences; international campus with a wide range of English-taught master's programs. Semester contribution includes the Deutschlandsemesterticket (nationwide public transport).",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -9689,7 +10089,7 @@
     "city": "Duisburg/Essen",
     "type": "Public",
     "official_website": "https://www.uni-due.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-due.de/studierendensekretariat/sozial_studierendenschaftsbeitrag.shtml",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -9716,7 +10116,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Large university in the Ruhr region with strengths in engineering, materials research, medicine and social sciences. Semester contribution confirmed at €367.80 for winter semester 2026/27.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -9957,7 +10357,7 @@
     "city": "Greifswald",
     "type": "Public",
     "official_website": "https://www.uni-greifswald.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-greifswald.de/en/study/prior-to-studies/costs-and-financing/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -9984,12 +10384,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "One of Germany's oldest universities (1456); strengths in medicine, natural sciences and environmental studies on the Baltic coast. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Greifswald official website",
         "url": "https://www.uni-greifswald.de"
+      },
+      {
+        "label": "University of Greifswald — tuition / fees (official)",
+        "url": "https://www.uni-greifswald.de/en/study/prior-to-studies/costs-and-financing/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -10215,7 +10619,7 @@
     "city": "Konstanz",
     "type": "Public",
     "official_website": "https://www.uni-konstanz.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-konstanz.de/studieren/rund-ums-studium/finanzen/gebuehren-und-beitraege/gesamtueberblick",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -10242,7 +10646,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Top-ranked, small research university on Lake Constance; strengths in social sciences, economics, law and life sciences; highly international. Non-EU students pay Baden-Württemberg's €1,500/semester tuition; EU students pay no tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -10481,7 +10885,7 @@
     "city": "Münster",
     "type": "Public",
     "official_website": "https://www.uni-muenster.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-muenster.de/studieninteressierte/en/einschreibung/semesterbeitrag.shtml",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -10509,7 +10913,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "One of Germany's largest universities with strengths in medicine, law, social sciences and business; a classic student city with high quality of life. No tuition fees — only the semester contribution, confirmed at €369.50 for winter semester 2026/27.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -10728,7 +11132,7 @@
     "city": "Rostock",
     "type": "Public",
     "official_website": "https://www.uni-rostock.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-rostock.de/en/study/study-organization/during-studies/rueckmeldung/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -10755,7 +11159,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Oldest university in the Baltic area (1419); strengths in medicine, life sciences, engineering and marine research on the Baltic coast. Semester contribution confirmed at €352.00 for winter semester 2026/27.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -10765,6 +11169,10 @@
       {
         "label": "Re-registration / semester contribution page (official)",
         "url": "https://www.uni-rostock.de/studium/studienorganisation/im-studium/rueckmeldung"
+      },
+      {
+        "label": "University of Rostock — tuition / fees (official)",
+        "url": "https://www.uni-rostock.de/en/study/study-organization/during-studies/rueckmeldung/"
       }
     ],
     "verification_status": "Verified (fee amounts from official university page)"
@@ -10988,7 +11396,7 @@
     "city": "Tübingen",
     "type": "Public",
     "official_website": "https://uni-tuebingen.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://uni-tuebingen.de/en/study/organizing-your-studies/fees/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -11016,7 +11424,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "One of Germany's oldest universities (1477) and a leading research hub in medicine, machine learning/AI and the humanities. Non-EU students pay Baden-Württemberg's €1,500/semester tuition; EU students pay no tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -11030,6 +11438,10 @@
       {
         "label": "Re-registration page (official)",
         "url": "https://uni-tuebingen.de/studium/studienorganisation/semester-und-studienplanung/rueckmeldung-zum-naechsten-semester"
+      },
+      {
+        "label": "University of Tübingen — tuition / fees (official)",
+        "url": "https://uni-tuebingen.de/en/study/organizing-your-studies/fees/tuition-fees"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -11093,7 +11505,7 @@
     "city": "Akureyri",
     "type": "Public",
     "official_website": "https://www.unak.is",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.unak.is/english/study/application/registration-fee",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -11119,7 +11531,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -11129,6 +11541,10 @@
       {
         "label": "Study in Iceland",
         "url": "https://www.studyiniceland.is/"
+      },
+      {
+        "label": "University of Akureyri — tuition / fees (official)",
+        "url": "https://www.unak.is/english/study/application/registration-fee"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -11277,9 +11693,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Undergraduate via CAO: 1 February 17:00 (normal closing date); postgraduate deadlines set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "CAO (undergraduate) / direct (postgraduate)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -11294,6 +11710,10 @@
       {
         "label": "Irish Times — Budget 2027 student contribution €2,350",
         "url": "https://www.irishtimes.com/your-money/2026/10/06/students-set-for-lower-fees-as-budget-brings-increase-in-education-spending/"
+      },
+      {
+        "label": "CAO — important dates",
+        "url": "https://www.cao.ie/index.php?bb=importantdates&page=timetableevents"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -11327,9 +11747,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Undergraduate via CAO: 1 February 17:00 (normal closing date); postgraduate deadlines set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "CAO (undergraduate) / direct (postgraduate)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -11340,6 +11760,10 @@
       {
         "label": "Maynooth University — undergraduate EU fees 2026/27",
         "url": "https://www.maynoothuniversity.ie/student-fees-grants/undergraduate"
+      },
+      {
+        "label": "CAO — important dates",
+        "url": "https://www.cao.ie/index.php?bb=importantdates&page=timetableevents"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -11353,7 +11777,7 @@
     "city": "Dublin",
     "type": "Public",
     "official_website": "https://www.tcd.ie",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.tcd.ie/courses/undergraduate/fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -11391,6 +11815,10 @@
       {
         "label": "Maynooth University — 2026/27 student contribution €2,350 (Budget 2027)",
         "url": "https://www.maynoothuniversity.ie/student-fees-grants/undergraduate"
+      },
+      {
+        "label": "Trinity College Dublin — tuition / fees (official)",
+        "url": "https://www.tcd.ie/courses/undergraduate/fees"
       }
     ],
     "verification_status": "Verified (national scheme, official source)",
@@ -11489,9 +11917,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Undergraduate via CAO: 1 February 17:00 (normal closing date); postgraduate deadlines set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "CAO (undergraduate) / direct (postgraduate)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -11506,6 +11934,10 @@
       {
         "label": "Irish Times — Budget 2027 student contribution €2,350",
         "url": "https://www.irishtimes.com/your-money/2026/10/06/students-set-for-lower-fees-as-budget-brings-increase-in-education-spending/"
+      },
+      {
+        "label": "CAO — important dates",
+        "url": "https://www.cao.ie/index.php?bb=importantdates&page=timetableevents"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -11763,9 +12195,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Undergraduate via CAO: 1 February 17:00 (normal closing date); postgraduate deadlines set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "CAO (undergraduate) / direct (postgraduate)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -11776,6 +12208,10 @@
       {
         "label": "University of Limerick — undergraduate fees 2026-2027",
         "url": "https://www.ul.ie/fees/course-fees/undergraduate-fees/undergraduate-fees-2026-2027"
+      },
+      {
+        "label": "CAO — important dates",
+        "url": "https://www.cao.ie/index.php?bb=importantdates&page=timetableevents"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -12100,7 +12536,7 @@
     "city": "Bologna",
     "type": "Public",
     "official_website": "https://www.unibo.it",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -12128,12 +12564,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Tuition is progressive and income-based; verify with ISEE.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "University of Bologna official website",
         "url": "https://www.unibo.it"
+      },
+      {
+        "label": "University of Bologna — tuition / fees (official)",
+        "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions"
       }
     ],
     "verification_status": "Partially verified (income-based)",
@@ -13036,7 +13476,7 @@
     "city": "Msida",
     "type": "Public",
     "official_website": "https://www.um.edu.mt",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.um.edu.mt/study/feesfunding/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -13064,12 +13504,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Predominantly English-taught; tuition-free for EU in most full-time programmes.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Conditional Tuition-Free",
     "sources": [
       {
         "label": "University of Malta official website",
         "url": "https://www.um.edu.mt"
+      },
+      {
+        "label": "University of Malta — tuition / fees (official)",
+        "url": "https://www.um.edu.mt/study/feesfunding/"
       }
     ],
     "verification_status": "Partially verified (official fee schedule)",
@@ -13169,19 +13613,23 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Via Studielink: 15 January for numerus fixus programmes; 1 May for most other Bachelor programmes (EU/EEA) — institutions may set earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studielink",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "University of applied sciences (hogeschool); English-taught Bachelor's and Master's programmes. Statutory fee for EU/EEA.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "Amsterdam University of Applied Sciences official website",
         "url": "https://www.hva.nl"
+      },
+      {
+        "label": "Study in NL — how to apply",
+        "url": "https://www.studyinnl.org/plan-your-stay/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (statutory fee level, national source)"
@@ -13195,7 +13643,7 @@
     "city": "Delft",
     "type": "Public",
     "official_website": "https://www.tudelft.nl",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -13222,12 +13670,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Netherlands' leading technical university.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "TU Delft official website",
         "url": "https://www.tudelft.nl"
+      },
+      {
+        "label": "Delft University of Technology (TU Delft) — tuition / fees (official)",
+        "url": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances"
       }
     ],
     "verification_status": "Partially verified (statutory fee level, national source)",
@@ -13306,7 +13758,7 @@
     "city": "Eindhoven",
     "type": "Public",
     "official_website": "https://www.tue.nl",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.tue.nl/en/education/become-a-tue-student/tuition-fees-and-other-study-costs/tuition-fee",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -13326,19 +13778,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Via Studielink: 15 January for numerus fixus programmes; 1 May for most other Bachelor programmes (EU/EEA) — institutions may set earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studielink",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Technical university (4TU); engineering programmes in English. Statutory fee for EU/EEA.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "Eindhoven University of Technology official website",
         "url": "https://www.tue.nl"
+      },
+      {
+        "label": "Eindhoven University of Technology — tuition / fees (official)",
+        "url": "https://www.tue.nl/en/education/become-a-tue-student/tuition-fees-and-other-study-costs/tuition-fee"
+      },
+      {
+        "label": "Study in NL — how to apply",
+        "url": "https://www.studyinnl.org/plan-your-stay/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (statutory fee level, national source)"
@@ -13352,7 +13812,7 @@
     "city": "Rotterdam",
     "type": "Public",
     "official_website": "https://www.eur.nl",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -13372,19 +13832,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Via Studielink: 15 January for numerus fixus programmes; 1 May for most other Bachelor programmes (EU/EEA) — institutions may set earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studielink",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Known for economics, management (RSM) and medicine; extensive English-taught offering. Statutory fee for EU/EEA.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "Erasmus University Rotterdam official website",
         "url": "https://www.eur.nl"
+      },
+      {
+        "label": "Erasmus University Rotterdam — tuition / fees (official)",
+        "url": "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee"
+      },
+      {
+        "label": "Study in NL — how to apply",
+        "url": "https://www.studyinnl.org/plan-your-stay/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (statutory fee level, national source)"
@@ -13503,7 +13971,7 @@
     "city": "Maastricht",
     "type": "Public",
     "official_website": "https://www.maastrichtuniversity.nl",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.maastrichtuniversity.nl/studeren/toelating-inschrijving/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -13523,19 +13991,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Via Studielink: 15 January for numerus fixus programmes; 1 May for most other Bachelor programmes (EU/EEA) — institutions may set earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studielink",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Problem-based learning; most programmes taught in English. Statutory fee for EU/EEA.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "Maastricht University official website",
         "url": "https://www.maastrichtuniversity.nl"
+      },
+      {
+        "label": "Maastricht University — tuition / fees (official)",
+        "url": "https://www.maastrichtuniversity.nl/studeren/toelating-inschrijving/tuition-fees"
+      },
+      {
+        "label": "Study in NL — how to apply",
+        "url": "https://www.studyinnl.org/plan-your-stay/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (statutory fee level, national source)"
@@ -13569,19 +14045,23 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Via Studielink: 15 January for numerus fixus programmes; 1 May for most other Bachelor programmes (EU/EEA) — institutions may set earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studielink",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Distance-learning university; programmes primarily in Dutch. Statutory fee regime applies to EU/EEA.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "Open University of the Netherlands official website",
         "url": "https://www.ou.nl"
+      },
+      {
+        "label": "Study in NL — how to apply",
+        "url": "https://www.studyinnl.org/plan-your-stay/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (statutory fee level, national source)"
@@ -13595,7 +14075,7 @@
     "city": "Nijmegen",
     "type": "Public",
     "official_website": "https://www.ru.nl",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.ru.nl/en/students/studying/tuition-fees/tuition-fee-amounts",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -13615,19 +14095,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Via Studielink: 15 January for numerus fixus programmes; 1 May for most other Bachelor programmes (EU/EEA) — institutions may set earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studielink",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Offers 13 Bachelor's programmes taught in English (per official website) plus many more in Dutch. Statutory fee for EU/EEA.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "Radboud University official website",
         "url": "https://www.ru.nl"
+      },
+      {
+        "label": "Radboud University — tuition / fees (official)",
+        "url": "https://www.ru.nl/en/students/studying/tuition-fees/tuition-fee-amounts"
+      },
+      {
+        "label": "Study in NL — how to apply",
+        "url": "https://www.studyinnl.org/plan-your-stay/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (statutory fee level, national source)"
@@ -13641,7 +14129,7 @@
     "city": "Rotterdam",
     "type": "Public",
     "official_website": "https://www.hogeschoolrotterdam.nl",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.rotterdamuas.com/study-information/finance/tuition-fee/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -13661,19 +14149,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Via Studielink: 15 January for numerus fixus programmes; 1 May for most other Bachelor programmes (EU/EEA) — institutions may set earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studielink",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "University of applied sciences (hogeschool); several English-taught programmes. Statutory fee for EU/EEA.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "Rotterdam University of Applied Sciences official website",
         "url": "https://www.hogeschoolrotterdam.nl"
+      },
+      {
+        "label": "Rotterdam University of Applied Sciences — tuition / fees (official)",
+        "url": "https://www.rotterdamuas.com/study-information/finance/tuition-fee/"
+      },
+      {
+        "label": "Study in NL — how to apply",
+        "url": "https://www.studyinnl.org/plan-your-stay/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (statutory fee level, national source)"
@@ -13687,7 +14183,7 @@
     "city": "The Hague",
     "type": "Public",
     "official_website": "https://www.dehaagsehogeschool.nl",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.thuas.com/study-choice/applications-finances-and-moving-here/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -13707,19 +14203,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Via Studielink: 15 January for numerus fixus programmes; 1 May for most other Bachelor programmes (EU/EEA) — institutions may set earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studielink",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "University of applied sciences (hogeschool) with a strong English-taught Bachelor's offering. Statutory fee for EU/EEA.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "The Hague University of Applied Sciences official website",
         "url": "https://www.dehaagsehogeschool.nl"
+      },
+      {
+        "label": "The Hague University of Applied Sciences — tuition / fees (official)",
+        "url": "https://www.thuas.com/study-choice/applications-finances-and-moving-here/tuition-fees"
+      },
+      {
+        "label": "Study in NL — how to apply",
+        "url": "https://www.studyinnl.org/plan-your-stay/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (statutory fee level, national source)"
@@ -13753,9 +14257,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Via Studielink: 15 January for numerus fixus programmes; 1 May for most other Bachelor programmes (EU/EEA) — institutions may set earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studielink",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -13766,6 +14270,10 @@
       {
         "label": "Tilburg University — tuition fee rates 2026-2027",
         "url": "https://www.tilburguniversity.edu/students/administration/tuition-fees/rates"
+      },
+      {
+        "label": "Study in NL — how to apply",
+        "url": "https://www.studyinnl.org/plan-your-stay/how-to-apply"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -13890,7 +14398,7 @@
     "city": "Groningen",
     "type": "Public",
     "official_website": "https://www.rug.nl",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.rug.nl/education/application-enrolment-tuition-fees/tuition-fee/bachelor?lang=en",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -13910,19 +14418,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Via Studielink: 15 January for numerus fixus programmes; 1 May for most other Bachelor programmes (EU/EEA) — institutions may set earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studielink",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Top-100 research university; many English-taught Bachelor's and Master's programmes. Statutory fee for EU/EEA.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "University of Groningen official website",
         "url": "https://www.rug.nl"
+      },
+      {
+        "label": "University of Groningen — tuition / fees (official)",
+        "url": "https://www.rug.nl/education/application-enrolment-tuition-fees/tuition-fee/bachelor?lang=en"
+      },
+      {
+        "label": "Study in NL — how to apply",
+        "url": "https://www.studyinnl.org/plan-your-stay/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (statutory fee level, national source)"
@@ -13936,7 +14452,7 @@
     "city": "Enschede",
     "type": "Public",
     "official_website": "https://www.utwente.nl",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.utwente.nl/en/education/bachelor/tuition-fees/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -13956,19 +14472,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Via Studielink: 15 January for numerus fixus programmes; 1 May for most other Bachelor programmes (EU/EEA) — institutions may set earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studielink",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Entrepreneurial technical university; English-taught programmes. Statutory fee for EU/EEA.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "University of Twente official website",
         "url": "https://www.utwente.nl"
+      },
+      {
+        "label": "University of Twente — tuition / fees (official)",
+        "url": "https://www.utwente.nl/en/education/bachelor/tuition-fees/"
+      },
+      {
+        "label": "Study in NL — how to apply",
+        "url": "https://www.studyinnl.org/plan-your-stay/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (statutory fee level, national source)"
@@ -14087,7 +14611,7 @@
     "city": "Amsterdam",
     "type": "Public",
     "official_website": "https://vu.nl",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://vu.nl/en/education/more-about/tuition-fee-rates-bachelor-s-programmes",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -14107,19 +14631,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Via Studielink: 15 January for numerus fixus programmes; 1 May for most other Bachelor programmes (EU/EEA) — institutions may set earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studielink",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Statutory fee applies to EU/EEA students; institutional fee for non-EU/EEA. Wide English-taught offering.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "Vrije Universiteit Amsterdam official website",
         "url": "https://vu.nl"
+      },
+      {
+        "label": "Vrije Universiteit Amsterdam — tuition / fees (official)",
+        "url": "https://vu.nl/en/education/more-about/tuition-fee-rates-bachelor-s-programmes"
+      },
+      {
+        "label": "Study in NL — how to apply",
+        "url": "https://www.studyinnl.org/plan-your-stay/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (statutory fee level, national source)"
@@ -14133,7 +14665,7 @@
     "city": "Wageningen",
     "type": "Public",
     "official_website": "https://www.wur.nl",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.wur.nl/en/education/master/study-expenses-masters/tuition-fees-and-study-finances",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -14153,19 +14685,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Via Studielink: 15 January for numerus fixus programmes; 1 May for most other Bachelor programmes (EU/EEA) — institutions may set earlier dates",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Studielink",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "World-leading life sciences and environmental university; English-taught programmes. Statutory fee for EU/EEA.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "Wageningen University & Research official website",
         "url": "https://www.wur.nl"
+      },
+      {
+        "label": "Wageningen University & Research — tuition / fees (official)",
+        "url": "https://www.wur.nl/en/education/master/study-expenses-masters/tuition-fees-and-study-finances"
+      },
+      {
+        "label": "Study in NL — how to apply",
+        "url": "https://www.studyinnl.org/plan-your-stay/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (statutory fee level, national source)"
@@ -14199,9 +14739,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Undergraduate (EU/EEA): 15 April via NUCAS (Samordna opptak); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Samordna opptak / NUCAS (undergraduate) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -14216,6 +14756,10 @@
       {
         "label": "European Commission — Study in Norway",
         "url": "https://education.ec.europa.eu/study-in-europe/country-profiles/norway"
+      },
+      {
+        "label": "Samordna opptak — English information",
+        "url": "https://www.samordnaopptak.no/english"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -14229,7 +14773,7 @@
     "city": "Molde",
     "type": "Public",
     "official_website": "https://www.himolde.no",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.himolde.no/english/studies/international-degree-students/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -14247,14 +14791,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Undergraduate (EU/EEA): 15 April via NUCAS (Samordna opptak); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Samordna opptak / NUCAS (undergraduate) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -14264,6 +14808,14 @@
       {
         "label": "Study in Norway — costs",
         "url": "https://www.studyinnorway.no/"
+      },
+      {
+        "label": "Molde University College — tuition / fees (official)",
+        "url": "https://www.himolde.no/english/studies/international-degree-students/"
+      },
+      {
+        "label": "Samordna opptak — English information",
+        "url": "https://www.samordnaopptak.no/english"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -14277,7 +14829,7 @@
     "city": "Bergen",
     "type": "Public",
     "official_website": "https://www.nhh.no",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.nhh.no/en/study-programmes/application-and-admission/financial-matters/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -14294,14 +14846,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Undergraduate (EU/EEA): 15 April via NUCAS (Samordna opptak); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Samordna opptak / NUCAS (undergraduate) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -14311,6 +14863,14 @@
       {
         "label": "Study in Norway — costs",
         "url": "https://www.studyinnorway.no/"
+      },
+      {
+        "label": "NHH Norwegian School of Economics — tuition / fees (official)",
+        "url": "https://www.nhh.no/en/study-programmes/application-and-admission/financial-matters/"
+      },
+      {
+        "label": "Samordna opptak — English information",
+        "url": "https://www.samordnaopptak.no/english"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -14324,7 +14884,7 @@
     "city": "Bodø",
     "type": "Public",
     "official_website": "https://www.nord.no",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.nord.no/en/study-programmes/admission/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -14343,14 +14903,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Undergraduate (EU/EEA): 15 April via NUCAS (Samordna opptak); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Samordna opptak / NUCAS (undergraduate) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -14360,6 +14920,14 @@
       {
         "label": "Study in Norway — costs",
         "url": "https://www.studyinnorway.no/"
+      },
+      {
+        "label": "Nord University — tuition / fees (official)",
+        "url": "https://www.nord.no/en/study-programmes/admission/tuition-fees"
+      },
+      {
+        "label": "Samordna opptak — English information",
+        "url": "https://www.samordnaopptak.no/english"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -14373,7 +14941,7 @@
     "city": "Ås",
     "type": "Public",
     "official_website": "https://www.nmbu.no",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.nmbu.no/en/studies/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -14393,14 +14961,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Undergraduate (EU/EEA): 15 April via NUCAS (Samordna opptak); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Samordna opptak / NUCAS (undergraduate) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -14410,6 +14978,14 @@
       {
         "label": "Study in Norway — costs",
         "url": "https://www.studyinnorway.no/"
+      },
+      {
+        "label": "Norwegian University of Life Sciences (NMBU) — tuition / fees (official)",
+        "url": "https://www.nmbu.no/en/studies/tuition-fees"
+      },
+      {
+        "label": "Samordna opptak — English information",
+        "url": "https://www.samordnaopptak.no/english"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -14536,7 +15112,7 @@
     "city": "Oslo",
     "type": "Public",
     "official_website": "https://www.oslomet.no",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://student.oslomet.no/en/tuition-fees-for-international-students-from-outside-eu-eea",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -14556,14 +15132,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Undergraduate (EU/EEA): 15 April via NUCAS (Samordna opptak); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Samordna opptak / NUCAS (undergraduate) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -14573,6 +15149,14 @@
       {
         "label": "Study in Norway — costs",
         "url": "https://www.studyinnorway.no/"
+      },
+      {
+        "label": "OsloMet – Oslo Metropolitan University — tuition / fees (official)",
+        "url": "https://student.oslomet.no/en/tuition-fees-for-international-students-from-outside-eu-eea"
+      },
+      {
+        "label": "Samordna opptak — English information",
+        "url": "https://www.samordnaopptak.no/english"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -14606,9 +15190,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Undergraduate (EU/EEA): 15 April via NUCAS (Samordna opptak); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Samordna opptak / NUCAS (undergraduate) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -14619,6 +15203,10 @@
       {
         "label": "Østfold University College — tuition fees",
         "url": "https://www.hiof.no/english/studies/admission/tuition-fees.html"
+      },
+      {
+        "label": "Samordna opptak — English information",
+        "url": "https://www.samordnaopptak.no/english"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -14650,9 +15238,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Undergraduate (EU/EEA): 15 April via NUCAS (Samordna opptak); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Samordna opptak / NUCAS (undergraduate) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -14663,6 +15251,10 @@
       {
         "label": "AHO — tuition fees",
         "url": "https://www.aho.no/english/for-students/manage-studies/tuition-fees.html"
+      },
+      {
+        "label": "Samordna opptak — English information",
+        "url": "https://www.samordnaopptak.no/english"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -14781,7 +15373,7 @@
     "city": "Kristiansand",
     "type": "Public",
     "official_website": "https://www.uia.no",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uia.no/english/studies/how-to-apply/tuition-fees/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -14800,14 +15392,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Undergraduate (EU/EEA): 15 April via NUCAS (Samordna opptak); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Samordna opptak / NUCAS (undergraduate) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -14817,6 +15409,14 @@
       {
         "label": "Study in Norway — costs",
         "url": "https://www.studyinnorway.no/"
+      },
+      {
+        "label": "University of Agder — tuition / fees (official)",
+        "url": "https://www.uia.no/english/studies/how-to-apply/tuition-fees/"
+      },
+      {
+        "label": "Samordna opptak — English information",
+        "url": "https://www.samordnaopptak.no/english"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -14935,7 +15535,7 @@
     "city": "Oslo",
     "type": "Public",
     "official_website": "https://www.uio.no",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uio.no/english/studies/admission/tuition/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -14963,12 +15563,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Non-EU/EEA students have paid tuition since autumn 2023.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Oslo official website",
         "url": "https://www.uio.no"
+      },
+      {
+        "label": "University of Oslo — tuition / fees (official)",
+        "url": "https://www.uio.no/english/studies/admission/tuition/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -15067,9 +15671,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Undergraduate (EU/EEA): 15 April via NUCAS (Samordna opptak); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Samordna opptak / NUCAS (undergraduate) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -15080,6 +15684,10 @@
       {
         "label": "USN — tuition fees",
         "url": "https://www.usn.no/english/academics/how-to-apply/admission-information/tuition-fees"
+      },
+      {
+        "label": "Samordna opptak — English information",
+        "url": "https://www.samordnaopptak.no/english"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -15198,7 +15806,7 @@
     "city": "Bergen",
     "type": "Public",
     "official_website": "https://www.hvl.no",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hvl.no/en/studies-at-hvl/tuition-fees-for-international-students/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -15217,14 +15825,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Undergraduate (EU/EEA): 15 April via NUCAS (Samordna opptak); Master: deadline set by the institution",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Samordna opptak / NUCAS (undergraduate) / institution portal (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -15234,6 +15842,14 @@
       {
         "label": "Study in Norway — costs",
         "url": "https://www.studyinnorway.no/"
+      },
+      {
+        "label": "Western Norway University of Applied Sciences (HVL) — tuition / fees (official)",
+        "url": "https://www.hvl.no/en/studies-at-hvl/tuition-fees-for-international-students/"
+      },
+      {
+        "label": "Samordna opptak — English information",
+        "url": "https://www.samordnaopptak.no/english"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -15459,7 +16075,7 @@
     "city": "Kraków",
     "type": "Public",
     "official_website": "https://www.uj.edu.pl",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://welcome.uj.edu.pl/en_GB/admission/fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -15487,12 +16103,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "One of Europe's oldest universities.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "Jagiellonian University official website",
         "url": "https://www.uj.edu.pl"
+      },
+      {
+        "label": "Jagiellonian University — tuition / fees (official)",
+        "url": "https://welcome.uj.edu.pl/en_GB/admission/fees"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -15570,7 +16190,7 @@
     "city": "Warsaw",
     "type": "Public",
     "official_website": "https://www.uw.edu.pl",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://rekrutacja.uw.edu.pl/en/application-and-tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -15598,7 +16218,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Polish-taught programmes are free for EU/EEA; English programmes are fee-based.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
@@ -15608,6 +16228,10 @@
       {
         "label": "University of Warsaw — tuition fees 2025/26 (PDF)",
         "url": "https://rekrutacja.uw.edu.pl/files/pdf/tuition_fees_2025-2026_06.2025.pdf"
+      },
+      {
+        "label": "University of Warsaw — tuition / fees (official)",
+        "url": "https://rekrutacja.uw.edu.pl/en/application-and-tuition-fees"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -16156,7 +16780,7 @@
     "city": "Lisbon",
     "type": "Public",
     "official_website": "https://www.ulisboa.pt",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.ulisboa.pt/en/info/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -16184,12 +16808,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Portugal caps the maximum annual tuition; amount to verify.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Low Tuition",
     "sources": [
       {
         "label": "University of Lisbon official website",
         "url": "https://www.ulisboa.pt"
+      },
+      {
+        "label": "University of Lisbon — tuition / fees (official)",
+        "url": "https://www.ulisboa.pt/en/info/tuition-fees"
       }
     ],
     "verification_status": "Verified (national reference fee)",
@@ -16411,7 +17039,7 @@
   },
   {
     "admissions_url": null,
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.ubbcluj.ro/en/taxe/taxe_de_scolarizare",
     "other_mandatory_fees": null,
     "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL or equivalent); the exact threshold is set by the programme.",
     "application_deadlines": "Typical: applications ≈ July–September for the autumn intake; verify per institution.",
@@ -16419,7 +17047,7 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "verification_status": "Partially verified (national policy verified)",
     "id": "ro-ubb",
     "name": "Babeș-Bolyai University",
@@ -16650,7 +17278,7 @@
     "city": "Maribor",
     "type": "Public",
     "official_website": "https://www.um.si",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://moja.um.si/en/future-students/Documents/Price_List_2026/UM_Price_List_2026-27_Tuition_fees_full-time_studies.pdf",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -16687,6 +17315,10 @@
       {
         "label": "Study in Slovenia — tuition and funding",
         "url": "https://studyinslovenia.si/study/tuition-and-funding/"
+      },
+      {
+        "label": "University of Maribor — tuition / fees (official)",
+        "url": "https://moja.um.si/en/future-students/Documents/Price_List_2026/UM_Price_List_2026-27_Tuition_fees_full-time_studies.pdf"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -16700,7 +17332,7 @@
     "city": "Nova Gorica",
     "type": "Public",
     "official_website": "https://www.ung.si",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.ung.si/en/admissions",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -16726,7 +17358,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -17002,7 +17634,7 @@
   },
   {
     "admissions_url": null,
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.ucm.es/precios-visitantes",
     "other_mandatory_fees": null,
     "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL or equivalent); the exact threshold is set by the programme.",
     "application_deadlines": "Typical: regional admission rounds ≈ June–July; Master’s deadlines vary — verify.",
@@ -17010,7 +17642,7 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "verification_status": "Partially verified (national policy verified)",
     "id": "es-ucm",
     "name": "Complutense University of Madrid",
@@ -17044,6 +17676,10 @@
       {
         "label": "Complutense University of Madrid official website",
         "url": "https://www.ucm.es"
+      },
+      {
+        "label": "Complutense University of Madrid — tuition / fees (official)",
+        "url": "https://www.ucm.es/precios-visitantes"
       }
     ],
     "admission": {
@@ -18279,7 +18915,7 @@
     "city": "Karlskrona",
     "type": "Public",
     "official_website": "https://www.bth.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.bth.se/english/education/application-and-admission/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -18299,19 +18935,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Blekinge Institute of Technology (BTH); known for software engineering, AI and sustainability. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Blekinge Institute of Technology official website",
         "url": "https://www.bth.se"
+      },
+      {
+        "label": "Blekinge Institute of Technology — tuition / fees (official)",
+        "url": "https://www.bth.se/english/education/application-and-admission/tuition-fees"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -18428,7 +19072,7 @@
     "city": "Falun",
     "type": "Public",
     "official_website": "https://www.du.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.du.se/en/study-at-du/tuition-fees-and-scholarships/application-fees-and-tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -18448,19 +19092,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Dalarna University (Falun & Borlänge); notable for distance education and tourism studies. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Dalarna University official website",
         "url": "https://www.du.se"
+      },
+      {
+        "label": "Dalarna University — tuition / fees (official)",
+        "url": "https://www.du.se/en/study-at-du/tuition-fees-and-scholarships/application-fees-and-tuition-fees"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -18474,7 +19126,7 @@
     "city": "Halmstad",
     "type": "Public",
     "official_website": "https://www.hh.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hh.se/english/education/apply-to-halmstad-university/tuition-fees.html",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -18494,19 +19146,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Halmstad University; known for innovation and IT/health technology profiles. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Halmstad University official website",
         "url": "https://www.hh.se"
+      },
+      {
+        "label": "Halmstad University — tuition / fees (official)",
+        "url": "https://www.hh.se/english/education/apply-to-halmstad-university/tuition-fees.html"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -18520,7 +19180,7 @@
     "city": "Jönköping",
     "type": "Foundation",
     "official_website": "https://ju.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://ju.se/en/study-at-ju/application-and-admission/application-and-tuition-fees.html",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -18540,19 +19200,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Independent foundation university; offers English-taught Bachelor's and Master's programmes (notably at Jönköping International Business School). Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Jönköping University official website",
         "url": "https://ju.se"
+      },
+      {
+        "label": "Jönköping University — tuition / fees (official)",
+        "url": "https://ju.se/en/study-at-ju/application-and-admission/application-and-tuition-fees.html"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -18566,7 +19234,7 @@
     "city": "Karlstad",
     "type": "Public",
     "official_website": "https://www.kau.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.kau.se/en/education/study-us/application-admission/how-apply-international-students/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -18586,19 +19254,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Known for service research, teacher education and engineering. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Karlstad University official website",
         "url": "https://www.kau.se"
+      },
+      {
+        "label": "Karlstad University — tuition / fees (official)",
+        "url": "https://www.kau.se/en/education/study-us/application-admission/how-apply-international-students/tuition-fees"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -18612,7 +19288,7 @@
     "city": "Stockholm (Solna)",
     "type": "Public",
     "official_website": "https://ki.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://education.ki.se/bachelors-masters-studies/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -18632,19 +19308,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Sweden's medical university; English-taught Master's and doctoral programmes; Bachelor's programmes mainly in Swedish. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Karolinska Institutet official website",
         "url": "https://ki.se"
+      },
+      {
+        "label": "Karolinska Institutet — tuition / fees (official)",
+        "url": "https://education.ki.se/bachelors-masters-studies/tuition-fees"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -18658,7 +19342,7 @@
     "city": "Stockholm",
     "type": "Public",
     "official_website": "https://www.konstfack.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.konstfack.se/en/Education/Application-and-admission/Application-and-tuition-fees-for-students-outside-the-EUEEA",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -18678,14 +19362,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Sweden's largest university of arts, crafts and design (bachelor, master and artistic doctoral level). Many courses in English — verify per programme. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -18695,6 +19379,14 @@
       {
         "label": "English-taught programmes (official)",
         "url": "https://www.konstfack.se/en/Education/Masters-Degree-Programmes"
+      },
+      {
+        "label": "Konstfack University of Arts, Crafts and Design — tuition / fees (official)",
+        "url": "https://www.konstfack.se/en/Education/Application-and-admission/Application-and-tuition-fees-for-students-outside-the-EUEEA"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -18708,7 +19400,7 @@
     "city": "Kristianstad",
     "type": "Public",
     "official_website": "https://www.hkr.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hkr.se/en/study-at-hkr/non-exchange-student/tuition-fees/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -18728,19 +19420,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Kristianstad University; known for food science, nursing and teacher education. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Kristianstad University official website",
         "url": "https://www.hkr.se"
+      },
+      {
+        "label": "Kristianstad University — tuition / fees (official)",
+        "url": "https://www.hkr.se/en/study-at-hkr/non-exchange-student/tuition-fees/"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -18968,7 +19668,7 @@
     "city": "Växjö",
     "type": "Public",
     "official_website": "https://lnu.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://lnu.se/en/student/preparing-for-your-stay/paying-tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -18988,19 +19688,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Multidisciplinary university in Småland with campuses in Växjö and Kalmar. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Linnaeus University official website",
         "url": "https://lnu.se"
+      },
+      {
+        "label": "Linnaeus University — tuition / fees (official)",
+        "url": "https://lnu.se/en/student/preparing-for-your-stay/paying-tuition-fees"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -19014,7 +19722,7 @@
     "city": "Luleå",
     "type": "Public",
     "official_website": "https://www.ltu.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.ltu.se/en/education/tuition-and-application-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -19034,19 +19742,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Technical university in northern Sweden; strong in engineering, computer science and space technology. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Luleå University of Technology official website",
         "url": "https://www.ltu.se"
+      },
+      {
+        "label": "Luleå University of Technology — tuition / fees (official)",
+        "url": "https://www.ltu.se/en/education/tuition-and-application-fees"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -19060,7 +19776,7 @@
     "city": "Lund",
     "type": "Public",
     "official_website": "https://www.lu.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.lunduniversity.lu.se/study/admission-degree-studies/applying-studies-when-apply/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -19088,12 +19804,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Large comprehensive university with a strong English-taught catalogue.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Lund University official website",
         "url": "https://www.lu.se"
+      },
+      {
+        "label": "Lund University — tuition / fees (official)",
+        "url": "https://www.lunduniversity.lu.se/study/admission-degree-studies/applying-studies-when-apply/tuition-fees"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -19172,7 +19892,7 @@
     "city": "Västerås",
     "type": "Public",
     "official_website": "https://www.mdu.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.mdu.se/en/malardalen-university/education/international/application-and-admission/tuition-fee",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -19192,19 +19912,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Mälardalen University (Västerås & Eskilstuna); focus on embedded systems, energy and innovation. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Mälardalen University official website",
         "url": "https://www.mdu.se"
+      },
+      {
+        "label": "Mälardalen University — tuition / fees (official)",
+        "url": "https://www.mdu.se/en/malardalen-university/education/international/application-and-admission/tuition-fee"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -19218,7 +19946,7 @@
     "city": "Malmö",
     "type": "Public",
     "official_website": "https://mau.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://mau.se/en/education/tuition-fees/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -19239,14 +19967,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Urban university in Malmö with a wide range of English-taught Bachelor's and Master's programmes (e.g. Interaction Design TGIDE — bachelor, 180 credits). EU/EEA students study free; non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -19256,6 +19984,14 @@
       {
         "label": "Interaction Design (TGIDE) programme page",
         "url": "https://mau.se/en/study-education/programme/tgide/"
+      },
+      {
+        "label": "Malmö University — tuition / fees (official)",
+        "url": "https://mau.se/en/education/tuition-fees/"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified; fees confirmed on programme page)"
@@ -19289,19 +20025,23 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Mid Sweden University (Sundsvall & Östersund); strong in pulp/paper technology, tourism and risk research. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Mid Sweden University official website",
         "url": "https://www.miun.se"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -19315,7 +20055,7 @@
     "city": "Örebro",
     "type": "Public",
     "official_website": "https://www.oru.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.oru.se/english/study/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -19335,19 +20075,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Modern university with strong law, medicine and AI/computer science profiles. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Örebro University official website",
         "url": "https://www.oru.se"
+      },
+      {
+        "label": "Örebro University — tuition / fees (official)",
+        "url": "https://www.oru.se/english/study/tuition-fees"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -19361,7 +20109,7 @@
     "city": "Stockholm",
     "type": "Public",
     "official_website": "https://www.kmh.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.kmh.se/in-english/education/how-to-apply/application-and-tuition-fees.html",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -19381,14 +20129,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Sweden's largest music college (bachelor, master and doctoral level in music). Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -19398,6 +20146,14 @@
       {
         "label": "English-taught programmes (official)",
         "url": "https://studyinsweden.se/university/royal-college-of-music-in-stockholm/"
+      },
+      {
+        "label": "Royal College of Music in Stockholm (KMH) — tuition / fees (official)",
+        "url": "https://www.kmh.se/in-english/education/how-to-apply/application-and-tuition-fees.html"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -19411,7 +20167,7 @@
     "city": "Stockholm",
     "type": "Public",
     "official_website": "https://kkh.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.kkh.se/en/education/masters-program-in-fine-arts/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -19429,14 +20185,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Sweden's Royal Institute of Art — free art education and artistic research, primarily at master's and doctoral level. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -19446,6 +20202,14 @@
       {
         "label": "English-taught programmes (official)",
         "url": "https://kkh.se/en/education/fine-art-programmes"
+      },
+      {
+        "label": "Royal Institute of Art (KKH) — tuition / fees (official)",
+        "url": "https://www.kkh.se/en/education/masters-program-in-fine-arts/"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -19479,19 +20243,23 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Södertörn University in the Stockholm region — known for cross-disciplinary humanities and social sciences. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Södertörn University official website",
         "url": "https://www.sh.se"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -19505,7 +20273,7 @@
     "city": "Stockholm",
     "type": "Private",
     "official_website": "https://www.hhs.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hhs.se/education/information/tuition-and-fees/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -19525,19 +20293,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Sweden's leading private business school (BSc in Business & Economics and MSc programmes taught in English). EU/EEA students are not required to pay tuition fees; non-EU/EEA students pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Stockholm School of Economics official website",
         "url": "https://www.hhs.se"
+      },
+      {
+        "label": "Stockholm School of Economics — tuition / fees (official)",
+        "url": "https://www.hhs.se/education/information/tuition-and-fees/"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (confirm EU/EEA fee status with the school)"
@@ -19551,7 +20327,7 @@
     "city": "Stockholm",
     "type": "Public",
     "official_website": "https://www.su.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.su.se/english/education/how-to-apply/costs-fees-and-scholarships",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -19579,12 +20355,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Large university in the capital.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Stockholm University official website",
         "url": "https://www.su.se"
+      },
+      {
+        "label": "Stockholm University — tuition / fees (official)",
+        "url": "https://www.su.se/english/education/how-to-apply/costs-fees-and-scholarships"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -19683,14 +20463,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Stockholm University of the Arts — circus, dance, film/media, opera and theatre; artistic research and doctoral studies. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -19700,6 +20480,10 @@
       {
         "label": "English-taught programmes (official)",
         "url": "https://www.skh.se/english/education/want-to-study/master-s-programmes/"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -19713,7 +20497,7 @@
     "city": "Stockholm",
     "type": "Public",
     "official_website": "https://www.fhs.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.fhs.se/en/swedish-defence-university/education/how-to-apply-and-entry-requirements/application-and-tuition-fees.html",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -19733,14 +20517,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Sweden's defence university — officer programmes plus selected civilian programmes in security, war and crisis studies. Check admission requirements per programme. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -19750,6 +20534,14 @@
       {
         "label": "English-taught programmes (official)",
         "url": "https://www.fhs.se/en/swedish-defence-university/education/programmes-and-courses.html"
+      },
+      {
+        "label": "Swedish Defence University (FHS) — tuition / fees (official)",
+        "url": "https://www.fhs.se/en/swedish-defence-university/education/how-to-apply-and-entry-requirements/application-and-tuition-fees.html"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -19763,7 +20555,7 @@
     "city": "Stockholm",
     "type": "Public",
     "official_website": "https://www.gih.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.gih.se/english/education/tuition-and-scholarship",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -19782,14 +20574,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Sweden's specialised school of sport and health sciences; doctoral studies in sport science. Programmes mainly in Swedish — verify language per programme. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -19799,6 +20591,14 @@
       {
         "label": "English-taught programmes (official)",
         "url": "https://studyinsweden.se/university/gih-the-swedish-school-of-sport-and-health-sciences/"
+      },
+      {
+        "label": "Swedish School of Sport and Health Sciences (GIH) — tuition / fees (official)",
+        "url": "https://www.gih.se/english/education/tuition-and-scholarship"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -19812,7 +20612,7 @@
     "city": "Uppsala",
     "type": "Public",
     "official_website": "https://www.slu.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.slu.se/en/study/application-and-admission/tuition-fees-and-scholarships/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -19832,19 +20632,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "SLU — Sweden's university for agricultural sciences, with campuses in Uppsala, Alnarp, Skara and Umeå. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "SLU official website",
         "url": "https://www.slu.se"
+      },
+      {
+        "label": "Swedish University of Agricultural Sciences — tuition / fees (official)",
+        "url": "https://www.slu.se/en/study/application-and-admission/tuition-fees-and-scholarships/tuition-fees"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -19963,7 +20771,7 @@
     "city": "Borås",
     "type": "Public",
     "official_website": "https://www.hb.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hb.se/en/international-student/fees-and-scholarships/tuition-fees/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -19983,19 +20791,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "University of Borås; Sweden's specialist in textiles and library & information science. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "University of Borås official website",
         "url": "https://www.hb.se"
+      },
+      {
+        "label": "University of Borås — tuition / fees (official)",
+        "url": "https://www.hb.se/en/international-student/fees-and-scholarships/tuition-fees/"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -20009,7 +20825,7 @@
     "city": "Gävle",
     "type": "Public",
     "official_website": "https://www.hig.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hig.se/engelska/university-of-gavle/study/tuition-fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -20029,19 +20845,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "University of Gävle; profiles in built environment, health and social work. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "University of Gävle official website",
         "url": "https://www.hig.se"
+      },
+      {
+        "label": "University of Gävle — tuition / fees (official)",
+        "url": "https://www.hig.se/engelska/university-of-gavle/study/tuition-fees"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -20160,7 +20984,7 @@
     "city": "Skövde",
     "type": "Public",
     "official_website": "https://www.his.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.his.se/en/education/admission/bachelor-master-programme-students/tuition-fees-payment/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -20180,19 +21004,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "University of Skövde; strong in computer games development and informatics. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "University of Skövde official website",
         "url": "https://www.his.se"
+      },
+      {
+        "label": "University of Skövde — tuition / fees (official)",
+        "url": "https://www.his.se/en/education/admission/bachelor-master-programme-students/tuition-fees-payment/"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -20206,7 +21038,7 @@
     "city": "Trollhättan",
     "type": "Public",
     "official_website": "https://www.hv.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hv.se/en/education/degree-programmes/tuition-fees-and-scholarships/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -20227,19 +21059,27 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "University West (Trollhättan) — profile in work-integrated learning; offers English-taught Master's programmes. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "University West official website",
         "url": "https://www.hv.se"
+      },
+      {
+        "label": "University West — tuition / fees (official)",
+        "url": "https://www.hv.se/en/education/degree-programmes/tuition-fees-and-scholarships/"
+      },
+      {
+        "label": "University Admissions in Sweden — key dates autumn 2027",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -20253,7 +21093,7 @@
     "city": "Uppsala",
     "type": "Public",
     "official_website": "https://www.uu.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uu.se/en/study/masters-studies/fees",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
@@ -20281,12 +21121,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Oldest Nordic university. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Uppsala University official website",
         "url": "https://www.uu.se"
+      },
+      {
+        "label": "Uppsala University — tuition / fees (official)",
+        "url": "https://www.uu.se/en/study/masters-studies/fees"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
