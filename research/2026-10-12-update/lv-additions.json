@@ -1,0 +1,454 @@
+{
+  "country": {
+    "code": "LV",
+    "slug": "latvia",
+    "name": "Latvia"
+  },
+  "universities": [
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "tuition_eu": "€0 in state-funded (budget) places for EU/EEA citizens (competitive, mostly Latvian-taught); fee-paying places otherwise",
+      "mandatory_semester_fee": "No semester contribution; one-off application registration fee (€45 in the unified admission)",
+      "est_annual_mandatory_cost_eur": null,
+      "language_requirements": "Latvian for state-funded (Latvian-taught) places; English proof for English-taught programmes",
+      "notes": "Added 2026-10-12. Tuition-free ONLY in state-funded (budget) places, awarded competitively and mostly in Latvian-taught programmes; English-taught programmes are fee-paying. Verify each programme on the official website.",
+      "verification_status": "Partially verified (official admission pages checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Conditional Tuition-Free",
+      "name": "University of Latvia",
+      "city": "Riga",
+      "official_website": "https://www.lu.lv",
+      "study_fields": [
+        "Natural Sciences",
+        "Humanities",
+        "Social Sciences",
+        "Law"
+      ],
+      "admissions_url": "https://www.lu.lv/en/gribustudet/uznemsanas-kartiba/pamatstudijas/",
+      "application_deadlines": "Bachelor (unified admission VUPP): summer 2026 round 9–20 July, results 27 July; the 2027 round is expected in July — Master deadlines set by the institution",
+      "application_platform": "Vienotā uzņemšana (vienotauznemsana.lv) via latvija.lv e-service, or in person at the university",
+      "sources": [
+        {
+          "label": "University of Latvia — Bachelor admission",
+          "url": "https://www.lu.lv/en/gribustudet/uznemsanas-kartiba/pamatstudijas/"
+        },
+        {
+          "label": "VUPP — unified admission to Bachelor programmes (dates, €45 registration fee)",
+          "url": "https://vienotauznemsana.lv/"
+        },
+        {
+          "label": "Study in Latvia — EU/EEA citizens may apply for state-funded places (Latvian-taught)",
+          "url": "https://studyinlatvia.lv/latvian-diaspora/application"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "tuition_eu": "€0 in state-funded (budget) places for EU/EEA citizens (competitive, mostly Latvian-taught); fee-paying places otherwise",
+      "mandatory_semester_fee": "No semester contribution; one-off application registration fee (€45 in the unified admission)",
+      "est_annual_mandatory_cost_eur": null,
+      "language_requirements": "Latvian for state-funded (Latvian-taught) places; English proof for English-taught programmes",
+      "notes": "Added 2026-10-12. Tuition-free ONLY in state-funded (budget) places, awarded competitively and mostly in Latvian-taught programmes; English-taught programmes are fee-paying. Verify each programme on the official website. Includes the RTU Liepāja and RTU Rēzekne campuses (former Liepāja University and Rēzekne Academy of Technologies).",
+      "verification_status": "Partially verified (official admission pages checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Conditional Tuition-Free",
+      "name": "Riga Technical University",
+      "city": "Riga",
+      "official_website": "https://www.rtu.lv",
+      "study_fields": [
+        "Engineering",
+        "Computer Science",
+        "Architecture",
+        "Business"
+      ],
+      "admissions_url": "https://www.rtu.lv/en/studies/admission-1",
+      "application_deadlines": "Bachelor (unified admission VUPP): summer 2026 round 9–20 July, results 27 July; the 2027 round is expected in July — Master deadlines set by the institution",
+      "application_platform": "Vienotā uzņemšana (vienotauznemsana.lv) via latvija.lv e-service, or in person at the university; English-taught programmes via apply.rtu.lv",
+      "sources": [
+        {
+          "label": "RTU — admission / how to apply",
+          "url": "https://www.rtu.lv/en/studies/admission-1"
+        },
+        {
+          "label": "RTU Rēzekne — admission",
+          "url": "https://www.rtu.lv/en/rezekne/for-applicants-rezekne/admission-7"
+        },
+        {
+          "label": "VUPP — unified admission to Bachelor programmes (dates, €45 registration fee)",
+          "url": "https://vienotauznemsana.lv/"
+        },
+        {
+          "label": "Study in Latvia — EU/EEA citizens may apply for state-funded places (Latvian-taught)",
+          "url": "https://studyinlatvia.lv/latvian-diaspora/application"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "tuition_eu": "€0 in state-funded (budget) places for EU/EEA citizens (competitive, mostly Latvian-taught); fee-paying places otherwise",
+      "mandatory_semester_fee": "No semester contribution; one-off application registration fee (€45 in the unified admission)",
+      "est_annual_mandatory_cost_eur": null,
+      "language_requirements": "Latvian for state-funded (Latvian-taught) places; English proof for English-taught programmes",
+      "notes": "Added 2026-10-12. Tuition-free ONLY in state-funded (budget) places, awarded competitively and mostly in Latvian-taught programmes; English-taught programmes are fee-paying. Verify each programme on the official website.",
+      "verification_status": "Partially verified (official admission pages checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Conditional Tuition-Free",
+      "name": "Rīga Stradiņš University",
+      "city": "Riga",
+      "official_website": "https://www.rsu.lv",
+      "study_fields": [
+        "Medicine",
+        "Health Sciences",
+        "Social Sciences",
+        "Law"
+      ],
+      "admissions_url": "https://www.rsu.lv/en/study-here/admissions",
+      "tuition_info_url": "https://www.rsu.lv/studiju-iespejas/uznemsana-pamatstudiju-programmas",
+      "application_deadlines": "RSU runs its own summer admission (July) for budget and fee-paying places; English-taught programmes have separate rounds — see official page",
+      "application_platform": "RSU own admission system",
+      "sources": [
+        {
+          "label": "RSU — admission to Bachelor programmes (budget and fee-paying places)",
+          "url": "https://www.rsu.lv/studiju-iespejas/uznemsana-pamatstudiju-programmas"
+        },
+        {
+          "label": "RSU — admissions (English)",
+          "url": "https://www.rsu.lv/en/study-here/admissions"
+        },
+        {
+          "label": "Study in Latvia — EU/EEA citizens may apply for state-funded places (Latvian-taught)",
+          "url": "https://studyinlatvia.lv/latvian-diaspora/application"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "tuition_eu": "€0 in state-funded (budget) places for EU/EEA citizens (competitive, mostly Latvian-taught); fee-paying places otherwise",
+      "mandatory_semester_fee": "No semester contribution; one-off application registration fee (€45 in the unified admission)",
+      "est_annual_mandatory_cost_eur": null,
+      "language_requirements": "Latvian for state-funded (Latvian-taught) places; English proof for English-taught programmes",
+      "notes": "Added 2026-10-12. Tuition-free ONLY in state-funded (budget) places, awarded competitively and mostly in Latvian-taught programmes; English-taught programmes are fee-paying. Verify each programme on the official website. English-taught programmes: application fee €160 for EU/EEA applicants.",
+      "verification_status": "Partially verified (official admission pages checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Conditional Tuition-Free",
+      "name": "Latvia University of Life Sciences and Technologies (LBTU)",
+      "city": "Jelgava",
+      "official_website": "https://www.lbtu.lv",
+      "study_fields": [
+        "Agriculture",
+        "Veterinary Medicine",
+        "Food Technology",
+        "Engineering"
+      ],
+      "admissions_url": "https://www.lbtu.lv/en/how-to-apply",
+      "application_deadlines": "Bachelor (unified admission VUPP): summer 2026 round 9–20 July, results 27 July; the 2027 round is expected in July — Master deadlines set by the institution",
+      "application_platform": "Vienotā uzņemšana (vienotauznemsana.lv) via latvija.lv e-service, or in person at the university",
+      "sources": [
+        {
+          "label": "LBTU — how to apply (English programmes, €160 fee for EU/EEA)",
+          "url": "https://www.lbtu.lv/en/how-to-apply"
+        },
+        {
+          "label": "VUPP — unified admission to Bachelor programmes (dates, €45 registration fee)",
+          "url": "https://vienotauznemsana.lv/"
+        },
+        {
+          "label": "Study in Latvia — EU/EEA citizens may apply for state-funded places (Latvian-taught)",
+          "url": "https://studyinlatvia.lv/latvian-diaspora/application"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": false,
+      "tuition_eu": "€0 in state-funded (budget) places for EU/EEA citizens (competitive, mostly Latvian-taught); fee-paying places otherwise",
+      "mandatory_semester_fee": "No semester contribution; one-off application registration fee (€45 in the unified admission)",
+      "est_annual_mandatory_cost_eur": null,
+      "language_requirements": "Latvian for state-funded (Latvian-taught) places; English proof for English-taught programmes",
+      "notes": "Added 2026-10-12. Tuition-free ONLY in state-funded (budget) places, awarded competitively and mostly in Latvian-taught programmes; English-taught programmes are fee-paying. Verify each programme on the official website.",
+      "verification_status": "Partially verified (official admission pages checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Conditional Tuition-Free",
+      "name": "Daugavpils University",
+      "city": "Daugavpils",
+      "official_website": "https://du.lv",
+      "study_fields": [
+        "Natural Sciences",
+        "Humanities",
+        "Education",
+        "Social Sciences"
+      ],
+      "admissions_url": "https://du.lv/en/studies/admission",
+      "tuition_info_url": "https://du.lv/gribu-studet/studiju-maksa-un-atlaides/",
+      "application_deadlines": "Bachelor (unified admission VUPP): summer 2026 round 9–20 July, results 27 July; the 2027 round is expected in July — Master deadlines set by the institution",
+      "application_platform": "Vienotā uzņemšana (vienotauznemsana.lv) via latvija.lv e-service, or in person at the university",
+      "sources": [
+        {
+          "label": "Daugavpils University — admission 2026 (registration fee)",
+          "url": "https://du.lv/gribu-studet/uznemsana/"
+        },
+        {
+          "label": "Daugavpils University — tuition fees 2026/27",
+          "url": "https://du.lv/gribu-studet/studiju-maksa-un-atlaides/"
+        },
+        {
+          "label": "VUPP — unified admission to Bachelor programmes (dates, €45 registration fee)",
+          "url": "https://vienotauznemsana.lv/"
+        },
+        {
+          "label": "Study in Latvia — EU/EEA citizens may apply for state-funded places (Latvian-taught)",
+          "url": "https://studyinlatvia.lv/latvian-diaspora/application"
+        },
+        {
+          "label": "Daugavpils University — admission",
+          "url": "https://du.lv/en/studies/admission"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "tuition_eu": "€0 in state-funded (budget) places for EU/EEA citizens (competitive, mostly Latvian-taught); fee-paying places otherwise",
+      "mandatory_semester_fee": "No semester contribution; one-off application registration fee (€45 in the unified admission)",
+      "est_annual_mandatory_cost_eur": null,
+      "language_requirements": "Latvian for state-funded (Latvian-taught) places; English proof for English-taught programmes",
+      "notes": "Added 2026-10-12. Tuition-free ONLY in state-funded (budget) places, awarded competitively and mostly in Latvian-taught programmes; English-taught programmes are fee-paying. Verify each programme on the official website.",
+      "verification_status": "Partially verified (official admission pages checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Conditional Tuition-Free",
+      "name": "Vidzeme University of Applied Sciences",
+      "city": "Valmiera",
+      "official_website": "https://va.lv",
+      "study_fields": [
+        "Information Technology",
+        "Business",
+        "Hospitality",
+        "Communication"
+      ],
+      "admissions_url": "https://va.lv/uznemsana",
+      "tuition_info_url": "https://va.lv/uznemsana",
+      "application_deadlines": "Bachelor (unified admission VUPP): summer 2026 round 9–20 July, results 27 July; the 2027 round is expected in July — Master deadlines set by the institution",
+      "application_platform": "Vienotā uzņemšana (vienotauznemsana.lv) via latvija.lv e-service, or in person at the university",
+      "sources": [
+        {
+          "label": "ViA — admission (budget places and fees)",
+          "url": "https://va.lv/uznemsana"
+        },
+        {
+          "label": "ViA — international students",
+          "url": "https://va.lv/en/studies/international-students"
+        },
+        {
+          "label": "VUPP — unified admission to Bachelor programmes (dates, €45 registration fee)",
+          "url": "https://vienotauznemsana.lv/"
+        },
+        {
+          "label": "Study in Latvia — EU/EEA citizens may apply for state-funded places (Latvian-taught)",
+          "url": "https://studyinlatvia.lv/latvian-diaspora/application"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": false,
+      "english_phd": false,
+      "tuition_eu": "€0 in state-funded (budget) places for EU/EEA citizens (competitive, mostly Latvian-taught); fee-paying places otherwise",
+      "mandatory_semester_fee": "No semester contribution; one-off application registration fee (€45 in the unified admission)",
+      "est_annual_mandatory_cost_eur": null,
+      "language_requirements": "Latvian for state-funded (Latvian-taught) places; English proof for English-taught programmes",
+      "notes": "Added 2026-10-12. Tuition-free ONLY in state-funded (budget) places, awarded competitively and mostly in Latvian-taught programmes; English-taught programmes are fee-paying. Verify each programme on the official website.",
+      "verification_status": "Partially verified (official admission pages checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Conditional Tuition-Free",
+      "name": "Ventspils University of Applied Sciences",
+      "city": "Ventspils",
+      "official_website": "https://www.venta.lv",
+      "study_fields": [
+        "Computer Science",
+        "Business",
+        "Languages",
+        "Engineering"
+      ],
+      "admissions_url": "https://www.venta.lv/papilduznemsana",
+      "tuition_info_url": "https://www.venta.lv/papilduznemsana",
+      "application_deadlines": "Bachelor (unified admission VUPP): summer 2026 round 9–20 July, results 27 July; the 2027 round is expected in July — Master deadlines set by the institution",
+      "application_platform": "Vienotā uzņemšana (vienotauznemsana.lv) via latvija.lv e-service, or in person at the university",
+      "sources": [
+        {
+          "label": "Ventspils University of Applied Sciences — admission (budget places and fees)",
+          "url": "https://www.venta.lv/papilduznemsana"
+        },
+        {
+          "label": "VUPP — unified admission to Bachelor programmes (dates, €45 registration fee)",
+          "url": "https://vienotauznemsana.lv/"
+        },
+        {
+          "label": "Study in Latvia — EU/EEA citizens may apply for state-funded places (Latvian-taught)",
+          "url": "https://studyinlatvia.lv/latvian-diaspora/application"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": false,
+      "english_phd": false,
+      "tuition_eu": "€0 in state-funded (budget) places for EU/EEA citizens (competitive, mostly Latvian-taught); fee-paying places otherwise",
+      "mandatory_semester_fee": "No semester contribution; one-off application registration fee (€45 in the unified admission)",
+      "est_annual_mandatory_cost_eur": null,
+      "language_requirements": "Latvian for state-funded (Latvian-taught) places; English proof for English-taught programmes",
+      "notes": "Added 2026-10-12. Tuition-free ONLY in state-funded (budget) places, awarded competitively and mostly in Latvian-taught programmes; English-taught programmes are fee-paying. Verify each programme on the official website.",
+      "verification_status": "Partially verified (official admission pages checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Conditional Tuition-Free",
+      "name": "Art Academy of Latvia",
+      "city": "Riga",
+      "official_website": "https://www.lma.lv",
+      "study_fields": [
+        "Fine Arts",
+        "Design",
+        "Visual Arts",
+        "Conservation"
+      ],
+      "admissions_url": "https://www.lma.lv/en/studies/application",
+      "application_deadlines": "Entrance examinations in summer; dates on the official application page",
+      "application_platform": "Direct application to the Academy",
+      "sources": [
+        {
+          "label": "Art Academy of Latvia — application",
+          "url": "https://www.lma.lv/en/studies/application"
+        },
+        {
+          "label": "Study in Latvia — EU/EEA citizens may apply for state-funded places (Latvian-taught)",
+          "url": "https://studyinlatvia.lv/latvian-diaspora/application"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": false,
+      "english_phd": false,
+      "tuition_eu": "€0 in state-funded (budget) places for EU/EEA citizens (competitive, mostly Latvian-taught); fee-paying places otherwise",
+      "mandatory_semester_fee": "No semester contribution; one-off application registration fee (€45 in the unified admission)",
+      "est_annual_mandatory_cost_eur": null,
+      "language_requirements": "Latvian for state-funded (Latvian-taught) places; English proof for English-taught programmes",
+      "notes": "Added 2026-10-12. Tuition-free ONLY in state-funded (budget) places, awarded competitively and mostly in Latvian-taught programmes; English-taught programmes are fee-paying. Verify each programme on the official website.",
+      "verification_status": "Partially verified (official admission pages checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Conditional Tuition-Free",
+      "name": "Jāzeps Vītols Latvian Academy of Music",
+      "city": "Riga",
+      "official_website": "https://www.jvlma.lv",
+      "study_fields": [
+        "Music",
+        "Composition",
+        "Conducting",
+        "Music Education"
+      ],
+      "admissions_url": "https://www.jvlma.lv/en/studies/application-and-admissions",
+      "application_deadlines": "Registration in person 25–27 June 2026, followed by entrance examinations (2027 dates similar — check official page)",
+      "application_platform": "In person at the Academy",
+      "sources": [
+        {
+          "label": "JVLMA — application and admissions",
+          "url": "https://www.jvlma.lv/en/studies/application-and-admissions"
+        },
+        {
+          "label": "Study in Latvia — EU/EEA citizens may apply for state-funded places (Latvian-taught)",
+          "url": "https://studyinlatvia.lv/latvian-diaspora/application"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": false,
+      "english_phd": false,
+      "tuition_eu": "€0 in state-funded (budget) places for EU/EEA citizens (competitive, mostly Latvian-taught); fee-paying places otherwise",
+      "mandatory_semester_fee": "No semester contribution; one-off application registration fee (€45 in the unified admission)",
+      "est_annual_mandatory_cost_eur": null,
+      "language_requirements": "Latvian for state-funded (Latvian-taught) places; English proof for English-taught programmes",
+      "notes": "Added 2026-10-12. Tuition-free ONLY in state-funded (budget) places, awarded competitively and mostly in Latvian-taught programmes; English-taught programmes are fee-paying. Verify each programme on the official website.",
+      "verification_status": "Partially verified (official admission pages checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Conditional Tuition-Free",
+      "name": "Latvian Academy of Culture",
+      "city": "Riga",
+      "official_website": "https://www.lka.edu.lv",
+      "study_fields": [
+        "Culture & Arts",
+        "Theatre",
+        "Film & Media",
+        "Communication"
+      ],
+      "sources": [
+        {
+          "label": "Latvian Academy of Culture — official website",
+          "url": "https://www.lka.edu.lv/en/"
+        },
+        {
+          "label": "Study in Latvia — EU/EEA citizens may apply for state-funded places (Latvian-taught)",
+          "url": "https://studyinlatvia.lv/latvian-diaspora/application"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Study in Latvia — EU/EEA citizens may apply for state-funded places (Latvian-taught)",
+      "url": "https://studyinlatvia.lv/latvian-diaspora/application"
+    },
+    {
+      "label": "VUPP — unified admission to Bachelor programmes (dates, €45 registration fee)",
+      "url": "https://vienotauznemsana.lv/"
+    }
+  ]
+}

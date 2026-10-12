@@ -944,12 +944,12 @@
     "bachelor": "€0 in state-funded places; otherwise fee-paying.",
     "master": "€0 in state-funded places; otherwise fee-paying.",
     "phd": "Often funded for state-funded places.",
-    "english_taught": "A moderate English-taught catalogue, mostly fee-based.",
+    "english_taught": "A moderate English-taught catalogue; English-taught programmes are generally fee-paying (state-funded places are mostly Latvian-taught).",
     "mandatory_fees": "Small administrative fees may apply.",
     "mandatory_fee_estimate_eur_year": null,
     "residency_conditions": "EU/EEA citizens may compete for state-funded (free) places on the same basis as Latvian citizens.",
     "language_requirements": "Latvian-taught programmes require Latvian; English programmes require English proof.",
-    "application_system": "National platform (latvija.lv) and direct institution portals.",
+    "application_system": "Unified bachelor admission (VUPP, vienotauznemsana.lv) for most public universities — 2026 main round 9–20 July, results 27 July, €45 registration fee; other programmes (incl. most English-taught and arts/music academies) via direct institution portals.",
     "academic_year": "2026/2027",
     "currency": "EUR",
     "sources": [
@@ -964,10 +964,18 @@
       {
         "label": "Eurydice – Higher education funding: Latvia",
         "url": "https://eurydice.eacea.ec.europa.eu/"
+      },
+      {
+        "label": "Unified admission (VUPP) – vienotauznemsana.lv",
+        "url": "https://www.vienotauznemsana.lv/"
+      },
+      {
+        "label": "Study in Latvia – application",
+        "url": "https://www.studyinlatvia.lv/latvian-diaspora/application"
       }
     ],
     "verification_status": "Verified (national portal; free places limited)",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "document_submission": {
       "opens": "≈ May–June",
       "closes": "≈ June–July (autumn intake)",
