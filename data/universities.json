@@ -94,9 +94,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Three application rounds per year (spring, summer, autumn) — dates per programme on the official application-dates page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "FH JOANNEUM online application",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -111,6 +111,10 @@
       {
         "label": "FH JOANNEUM — English-taught degree programmes / admissions",
         "url": "https://www.fh-joanneum.at/en/international/international-degree-seeking-students/admissions/"
+      },
+      {
+        "label": "FH JOANNEUM — application deadlines (official)",
+        "url": "https://www.fh-joanneum.at/en/topics/our-application-deadlines"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -143,9 +147,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "EU applicants: 31 May 2027; non-EU applicants: 31 March 2027 (winter 2027 intake) — check programme page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "FH Technikum Wien online application",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -160,6 +164,10 @@
       {
         "label": "FH Technikum Wien — admissions / how to apply (official)",
         "url": "https://www.technikum-wien.at/en/general-information-for-foreign-applicants/"
+      },
+      {
+        "label": "FH Technikum Wien — application deadlines (official)",
+        "url": "https://www.technikum-wien.at/en/student-guide/admission-deadlines"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -1209,7 +1217,7 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Set per programme; non-EEA applicants earlier (e.g. 15 March) than EEA applicants (e.g. 15 August) — check programme page",
     "admission_requirements": null,
     "application_platform": null,
     "online_application_url": null,
@@ -1378,7 +1386,7 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Depends on applicant profile (EU / non-EU, diploma) — see the official application-deadlines page",
     "admission_requirements": null,
     "application_platform": null,
     "online_application_url": null,
@@ -1395,6 +1403,10 @@
       {
         "label": "UCLouvain — admissions / how to apply (official)",
         "url": "https://uclouvain.be/en/enrolment/international-student-applications"
+      },
+      {
+        "label": "UCLouvain — application deadlines (official)",
+        "url": "https://uclouvain.be/en/enrolment/application-deadlines"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -1428,7 +1440,7 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Depends on applicant profile; EU-resident non-Europeans may use EU dates — see official submission-deadlines page",
     "admission_requirements": null,
     "application_platform": null,
     "online_application_url": null,
@@ -1445,6 +1457,10 @@
       {
         "label": "Université libre de Bruxelles (ULB) — admissions / how to apply (official)",
         "url": "https://www.ulb.be/en/enrolment/useful-information-for-foreign-students"
+      },
+      {
+        "label": "Université libre de Bruxelles (ULB) — application deadlines (official)",
+        "url": "https://www.ulb.be/en/prepare-your-application/submission-deadlines"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -1478,7 +1494,7 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "2027/28 applications open 4 November 2026; deadlines 28 February 2027 (applicants needing a visa) / 31 May 2027 (others) — verify per programme",
     "admission_requirements": null,
     "application_platform": null,
     "online_application_url": null,
@@ -1495,6 +1511,10 @@
       {
         "label": "University of Antwerp — admissions / how to apply (official)",
         "url": "https://www.uantwerpen.be/en/study/international-degree-student/admission-enrolment"
+      },
+      {
+        "label": "University of Antwerp — application deadlines (official)",
+        "url": "https://www.uantwerpen.be/en/study/admission-and-enrolment/admission/procedure/"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -1528,9 +1548,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Non-EU applicants: complete application by 31 March; EU applicants: later registration period — see official enrolment page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "ULiège online application form",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -1586,9 +1606,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Non-EEA applicants (foreign diploma): before 1 April; EEA applicants: later deadlines — see official page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "VUB Apply (apply.vub.be)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -1603,13 +1623,17 @@
       {
         "label": "Vrije Universiteit Brussel (VUB) — admissions / how to apply (official)",
         "url": "https://www.vub.be/en/studying-vub/apply-and-enrol-vub/application-and-enrolment/start-your-application"
+      },
+      {
+        "label": "Vrije Universiteit Brussel (VUB) — application deadlines (official)",
+        "url": "https://www.vub.be/en/studying-vub/apply-and-enrol-vub/admission-requirements-and-deadlines/when-can-you-apply"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
   },
   {
-    "admissions_url": null,
-    "tuition_info_url": null,
+    "admissions_url": "https://www.uni-sofia.bg/index.php/eng/admission",
+    "tuition_info_url": "https://www.uni-sofia.bg/index.php/eng/admission/international_students/tuition_fees_in_sofia_university_for_the_academic_2025_2026_year",
     "other_mandatory_fees": null,
     "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL or equivalent); the exact threshold is set by the programme.",
     "application_deadlines": "Typical: applications ≈ June–July for the autumn intake; verify per institution.",
@@ -1617,7 +1641,7 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "verification_status": "Partially verified (national policy verified)",
     "id": "bg-sofia",
     "name": "Sofia University \"St. Kliment Ohridski\"",
@@ -1651,6 +1675,14 @@
       {
         "label": "Sofia University official website",
         "url": "https://www.uni-sofia.bg"
+      },
+      {
+        "label": "Sofia University \"St. Kliment Ohridski\" — admissions / how to apply (official)",
+        "url": "https://www.uni-sofia.bg/index.php/eng/admission"
+      },
+      {
+        "label": "Sofia University \"St. Kliment Ohridski\" — tuition / fees (official)",
+        "url": "https://www.uni-sofia.bg/index.php/eng/admission/international_students/tuition_fees_in_sofia_university_for_the_academic_2025_2026_year"
       }
     ],
     "admission": {
@@ -1685,7 +1717,7 @@
     },
     "contact": {
       "website": "https://www.uni-sofia.bg",
-      "admissions_url": "https://www.uni-sofia.bg",
+      "admissions_url": "https://www.uni-sofia.bg/index.php/eng/admission",
       "email": null,
       "phone": null,
       "address": null,
@@ -2063,7 +2095,7 @@
     "type": "Public",
     "official_website": "https://aarch.dk",
     "tuition_info_url": "https://aarch.dk/en/full-degree-student-admission/",
-    "admissions_url": null,
+    "admissions_url": "https://aarch.dk/en/full-degree-student-admission/",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": false,
@@ -2179,7 +2211,7 @@
     "city": "Esbjerg",
     "type": "Public",
     "official_website": "https://www.easv.dk",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.easv.dk/app/uploads/2023/12/Tuition-fees-2024-2027.pdf",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": false,
@@ -2218,6 +2250,10 @@
       {
         "label": "Study in Denmark — how to apply",
         "url": "https://studyindenmark.dk/study-options/how-to-apply"
+      },
+      {
+        "label": "Business Academy SouthWest (EASV) — tuition / fees (official)",
+        "url": "https://www.easv.dk/app/uploads/2023/12/Tuition-fees-2024-2027.pdf"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2232,7 +2268,7 @@
     "type": "Public",
     "official_website": "https://www.cphbusiness.dk",
     "tuition_info_url": null,
-    "admissions_url": null,
+    "admissions_url": "https://www.ek.dk/english",
     "bachelor_available": true,
     "master_available": false,
     "phd_available": false,
@@ -2255,7 +2291,7 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Cphbusiness has merged with KEA into Business Academy Copenhagen (EK) — see ek.dk.",
     "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free",
     "sources": [
@@ -2270,6 +2306,10 @@
       {
         "label": "Study in Denmark — how to apply",
         "url": "https://studyindenmark.dk/study-options/how-to-apply"
+      },
+      {
+        "label": "Business Academy Copenhagen (EK) — merger of Cphbusiness and KEA",
+        "url": "https://www.ek.dk/english"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2283,7 +2323,7 @@
     "city": "Frederiksberg",
     "type": "Public",
     "official_website": "https://www.cbs.dk",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.cbs.dk/en/study-programmes/bachelor-programmes/application-and-admission",
     "admissions_url": "https://www.cbs.dk/en/study-programmes/master-programmes/application-and-admission",
     "bachelor_available": true,
     "master_available": true,
@@ -2324,6 +2364,10 @@
       {
         "label": "Copenhagen Business School — admissions / how to apply (official)",
         "url": "https://www.cbs.dk/en/study-programmes/master-programmes/application-and-admission"
+      },
+      {
+        "label": "Copenhagen Business School — tuition / fees (official)",
+        "url": "https://www.cbs.dk/en/study-programmes/bachelor-programmes/application-and-admission"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2396,7 +2440,7 @@
     "type": "Public",
     "official_website": "https://kglakademi.dk",
     "tuition_info_url": "https://royaldanishacademy.com/en/tuitionfee",
-    "admissions_url": null,
+    "admissions_url": "https://royaldanishacademy.com/en/your-application-z",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": false,
@@ -2440,6 +2484,10 @@
       {
         "label": "Study in Denmark — how to apply",
         "url": "https://studyindenmark.dk/study-options/how-to-apply"
+      },
+      {
+        "label": "Det Kongelige Akademi (Royal Danish Academy) — admissions / how to apply (official)",
+        "url": "https://royaldanishacademy.com/en/your-application-z"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2506,7 +2554,7 @@
     "type": "Public",
     "official_website": "https://en.itu.dk",
     "tuition_info_url": "https://en.itu.dk/Programmes/BSc-Programmes/Applying-to-a-BSc-programme/Application-and-tuition-fees/",
-    "admissions_url": null,
+    "admissions_url": "https://en.itu.dk/Programmes/BSc-Programmes/Applying-to-a-BSc-programme",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -2546,6 +2594,10 @@
       {
         "label": "Study in Denmark — how to apply",
         "url": "https://studyindenmark.dk/study-options/how-to-apply"
+      },
+      {
+        "label": "IT University of Copenhagen — admissions / how to apply (official)",
+        "url": "https://en.itu.dk/Programmes/BSc-Programmes/Applying-to-a-BSc-programme"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -2614,7 +2666,7 @@
     "type": "Public",
     "official_website": "https://www.ucn.dk",
     "tuition_info_url": null,
-    "admissions_url": null,
+    "admissions_url": "https://www.ucn.dk/english/education-and-programmes/full-degree-programmes/",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": false,
@@ -2654,6 +2706,10 @@
       {
         "label": "Study in Denmark — how to apply",
         "url": "https://studyindenmark.dk/study-options/how-to-apply"
+      },
+      {
+        "label": "Professionshøjskolen UCN — admissions / how to apply (official)",
+        "url": "https://www.ucn.dk/english/education-and-programmes/full-degree-programmes/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -4174,7 +4230,7 @@
     "type": "Public",
     "official_website": "https://www.karelia.fi",
     "tuition_info_url": "https://www.karelia.fi/en/tuition-fees/",
-    "admissions_url": null,
+    "admissions_url": "https://www.karelia.fi/en/apply-to-us",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": false,
@@ -4217,6 +4273,10 @@
       {
         "label": "Studyinfo — joint application to higher education",
         "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
+      },
+      {
+        "label": "Karelia University of Applied Sciences — admissions / how to apply (official)",
+        "url": "https://www.karelia.fi/en/apply-to-us"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -4572,7 +4632,7 @@
     "type": "Public",
     "official_website": "https://www.novia.fi",
     "tuition_info_url": "https://www.novia.fi/en/study/admission/tuition-fees",
-    "admissions_url": null,
+    "admissions_url": "https://www.novia.fi/en/study/admission/application-bachelor/bachelor-application-process",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": false,
@@ -4615,6 +4675,10 @@
       {
         "label": "Studyinfo — joint application to higher education",
         "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
+      },
+      {
+        "label": "Novia University of Applied Sciences — admissions / how to apply (official)",
+        "url": "https://www.novia.fi/en/study/admission/application-bachelor/bachelor-application-process"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -5092,8 +5156,8 @@
     "city": "Turku",
     "type": "Public",
     "official_website": "https://www.turkuamk.fi",
-    "tuition_info_url": null,
-    "admissions_url": null,
+    "tuition_info_url": "https://www.turkuamk.fi/en/education/guide-for-applicants/tuition-fees-and-scholarships/",
+    "admissions_url": "https://www.turkuamk.fi/en/education/guide-for-applicants",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": false,
@@ -5129,6 +5193,14 @@
       {
         "label": "Studyinfo — joint application to higher education",
         "url": "https://opintopolku.fi/konfo/en/sivu/how-to-apply-in-joint-application-to-higher-education"
+      },
+      {
+        "label": "Turku University of Applied Sciences — admissions / how to apply (official)",
+        "url": "https://www.turkuamk.fi/en/education/guide-for-applicants"
+      },
+      {
+        "label": "Turku University of Applied Sciences — tuition / fees (official)",
+        "url": "https://www.turkuamk.fi/en/education/guide-for-applicants/tuition-fees-and-scholarships/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -6402,9 +6474,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Bachelor via Parcoursup (winter/spring); Master via the national Mon Master platform — application period mid-February to mid-March (2026: 17 Feb – 16 Mar)",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "Parcoursup (Bachelor) / Mon Master (Master)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -6427,6 +6499,10 @@
       {
         "label": "Université Paris Cité — admissions / how to apply (official)",
         "url": "https://u-paris.fr/language/en/admission-as-an-independent-international-student/"
+      },
+      {
+        "label": "Université Paris Cité — application deadlines (official)",
+        "url": "https://u-paris.fr/linguistique/en/application/"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -8355,7 +8431,7 @@
     "type": "Public",
     "official_website": "https://www.kit.edu",
     "tuition_info_url": "https://www.intl.kit.edu/istudies/12606.php",
-    "admissions_url": null,
+    "admissions_url": "https://www.sle.kit.edu/english/vorstudium/88.php",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -8398,6 +8474,10 @@
       {
         "label": "DAAD — application process (deadlines)",
         "url": "https://www.daad.de/en/studying-in-germany/requirements/application-process"
+      },
+      {
+        "label": "Karlsruhe Institute of Technology — admissions / how to apply (official)",
+        "url": "https://www.sle.kit.edu/english/vorstudium/88.php"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -8412,7 +8492,7 @@
     "type": "Public",
     "official_website": "https://www.uni-kiel.de",
     "tuition_info_url": "https://www.studium.uni-kiel.de/de/studium-organisieren/studienangelegenheiten/rueckmeldung",
-    "admissions_url": null,
+    "admissions_url": "https://www.uni-kiel.de/en/studying",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -8452,6 +8532,10 @@
       {
         "label": "DAAD — application process (deadlines)",
         "url": "https://www.daad.de/en/studying-in-germany/requirements/application-process"
+      },
+      {
+        "label": "Kiel University — admissions / how to apply (official)",
+        "url": "https://www.uni-kiel.de/en/studying"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -9657,7 +9741,7 @@
     "type": "Public",
     "official_website": "https://www.th-koeln.de",
     "tuition_info_url": "https://www.th-koeln.de/studium/beitraege-und-gebuehren_5343.php",
-    "admissions_url": null,
+    "admissions_url": "https://www.th-koeln.de/en/academics/online-application-platform_6008.php",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": false,
@@ -9700,6 +9784,10 @@
       {
         "label": "DAAD — application process (deadlines)",
         "url": "https://www.daad.de/en/studying-in-germany/requirements/application-process"
+      },
+      {
+        "label": "TH Köln – University of Applied Sciences — admissions / how to apply (official)",
+        "url": "https://www.th-koeln.de/en/academics/online-application-platform_6008.php"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -10299,7 +10387,7 @@
     "type": "Public",
     "official_website": "https://www.uni-bamberg.de",
     "tuition_info_url": "https://www.uni-bamberg.de/studium/im-studium/studienorganisation/rueckmeldung",
-    "admissions_url": null,
+    "admissions_url": "https://www.uni-bamberg.de/en/studies/non-exchange-students-undergraduate/how-do-i-apply/",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -10342,6 +10430,10 @@
       {
         "label": "DAAD — application process (deadlines)",
         "url": "https://www.daad.de/en/studying-in-germany/requirements/application-process"
+      },
+      {
+        "label": "University of Bamberg — admissions / how to apply (official)",
+        "url": "https://www.uni-bamberg.de/en/studies/non-exchange-students-undergraduate/how-do-i-apply/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -11218,7 +11310,7 @@
     "type": "Public",
     "official_website": "https://www.uni-kassel.de",
     "tuition_info_url": "https://www.uni-kassel.de/uni/studium/im-studium/semesterbeitrag.html",
-    "admissions_url": null,
+    "admissions_url": "https://www.uni-kassel.de/uni/en/study/before-the-application/study-guide-for-international-students/studying-in-kassel.html",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -11258,6 +11350,10 @@
       {
         "label": "DAAD — application process (deadlines)",
         "url": "https://www.daad.de/en/studying-in-germany/requirements/application-process"
+      },
+      {
+        "label": "University of Kassel — admissions / how to apply (official)",
+        "url": "https://www.uni-kassel.de/uni/en/study/before-the-application/study-guide-for-international-students/studying-in-kassel.html"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -12284,7 +12380,7 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "EU/EEA applicants: until 5 June (subject to availability)",
     "admission_requirements": null,
     "application_platform": null,
     "online_application_url": null,
@@ -12309,6 +12405,10 @@
       {
         "label": "University of Akureyri — admissions / how to apply (official)",
         "url": "https://www.unak.is/english/study/application/admission-requirements"
+      },
+      {
+        "label": "University of Akureyri — application deadlines (official)",
+        "url": "https://www.unak.is/english/study/application/applications"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -12554,7 +12654,7 @@
     "type": "Public",
     "official_website": "https://www.tcd.ie",
     "tuition_info_url": "https://www.tcd.ie/courses/undergraduate/fees",
-    "admissions_url": null,
+    "admissions_url": "https://www.tcd.ie/study/international/how-to-apply/",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -12595,6 +12695,10 @@
       {
         "label": "Trinity College Dublin — tuition / fees (official)",
         "url": "https://www.tcd.ie/courses/undergraduate/fees"
+      },
+      {
+        "label": "Trinity College Dublin — admissions / how to apply (official)",
+        "url": "https://www.tcd.ie/study/international/how-to-apply/"
       }
     ],
     "verification_status": "Verified (national scheme, official source)",
@@ -12629,7 +12733,7 @@
     },
     "contact": {
       "website": "https://www.tcd.ie",
-      "admissions_url": "https://www.tcd.ie",
+      "admissions_url": "https://www.tcd.ie/study/international/how-to-apply/",
       "email": "registry@tcd.ie",
       "phone": "+353 1 896 4500",
       "address": null,
@@ -13325,7 +13429,7 @@
     "type": "Public",
     "official_website": "https://www.unibo.it",
     "tuition_info_url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions",
-    "admissions_url": null,
+    "admissions_url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -13362,6 +13466,10 @@
       {
         "label": "University of Bologna — tuition / fees (official)",
         "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions"
+      },
+      {
+        "label": "University of Bologna — admissions / how to apply (official)",
+        "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures"
       }
     ],
     "verification_status": "Partially verified (income-based)",
@@ -13395,7 +13503,7 @@
     },
     "contact": {
       "website": "https://www.unibo.it",
-      "admissions_url": "https://www.unibo.it",
+      "admissions_url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures",
       "email": null,
       "phone": null,
       "address": null,
@@ -13774,9 +13882,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Several application windows (Bachelor: November, January, March; Master: windows up to September for EU applicants) — see official how-to-apply pages",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "apply.unipv.eu",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -13791,6 +13899,10 @@
       {
         "label": "University of Pavia — admissions / how to apply (official)",
         "url": "https://en.unipv.it/en/international-students"
+      },
+      {
+        "label": "University of Pavia — application deadlines (official)",
+        "url": "https://en.unipv.it/en/education/bachelors-and-masters-degree-programs/how-apply/how-apply-masters-degree-programs"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -13929,7 +14041,7 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Set per programme; non-EU Master applicants typically early March (e.g. 4 March 2026 for 2026/27); EU applicants often later",
     "admission_requirements": null,
     "application_platform": null,
     "online_application_url": null,
@@ -13946,6 +14058,10 @@
       {
         "label": "University of Trento — admissions / how to apply (official)",
         "url": "https://www.unitn.it/en/international/coming-unitrento/degree-seeking-student/admission-requirements-international-qualifications"
+      },
+      {
+        "label": "University of Trento — application deadlines (official)",
+        "url": "https://corsi.unitn.it/en/international-security-studies/enrollment/admission-non-europeans"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -14084,7 +14200,7 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "EU/EEA and Swiss nationals: 30 June 2027; applicants requiring a visa: 31 March 2027",
     "admission_requirements": null,
     "application_platform": null,
     "online_application_url": null,
@@ -14101,6 +14217,10 @@
       {
         "label": "University of Liechtenstein — admissions / how to apply (official)",
         "url": "https://www.uni.li/en/studies/application-and-admission"
+      },
+      {
+        "label": "University of Liechtenstein — application deadlines (official)",
+        "url": "https://www.uni.li/en/jetzt-bewerben"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -14114,7 +14234,7 @@
     "city": "Esch-sur-Alzette",
     "type": "Public",
     "official_website": "https://www.uni.lu",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni.lu/en/admissions/bachelor-master/",
     "admissions_url": "https://www.uni.lu/en/admissions/bachelor-master/",
     "bachelor_available": true,
     "master_available": true,
@@ -14230,7 +14350,7 @@
     "city": "Paola",
     "type": "Public",
     "official_website": "https://www.mcast.edu.mt",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://mcast.edu.mt/fee-payments-for-non-eu-candidates",
     "admissions_url": "https://mcast.edu.mt/how-to-apply-online-2/",
     "bachelor_available": true,
     "master_available": true,
@@ -14250,9 +14370,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Application windows by applicant category for 2026/27 — see official MCAST admissions windows page",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "MCAST online application",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -14271,6 +14391,14 @@
       {
         "label": "Malta College of Arts, Science and Technology (MCAST) — admissions / how to apply (official)",
         "url": "https://mcast.edu.mt/how-to-apply-online-2/"
+      },
+      {
+        "label": "Malta College of Arts, Science and Technology (MCAST) — tuition / fees (official)",
+        "url": "https://mcast.edu.mt/fee-payments-for-non-eu-candidates"
+      },
+      {
+        "label": "Malta College of Arts, Science and Technology (MCAST) — application deadlines (official)",
+        "url": "https://mcast.edu.mt/application-online-ft-mcast-courses/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -14405,7 +14533,7 @@
     "city": "Amsterdam",
     "type": "Public",
     "official_website": "https://www.hva.nl",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.amsterdamuas.com/study/international-admissions/tuition-fees/tuition-fees",
     "admissions_url": "https://www.amsterdamuas.com/study/international-admissions",
     "bachelor_available": true,
     "master_available": true,
@@ -14446,6 +14574,10 @@
       {
         "label": "Amsterdam University of Applied Sciences — admissions / how to apply (official)",
         "url": "https://www.amsterdamuas.com/study/international-admissions"
+      },
+      {
+        "label": "Amsterdam University of Applied Sciences — tuition / fees (official)",
+        "url": "https://www.amsterdamuas.com/study/international-admissions/tuition-fees/tuition-fees"
       }
     ],
     "verification_status": "Partially verified (statutory fee level, national source)"
@@ -14637,7 +14769,7 @@
     "type": "Public",
     "official_website": "https://www.eur.nl",
     "tuition_info_url": "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee",
-    "admissions_url": null,
+    "admissions_url": "https://www.eur.nl/en/education/practical-matters/bachelor-admission-and-application",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -14677,6 +14809,10 @@
       {
         "label": "Study in NL — how to apply",
         "url": "https://www.studyinnl.org/plan-your-stay/how-to-apply"
+      },
+      {
+        "label": "Erasmus University Rotterdam — admissions / how to apply (official)",
+        "url": "https://www.eur.nl/en/education/practical-matters/bachelor-admission-and-application"
       }
     ],
     "verification_status": "Partially verified (statutory fee level, national source)"
@@ -15702,7 +15838,7 @@
     "type": "Public",
     "official_website": "https://www.nhh.no",
     "tuition_info_url": "https://www.nhh.no/en/study-programmes/application-and-admission/financial-matters/",
-    "admissions_url": null,
+    "admissions_url": "https://www.nhh.no/en/study-programmes/application-and-admission/",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -15743,6 +15879,10 @@
       {
         "label": "Samordna opptak — English information",
         "url": "https://www.samordnaopptak.no/english"
+      },
+      {
+        "label": "NHH Norwegian School of Economics — admissions / how to apply (official)",
+        "url": "https://www.nhh.no/en/study-programmes/application-and-admission/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -16715,7 +16855,7 @@
     "type": "Public",
     "official_website": "https://www.hvl.no",
     "tuition_info_url": "https://www.hvl.no/en/studies-at-hvl/tuition-fees-for-international-students/",
-    "admissions_url": null,
+    "admissions_url": "https://www.hvl.no/en/studies-at-hvl/admission",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -16758,6 +16898,10 @@
       {
         "label": "Samordna opptak — English information",
         "url": "https://www.samordnaopptak.no/english"
+      },
+      {
+        "label": "Western Norway University of Applied Sciences (HVL) — admissions / how to apply (official)",
+        "url": "https://www.hvl.no/en/studies-at-hvl/admission"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -17565,7 +17709,7 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "EU citizens apply like Portuguese students (national access); Masters 2027: 1st period in February, 2nd period mid-April – mid-May",
     "admission_requirements": null,
     "application_platform": null,
     "online_application_url": null,
@@ -17582,6 +17726,10 @@
       {
         "label": "University of Aveiro — admissions / how to apply (official)",
         "url": "https://www.ua.pt/en/international-students"
+      },
+      {
+        "label": "University of Aveiro — application deadlines (official)",
+        "url": "https://www.ua.pt/en/applications-post-grad"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -17966,7 +18114,7 @@
     "teaching_languages": "Portuguese · Portuguese / English"
   },
   {
-    "admissions_url": null,
+    "admissions_url": "https://infoadmitere.ubbcluj.ro/en/internationalstudents",
     "tuition_info_url": "https://www.ubbcluj.ro/en/taxe/taxe_de_scolarizare",
     "other_mandatory_fees": null,
     "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL or equivalent); the exact threshold is set by the programme.",
@@ -18013,6 +18161,10 @@
       {
         "label": "Babeș-Bolyai University — tuition fees",
         "url": "https://www.ubbcluj.ro/en/taxe/taxe_de_scolarizare"
+      },
+      {
+        "label": "Babeș-Bolyai University — admissions / how to apply (official)",
+        "url": "https://infoadmitere.ubbcluj.ro/en/internationalstudents"
       }
     ],
     "admission": {
@@ -18046,7 +18198,7 @@
     },
     "contact": {
       "website": "https://www.ubbcluj.ro",
-      "admissions_url": "https://www.ubbcluj.ro",
+      "admissions_url": "https://infoadmitere.ubbcluj.ro/en/internationalstudents",
       "email": "contact@ubbcluj.ro",
       "phone": "+40 264 405 300",
       "address": null,
@@ -18091,7 +18243,7 @@
     "type": "Public",
     "official_website": "https://www.uni-lj.si",
     "tuition_info_url": "https://www.uni-lj.si/",
-    "admissions_url": null,
+    "admissions_url": "https://www.uni-lj.si/en/study/bachelors-and-single-cycle-masters-study/call-for-enrolment",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -18118,7 +18270,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Full-time study free for EU/EEA; part-time and some English programmes fee-based.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -18128,6 +18280,10 @@
       {
         "label": "University of Ljubljana — tuition fees",
         "url": "https://www.uni-lj.si/en/study/tuition-fees-and-other-study-contributions"
+      },
+      {
+        "label": "University of Ljubljana — admissions / how to apply (official)",
+        "url": "https://www.uni-lj.si/en/study/bachelors-and-single-cycle-masters-study/call-for-enrolment"
       }
     ],
     "verification_status": "Verified (official university page)",
@@ -18162,7 +18318,7 @@
     },
     "contact": {
       "website": "https://www.uni-lj.si",
-      "admissions_url": "https://www.uni-lj.si",
+      "admissions_url": "https://www.uni-lj.si/en/study/bachelors-and-single-cycle-masters-study/call-for-enrolment",
       "email": "study.info@uni-lj.si",
       "phone": null,
       "address": null,
@@ -18207,7 +18363,7 @@
     "type": "Public",
     "official_website": "https://www.um.si",
     "tuition_info_url": "https://moja.um.si/en/future-students/Documents/Price_List_2026/UM_Price_List_2026-27_Tuition_fees_full-time_studies.pdf",
-    "admissions_url": null,
+    "admissions_url": "https://moja.um.si/en/future-students/Strani/enrolment.aspx",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -18226,9 +18382,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Slovenian national call (eVŠ portal): 1st application period 18 February – 18 March 2026 for 2026/27; later periods for remaining places — EU citizens apply like Slovenian applicants",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "eVŠ national portal",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -18247,6 +18403,10 @@
       {
         "label": "University of Maribor — tuition / fees (official)",
         "url": "https://moja.um.si/en/future-students/Documents/Price_List_2026/UM_Price_List_2026-27_Tuition_fees_full-time_studies.pdf"
+      },
+      {
+        "label": "University of Maribor — admissions / how to apply (official)",
+        "url": "https://moja.um.si/en/future-students/Strani/enrolment.aspx"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -18279,9 +18439,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Slovenian national call (eVŠ portal): 1st application period 18 February – 18 March 2026 for 2026/27; later periods for remaining places — EU citizens apply like Slovenian applicants",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "eVŠ national portal",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -18300,6 +18460,10 @@
       {
         "label": "University of Nova Gorica — admissions / how to apply (official)",
         "url": "https://ung.si/en/admissions"
+      },
+      {
+        "label": "University of Nova Gorica — application deadlines (official)",
+        "url": "https://ung.si/en/admissions/first-level-admissions/how-to-apply/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -18333,9 +18497,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Slovenian national call (eVŠ portal): 1st application period 18 February – 18 March 2026 for 2026/27; later periods for remaining places — EU citizens apply like Slovenian applicants",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "eVŠ national portal",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -18354,6 +18518,10 @@
       {
         "label": "University of Primorska — admissions / how to apply (official)",
         "url": "https://welcome.upr.si/student/prepare/application-enrolment/"
+      },
+      {
+        "label": "University of Primorska — application deadlines (official)",
+        "url": "https://www.upr.si/en/study--enrolment/application-and-enrolment-deadlines/838-undergraduate-bachelor-degree-study-programmes/"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -20703,7 +20871,7 @@
     "type": "Public",
     "official_website": "https://www.ltu.se",
     "tuition_info_url": "https://www.ltu.se/en/education/tuition-and-application-fees",
-    "admissions_url": null,
+    "admissions_url": "https://www.ltu.se/en/education/how-to-apply",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -20743,6 +20911,10 @@
       {
         "label": "University Admissions in Sweden — key dates autumn 2027",
         "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
+      },
+      {
+        "label": "Luleå University of Technology — admissions / how to apply (official)",
+        "url": "https://www.ltu.se/en/education/how-to-apply"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -20997,8 +21169,8 @@
     "city": "Sundsvall",
     "type": "Public",
     "official_website": "https://www.miun.se",
-    "tuition_info_url": null,
-    "admissions_url": null,
+    "tuition_info_url": "https://www.miun.se/en/education/meet-mid-sweden-university/Fees-and-scholarships/Application-and-Tuition-fees",
+    "admissions_url": "https://www.miun.se/en/education/applynow/",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -21034,6 +21206,14 @@
       {
         "label": "University Admissions in Sweden — key dates autumn 2027",
         "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
+      },
+      {
+        "label": "Mid Sweden University — admissions / how to apply (official)",
+        "url": "https://www.miun.se/en/education/applynow/"
+      },
+      {
+        "label": "Mid Sweden University — tuition / fees (official)",
+        "url": "https://www.miun.se/en/education/meet-mid-sweden-university/Fees-and-scholarships/Application-and-Tuition-fees"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -21106,7 +21286,7 @@
     "type": "Public",
     "official_website": "https://www.kmh.se",
     "tuition_info_url": "https://www.kmh.se/in-english/education/how-to-apply/application-and-tuition-fees.html",
-    "admissions_url": null,
+    "admissions_url": "https://www.kmh.se/in-english/education/how-to-apply.html",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -21150,6 +21330,10 @@
       {
         "label": "University Admissions in Sweden — key dates autumn 2027",
         "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
+      },
+      {
+        "label": "Royal College of Music in Stockholm (KMH) — admissions / how to apply (official)",
+        "url": "https://www.kmh.se/in-english/education/how-to-apply.html"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -21164,7 +21348,7 @@
     "type": "Public",
     "official_website": "https://kkh.se",
     "tuition_info_url": "https://www.kkh.se/en/education/masters-program-in-fine-arts/",
-    "admissions_url": null,
+    "admissions_url": "https://kkh.se/en/how-to-apply/",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -21206,6 +21390,10 @@
       {
         "label": "University Admissions in Sweden — key dates autumn 2027",
         "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
+      },
+      {
+        "label": "Royal Institute of Art (KKH) — admissions / how to apply (official)",
+        "url": "https://kkh.se/en/how-to-apply/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -21219,7 +21407,7 @@
     "city": "Huddinge",
     "type": "Public",
     "official_website": "https://www.sh.se",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.sh.se/english/sodertorn-university/student/prospective-students/application-information-for-freemover-students",
     "admissions_url": "https://www.sh.se/english/sodertorn-university/programmes--courses/guide-to-higher-education/admissions",
     "bachelor_available": true,
     "master_available": true,
@@ -21260,6 +21448,10 @@
       {
         "label": "Södertörn University — admissions / how to apply (official)",
         "url": "https://www.sh.se/english/sodertorn-university/programmes--courses/guide-to-higher-education/admissions"
+      },
+      {
+        "label": "Södertörn University — tuition / fees (official)",
+        "url": "https://www.sh.se/english/sodertorn-university/student/prospective-students/application-information-for-freemover-students"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -21450,8 +21642,8 @@
     "city": "Stockholm",
     "type": "Public",
     "official_website": "https://www.skh.se",
-    "tuition_info_url": null,
-    "admissions_url": null,
+    "tuition_info_url": "https://www.skh.se/english/education/want-to-study/tuition-fees-and-scholarships",
+    "admissions_url": "https://www.skh.se/english/education/want-to-study/application-and-admission",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -21492,6 +21684,14 @@
       {
         "label": "University Admissions in Sweden — key dates autumn 2027",
         "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
+      },
+      {
+        "label": "Stockholm University of the Arts (SKH) — admissions / how to apply (official)",
+        "url": "https://www.skh.se/english/education/want-to-study/application-and-admission"
+      },
+      {
+        "label": "Stockholm University of the Arts (SKH) — tuition / fees (official)",
+        "url": "https://www.skh.se/english/education/want-to-study/tuition-fees-and-scholarships"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -22067,7 +22267,7 @@
     "type": "Public",
     "official_website": "https://www.hv.se",
     "tuition_info_url": "https://www.hv.se/en/education/degree-programmes/tuition-fees-and-scholarships/",
-    "admissions_url": null,
+    "admissions_url": "https://www.hv.se/en/education/degree-programmes/application-admission/",
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
@@ -22108,6 +22308,10 @@
       {
         "label": "University Admissions in Sweden — key dates autumn 2027",
         "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
+      },
+      {
+        "label": "University West — admissions / how to apply (official)",
+        "url": "https://www.hv.se/en/education/degree-programmes/application-admission/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -22260,7 +22464,7 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Spring semester 2027: 30 November 2026; fall semester: see official deadlines page (medicine: 15 February 2027)",
     "admission_requirements": null,
     "application_platform": null,
     "online_application_url": null,
@@ -22277,6 +22481,10 @@
       {
         "label": "University of Basel — admissions / how to apply (official)",
         "url": "https://www.unibas.ch/en/Studies/Before-My-Studies/Application-Admission.html"
+      },
+      {
+        "label": "University of Basel — application deadlines (official)",
+        "url": "https://www.unibas.ch/en/Studies/Before-My-Studies/Dates-Events/Deadlines/Application.html"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -22310,7 +22518,7 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Master with foreign Bachelor: 1 February – 30 April (autumn); spring semester 2027: until 30 November 2026",
     "admission_requirements": null,
     "application_platform": null,
     "online_application_url": null,
@@ -22360,7 +22568,7 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "28 February (general deadline for new students; depends on nationality and diploma)",
     "admission_requirements": null,
     "application_platform": null,
     "online_application_url": null,
@@ -22377,6 +22585,10 @@
       {
         "label": "University of Geneva — admissions / how to apply (official)",
         "url": "https://www.unige.ch/immatriculations/en"
+      },
+      {
+        "label": "University of Geneva — application deadlines (official)",
+        "url": "https://www.unige.ch/immatriculations/en/conditions"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
@@ -22410,7 +22622,7 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Autumn semester: 28 February – 30 April depending on profile; spring semester: 30 November",
     "admission_requirements": null,
     "application_platform": null,
     "online_application_url": null,
@@ -22460,9 +22672,9 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": null,
+    "application_deadlines": "Fall semester: applications 1 January – 30 April (earlier for applicants requiring a visa); deadlines cannot be extended",
     "admission_requirements": null,
-    "application_platform": null,
+    "application_platform": "UZH online application",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
@@ -22477,6 +22689,10 @@
       {
         "label": "University of Zurich (UZH) — admissions / how to apply (official)",
         "url": "https://www.uzh.ch/en/studies/application/apply.html"
+      },
+      {
+        "label": "University of Zurich (UZH) — application deadlines (official)",
+        "url": "https://www.uzh.ch/en/studies/application/deadlines.html"
       }
     ],
     "verification_status": "Verified (official fee page checked 2026-10-12)"
