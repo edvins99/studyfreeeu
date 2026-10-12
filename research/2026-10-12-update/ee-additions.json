@@ -1,0 +1,255 @@
+{
+  "country": {
+    "code": "EE",
+    "slug": "estonia",
+    "name": "Estonia"
+  },
+  "universities": [
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": true,
+      "english_master": true,
+      "english_phd": true,
+      "tuition_eu": "€0 for full-time studies in Estonian-taught programmes (any nationality); English-taught programmes are fee-paying",
+      "mandatory_semester_fee": "No semester contribution; €100 application processing fee if previous education was acquired abroad",
+      "est_annual_mandatory_cost_eur": null,
+      "language_requirements": "Estonian (usually B2) for Estonian-taught programmes; English proof for English-taught programmes",
+      "application_deadlines": "Estonian-taught: via SAIS, main admission typically in June–July; English-taught: via DreamApply, deadlines typically January–April (programme-specific)",
+      "application_platform": "SAIS (Estonian-taught) / DreamApply (English-taught)",
+      "notes": "Added 2026-10-12. Full-time studies in Estonian-taught programmes at public universities are free regardless of nationality (subject to completing the full-time study load); English-taught programmes are fee-paying. Verify each programme on the official website.",
+      "verification_status": "Partially verified (official admission pages checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Conditional Tuition-Free",
+      "name": "Tallinn University",
+      "city": "Tallinn",
+      "official_website": "https://www.tlu.ee/en",
+      "study_fields": [
+        "Humanities",
+        "Social Sciences",
+        "Education",
+        "Digital Technologies"
+      ],
+      "admissions_url": "https://www.tlu.ee/en/requirements-and-procedure-admission-degree-studies",
+      "sources": [
+        {
+          "label": "Tallinn University — admission requirements and procedure (€100 processing fee)",
+          "url": "https://www.tlu.ee/en/requirements-and-procedure-admission-degree-studies"
+        },
+        {
+          "label": "SAIS — national admission system for Estonian-taught programmes",
+          "url": "https://sais.ee/"
+        },
+        {
+          "label": "DreamApply Estonia — applications for English-taught programmes",
+          "url": "https://estonia.dreamapply.com/"
+        },
+        {
+          "label": "Study in Estonia — tuition fees",
+          "url": "https://www.studyinestonia.ee/tuition-fees"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": true,
+      "tuition_eu": "€0 for full-time studies in Estonian-taught programmes (any nationality); English-taught programmes are fee-paying",
+      "mandatory_semester_fee": "No semester contribution; application processing fee may apply (especially for foreign qualifications)",
+      "est_annual_mandatory_cost_eur": null,
+      "language_requirements": "Estonian (usually B2) for Estonian-taught programmes; English proof for English-taught programmes",
+      "application_deadlines": "Estonian-taught: via SAIS, main admission typically in June–July; English-taught: via DreamApply, deadlines typically January–April (programme-specific)",
+      "application_platform": "SAIS (Estonian-taught) / DreamApply (English-taught)",
+      "notes": "Added 2026-10-12. Full-time studies in Estonian-taught programmes at public universities are free regardless of nationality (subject to completing the full-time study load); English-taught programmes are fee-paying. Verify each programme on the official website.",
+      "verification_status": "Partially verified (official admission pages checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Conditional Tuition-Free",
+      "name": "Estonian University of Life Sciences",
+      "city": "Tartu",
+      "official_website": "https://www.emu.ee/en/",
+      "study_fields": [
+        "Agriculture",
+        "Veterinary Medicine",
+        "Forestry",
+        "Environmental Sciences"
+      ],
+      "admissions_url": "https://www.emu.ee/en/admissions",
+      "sources": [
+        {
+          "label": "EMÜ — admissions",
+          "url": "https://www.emu.ee/en/admissions"
+        },
+        {
+          "label": "SAIS — national admission system for Estonian-taught programmes",
+          "url": "https://sais.ee/"
+        },
+        {
+          "label": "DreamApply Estonia — applications for English-taught programmes",
+          "url": "https://estonia.dreamapply.com/"
+        },
+        {
+          "label": "Study in Estonia — tuition fees",
+          "url": "https://www.studyinestonia.ee/tuition-fees"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": true,
+      "tuition_eu": "€0 for full-time studies in Estonian-taught programmes (any nationality); English-taught programmes are fee-paying",
+      "mandatory_semester_fee": "No semester contribution; €80 application fee for English-taught MA (waived for Estonian/ENIC-recognised degrees)",
+      "est_annual_mandatory_cost_eur": null,
+      "language_requirements": "Estonian (usually B2) for Estonian-taught programmes; English proof for English-taught programmes",
+      "application_deadlines": "Estonian-taught: via SAIS, main admission typically in June–July; English-taught: via DreamApply, deadlines typically January–April (programme-specific)",
+      "application_platform": "SAIS (Estonian-taught) / DreamApply (English-taught)",
+      "notes": "Added 2026-10-12. Full-time studies in Estonian-taught programmes at public universities are free regardless of nationality (subject to completing the full-time study load); English-taught programmes are fee-paying. Verify each programme on the official website.",
+      "verification_status": "Partially verified (official admission pages checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Conditional Tuition-Free",
+      "name": "Estonian Academy of Arts",
+      "city": "Tallinn",
+      "official_website": "https://www.artun.ee/en/",
+      "study_fields": [
+        "Fine Arts",
+        "Design",
+        "Architecture",
+        "Art History"
+      ],
+      "admissions_url": "https://www.artun.ee/en/admissions/",
+      "tuition_info_url": "https://www.artun.ee/en/admissions/masters/admission-fee/",
+      "sources": [
+        {
+          "label": "EKA — application fee & tuition (€80 fee)",
+          "url": "https://www.artun.ee/en/admissions/masters/admission-fee/"
+        },
+        {
+          "label": "EKA — admissions",
+          "url": "https://www.artun.ee/en/admissions/"
+        },
+        {
+          "label": "SAIS — national admission system for Estonian-taught programmes",
+          "url": "https://sais.ee/"
+        },
+        {
+          "label": "DreamApply Estonia — applications for English-taught programmes",
+          "url": "https://estonia.dreamapply.com/"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": true,
+      "tuition_eu": "€0 for full-time studies in Estonian-taught programmes (any nationality); English-taught programmes are fee-paying",
+      "mandatory_semester_fee": "No semester contribution; €75 application fee",
+      "est_annual_mandatory_cost_eur": null,
+      "language_requirements": "Estonian (usually B2) for Estonian-taught programmes; English proof for English-taught programmes",
+      "application_deadlines": "Estonian-taught: via SAIS, main admission typically in June–July; English-taught: via DreamApply, deadlines typically January–April (programme-specific)",
+      "application_platform": "SAIS (Estonian-taught) / DreamApply (English-taught)",
+      "notes": "Added 2026-10-12. Full-time studies in Estonian-taught programmes at public universities are free regardless of nationality (subject to completing the full-time study load); English-taught programmes are fee-paying. Verify each programme on the official website. EAMT: full-time studies in Estonian are free regardless of country of origin; English-taught fees €1,750–14,000/year; entrance examinations required.",
+      "verification_status": "Partially verified (official admission pages checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Conditional Tuition-Free",
+      "name": "Estonian Academy of Music and Theatre",
+      "city": "Tallinn",
+      "official_website": "https://eamt.ee/en/",
+      "study_fields": [
+        "Music",
+        "Theatre",
+        "Music Pedagogy",
+        "Cultural Management"
+      ],
+      "admissions_url": "https://eamt.ee/en/admissions/admission-dates/",
+      "tuition_info_url": "https://eamt.ee/en/admissions/admission-dates/",
+      "sources": [
+        {
+          "label": "EAMT — admission dates (full-time studies in Estonian are free regardless of country of origin)",
+          "url": "https://eamt.ee/en/admissions/admission-dates/"
+        },
+        {
+          "label": "SAIS — national admission system for Estonian-taught programmes",
+          "url": "https://sais.ee/"
+        },
+        {
+          "label": "DreamApply Estonia — applications for English-taught programmes",
+          "url": "https://estonia.dreamapply.com/"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": false,
+      "phd_available": false,
+      "english_bachelor": false,
+      "english_master": false,
+      "english_phd": false,
+      "tuition_eu": "€0 for full-time studies in Estonian-taught programmes (any nationality); English-taught programmes are fee-paying",
+      "mandatory_semester_fee": "No semester contribution; application processing fee may apply (especially for foreign qualifications)",
+      "est_annual_mandatory_cost_eur": null,
+      "language_requirements": "Estonian (usually B2) for Estonian-taught programmes; English proof for English-taught programmes",
+      "application_deadlines": "Estonian-taught: via SAIS, main admission typically in June–July; English-taught: via DreamApply, deadlines typically January–April (programme-specific)",
+      "application_platform": "SAIS (Estonian-taught) / DreamApply (English-taught)",
+      "notes": "Added 2026-10-12. Full-time studies in Estonian-taught programmes at public universities are free regardless of nationality (subject to completing the full-time study load); English-taught programmes are fee-paying. Verify each programme on the official website.",
+      "verification_status": "Partially verified (official admission pages checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Conditional Tuition-Free",
+      "name": "TTK University of Applied Sciences",
+      "city": "Tallinn",
+      "official_website": "https://www.tktk.ee/en/",
+      "study_fields": [
+        "Engineering",
+        "Construction",
+        "Logistics",
+        "Transport"
+      ],
+      "sources": [
+        {
+          "label": "TTK University of Applied Sciences — official website",
+          "url": "https://www.tktk.ee/en/"
+        },
+        {
+          "label": "SAIS — national admission system for Estonian-taught programmes",
+          "url": "https://sais.ee/"
+        },
+        {
+          "label": "Study in Estonia — tuition fees",
+          "url": "https://www.studyinestonia.ee/tuition-fees"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Study in Estonia — tuition fees",
+      "url": "https://www.studyinestonia.ee/tuition-fees"
+    },
+    {
+      "label": "SAIS — national admission system for Estonian-taught programmes",
+      "url": "https://sais.ee/"
+    },
+    {
+      "label": "DreamApply Estonia — applications for English-taught programmes",
+      "url": "https://estonia.dreamapply.com/"
+    },
+    {
+      "label": "EAMT — admission dates (full-time studies in Estonian are free regardless of country of origin)",
+      "url": "https://eamt.ee/en/admissions/admission-dates/"
+    }
+  ]
+}

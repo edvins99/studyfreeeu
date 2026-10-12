@@ -517,10 +517,14 @@
       {
         "label": "Study in Estonia – Master's programmes",
         "url": "https://www.studyinestonia.ee/"
+      },
+      {
+        "label": "EAMT – full-time studies in Estonian are free regardless of country of origin",
+        "url": "https://eamt.ee/en/admissions/admission-dates/"
       }
     ],
     "verification_status": "Verified (country policy)",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "document_submission": {
       "opens": "≈ February",
       "closes": "≈ February–June depending on programme",
