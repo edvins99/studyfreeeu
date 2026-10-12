@@ -1,0 +1,46 @@
+{
+  "country": {
+    "code": "LI",
+    "slug": "liechtenstein",
+    "name": "Liechtenstein"
+  },
+  "universities": [
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": true,
+      "notes": "Added in the 2026-10-12 completeness update. EUR amounts converted at ≈ €1.07 per CHF; verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Low Tuition",
+      "name": "University of Liechtenstein",
+      "city": "Vaduz",
+      "official_website": "https://www.uni.li",
+      "tuition_eu": "CHF 950 per semester for EU/EEA and Swiss nationals (≈ CHF 1,900/yr)",
+      "est_annual_mandatory_cost_eur": 2033,
+      "study_fields": [
+        "Architecture",
+        "Business",
+        "Information Systems",
+        "Finance"
+      ],
+      "tuition_info_url": "https://www.uni.li/en/studies/plan-your-studies/study-costs-und-funding",
+      "sources": [
+        {
+          "label": "University of Liechtenstein — study costs",
+          "url": "https://www.uni.li/en/studies/plan-your-studies/study-costs-und-funding"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "University of Liechtenstein — study costs",
+      "url": "https://www.uni.li/en/studies/plan-your-studies/study-costs-und-funding"
+    }
+  ]
+}

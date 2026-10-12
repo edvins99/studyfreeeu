@@ -6188,13 +6188,13 @@
     "city": "Köthen",
     "type": "Public",
     "official_website": "https://www.hs-anhalt.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hs-anhalt.de/studieren/im-studium/formalitaeten/rueckmeldung.html",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "Semester contribution applies (usually incl. Deutschland-Semesterticket €226.80); exact 2026/27 total not yet verified — see official fee page",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
@@ -6225,6 +6225,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Anhalt University of Applied Sciences — semester contribution",
+        "url": "https://www.hs-anhalt.de/studieren/im-studium/formalitaeten/rueckmeldung.html"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -6238,13 +6242,13 @@
     "city": "Weimar",
     "type": "Public",
     "official_website": "https://www.uni-weimar.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-weimar.de/de/universitaet/studium/studienservices/studierendenbuero/semesterbeitrag",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "Semester contribution applies (usually incl. Deutschland-Semesterticket €226.80); exact 2026/27 total not yet verified — see official fee page",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
@@ -6275,6 +6279,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Bauhaus-Universität Weimar — semester contribution",
+        "url": "https://www.uni-weimar.de/de/universitaet/studium/studienservices/studierendenbuero/semesterbeitrag"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -6288,15 +6296,15 @@
     "city": "Bielefeld",
     "type": "Public",
     "official_website": "https://www.uni-bielefeld.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-bielefeld.de/studium/studierende/studienorganisation/rueckmeldung/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€351.65 per semester (winter semester 2026/27, incl. semester ticket)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 703,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -6315,12 +6323,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Interdisciplinary university with a strong reputation in sociology, social sciences, mathematics and technology. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Bielefeld University official website",
         "url": "https://www.uni-bielefeld.de"
+      },
+      {
+        "label": "Bielefeld University — semester contribution",
+        "url": "https://www.uni-bielefeld.de/studium/studierende/studienorganisation/rueckmeldung/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -6387,13 +6399,13 @@
     "city": "Cottbus",
     "type": "Public",
     "official_website": "https://www.b-tu.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.b-tu.de/studium/im-studium/studienorganisation/formalia/rueckmeldung",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "Semester contribution applies (usually incl. Deutschland-Semesterticket €226.80); exact 2026/27 total not yet verified — see official fee page",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
@@ -6423,6 +6435,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Brandenburg University of Technology Cottbus-Senftenberg — semester contribution",
+        "url": "https://www.b-tu.de/studium/im-studium/studienorganisation/formalia/rueckmeldung"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -6436,15 +6452,15 @@
     "city": "Clausthal-Zellerfeld",
     "type": "Public",
     "official_website": "https://www.tu-clausthal.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.tu-clausthal.de/studierende/studierendensekretariat/semesterbeitrag",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€242.00 per semester (current amount)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 484,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -6461,7 +6477,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -6471,6 +6487,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Clausthal University of Technology — semester contribution",
+        "url": "https://www.tu-clausthal.de/studierende/studierendensekretariat/semesterbeitrag"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -6490,7 +6510,7 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "Semester contribution applies (usually incl. Deutschland-Semesterticket €226.80); exact 2026/27 total not yet verified — see official fee page",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": null,
     "english_bachelor": true,
@@ -6534,15 +6554,15 @@
     "city": "Frankfurt (Oder)",
     "type": "Public",
     "official_website": "https://www.europa-uni.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.europa-uni.de/de/studium/im-studium/semesterbeitrag/index.html",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€396.80 per semester (winter semester 2026/27 (€402.80 for new students))",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 794,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -6560,7 +6580,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -6570,6 +6590,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "European University Viadrina — semester contribution",
+        "url": "https://www.europa-uni.de/de/studium/im-studium/semesterbeitrag/index.html"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -6692,13 +6716,13 @@
     "city": "Frankfurt am Main",
     "type": "Public",
     "official_website": "https://www.frankfurt-university.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.frankfurt-university.de/de/studium/studienorganisation/semesterbeitrage",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "Semester contribution applies (usually incl. Deutschland-Semesterticket €226.80); exact 2026/27 total not yet verified — see official fee page",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
@@ -6728,6 +6752,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Frankfurt University of Applied Sciences — semester contribution",
+        "url": "https://www.frankfurt-university.de/de/studium/studienorganisation/semesterbeitrage"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -6856,15 +6884,15 @@
     "city": "Jena",
     "type": "Public",
     "official_website": "https://www.uni-jena.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-jena.de/575/semesterbeitrag",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€333.05 per semester (winter semester 2026/27 (€353.05 for new students incl. card))",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 666,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -6883,12 +6911,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Known for optics and photonics (Zeiss tradition), life sciences and humanities; an innovative mid-sized university city. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Friedrich Schiller University Jena official website",
         "url": "https://www.uni-jena.de"
+      },
+      {
+        "label": "Friedrich Schiller University Jena — semester contribution",
+        "url": "https://www.uni-jena.de/575/semesterbeitrag"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -6902,15 +6934,15 @@
     "city": "Frankfurt am Main",
     "type": "Public",
     "official_website": "https://www.uni-frankfurt.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-frankfurt.de/de/studium/studienorganisation/studierendenservice/studium-weiterfuehren-beenden",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€408.28 per semester (winter semester 2026/27, incl. semester ticket)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 817,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -6929,7 +6961,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -6939,6 +6971,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Goethe University Frankfurt — semester contribution",
+        "url": "https://www.uni-frankfurt.de/de/studium/studienorganisation/studierendenservice/studium-weiterfuehren-beenden"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -6952,15 +6988,15 @@
     "city": "Hamburg",
     "type": "Public",
     "official_website": "https://www.tuhh.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.tuhh.de/tuhh/studium/im-studium/rund-um-den-studierendenstatus/finanzierung/kosten/semesterbeitrag",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€400.00 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 800,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -6977,7 +7013,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -6987,6 +7023,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Hamburg University of Technology (TUHH) — semester contribution",
+        "url": "https://www.tuhh.de/tuhh/studium/im-studium/rund-um-den-studierendenstatus/finanzierung/kosten/semesterbeitrag"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7000,15 +7040,15 @@
     "city": "Hamm",
     "type": "Public",
     "official_website": "https://www.hshl.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hshl.de/studieren/erstsemester/bafoeg-semesterbeitrag-ticket",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€362.80 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 726,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -7026,7 +7066,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -7036,6 +7076,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Hamm-Lippstadt University of Applied Sciences — semester contribution",
+        "url": "https://www.hshl.de/studieren/erstsemester/bafoeg-semesterbeitrag-ticket"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7166,15 +7210,15 @@
     "city": "Düsseldorf",
     "type": "Public",
     "official_website": "https://www.hhu.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hhu.de/en/re-registration",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€371.15 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 742,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -7193,12 +7237,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Broad university in the state capital with strong medicine, law and business faculties; well connected to industry and cultural life. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Heinrich Heine University Düsseldorf official website",
         "url": "https://www.hhu.de"
+      },
+      {
+        "label": "Heinrich Heine University Düsseldorf — semester contribution",
+        "url": "https://www.hhu.de/en/re-registration"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7212,15 +7260,15 @@
     "city": "Bremen",
     "type": "Public",
     "official_website": "https://www.hs-bremen.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hs-bremen.de/studieren/im-studium/formale-angelegenheiten/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€442.40 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 885,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -7238,7 +7286,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -7248,6 +7296,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Hochschule Bremen – City University of Applied Sciences — semester contribution",
+        "url": "https://www.hs-bremen.de/studieren/im-studium/formale-angelegenheiten/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7267,7 +7319,7 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "Semester contribution applies (usually incl. Deutschland-Semesterticket €226.80); exact 2026/27 total not yet verified — see official fee page",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": null,
     "english_bachelor": true,
@@ -7310,13 +7362,13 @@
     "city": "Berlin",
     "type": "Public",
     "official_website": "https://www.htw-berlin.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.htw-berlin.de/studium/studienorganisation/semesterbeitraege",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "Semester contribution applies (usually incl. Deutschland-Semesterticket €226.80); exact 2026/27 total not yet verified — see official fee page",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
@@ -7347,6 +7399,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "HTW Berlin – University of Applied Sciences — semester contribution",
+        "url": "https://www.htw-berlin.de/studium/studienorganisation/semesterbeitraege"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7360,13 +7416,13 @@
     "city": "Berlin",
     "type": "Public",
     "official_website": "https://www.hu-berlin.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hu-berlin.de/studium/im-studium/studienorganisation/rueckmeldung",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "Semester contribution applies (usually incl. Deutschland-Semesterticket €226.80); exact 2026/27 total not yet verified — see official fee page",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
@@ -7397,6 +7453,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Humboldt University of Berlin — semester contribution",
+        "url": "https://www.hu-berlin.de/studium/im-studium/studienorganisation/rueckmeldung"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7410,15 +7470,15 @@
     "city": "Mainz",
     "type": "Public",
     "official_website": "https://www.uni-mainz.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.studium.uni-mainz.de/mein-studium/studienorganisation/rueckmeldung/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€366.90 per semester (winter semester 2026/27, Mainz campus)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 734,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -7437,12 +7497,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Comprehensive university with strengths in medicine, physics and the humanities; combines the Gutenberg tradition with modern research. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Johannes Gutenberg University Mainz official website",
         "url": "https://www.uni-mainz.de"
+      },
+      {
+        "label": "Johannes Gutenberg University Mainz — semester contribution",
+        "url": "https://www.studium.uni-mainz.de/mein-studium/studienorganisation/rueckmeldung/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7456,15 +7520,15 @@
     "city": "Gießen",
     "type": "Public",
     "official_website": "https://www.uni-giessen.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-giessen.de/de/org/admin/dez/b/dl/b5/studisek/semesterbeitrag",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€421.43 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 843,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -7483,12 +7547,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Home to one of Germany's few veterinary medicine faculties; also strong in medicine, natural sciences and law. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Justus Liebig University Gießen official website",
         "url": "https://www.uni-giessen.de"
+      },
+      {
+        "label": "Justus Liebig University Gießen — semester contribution",
+        "url": "https://www.uni-giessen.de/de/org/admin/dez/b/dl/b5/studisek/semesterbeitrag"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7551,15 +7619,15 @@
     "city": "Kiel",
     "type": "Public",
     "official_website": "https://www.uni-kiel.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.studium.uni-kiel.de/de/studium-organisieren/studienangelegenheiten/rueckmeldung",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€403.00 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 806,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -7578,12 +7646,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Founded in 1665 (Christian-Albrechts-Universität zu Kiel); world-class marine sciences (GEOMAR), plus strong medicine, law and economics. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Kiel University official website",
         "url": "https://www.uni-kiel.de"
+      },
+      {
+        "label": "Kiel University — semester contribution",
+        "url": "https://www.studium.uni-kiel.de/de/studium-organisieren/studienangelegenheiten/rueckmeldung"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7597,15 +7669,15 @@
     "city": "Hannover",
     "type": "Public",
     "official_website": "https://www.uni-hannover.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-hannover.de/studium/im-studium/studienorganisation/rueckmeldung",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€453.16 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 906,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -7624,12 +7696,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "TU9 member with strengths in engineering, natural sciences and economics; attracts one of Germany's largest international student communities. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Leibniz University Hannover official website",
         "url": "https://www.uni-hannover.de"
+      },
+      {
+        "label": "Leibniz University Hannover — semester contribution",
+        "url": "https://www.uni-hannover.de/studium/im-studium/studienorganisation/rueckmeldung"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7643,15 +7719,15 @@
     "city": "Leipzig",
     "type": "Public",
     "official_website": "https://www.uni-leipzig.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-leipzig.de/studium/im-studium/studienorganisation/rueckmeldung-und-semesterbeitrag",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€332.30 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 665,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -7670,12 +7746,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "One of Germany's oldest universities (1409); strong in humanities, law, medicine and economics, located in a vibrant student city. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Leipzig University official website",
         "url": "https://www.uni-leipzig.de"
+      },
+      {
+        "label": "Leipzig University — semester contribution",
+        "url": "https://www.uni-leipzig.de/studium/im-studium/studienorganisation/rueckmeldung-und-semesterbeitrag"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7689,15 +7769,15 @@
     "city": "Lüneburg",
     "type": "Public",
     "official_website": "https://www.leuphana.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.leuphana.de/college/studium/kosten.html",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€484.24 per semester (current amount: €150 Studierendenwerk + €75 administration + €259.24 student body incl. semester ticket)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 968,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -7715,7 +7795,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -7725,6 +7805,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Leuphana University Lüneburg — semester contribution",
+        "url": "https://www.leuphana.de/college/studium/kosten.html"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7855,15 +7939,15 @@
     "city": "Halle (Saale)",
     "type": "Public",
     "official_website": "https://www.uni-halle.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://immaamt.verwaltung.uni-halle.de/studium/rueckmeldung/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€333.30 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 667,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -7882,12 +7966,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Historic university (1502) with strengths in natural sciences, humanities and law; part of the central-German research network with Leipzig and Jena. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Martin Luther University Halle-Wittenberg official website",
         "url": "https://www.uni-halle.de"
+      },
+      {
+        "label": "Martin Luther University Halle-Wittenberg — semester contribution",
+        "url": "https://immaamt.verwaltung.uni-halle.de/studium/rueckmeldung/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -7901,15 +7989,15 @@
     "city": "Osnabrück",
     "type": "Public",
     "official_website": "https://www.uni-osnabrueck.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-osnabrueck.de/studieren/organisation-des-studiums/rueckmeldung",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€459.30 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 919,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -7927,7 +8015,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -7937,6 +8025,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Osnabrück University — semester contribution",
+        "url": "https://www.uni-osnabrueck.de/studieren/organisation-des-studiums/rueckmeldung"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -8000,15 +8092,15 @@
     "city": "Paderborn",
     "type": "Public",
     "official_website": "https://www.uni-paderborn.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-paderborn.de/zv/3-3/studienorganisation/rueckmeldung-und-gebuehren",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€351.15 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 702,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -8026,7 +8118,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -8036,6 +8128,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Paderborn University — semester contribution",
+        "url": "https://www.uni-paderborn.de/zv/3-3/studienorganisation/rueckmeldung-und-gebuehren"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -8049,15 +8145,15 @@
     "city": "Kleve",
     "type": "Public",
     "official_website": "https://www.hochschule-rhein-waal.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.hochschule-rhein-waal.de/studieren/rund-ums-studium/kosten-und-finanzierung/semesterbeitrag",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€365.10 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 730,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -8076,7 +8172,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Most degree programmes are taught in English. Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -8086,6 +8182,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Rhine-Waal University of Applied Sciences — semester contribution",
+        "url": "https://www.hochschule-rhein-waal.de/studieren/rund-ums-studium/kosten-und-finanzierung/semesterbeitrag"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -8099,15 +8199,15 @@
     "city": "Kaiserslautern",
     "type": "Public",
     "official_website": "https://rptu.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://rptu.de/studium/im-studium/studienorganisation/rueckmeldung",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€162.50 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 325,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -8125,7 +8225,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -8135,6 +8235,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "RPTU Kaiserslautern-Landau — semester contribution",
+        "url": "https://rptu.de/studium/im-studium/studienorganisation/rueckmeldung"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -8148,15 +8252,15 @@
     "city": "Bochum",
     "type": "Public",
     "official_website": "https://www.ruhr-uni-bochum.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://studium.ruhr-uni-bochum.de/de/rueckmeldung-und-sozialbeitrag",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€380.00 per semester (winter semester 2026/27, incl. semester ticket)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 760,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -8175,12 +8279,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "One of Germany's largest universities; strengths in engineering, natural sciences, medicine and the humanities; part of the Ruhr research alliance (UA Ruhr). No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Ruhr University Bochum official website",
         "url": "https://www.ruhr-uni-bochum.de"
+      },
+      {
+        "label": "Ruhr University Bochum — semester contribution",
+        "url": "https://studium.ruhr-uni-bochum.de/de/rueckmeldung-und-sozialbeitrag"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -8308,15 +8416,15 @@
     "city": "Saarbrücken",
     "type": "Public",
     "official_website": "https://www.uni-saarland.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-saarland.de/studium/organisation/beitraege/semesterbeitrag.html",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution incl. semester ticket (published components include administration fee €50 and student body fee €13; verify total)",
+    "mandatory_semester_fee": "€412.30 per semester (winter semester 2026/27, incl. semester ticket)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 825,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -8335,7 +8443,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Major German centre for computer science and AI research (with DFKI); European campus on the French border with many cross-border programs. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -8589,7 +8697,7 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "Semester contribution applies (usually incl. Deutschland-Semesterticket €226.80); exact 2026/27 total not yet verified — see official fee page",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
@@ -8632,15 +8740,15 @@
     "city": "Cologne",
     "type": "Public",
     "official_website": "https://www.th-koeln.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.th-koeln.de/studium/beitraege-und-gebuehren_5343.php",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€352.70 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 705,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -8658,7 +8766,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -8668,6 +8776,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "TH Köln – University of Applied Sciences — semester contribution",
+        "url": "https://www.th-koeln.de/studium/beitraege-und-gebuehren_5343.php"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -8681,15 +8793,15 @@
     "city": "Freiberg",
     "type": "Public",
     "official_website": "https://tu-freiberg.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://tu-freiberg.de/studium/im-studium/studienorganisation/rueckmeldung-zum-studium",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€107.00 per semester (current amount)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 214,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -8707,7 +8819,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -8717,6 +8829,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "TU Bergakademie Freiberg — semester contribution",
+        "url": "https://tu-freiberg.de/studium/im-studium/studienorganisation/rueckmeldung-zum-studium"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -8730,15 +8846,15 @@
     "city": "Braunschweig",
     "type": "Public",
     "official_website": "https://www.tu-braunschweig.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.tu-braunschweig.de/i-amt/newsaktuelles/details/semesterbeitrag-wintersemester-2026-27",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€472.50 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 945,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -8757,12 +8873,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Germany's oldest technical university (founded 1745) and a TU9 member; strengths in aerospace, mechanical engineering and materials science. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "TU Braunschweig official website",
         "url": "https://www.tu-braunschweig.de"
+      },
+      {
+        "label": "TU Braunschweig — semester contribution",
+        "url": "https://www.tu-braunschweig.de/i-amt/newsaktuelles/details/semesterbeitrag-wintersemester-2026-27"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -8776,15 +8896,15 @@
     "city": "Chemnitz",
     "type": "Public",
     "official_website": "https://www.tu-chemnitz.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.tu-chemnitz.de/studierendenservice/studserv/sembeitrag.php",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€341.40 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 683,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -8803,12 +8923,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Technical university with strengths in engineering, computer science and natural sciences; strong regional industry ties in Saxony. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "TU Chemnitz official website",
         "url": "https://www.tu-chemnitz.de"
+      },
+      {
+        "label": "TU Chemnitz — semester contribution",
+        "url": "https://www.tu-chemnitz.de/studierendenservice/studserv/sembeitrag.php"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -8822,15 +8946,15 @@
     "city": "Darmstadt",
     "type": "Public",
     "official_website": "https://www.tu-darmstadt.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.tu-darmstadt.de/studieren/studieren_von_a_bis_z/artikel_details_de_en_286144.de.jsp",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution incl. semester ticket (raised for winter semester 2026/27; verify amount)",
+    "mandatory_semester_fee": "€402.68 per semester (winter semester 2026/27, incl. semester ticket)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 805,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -8849,7 +8973,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Leading technical university (TU9) with strengths in engineering, computer science and IT security; close ties to ESA/ESOC and major research centres. Semester contribution is expected to rise for winter semester 2026/27 due to the semester ticket price increase — confirm the exact amount on the university's fee page.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -8859,6 +8983,10 @@
       {
         "label": "Semester fee and re-registration page (official)",
         "url": "https://www.tu-darmstadt.de/studieren/studieren_von_a_bis_z/artikel_details_de_en_286144.en.jsp"
+      },
+      {
+        "label": "TU Darmstadt — semester contribution",
+        "url": "https://www.tu-darmstadt.de/studieren/studieren_von_a_bis_z/artikel_details_de_en_286144.de.jsp"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -8872,13 +9000,13 @@
     "city": "Dortmund",
     "type": "Public",
     "official_website": "https://www.tu-dortmund.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.tu-dortmund.de/studierende/im-studium/studienorganisation/rueckmeldung-und-semesterbeitrag",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "Semester contribution applies (usually incl. Deutschland-Semesterticket €226.80); exact 2026/27 total not yet verified — see official fee page",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
@@ -8905,6 +9033,10 @@
       {
         "label": "TU Dortmund official website",
         "url": "https://www.tu-dortmund.de"
+      },
+      {
+        "label": "TU Dortmund — semester contribution",
+        "url": "https://www.tu-dortmund.de/studierende/im-studium/studienorganisation/rueckmeldung-und-semesterbeitrag"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -9025,13 +9157,13 @@
     "city": "Ilmenau",
     "type": "Public",
     "official_website": "https://www.tu-ilmenau.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.tu-ilmenau.de/studium/im-studium/studienverlauf/administrative-guide/beitraege-und-gebuehren",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "Semester contribution applies (usually incl. Deutschland-Semesterticket €226.80); exact 2026/27 total not yet verified — see official fee page",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
@@ -9061,6 +9193,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "TU Ilmenau — semester contribution",
+        "url": "https://www.tu-ilmenau.de/studium/im-studium/studienverlauf/administrative-guide/beitraege-und-gebuehren"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -9074,15 +9210,15 @@
     "city": "Ulm",
     "type": "Public",
     "official_website": "https://www.uni-ulm.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-ulm.de/studium/studienorganisation/studiengebuehren/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€192.00 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 384,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -9101,7 +9237,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Baden-Württemberg: non-EU students pay €1,500/semester; EU/EEA citizens are exempt. Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -9111,6 +9247,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "Ulm University — semester contribution",
+        "url": "https://www.uni-ulm.de/studium/studienorganisation/studiengebuehren/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -9124,15 +9264,15 @@
     "city": "Augsburg",
     "type": "Public",
     "official_website": "https://www.uni-augsburg.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "http://www.uni-augsburg.de/de/studium/organisation-beratung/organisation-und-formales/semesterbeitrage/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€181.95 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 364,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -9151,12 +9291,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Founded 1970 with strengths in law, business, materials science and interdisciplinary studies; located close to Munich. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Augsburg official website",
         "url": "https://www.uni-augsburg.de"
+      },
+      {
+        "label": "University of Augsburg — semester contribution",
+        "url": "http://www.uni-augsburg.de/de/studium/organisation-beratung/organisation-und-formales/semesterbeitrage/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -9176,7 +9320,7 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "Semester contribution applies (usually incl. Deutschland-Semesterticket €226.80); exact 2026/27 total not yet verified — see official fee page",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
@@ -9219,15 +9363,15 @@
     "city": "Bayreuth",
     "type": "Public",
     "official_website": "https://www.uni-bayreuth.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.studierendenkanzlei.uni-bayreuth.de/de/studierende/semesterbeitrag/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€172.00 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 344,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -9246,12 +9390,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Interdisciplinary campus university known for law & economics, natural sciences (green chemistry) and African studies. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Bayreuth official website",
         "url": "https://www.uni-bayreuth.de"
+      },
+      {
+        "label": "University of Bayreuth — semester contribution",
+        "url": "https://www.studierendenkanzlei.uni-bayreuth.de/de/studierende/semesterbeitrag/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -9815,7 +9963,7 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "Semester contribution applies (usually incl. Deutschland-Semesterticket €226.80); exact 2026/27 total not yet verified — see official fee page",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
@@ -9964,15 +10112,15 @@
     "city": "Stuttgart",
     "type": "Public",
     "official_website": "https://www.uni-hohenheim.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-hohenheim.de/rueckmeldung",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€174.50 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 349,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -9990,7 +10138,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Baden-Württemberg: non-EU students pay €1,500/semester; EU/EEA citizens are exempt. Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -10000,6 +10148,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "University of Hohenheim — semester contribution",
+        "url": "https://www.uni-hohenheim.de/rueckmeldung"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -10013,15 +10165,15 @@
     "city": "Kassel",
     "type": "Public",
     "official_website": "https://www.uni-kassel.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-kassel.de/uni/studium/im-studium/semesterbeitrag.html",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€409.27 per semester (winter semester 2026/27, incl. semester ticket)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 819,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -10040,12 +10192,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Strengths in engineering, environmental and social sciences; known for its art academy and the documenta cultural heritage of the city. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Kassel official website",
         "url": "https://www.uni-kassel.de"
+      },
+      {
+        "label": "University of Kassel — semester contribution",
+        "url": "https://www.uni-kassel.de/uni/studium/im-studium/semesterbeitrag.html"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -10113,15 +10269,15 @@
     "city": "Lübeck",
     "type": "Public",
     "official_website": "https://www.uni-luebeck.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www2.uni-luebeck.de/studium/studiumsorganisation/studierenden-service-center/rueckmeldung/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€400.60 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 801,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -10139,7 +10295,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -10149,6 +10305,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "University of Lübeck — semester contribution",
+        "url": "https://www2.uni-luebeck.de/studium/studiumsorganisation/studierenden-service-center/rueckmeldung/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -10271,15 +10431,15 @@
     "city": "Marburg",
     "type": "Public",
     "official_website": "https://www.uni-marburg.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-marburg.de/de/studium/im-studium/formalitaeten/semesterbeitrag",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€424.80 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 850,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -10298,12 +10458,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Oldest Protestant-founded university (1527); strengths in medicine, pharmacy and the humanities; classic small university town. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Marburg official website",
         "url": "https://www.uni-marburg.de"
+      },
+      {
+        "label": "University of Marburg — semester contribution",
+        "url": "https://www.uni-marburg.de/de/studium/im-studium/formalitaeten/semesterbeitrag"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -10374,7 +10538,7 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "Semester contribution applies (usually incl. Deutschland-Semesterticket €226.80); exact 2026/27 total not yet verified — see official fee page",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
@@ -10414,15 +10578,15 @@
     "city": "Passau",
     "type": "Public",
     "official_website": "https://www.uni-passau.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-passau.de/studium/waehrend-des-studiums/rueckmeldung-co",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€126.90 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 254,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -10441,12 +10605,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Small, internationally oriented university on the Austrian border; especially well known for law and business studies. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Passau official website",
         "url": "https://www.uni-passau.de"
+      },
+      {
+        "label": "University of Passau — semester contribution",
+        "url": "https://www.uni-passau.de/studium/waehrend-des-studiums/rueckmeldung-co"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -10460,13 +10628,13 @@
     "city": "Potsdam",
     "type": "Public",
     "official_website": "https://www.uni-potsdam.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-potsdam.de/de/studium/konkret/studienorganisation/rueckmeldung",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "Semester contribution applies (usually incl. Deutschland-Semesterticket €226.80); exact 2026/27 total not yet verified — see official fee page",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": null,
     "english_bachelor": false,
@@ -10493,6 +10661,10 @@
       {
         "label": "University of Potsdam official website",
         "url": "https://www.uni-potsdam.de"
+      },
+      {
+        "label": "University of Potsdam — semester contribution",
+        "url": "https://www.uni-potsdam.de/de/studium/konkret/studienorganisation/rueckmeldung"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -10506,15 +10678,15 @@
     "city": "Regensburg",
     "type": "Public",
     "official_website": "https://www.uni-regensburg.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-regensburg.de/studieren/im-studium/studienorganisation/rueckmeldung",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€208.00 per semester (current amount)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 416,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -10533,12 +10705,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Founded 1962 in a UNESCO-listed old town; strengths in medicine, natural sciences, law and economics. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Regensburg official website",
         "url": "https://www.uni-regensburg.de"
+      },
+      {
+        "label": "University of Regensburg — semester contribution",
+        "url": "https://www.uni-regensburg.de/studieren/im-studium/studienorganisation/rueckmeldung"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -10602,15 +10778,15 @@
     "city": "Siegen",
     "type": "Public",
     "official_website": "https://www.uni-siegen.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-siegen.de/semesterbeitrag",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution applies (typically ≈ €150–€400/semester; verify on the university website)",
+    "mandatory_semester_fee": "€393.80 per semester (current amount)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 788,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": false,
@@ -10628,7 +10804,7 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-09-30",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -10638,6 +10814,10 @@
       {
         "label": "DAAD — study in Germany, tuition and semester contribution",
         "url": "https://www.daad.de/en/studying-in-germany/"
+      },
+      {
+        "label": "University of Siegen — semester contribution",
+        "url": "https://www.uni-siegen.de/semesterbeitrag"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -10758,15 +10938,15 @@
     "city": "Trier",
     "type": "Public",
     "official_website": "https://www.uni-trier.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-trier.de/studium/im-studium/studienorganisation/rueckmeldung",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€371.80 per semester (current amount, incl. semester ticket)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 744,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -10785,12 +10965,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Located in Germany's oldest city; strengths in law, business and humanities with a strong European orientation in the border region. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Trier official website",
         "url": "https://www.uni-trier.de"
+      },
+      {
+        "label": "University of Trier — semester contribution",
+        "url": "https://www.uni-trier.de/studium/im-studium/studienorganisation/rueckmeldung"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -10859,15 +11043,15 @@
     "city": "Würzburg",
     "type": "Public",
     "official_website": "https://www.uni-wuerzburg.de",
-    "tuition_info_url": null,
+    "tuition_info_url": "https://www.uni-wuerzburg.de/studium/studienangelegenheiten/beitraegeundgebuehren/",
     "admissions_url": null,
     "bachelor_available": true,
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition (public university)",
-    "mandatory_semester_fee": "Semester contribution (varies, incl. transport)",
+    "mandatory_semester_fee": "€182.10 per semester (winter semester 2026/27)",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": null,
+    "est_annual_mandatory_cost_eur": 364,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -10886,12 +11070,16 @@
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Historic university (founded 1402) with particular strengths in medicine, natural sciences and psychology. No tuition fees — only the semester contribution applies.",
-    "last_verified": "2026-09-29",
+    "last_verified": "2026-10-12",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Würzburg official website",
         "url": "https://www.uni-wuerzburg.de"
+      },
+      {
+        "label": "University of Würzburg — semester contribution",
+        "url": "https://www.uni-wuerzburg.de/studium/studienangelegenheiten/beitraegeundgebuehren/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)"
@@ -12630,6 +12818,52 @@
       }
     ],
     "teaching_languages": "Italian · Italian / English"
+  },
+  {
+    "id": "li-university-of-liechtenstein",
+    "name": "University of Liechtenstein",
+    "slug": "university-of-liechtenstein",
+    "country_code": "LI",
+    "country": "Liechtenstein",
+    "city": "Vaduz",
+    "type": "Public",
+    "official_website": "https://www.uni.li",
+    "tuition_info_url": "https://www.uni.li/en/studies/plan-your-studies/study-costs-und-funding",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "CHF 950 per semester for EU/EEA and Swiss nationals (≈ CHF 1,900/yr)",
+    "mandatory_semester_fee": "Semester/administrative contribution — see official site",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 2033,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": true,
+    "study_fields": [
+      "Architecture",
+      "Business",
+      "Information Systems",
+      "Finance"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. EUR amounts converted at ≈ €1.07 per CHF; verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "University of Liechtenstein — study costs",
+        "url": "https://www.uni.li/en/studies/plan-your-studies/study-costs-und-funding"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
   },
   {
     "id": "lu-uni",
@@ -20120,5 +20354,235 @@
       }
     ],
     "teaching_languages": "Swedish / English"
+  },
+  {
+    "id": "ch-university-of-basel",
+    "name": "University of Basel",
+    "slug": "university-of-basel",
+    "country_code": "CH",
+    "country": "Switzerland",
+    "city": "Basel",
+    "type": "Public",
+    "official_website": "https://www.unibas.ch",
+    "tuition_info_url": "https://www.unibas.ch/en/Studies/Before-My-Studies/Application-Admission/Tuition-Fees-.html",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "CHF 850 per semester (≈ CHF 1,700/yr)",
+    "mandatory_semester_fee": "Semester/administrative contribution — see official site",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 1819,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Life Sciences",
+      "Medicine",
+      "Economics",
+      "Humanities"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. EUR amounts converted at ≈ €1.07 per CHF; verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "University of Basel — tuition fees",
+        "url": "https://www.unibas.ch/en/Studies/Before-My-Studies/Application-Admission/Tuition-Fees-.html"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
+    "id": "ch-university-of-fribourg",
+    "name": "University of Fribourg",
+    "slug": "university-of-fribourg",
+    "country_code": "CH",
+    "country": "Switzerland",
+    "city": "Fribourg",
+    "type": "Public",
+    "official_website": "https://www.unifr.ch",
+    "tuition_info_url": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "Foreign students: CHF 985 per semester (≈ CHF 1,970/yr)",
+    "mandatory_semester_fee": "Semester/administrative contribution — see official site",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 2108,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Economics",
+      "Natural Sciences",
+      "Humanities",
+      "Law"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. EUR amounts converted at ≈ €1.07 per CHF; verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "University of Fribourg — university fees",
+        "url": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
+    "id": "ch-university-of-geneva",
+    "name": "University of Geneva",
+    "slug": "university-of-geneva",
+    "country_code": "CH",
+    "country": "Switzerland",
+    "city": "Geneva",
+    "type": "Public",
+    "official_website": "https://www.unige.ch",
+    "tuition_info_url": "https://www.unige.ch/immatriculations/en/informations/fees",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "CHF 500 per semester for all students (≈ CHF 1,000/yr)",
+    "mandatory_semester_fee": "Included (CHF 65 fixed + CHF 435 administrative fees per semester)",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 1070,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Social Sciences",
+      "Natural Sciences",
+      "Economics",
+      "Law"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. EUR amounts converted at ≈ €1.07 per CHF; verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "UNIGE — tuition fees",
+        "url": "https://www.unige.ch/immatriculations/en/informations/fees"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
+    "id": "ch-university-of-lausanne-unil",
+    "name": "University of Lausanne (UNIL)",
+    "slug": "university-of-lausanne-unil",
+    "country_code": "CH",
+    "country": "Switzerland",
+    "city": "Lausanne",
+    "type": "Public",
+    "official_website": "https://www.unil.ch",
+    "tuition_info_url": "https://www.unil.ch/unil/en/home/menuinst/etudier/immatriculations-et-inscriptions/etudiants-unil/taxes.html",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "CHF 580 per semester + CHF 80 semester fees (≈ CHF 1,320/yr)",
+    "mandatory_semester_fee": "Semester/administrative contribution — see official site",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 1412,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Business",
+      "Life Sciences",
+      "Social Sciences",
+      "Geosciences"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. EUR amounts converted at ≈ €1.07 per CHF; verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "UNIL — tuition and semester fees",
+        "url": "https://www.unil.ch/unil/en/home/menuinst/etudier/immatriculations-et-inscriptions/etudiants-unil/taxes.html"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
+  },
+  {
+    "id": "ch-university-of-zurich-uzh",
+    "name": "University of Zurich (UZH)",
+    "slug": "university-of-zurich-uzh",
+    "country_code": "CH",
+    "country": "Switzerland",
+    "city": "Zurich",
+    "type": "Public",
+    "official_website": "https://www.uzh.ch",
+    "tuition_info_url": "https://www.uzh.ch/en/studies/application/fees.html",
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "Master: CHF 720 + CHF 100 foreign-student surcharge per semester; Bachelor: CHF 720 + CHF 500 surcharge (≈ CHF 2,558/yr incl. contributions — at the upper limit)",
+    "mandatory_semester_fee": "Mandatory semester contributions CHF 59",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": 1881,
+    "english_bachelor": false,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Economics",
+      "Natural Sciences",
+      "Social Sciences",
+      "Medicine"
+    ],
+    "language_requirements": null,
+    "english_test": null,
+    "application_deadlines": null,
+    "admission_requirements": null,
+    "application_platform": null,
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added in the 2026-10-12 completeness update. EUR amounts converted at ≈ €1.07 per CHF; verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Low Tuition",
+    "sources": [
+      {
+        "label": "UZH — fees and contributions",
+        "url": "https://www.uzh.ch/en/studies/application/fees.html"
+      }
+    ],
+    "verification_status": "Verified (official fee page checked 2026-10-12)"
   }
 ]

@@ -1,0 +1,188 @@
+{
+  "country": {
+    "code": "CH",
+    "slug": "switzerland",
+    "name": "Switzerland"
+  },
+  "universities": [
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. EUR amounts converted at ≈ €1.07 per CHF; verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Low Tuition",
+      "name": "University of Geneva",
+      "city": "Geneva",
+      "official_website": "https://www.unige.ch",
+      "tuition_eu": "CHF 500 per semester for all students (≈ CHF 1,000/yr)",
+      "mandatory_semester_fee": "Included (CHF 65 fixed + CHF 435 administrative fees per semester)",
+      "est_annual_mandatory_cost_eur": 1070,
+      "study_fields": [
+        "Social Sciences",
+        "Natural Sciences",
+        "Economics",
+        "Law"
+      ],
+      "tuition_info_url": "https://www.unige.ch/immatriculations/en/informations/fees",
+      "sources": [
+        {
+          "label": "UNIGE — tuition fees",
+          "url": "https://www.unige.ch/immatriculations/en/informations/fees"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. EUR amounts converted at ≈ €1.07 per CHF; verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Low Tuition",
+      "name": "University of Basel",
+      "city": "Basel",
+      "official_website": "https://www.unibas.ch",
+      "tuition_eu": "CHF 850 per semester (≈ CHF 1,700/yr)",
+      "est_annual_mandatory_cost_eur": 1819,
+      "study_fields": [
+        "Life Sciences",
+        "Medicine",
+        "Economics",
+        "Humanities"
+      ],
+      "tuition_info_url": "https://www.unibas.ch/en/Studies/Before-My-Studies/Application-Admission/Tuition-Fees-.html",
+      "sources": [
+        {
+          "label": "University of Basel — tuition fees",
+          "url": "https://www.unibas.ch/en/Studies/Before-My-Studies/Application-Admission/Tuition-Fees-.html"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. EUR amounts converted at ≈ €1.07 per CHF; verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Low Tuition",
+      "name": "University of Zurich (UZH)",
+      "city": "Zurich",
+      "official_website": "https://www.uzh.ch",
+      "tuition_eu": "Master: CHF 720 + CHF 100 foreign-student surcharge per semester; Bachelor: CHF 720 + CHF 500 surcharge (≈ CHF 2,558/yr incl. contributions — at the upper limit)",
+      "mandatory_semester_fee": "Mandatory semester contributions CHF 59",
+      "est_annual_mandatory_cost_eur": 1881,
+      "study_fields": [
+        "Economics",
+        "Natural Sciences",
+        "Social Sciences",
+        "Medicine"
+      ],
+      "tuition_info_url": "https://www.uzh.ch/en/studies/application/fees.html",
+      "sources": [
+        {
+          "label": "UZH — fees and contributions",
+          "url": "https://www.uzh.ch/en/studies/application/fees.html"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. EUR amounts converted at ≈ €1.07 per CHF; verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Low Tuition",
+      "name": "University of Lausanne (UNIL)",
+      "city": "Lausanne",
+      "official_website": "https://www.unil.ch",
+      "tuition_eu": "CHF 580 per semester + CHF 80 semester fees (≈ CHF 1,320/yr)",
+      "est_annual_mandatory_cost_eur": 1412,
+      "study_fields": [
+        "Business",
+        "Life Sciences",
+        "Social Sciences",
+        "Geosciences"
+      ],
+      "tuition_info_url": "https://www.unil.ch/unil/en/home/menuinst/etudier/immatriculations-et-inscriptions/etudiants-unil/taxes.html",
+      "sources": [
+        {
+          "label": "UNIL — tuition and semester fees",
+          "url": "https://www.unil.ch/unil/en/home/menuinst/etudier/immatriculations-et-inscriptions/etudiants-unil/taxes.html"
+        }
+      ]
+    },
+    {
+      "type": "Public",
+      "bachelor_available": true,
+      "master_available": true,
+      "phd_available": true,
+      "english_bachelor": false,
+      "english_master": true,
+      "english_phd": false,
+      "notes": "Added in the 2026-10-12 completeness update. EUR amounts converted at ≈ €1.07 per CHF; verify each programme on the official website.",
+      "verification_status": "Verified (official fee page checked 2026-10-12)",
+      "last_verified": "2026-10-12",
+      "tuition_status": "Low Tuition",
+      "name": "University of Fribourg",
+      "city": "Fribourg",
+      "official_website": "https://www.unifr.ch",
+      "tuition_eu": "Foreign students: CHF 985 per semester (≈ CHF 1,970/yr)",
+      "est_annual_mandatory_cost_eur": 2108,
+      "study_fields": [
+        "Economics",
+        "Natural Sciences",
+        "Humanities",
+        "Law"
+      ],
+      "tuition_info_url": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/",
+      "sources": [
+        {
+          "label": "University of Fribourg — university fees",
+          "url": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "UNIGE — tuition fees",
+      "url": "https://www.unige.ch/immatriculations/en/informations/fees"
+    },
+    {
+      "label": "University of Basel — tuition fees",
+      "url": "https://www.unibas.ch/en/Studies/Before-My-Studies/Application-Admission/Tuition-Fees-.html"
+    },
+    {
+      "label": "UZH — fees and contributions",
+      "url": "https://www.uzh.ch/en/studies/application/fees.html"
+    },
+    {
+      "label": "UNIL — tuition and semester fees",
+      "url": "https://www.unil.ch/unil/en/home/menuinst/etudier/immatriculations-et-inscriptions/etudiants-unil/taxes.html"
+    },
+    {
+      "label": "University of Fribourg — university fees",
+      "url": "https://www.unifr.ch/studies/en/organisation/administrative-services-unifr-students/university-fees/"
+    }
+  ]
+}
