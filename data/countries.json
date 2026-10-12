@@ -382,10 +382,14 @@
       {
         "label": "Charles University – Study with us",
         "url": "https://cuni.cz/UKEN-385.html"
+      },
+      {
+        "label": "Study in Czechia – learn Czech, study tuition-free",
+        "url": "https://studyin.gov.cz/plan-your-studies/learn-czech-study-tuition-free/"
       }
     ],
     "verification_status": "Verified (country policy)",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "document_submission": {
       "opens": "≈ November",
       "closes": "≈ February–April (faculty-specific); entrance exams ≈ June",
