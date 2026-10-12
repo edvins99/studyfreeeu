@@ -693,6 +693,8 @@ function buildUniversityPages() {
         </dl>`}
         <dl class="kv">
           <dt>Application platform</dt><dd>${esc(u.application_platform || 'Not yet verified')}</dd>
+          <dt>Admissions page</dt><dd>${u.admissions_url ? `<a href="${u.admissions_url}" rel="nofollow noopener" target="_blank">Official admissions / how to apply →</a>` : 'Not yet verified'}</dd>
+          <dt>Fees page</dt><dd>${u.tuition_info_url ? `<a href="${u.tuition_info_url}" rel="nofollow noopener" target="_blank">Official tuition &amp; fees information →</a>` : 'Not yet verified'}</dd>
           <dt>Housing</dt><dd>${u.housing_url ? `<a href="${u.housing_url}" rel="nofollow noopener" target="_blank">Housing information</a>` : 'Not yet verified'}</dd>
           <dt>Scholarships</dt><dd>${u.scholarship_url ? `<a href="${u.scholarship_url}" rel="nofollow noopener" target="_blank">Scholarship information</a>` : 'Not yet verified'}</dd>
         </dl>
