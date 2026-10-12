@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Sitemap: https://edvins99.github.io/studyfreeeu/sitemap.xml

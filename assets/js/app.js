@@ -1,0 +1,484 @@
+/* StudyFreeEU — client enhancements (progressive: all listings are pre-rendered) */
+(function () {
+  'use strict';
+
+  var store = {
+    get: function (k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch (e) { return d; } },
+    set: function (k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+  };
+
+  /* ---------- mobile nav ---------- */
+  function initNav() {
+    var t = document.querySelector('.nav-toggle'), n = document.querySelector('.nav');
+    if (t && n) t.addEventListener('click', function () { var o = n.classList.toggle('open'); t.setAttribute('aria-expanded', o ? 'true' : 'false'); });
+  }
+
+  /* ---------- home search ---------- */
+  function initHeroSearch() {
+    var inp = document.getElementById('hero-search'), btn = document.getElementById('hero-search-btn');
+    if (!inp) return;
+    var prefix = inp.getAttribute('data-prefix') || '';
+    function go() {
+      var q = encodeURIComponent(inp.value.trim());
+      window.location.href = prefix + 'universities/index.html' + (q ? '?q=' + q : '');
+    }
+    if (btn) btn.addEventListener('click', go);
+    inp.addEventListener('keydown', function (e) { if (e.key === 'Enter') go(); });
+  }
+
+  /* ---------- favorites ---------- */
+  function initFavorites() {
+    var favs = store.get('sfe_fav', []);
+    function render() {
+      document.querySelectorAll('.js-fav').forEach(function (b) {
+        var on = favs.indexOf(b.getAttribute('data-id')) !== -1;
+        b.classList.toggle('is-on', on);
+        var ic = b.classList.contains('icon');
+        b.textContent = ic ? (on ? '★' : '☆') : (on ? '★ Saved' : '☆ Save');
+        b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+      var c = document.getElementById('fav-count');
+      if (c) c.textContent = favs.length;
+    }
+    document.querySelectorAll('.js-fav').forEach(function (b) {
+      b.addEventListener('click', function (e) {
+        e.preventDefault();
+        var id = b.getAttribute('data-id'), i = favs.indexOf(id);
+        if (i === -1) favs.push(id); else favs.splice(i, 1);
+        store.set('sfe_fav', favs); render();
+      });
+    });
+    render();
+  }
+
+  /* ---------- compare ---------- */
+  function getCompare() { return store.get('sfe_compare', []); }
+  function renderCompareBar() {
+    var bar = document.getElementById('compare-bar');
+    if (!bar) return;
+    var ids = getCompare();
+    var chips = bar.querySelector('.compare-chips');
+    chips.innerHTML = '';
+    ids.forEach(function (item) {
+      var span = document.createElement('span');
+      span.className = 'chip';
+      span.innerHTML = '<span></span><button type="button" aria-label="Remove">×</button>';
+      span.querySelector('span').textContent = item.name;
+      span.querySelector('button').addEventListener('click', function () {
+        var a = getCompare().filter(function (x) { return x.id !== item.id; });
+        store.set('sfe_compare', a); syncCompareButtons(); renderCompareBar();
+      });
+      chips.appendChild(span);
+    });
+    bar.classList.toggle('show', ids.length > 0);
+    var go = bar.querySelector('.js-compare-go');
+    if (go) go.disabled = ids.length < 2;
+  }
+  function syncCompareButtons() {
+    var ids = getCompare().map(function (x) { return x.id; });
+    document.querySelectorAll('.js-compare').forEach(function (b) {
+      var on = ids.indexOf(b.getAttribute('data-id')) !== -1;
+      b.classList.toggle('is-on', on);
+      var ic = b.classList.contains('icon');
+      b.textContent = ic ? (on ? '✓' : '⇄') : (on ? '✓ In compare' : '⇄ Compare');
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+  }
+  function initCompare() {
+    document.querySelectorAll('.js-compare').forEach(function (b) {
+      b.addEventListener('click', function (e) {
+        e.preventDefault();
+        var id = b.getAttribute('data-id'), name = b.getAttribute('data-name');
+        var ids = getCompare();
+        var i = ids.findIndex(function (x) { return x.id === id; });
+        if (i !== -1) ids.splice(i, 1);
+        else {
+          if (ids.length >= 4) { alert('You can compare up to 4 universities.'); return; }
+          ids.push({ id: id, name: name });
+        }
+        store.set('sfe_compare', ids);
+        syncCompareButtons(); renderCompareBar();
+      });
+    });
+    var clear = document.querySelector('.js-compare-clear');
+    if (clear) clear.addEventListener('click', function () {
+      store.set('sfe_compare', []); syncCompareButtons(); renderCompareBar();
+    });
+    syncCompareButtons(); renderCompareBar();
+  }
+
+  /* ---------- universities listing filters ---------- */
+  function initListing() {
+    var results = document.getElementById('results');
+    if (!results) return;
+    var cards = Array.prototype.slice.call(results.querySelectorAll('.uni-card'));
+    var pageSize = 12, page = 1;
+
+    var $ = function (id) { return document.getElementById(id); };
+    var params = new URLSearchParams(location.search);
+    if (params.get('q')) { var s = $('f-search'); if (s) s.value = params.get('q'); }
+    var pre = { country: params.get('country'), level: params.get('level'), status: params.get('status'), field: params.get('field') };
+    Object.keys(pre).forEach(function (k) { if (pre[k] != null && $('f-' + k)) $('f-' + k).value = pre[k]; });
+    if (params.get('eng') && $('f-english')) $('f-english').checked = true;
+    if (params.get('maxcost') && $('f-maxcost')) $('f-maxcost').value = params.get('maxcost');
+
+    function matches(c) {
+      var q = ($('f-search') && $('f-search').value || '').trim().toLowerCase();
+      var country = $('f-country') && $('f-country').value || '';
+      var level = $('f-level') && $('f-level').value || '';
+      var status = $('f-status') && $('f-status').value || '';
+      var field = $('f-field') && $('f-field').value || '';
+      var engOnly = $('f-english') && $('f-english').checked;
+      var maxCost = $('f-maxcost') && $('f-maxcost').value;
+
+      var d = c.dataset;
+      if (q && d.name.indexOf(q) === -1 && d.city.indexOf(q) === -1) return false;
+      if (country && d.country !== country) return false;
+      if (level && d.levels.indexOf(level) === -1) return false;
+      if (status && d.status !== status) return false;
+      if (field && d.fields.indexOf(field) === -1) return false;
+      if (engOnly && d.english !== '1') return false;
+      if (maxCost !== '' && maxCost != null) {
+        var cost = d.cost === '' ? Infinity : Number(d.cost);
+        if (cost > Number(maxCost)) return false;
+      }
+      return true;
+    }
+
+    function sortCards(list) {
+      var sort = $('sort') && $('sort').value || 'name';
+      return list.sort(function (a, b) {
+        if (sort === 'cost-asc' || sort === 'cost-desc') {
+          var ca = a.dataset.cost === '' ? Infinity : Number(a.dataset.cost);
+          var cb = b.dataset.cost === '' ? Infinity : Number(b.dataset.cost);
+          return sort === 'cost-asc' ? ca - cb : cb - ca;
+        }
+        if (sort === 'country') return a.dataset.country.localeCompare(b.dataset.country) || a.dataset.name.localeCompare(b.dataset.name);
+        return a.dataset.name.localeCompare(b.dataset.name);
+      });
+    }
+
+    function render() {
+      var list = sortCards(cards.filter(matches));
+      cards.forEach(function (c) { c.classList.add('hidden'); });
+      var start = (page - 1) * pageSize;
+      list.slice(start, start + pageSize).forEach(function (c) { c.classList.remove('hidden'); });
+
+      var count = document.getElementById('result-count');
+      if (count) count.textContent = list.length + ' universit' + (list.length === 1 ? 'y' : 'ies') + ' found';
+
+      var pag = document.querySelector('.pagination');
+      if (pag) {
+        pag.innerHTML = '';
+        var pages = Math.max(1, Math.ceil(list.length / pageSize));
+        if (page > pages) page = pages;
+        if (pages > 1) {
+          for (var i = 1; i <= pages; i++) {
+            (function (i) {
+              var b = document.createElement('button');
+              b.textContent = i; if (i === page) b.classList.add('active');
+              b.addEventListener('click', function () { page = i; render(); window.scrollTo({ top: results.offsetTop - 80, behavior: 'smooth' }); });
+              pag.appendChild(b);
+            })(i);
+          }
+        }
+      }
+      var empty = document.getElementById('empty');
+      if (empty) empty.classList.toggle('hidden', list.length !== 0);
+    }
+
+    ['f-search', 'f-country', 'f-level', 'f-status', 'f-field', 'f-english', 'f-maxcost', 'sort'].forEach(function (id) {
+      var el = $(id); if (!el) return;
+      var ev = (el.type === 'text' || el.type === 'search' || el.type === 'number') ? 'input' : 'change';
+      el.addEventListener(ev, function () { page = 1; render(); });
+    });
+    var reset = document.getElementById('f-reset');
+    if (reset) reset.addEventListener('click', function () {
+      ['f-search', 'f-country', 'f-level', 'f-status', 'f-field', 'f-maxcost'].forEach(function (id) { var e = $(id); if (e) e.value = ''; });
+      var e = $('f-english'); if (e) e.checked = false;
+      page = 1; themeCountry(); render();
+    });
+
+    /* flag-colour theme for the country selector, filter panel and banner */
+    function setTheme(el, code) {
+      if (!el) return;
+      el.className = el.className.replace(/\bcf-[A-Z]{2}\b/g, '').replace(/\s+/g, ' ').trim();
+      el.classList.toggle('has-country', !!code);
+      if (code) el.classList.add('cf-' + code);
+    }
+    function themeCountry() {
+      var sel = $('f-country');
+      if (!sel) return;
+      var code = sel.value || '';
+      setTheme(sel, code);
+      setTheme(sel.closest('.filters'), code);
+      var banner = $('country-banner');
+      if (!banner) return;
+      if (!code) { banner.classList.add('hidden'); banner.innerHTML = ''; return; }
+      var opt = sel.options[sel.selectedIndex];
+      var name = (opt.textContent || '').replace(/\s*\(other\)$/, '');
+      var slug = opt.getAttribute('data-slug');
+      var pre = banner.getAttribute('data-prefix') || '';
+      setTheme(banner, code);
+      banner.classList.remove('hidden', 'has-country');
+      banner.innerHTML = '<span class="flag-ico fi-xl cf-' + code + '" aria-hidden="true"></span>' +
+        '<div><div class="cb-name"></div><div class="cb-sub">Showing results in this country only</div></div>' +
+        '<div class="cb-actions">' + (slug ? '<a class="btn" href="' + pre + 'countries/' + slug + '/index.html">Tuition policy \u2192</a>' : '') +
+        '<button type="button" class="js-cb-clear">\u00d7 All countries</button></div>';
+      banner.querySelector('.cb-name').textContent = name;
+      banner.querySelector('.js-cb-clear').addEventListener('click', function () {
+        sel.value = ''; page = 1; themeCountry(); render();
+      });
+    }
+    if ($('f-country')) $('f-country').addEventListener('change', themeCountry);
+    themeCountry();
+
+    render();
+  }
+
+  /* ---------- compare page ---------- */
+  function initComparePage() {
+    var wrap = document.getElementById('compare-table');
+    if (!wrap) return;
+    var data = window.SFE_UNIVERSITIES || [];
+    var ids = getCompare().map(function (x) { return x.id; });
+    if (ids.length < 2) {
+      wrap.innerHTML = '<div class="empty">Select at least two universities (use the “Compare” button on the <a href="../universities/index.html">universities</a> page) to see them side by side here.</div>';
+      return;
+    }
+    var cols = ids.map(function (id) { return data.find(function (u) { return u.id === id; }); }).filter(Boolean);
+    var rows = [
+      ['Country', function (u) { return u.country; }],
+      ['City', function (u) { return u.city; }],
+      ['Type', function (u) { return u.type; }],
+      ['EU tuition status', function (u) { return u.tuition_status; }],
+      ['EU tuition', function (u) { return u.tuition_eu; }],
+      ['Mandatory fees', function (u) { return u.mandatory_semester_fee || 'Not yet verified'; }],
+      ['Est. mandatory cost / year', function (u) { return u.est_annual_mandatory_cost_eur != null ? '€' + u.est_annual_mandatory_cost_eur : 'Not yet verified'; }],
+      ['Degree levels', function (u) { return [u.bachelor_available ? 'Bachelor' : null, u.master_available ? 'Master' : null, u.phd_available ? 'PhD' : null].filter(Boolean).join(', '); }],
+      ['English-taught programmes', function (u) { return [u.english_bachelor ? 'Bachelor' : null, u.english_master ? 'Master' : null, u.english_phd ? 'PhD' : null].filter(Boolean).join(', ') || 'Not yet verified'; }],
+      ['Admission requirements', function (u) { return u.admission_requirements; }],
+      ['Admissions contact', function (u) { return (u.contact && (u.contact.email || u.contact.phone)) ? [u.contact.email, u.contact.phone].filter(Boolean).join(' · ') : 'See university page'; }],
+      ['Application deadline', function (u) { return (u.deadlines && u.deadlines.closes) || 'Not yet verified'; }],
+      ['Documents to submit', function (u) { return (u.deadlines && u.deadlines.documents) || 'Not yet verified'; }],
+      ['Last verified', function (u) { return u.last_verified || 'Not yet verified'; }]
+    ];
+    var html = '<div class="table-wrap"><table><thead><tr><th>Field</th>' +
+      cols.map(function (u) { return '<th><a href="../universities/' + u.slug + '/index.html">' + u.name + '</a></th>'; }).join('') +
+      '</tr></thead><tbody>';
+    rows.forEach(function (r) {
+      html += '<tr><th>' + r[0] + '</th>' + cols.map(function (u) { return '<td>' + (r[1](u) || '—') + '</td>'; }).join('') + '</tr>';
+    });
+    html += '</tbody></table></div>';
+    wrap.innerHTML = html;
+  }
+
+  /* ---------- admin console ---------- */
+  function initAdmin() {
+    var root = document.getElementById('admin-root');
+    if (!root) return;
+    var state = { countries: [], universities: [], programs: [], tab: 'universities', dirty: false };
+
+    function daysAgo(d) { if (!d) return Infinity; return Math.round((Date.now() - new Date(d).getTime()) / 86400000); }
+    function stalenessClass(d) {
+      var a = daysAgo(d);
+      if (a >= 365) return 'stale-12';
+      if (a >= 180) return 'stale-6';
+      return '';
+    }
+    function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]; }); }
+
+    function render() {
+      var tab = state.tab;
+      var list = state[tab] || [];
+      var head, rows;
+      if (tab === 'universities') {
+        head = ['Name', 'Country', 'City', 'Tuition status', 'Est. cost (€/yr)', 'Verification', 'Last verified'];
+        rows = list.map(function (u, i) {
+          return '<tr class="' + stalenessClass(u.last_verified) + '">' +
+            '<td><input data-t="' + tab + '" data-i="' + i + '" data-f="name" value="' + esc(u.name) + '"></td>' +
+            '<td>' + esc(u.country_code) + '</td>' +
+            '<td><input data-t="' + tab + '" data-i="' + i + '" data-f="city" value="' + esc(u.city) + '"></td>' +
+            '<td><select data-t="' + tab + '" data-i="' + i + '" data-f="tuition_status">' +
+            ['Tuition-Free', 'Tuition-Free + Mandatory Fees', 'Conditional Tuition-Free', 'Low Tuition', 'Paid', 'Unknown / Needs Verification']
+              .map(function (s) { return '<option' + (s === u.tuition_status ? ' selected' : '') + '>' + s + '</option>'; }).join('') +
+            '</select></td>' +
+            '<td><input type="number" data-t="' + tab + '" data-i="' + i + '" data-f="est_annual_mandatory_cost_eur" value="' + (u.est_annual_mandatory_cost_eur == null ? '' : u.est_annual_mandatory_cost_eur) + '"></td>' +
+            '<td><input data-t="' + tab + '" data-i="' + i + '" data-f="verification_status" value="' + esc(u.verification_status) + '"></td>' +
+            '<td><input type="date" data-t="' + tab + '" data-i="' + i + '" data-f="last_verified" value="' + esc(u.last_verified) + '"></td></tr>';
+        });
+      } else if (tab === 'programs') {
+        head = ['Program', 'University', 'Level', 'Language', 'Tuition status', 'Verification', 'Last verified'];
+        rows = list.map(function (p, i) {
+          return '<tr class="' + stalenessClass(p.last_verified) + '">' +
+            '<td><input data-t="' + tab + '" data-i="' + i + '" data-f="program_name" value="' + esc(p.program_name) + '"></td>' +
+            '<td>' + esc(p.university) + '</td><td>' + esc(p.degree_level) + '</td><td>' + esc(p.language) + '</td>' +
+            '<td><select data-t="' + tab + '" data-i="' + i + '" data-f="tuition_status">' +
+            ['Tuition-Free', 'Tuition-Free + Mandatory Fees', 'Conditional Tuition-Free', 'Low Tuition', 'Paid', 'Unknown / Needs Verification']
+              .map(function (s) { return '<option' + (s === p.tuition_status ? ' selected' : '') + '>' + s + '</option>'; }).join('') +
+            '</select></td>' +
+            '<td><input data-t="' + tab + '" data-i="' + i + '" data-f="verification_status" value="' + esc(p.verification_status) + '"></td>' +
+            '<td><input type="date" data-t="' + tab + '" data-i="' + i + '" data-f="last_verified" value="' + esc(p.last_verified) + '"></td></tr>';
+        });
+      } else {
+        head = ['Country', 'EU member', 'Tuition status', 'Verification', 'Last verified'];
+        rows = list.map(function (c, i) {
+          return '<tr class="' + stalenessClass(c.last_verified) + '">' +
+            '<td><input data-t="' + tab + '" data-i="' + i + '" data-f="name" value="' + esc(c.name) + '"></td>' +
+            '<td>' + (c.is_eu ? 'Yes' : 'No') + '</td>' +
+            '<td><select data-t="' + tab + '" data-i="' + i + '" data-f="tuition_status">' +
+            ['Tuition-Free', 'Tuition-Free + Mandatory Fees', 'Conditional Tuition-Free', 'Low Tuition', 'Paid', 'Unknown / Needs Verification']
+              .map(function (s) { return '<option' + (s === c.tuition_status ? ' selected' : '') + '>' + s + '</option>'; }).join('') +
+            '</select></td>' +
+            '<td><input data-t="' + tab + '" data-i="' + i + '" data-f="verification_status" value="' + esc(c.verification_status) + '"></td>' +
+            '<td><input type="date" data-t="' + tab + '" data-i="' + i + '" data-f="last_verified" value="' + esc(c.last_verified || '') + '"></td></tr>';
+        });
+      }
+      var stale6 = 0, stale12 = 0;
+      list.forEach(function (r) { var a = daysAgo(r.last_verified); if (a >= 365) stale12++; else if (a >= 180) stale6++; });
+
+      root.innerHTML =
+        '<div class="panel"><div class="admin-tabs">' +
+        ['universities', 'programs', 'countries'].map(function (t) {
+          return '<button data-tab="' + t + '" class="' + (t === tab ? 'active' : '') + '">' + t[0].toUpperCase() + t.slice(1) + '</button>';
+        }).join('') +
+        '<button id="admin-export" class="primary" style="margin-left:auto">⬇ Export JSON</button></div>' +
+        '<p class="small muted">Edits are kept in your browser only. Use <b>Export JSON</b> to download the updated file and commit it to <code>data/</code> (then re-run the seed script). ' +
+        'Rows shaded <span class="stale-6" style="padding:1px 6px;border-radius:4px">amber</span> are older than 6 months; <span class="stale-12" style="padding:1px 6px;border-radius:4px">red</span> older than 12 months.</p>' +
+        '<p class="small"><b>' + list.length + '</b> records · <b>' + stale6 + '</b> to re-verify (&gt;6 months) · <b>' + stale12 + '</b> overdue (&gt;12 months)</p>' +
+        '<div class="table-wrap"><table><thead><tr>' + head.map(function (h) { return '<th>' + h + '</th>'; }).join('') + '</tr></thead><tbody>' +
+        (rows.length ? rows.join('') : '<tr><td colspan="' + head.length + '">No records</td></tr>') +
+        '</tbody></table></div></div>';
+
+      root.querySelectorAll('button[data-tab]').forEach(function (b) {
+        b.addEventListener('click', function () { state.tab = b.getAttribute('data-tab'); render(); });
+      });
+      var ex = document.getElementById('admin-export');
+      if (ex) ex.addEventListener('click', function () {
+        var map = { universities: 'universities', programs: 'programs', countries: 'countries' };
+        var blob = new Blob([JSON.stringify(state[map[tab]], null, 2)], { type: 'application/json' });
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(blob); a.download = tab + '.json'; a.click();
+        URL.revokeObjectURL(a.href);
+      });
+      root.querySelectorAll('[data-t]').forEach(function (el) {
+        el.addEventListener('input', function () {
+          var t = el.getAttribute('data-t'), i = Number(el.getAttribute('data-i')), f = el.getAttribute('data-f');
+          var v = el.value;
+          if (f === 'est_annual_mandatory_cost_eur') v = v === '' ? null : Number(v);
+          state[t][i][f] = v; state.dirty = true;
+        });
+        el.addEventListener('change', function () {
+          if (el.tagName === 'SELECT' || el.type === 'date') render();
+        });
+      });
+    }
+
+    if (window.SFE_UNIVERSITIES && window.SFE_PROGRAMS && window.SFE_COUNTRIES) {
+      state.universities = window.SFE_UNIVERSITIES;
+      state.programs = window.SFE_PROGRAMS;
+      state.countries = window.SFE_COUNTRIES;
+      render();
+      return;
+    }
+    Promise.all([
+      fetch('../assets/data/universities.json').then(function (r) { return r.json(); }),
+      fetch('../assets/data/programs.json').then(function (r) { return r.json(); }),
+      fetch('../assets/data/countries.json').then(function (r) { return r.json(); })
+    ]).then(function (res) {
+      state.universities = res[0]; state.programs = res[1]; state.countries = res[2];
+      render();
+    }).catch(function () {
+      root.innerHTML = '<div class="empty">Could not load the dataset. Open this page from the deployed site (the dataset ships with the page as chunked scripts).</div>';
+    });
+  }
+
+
+  /* ---------- motion: reveal on scroll, counters, header shadow ---------- */
+  function initMotion() {
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var header = document.querySelector('.site-header');
+    if (header) {
+      var onScroll = function () { header.classList.toggle('scrolled', window.scrollY > 8); };
+      window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+    }
+    if (reduce || !('IntersectionObserver' in window)) return;
+    document.documentElement.classList.add('anim');
+    var sel = ['.section-head', '.tile', '.cc', '.country-feature', '.fee-card', '.how-list li', '.guides a', '.cta-inner',
+      '.field-card', '.chip-cloud', '.gloss-card', '.dl-card', '.vd-row', '.tip', '.hiw-steps li', '.cat', '.faq details',
+      '.panel', '.country-card', '.contact-hero', '.contact-topic', '.page-header', '.quick', '#nordic-focus .uni-card', '.section:not(.page-hero) .grid > .uni-card'].join(',');
+    var els = Array.prototype.slice.call(document.querySelectorAll(sel)).filter(function (el) { return !el.closest('#results') && !el.closest('.hero'); });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        e.target.classList.add('in'); io.unobserve(e.target);
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    els.forEach(function (el) {
+      var parent = el.parentElement, idx = 0;
+      if (parent) { var sib = Array.prototype.filter.call(parent.children, function (c) { return els.indexOf(c) !== -1; }); idx = sib.indexOf(el); }
+      el.style.setProperty('--rd', Math.min(idx, 8) * 0.06 + 's');
+      el.classList.add('rv'); io.observe(el);
+    });
+    // count-up numbers in the stats card
+    var nums = document.querySelectorAll('.stats-card b');
+    var cio = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return; cio.unobserve(e.target);
+        var el = e.target, txt = el.textContent, target = parseInt(txt.replace(/[^0-9]/g, ''), 10);
+        if (!target) return;
+        var t0 = performance.now(), dur = 1400;
+        (function tick(t) {
+          var k = Math.min(1, (t - t0) / dur), v = Math.round(target * (1 - Math.pow(1 - k, 3)));
+          el.textContent = v.toLocaleString('en-IE');
+          if (k < 1) requestAnimationFrame(tick); else el.textContent = txt;
+        })(t0);
+      });
+    }, { threshold: 0.4 });
+    nums.forEach(function (n) { cio.observe(n); });
+  }
+
+  /* ---------- glossary + deadlines search / tabs ---------- */
+  function initGlossary() {
+    var grid = document.getElementById('gloss-grid'); if (!grid) return;
+    var q = document.getElementById('gloss-q'), tabs = document.querySelectorAll('.gloss-tabs button'), group = '';
+    var cards = grid.querySelectorAll('.gloss-card'), empty = document.getElementById('gloss-empty');
+    function run() {
+      var term = (q.value || '').trim().toLowerCase(), shown = 0;
+      cards.forEach(function (c) {
+        var ok = (!group || c.getAttribute('data-g') === group) && (!term || c.getAttribute('data-q').indexOf(term) !== -1);
+        c.classList.toggle('hide', !ok); if (ok) { shown++; c.classList.add('in'); }
+      });
+      if (empty) empty.classList.toggle('hidden', shown !== 0);
+    }
+    q.addEventListener('input', run);
+    tabs.forEach(function (b) { b.addEventListener('click', function () {
+      tabs.forEach(function (x) { x.classList.remove('is-on'); }); b.classList.add('is-on'); group = b.getAttribute('data-g'); run();
+    }); });
+  }
+  function initDeadlines() {
+    var grid = document.getElementById('dl-grid'); if (!grid) return;
+    var q = document.getElementById('dl-q'), cards = grid.querySelectorAll('.dl-card'), empty = document.getElementById('dl-empty');
+    q.addEventListener('input', function () {
+      var term = q.value.trim().toLowerCase(), shown = 0;
+      cards.forEach(function (c) { var ok = !term || c.getAttribute('data-q').indexOf(term) !== -1; c.classList.toggle('hide', !ok); if (ok) { shown++; c.classList.add('in'); } });
+      if (empty) empty.classList.toggle('hidden', shown !== 0);
+    });
+  }
+
+  /* ---------- contact: copy email address ---------- */
+  function initCopyEmail() {
+    document.querySelectorAll('.js-copy-email').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var email = b.getAttribute('data-email'), label = b.textContent;
+        function done() { b.textContent = '\u2713 Copied'; setTimeout(function () { b.textContent = label; }, 1800); }
+        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(email).then(done, function () { window.prompt('Copy this address:', email); });
+        else window.prompt('Copy this address:', email);
+      });
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    initNav(); initHeroSearch(); initFavorites(); initCompare(); initListing(); initComparePage(); initAdmin(); initCopyEmail(); initGlossary(); initDeadlines(); initMotion();
+  });
+})();
