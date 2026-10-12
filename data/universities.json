@@ -14770,6 +14770,554 @@
     "verification_status": "Verified (official fee page checked 2026-10-12)"
   },
   {
+    "id": "lt-kaunas-university-of-technology",
+    "name": "Kaunas University of Technology",
+    "slug": "kaunas-university-of-technology",
+    "country_code": "LT",
+    "country": "Lithuania",
+    "city": "Kaunas",
+    "type": "Public",
+    "official_website": "https://ktu.edu/",
+    "tuition_info_url": null,
+    "admissions_url": "https://admissions.ktu.edu/bachelor/",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 in state-funded places for EU/EEA citizens (competitive, via LAMA BPO); fee-paying places otherwise",
+    "mandatory_semester_fee": "No semester contribution; small admission/registration fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Engineering",
+      "Computer Science",
+      "Business",
+      "Design"
+    ],
+    "language_requirements": "Lithuanian for Lithuanian-taught programmes; English proof for English-taught programmes",
+    "english_test": null,
+    "application_deadlines": "Bachelor/integrated (LAMA BPO general admission): 2026 main round 1 June – 23 July (12:00), invitations 30 July; 2027 expected similar — Master deadlines set by the institution",
+    "admission_requirements": null,
+    "application_platform": "LAMA BPO general admission system (bpis.lamabpo.lt) for state-funded places; university portal for fee-paying/English-track applications",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added 2026-10-12. EU/EEA/EFTA citizens can compete for state-funded (tuition-free) places through the national general admission (LAMA BPO); places are limited and awarded by competition score. Otherwise studies are fee-paying. Verify each programme on the official website. KTU institutional admission of foreign citizens is for non-state-funded places only; EU citizens seeking a state-funded place apply via LAMA BPO.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Conditional Tuition-Free",
+    "sources": [
+      {
+        "label": "KTU — Bachelor admission (deadlines, state-funded positions)",
+        "url": "https://admissions.ktu.edu/bachelor/"
+      },
+      {
+        "label": "LAMA BPO — general admission for state-funded places (Bachelor/integrated)",
+        "url": "https://lamabpo.lt/en/bachelors-studies/"
+      },
+      {
+        "label": "LAMA BPO — 2026 admission dates (1 June – 23 July, invitations 30 July)",
+        "url": "https://lamabpo.lt/pirmosios-pakopos-ir-vientisosios-studijos/priemimo-datos/"
+      }
+    ],
+    "verification_status": "Partially verified (official admission pages checked 2026-10-12)"
+  },
+  {
+    "id": "lt-klaipeda-university",
+    "name": "Klaipėda University",
+    "slug": "klaipeda-university",
+    "country_code": "LT",
+    "country": "Lithuania",
+    "city": "Klaipėda",
+    "type": "Public",
+    "official_website": "https://www.ku.lt/en",
+    "tuition_info_url": null,
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 in state-funded places for EU/EEA citizens (competitive, via LAMA BPO); fee-paying places otherwise",
+    "mandatory_semester_fee": "No semester contribution; small admission/registration fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Marine Sciences",
+      "Engineering",
+      "Health Sciences",
+      "Humanities"
+    ],
+    "language_requirements": "Lithuanian for Lithuanian-taught programmes; English proof for English-taught programmes",
+    "english_test": null,
+    "application_deadlines": "Bachelor/integrated (LAMA BPO general admission): 2026 main round 1 June – 23 July (12:00), invitations 30 July; 2027 expected similar — Master deadlines set by the institution",
+    "admission_requirements": null,
+    "application_platform": "LAMA BPO general admission system (bpis.lamabpo.lt) for state-funded places; university portal for fee-paying/English-track applications",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added 2026-10-12. EU/EEA/EFTA citizens can compete for state-funded (tuition-free) places through the national general admission (LAMA BPO); places are limited and awarded by competition score. Otherwise studies are fee-paying. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Conditional Tuition-Free",
+    "sources": [
+      {
+        "label": "Klaipėda University — official website",
+        "url": "https://www.ku.lt/en"
+      },
+      {
+        "label": "LAMA BPO — general admission for state-funded places (Bachelor/integrated)",
+        "url": "https://lamabpo.lt/en/bachelors-studies/"
+      },
+      {
+        "label": "LAMA BPO — 2026 admission dates (1 June – 23 July, invitations 30 July)",
+        "url": "https://lamabpo.lt/pirmosios-pakopos-ir-vientisosios-studijos/priemimo-datos/"
+      }
+    ],
+    "verification_status": "Partially verified (official admission pages checked 2026-10-12)"
+  },
+  {
+    "id": "lt-lithuanian-academy-of-music-and-theatre",
+    "name": "Lithuanian Academy of Music and Theatre",
+    "slug": "lithuanian-academy-of-music-and-theatre",
+    "country_code": "LT",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "type": "Public",
+    "official_website": "https://lmta.lt/en/",
+    "tuition_info_url": null,
+    "admissions_url": "https://old.lmta.lt/en/english-lmta-welcomes-foreign-students/english-studies/",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 in state-funded places for EU/EEA citizens (competitive, via LAMA BPO); fee-paying places otherwise",
+    "mandatory_semester_fee": "No semester contribution; small admission/registration fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Music",
+      "Theatre",
+      "Dance",
+      "Film"
+    ],
+    "language_requirements": "Lithuanian for Lithuanian-taught programmes; English proof for English-taught programmes",
+    "english_test": null,
+    "application_deadlines": "Bachelor/integrated (LAMA BPO general admission): 2026 main round 1 June – 23 July (12:00), invitations 30 July; 2027 expected similar — Master deadlines set by the institution",
+    "admission_requirements": null,
+    "application_platform": "LAMA BPO general admission system (bpis.lamabpo.lt) for state-funded places; university portal for fee-paying/English-track applications",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added 2026-10-12. EU/EEA/EFTA citizens can compete for state-funded (tuition-free) places through the national general admission (LAMA BPO); places are limited and awarded by competition score. Otherwise studies are fee-paying. Verify each programme on the official website. Entrance examinations required.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Conditional Tuition-Free",
+    "sources": [
+      {
+        "label": "LMTA — studies for foreign students",
+        "url": "https://old.lmta.lt/en/english-lmta-welcomes-foreign-students/english-studies/"
+      },
+      {
+        "label": "LAMA BPO — general admission for state-funded places (Bachelor/integrated)",
+        "url": "https://lamabpo.lt/en/bachelors-studies/"
+      },
+      {
+        "label": "LAMA BPO — 2026 admission dates (1 June – 23 July, invitations 30 July)",
+        "url": "https://lamabpo.lt/pirmosios-pakopos-ir-vientisosios-studijos/priemimo-datos/"
+      }
+    ],
+    "verification_status": "Partially verified (official admission pages checked 2026-10-12)"
+  },
+  {
+    "id": "lt-lithuanian-sports-university",
+    "name": "Lithuanian Sports University",
+    "slug": "lithuanian-sports-university",
+    "country_code": "LT",
+    "country": "Lithuania",
+    "city": "Kaunas",
+    "type": "Public",
+    "official_website": "https://www.lsu.lt/en/",
+    "tuition_info_url": null,
+    "admissions_url": "https://www.lsu.lt/en/admission/",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 in state-funded places for EU/EEA citizens (competitive, via LAMA BPO); fee-paying places otherwise",
+    "mandatory_semester_fee": "No semester contribution; small admission/registration fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Sports Science",
+      "Physiotherapy",
+      "Health Sciences",
+      "Tourism"
+    ],
+    "language_requirements": "Lithuanian for Lithuanian-taught programmes; English proof for English-taught programmes",
+    "english_test": null,
+    "application_deadlines": "Bachelor/integrated (LAMA BPO general admission): 2026 main round 1 June – 23 July (12:00), invitations 30 July; 2027 expected similar — Master deadlines set by the institution",
+    "admission_requirements": null,
+    "application_platform": "LAMA BPO general admission system (bpis.lamabpo.lt) for state-funded places; university portal for fee-paying/English-track applications",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added 2026-10-12. EU/EEA/EFTA citizens can compete for state-funded (tuition-free) places through the national general admission (LAMA BPO); places are limited and awarded by competition score. Otherwise studies are fee-paying. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Conditional Tuition-Free",
+    "sources": [
+      {
+        "label": "LSU — admission",
+        "url": "https://www.lsu.lt/en/admission/"
+      },
+      {
+        "label": "LAMA BPO — general admission for state-funded places (Bachelor/integrated)",
+        "url": "https://lamabpo.lt/en/bachelors-studies/"
+      },
+      {
+        "label": "LAMA BPO — 2026 admission dates (1 June – 23 July, invitations 30 July)",
+        "url": "https://lamabpo.lt/pirmosios-pakopos-ir-vientisosios-studijos/priemimo-datos/"
+      }
+    ],
+    "verification_status": "Partially verified (official admission pages checked 2026-10-12)"
+  },
+  {
+    "id": "lt-lithuanian-university-of-health-sciences",
+    "name": "Lithuanian University of Health Sciences",
+    "slug": "lithuanian-university-of-health-sciences",
+    "country_code": "LT",
+    "country": "Lithuania",
+    "city": "Kaunas",
+    "type": "Public",
+    "official_website": "https://lsmu.lt/en/",
+    "tuition_info_url": null,
+    "admissions_url": "https://lsmu.lt/wp-content/uploads/RULES-FOR-ADMITTING-STUDENTS-TO-THE-LITHUANIAN-UNIVERSITY-OF-HEALTH-SCIENCES-IN-2026.pdf",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 in state-funded places for EU/EEA citizens (competitive, via LAMA BPO); fee-paying places otherwise",
+    "mandatory_semester_fee": "No semester contribution; small admission/registration fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Medicine",
+      "Veterinary Medicine",
+      "Pharmacy",
+      "Health Sciences"
+    ],
+    "language_requirements": "Lithuanian for Lithuanian-taught programmes; English proof for English-taught programmes",
+    "english_test": null,
+    "application_deadlines": "Bachelor/integrated (LAMA BPO general admission): 2026 main round 1 June – 23 July (12:00), invitations 30 July; 2027 expected similar — Master deadlines set by the institution",
+    "admission_requirements": null,
+    "application_platform": "LAMA BPO general admission system (bpis.lamabpo.lt) for state-funded places; university portal for fee-paying/English-track applications",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added 2026-10-12. EU/EEA/EFTA citizens can compete for state-funded (tuition-free) places through the national general admission (LAMA BPO); places are limited and awarded by competition score. Otherwise studies are fee-paying. Verify each programme on the official website. LSMU 2026 rules: state-funded places only through LAMA BPO general admission; LSMU’s own early/additional admission is for non-state-funded places.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Conditional Tuition-Free",
+    "sources": [
+      {
+        "label": "LSMU — admission rules 2026",
+        "url": "https://lsmu.lt/wp-content/uploads/RULES-FOR-ADMITTING-STUDENTS-TO-THE-LITHUANIAN-UNIVERSITY-OF-HEALTH-SCIENCES-IN-2026.pdf"
+      },
+      {
+        "label": "LAMA BPO — general admission for state-funded places (Bachelor/integrated)",
+        "url": "https://lamabpo.lt/en/bachelors-studies/"
+      },
+      {
+        "label": "LAMA BPO — 2026 admission dates (1 June – 23 July, invitations 30 July)",
+        "url": "https://lamabpo.lt/pirmosios-pakopos-ir-vientisosios-studijos/priemimo-datos/"
+      }
+    ],
+    "verification_status": "Partially verified (official admission pages checked 2026-10-12)"
+  },
+  {
+    "id": "lt-mykolas-romeris-university",
+    "name": "Mykolas Romeris University",
+    "slug": "mykolas-romeris-university",
+    "country_code": "LT",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "type": "Public",
+    "official_website": "https://www.mruni.eu/en/",
+    "tuition_info_url": null,
+    "admissions_url": "https://www.mruni.eu/wp-content/uploads/2025/12/Rules-of-Admission-2026.pdf",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 in state-funded places for EU/EEA citizens (competitive, via LAMA BPO); fee-paying places otherwise",
+    "mandatory_semester_fee": "No semester contribution; small admission/registration fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Law",
+      "Public Administration",
+      "Social Sciences",
+      "Psychology"
+    ],
+    "language_requirements": "Lithuanian for Lithuanian-taught programmes; English proof for English-taught programmes",
+    "english_test": null,
+    "application_deadlines": "Bachelor/integrated (LAMA BPO general admission): 2026 main round 1 June – 23 July (12:00), invitations 30 July; 2027 expected similar — Master deadlines set by the institution",
+    "admission_requirements": null,
+    "application_platform": "LAMA BPO general admission system (bpis.lamabpo.lt) for state-funded places; university portal for fee-paying/English-track applications",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added 2026-10-12. EU/EEA/EFTA citizens can compete for state-funded (tuition-free) places through the national general admission (LAMA BPO); places are limited and awarded by competition score. Otherwise studies are fee-paying. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Conditional Tuition-Free",
+    "sources": [
+      {
+        "label": "MRU — Rules of Admission 2026 (admission of EU/EEA citizens)",
+        "url": "https://www.mruni.eu/wp-content/uploads/2025/12/Rules-of-Admission-2026.pdf"
+      },
+      {
+        "label": "LAMA BPO — general admission for state-funded places (Bachelor/integrated)",
+        "url": "https://lamabpo.lt/en/bachelors-studies/"
+      },
+      {
+        "label": "LAMA BPO — 2026 admission dates (1 June – 23 July, invitations 30 July)",
+        "url": "https://lamabpo.lt/pirmosios-pakopos-ir-vientisosios-studijos/priemimo-datos/"
+      }
+    ],
+    "verification_status": "Partially verified (official admission pages checked 2026-10-12)"
+  },
+  {
+    "id": "lt-vilnius-academy-of-arts",
+    "name": "Vilnius Academy of Arts",
+    "slug": "vilnius-academy-of-arts",
+    "country_code": "LT",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "type": "Public",
+    "official_website": "https://www.vda.lt/en",
+    "tuition_info_url": null,
+    "admissions_url": "https://www.vda.lt/en/admission/application-portal",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 in state-funded places for EU/EEA citizens (competitive, via LAMA BPO); fee-paying places otherwise",
+    "mandatory_semester_fee": "No semester contribution; small admission/registration fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Fine Arts",
+      "Design",
+      "Architecture",
+      "Art History"
+    ],
+    "language_requirements": "Lithuanian for Lithuanian-taught programmes; English proof for English-taught programmes",
+    "english_test": null,
+    "application_deadlines": "Bachelor/integrated (LAMA BPO general admission): 2026 main round 1 June – 23 July (12:00), invitations 30 July; 2027 expected similar — Master deadlines set by the institution",
+    "admission_requirements": null,
+    "application_platform": "LAMA BPO general admission system (bpis.lamabpo.lt) for state-funded places; university portal for fee-paying/English-track applications",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added 2026-10-12. EU/EEA/EFTA citizens can compete for state-funded (tuition-free) places through the national general admission (LAMA BPO); places are limited and awarded by competition score. Otherwise studies are fee-paying. Verify each programme on the official website. Arts admission includes entrance examinations; English-track applications via apply.vda.lt.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Conditional Tuition-Free",
+    "sources": [
+      {
+        "label": "Vilnius Academy of Arts — application portal",
+        "url": "https://www.vda.lt/en/admission/application-portal"
+      },
+      {
+        "label": "LAMA BPO — general admission for state-funded places (Bachelor/integrated)",
+        "url": "https://lamabpo.lt/en/bachelors-studies/"
+      },
+      {
+        "label": "LAMA BPO — 2026 admission dates (1 June – 23 July, invitations 30 July)",
+        "url": "https://lamabpo.lt/pirmosios-pakopos-ir-vientisosios-studijos/priemimo-datos/"
+      }
+    ],
+    "verification_status": "Partially verified (official admission pages checked 2026-10-12)"
+  },
+  {
+    "id": "lt-vilnius-gediminas-technical-university-vilnius-tech",
+    "name": "Vilnius Gediminas Technical University (VILNIUS TECH)",
+    "slug": "vilnius-gediminas-technical-university-vilnius-tech",
+    "country_code": "LT",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "type": "Public",
+    "official_website": "https://vilniustech.lt/",
+    "tuition_info_url": null,
+    "admissions_url": null,
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 in state-funded places for EU/EEA citizens (competitive, via LAMA BPO); fee-paying places otherwise",
+    "mandatory_semester_fee": "No semester contribution; small admission/registration fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Engineering",
+      "Architecture",
+      "Computer Science",
+      "Business"
+    ],
+    "language_requirements": "Lithuanian for Lithuanian-taught programmes; English proof for English-taught programmes",
+    "english_test": null,
+    "application_deadlines": "Bachelor/integrated (LAMA BPO general admission): 2026 main round 1 June – 23 July (12:00), invitations 30 July; 2027 expected similar — Master deadlines set by the institution",
+    "admission_requirements": null,
+    "application_platform": "LAMA BPO general admission system (bpis.lamabpo.lt) for state-funded places; university portal for fee-paying/English-track applications",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added 2026-10-12. EU/EEA/EFTA citizens can compete for state-funded (tuition-free) places through the national general admission (LAMA BPO); places are limited and awarded by competition score. Otherwise studies are fee-paying. Verify each programme on the official website.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Conditional Tuition-Free",
+    "sources": [
+      {
+        "label": "VILNIUS TECH — official website",
+        "url": "https://vilniustech.lt/"
+      },
+      {
+        "label": "LAMA BPO — general admission for state-funded places (Bachelor/integrated)",
+        "url": "https://lamabpo.lt/en/bachelors-studies/"
+      },
+      {
+        "label": "LAMA BPO — 2026 admission dates (1 June – 23 July, invitations 30 July)",
+        "url": "https://lamabpo.lt/pirmosios-pakopos-ir-vientisosios-studijos/priemimo-datos/"
+      }
+    ],
+    "verification_status": "Partially verified (official admission pages checked 2026-10-12)"
+  },
+  {
+    "id": "lt-vilnius-university",
+    "name": "Vilnius University",
+    "slug": "vilnius-university",
+    "country_code": "LT",
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "type": "Public",
+    "official_website": "https://www.vu.lt/en/",
+    "tuition_info_url": null,
+    "admissions_url": "https://www.vu.lt/en/admissions/admissions-to-bachelor-studies",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 in state-funded places for EU/EEA citizens (competitive, via LAMA BPO); fee-paying places otherwise",
+    "mandatory_semester_fee": "No semester contribution; small admission/registration fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Medicine",
+      "Natural Sciences",
+      "Humanities",
+      "Social Sciences"
+    ],
+    "language_requirements": "Lithuanian for Lithuanian-taught programmes; English proof for English-taught programmes",
+    "english_test": null,
+    "application_deadlines": "Bachelor/integrated (LAMA BPO general admission): 2026 main round 1 June – 23 July (12:00), invitations 30 July; 2027 expected similar — Master deadlines set by the institution",
+    "admission_requirements": null,
+    "application_platform": "LAMA BPO general admission system (bpis.lamabpo.lt) for state-funded places; university portal for fee-paying/English-track applications",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added 2026-10-12. EU/EEA/EFTA citizens can compete for state-funded (tuition-free) places through the national general admission (LAMA BPO); places are limited and awarded by competition score. Otherwise studies are fee-paying. Verify each programme on the official website. VU states that EU/EFTA citizens are eligible for state-funded Bachelor places, including in English-taught programmes. Includes Šiauliai Academy.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Conditional Tuition-Free",
+    "sources": [
+      {
+        "label": "Vilnius University — eligibility for state-funded places (EU/EFTA citizens)",
+        "url": "https://www.vu.lt/en/admissions/state-funded-bachelor-s-admission"
+      },
+      {
+        "label": "Vilnius University — apply to Bachelor studies",
+        "url": "https://www.vu.lt/en/admissions/admissions-to-bachelor-studies"
+      },
+      {
+        "label": "LAMA BPO — general admission for state-funded places (Bachelor/integrated)",
+        "url": "https://lamabpo.lt/en/bachelors-studies/"
+      },
+      {
+        "label": "LAMA BPO — 2026 admission dates (1 June – 23 July, invitations 30 July)",
+        "url": "https://lamabpo.lt/pirmosios-pakopos-ir-vientisosios-studijos/priemimo-datos/"
+      }
+    ],
+    "verification_status": "Partially verified (official admission pages checked 2026-10-12)"
+  },
+  {
+    "id": "lt-vytautas-magnus-university",
+    "name": "Vytautas Magnus University",
+    "slug": "vytautas-magnus-university",
+    "country_code": "LT",
+    "country": "Lithuania",
+    "city": "Kaunas",
+    "type": "Public",
+    "official_website": "https://www.vdu.lt/en/",
+    "tuition_info_url": null,
+    "admissions_url": "https://vytautasmagnus.dreamapply.com/",
+    "bachelor_available": true,
+    "master_available": true,
+    "phd_available": true,
+    "tuition_eu": "€0 in state-funded places for EU/EEA citizens (competitive, via LAMA BPO); fee-paying places otherwise",
+    "mandatory_semester_fee": "No semester contribution; small admission/registration fees may apply",
+    "other_mandatory_fees": null,
+    "est_annual_mandatory_cost_eur": null,
+    "english_bachelor": true,
+    "english_master": true,
+    "english_phd": false,
+    "study_fields": [
+      "Humanities",
+      "Social Sciences",
+      "Agriculture",
+      "Education"
+    ],
+    "language_requirements": "Lithuanian for Lithuanian-taught programmes; English proof for English-taught programmes",
+    "english_test": null,
+    "application_deadlines": "Bachelor/integrated (LAMA BPO general admission): 2026 main round 1 June – 23 July (12:00), invitations 30 July; 2027 expected similar — Master deadlines set by the institution",
+    "admission_requirements": null,
+    "application_platform": "LAMA BPO general admission system (bpis.lamabpo.lt) for state-funded places; university portal for fee-paying/English-track applications",
+    "online_application_url": null,
+    "housing_url": null,
+    "scholarship_url": null,
+    "notes": "Added 2026-10-12. EU/EEA/EFTA citizens can compete for state-funded (tuition-free) places through the national general admission (LAMA BPO); places are limited and awarded by competition score. Otherwise studies are fee-paying. Verify each programme on the official website. Includes the VMU Agriculture Academy and Education Academy.",
+    "last_verified": "2026-10-12",
+    "tuition_status": "Conditional Tuition-Free",
+    "sources": [
+      {
+        "label": "VMU — online application (DreamApply)",
+        "url": "https://vytautasmagnus.dreamapply.com/"
+      },
+      {
+        "label": "Study in Lithuania — EU/EEA can apply for state-funded studies at VMU",
+        "url": "https://studyin.lt/2018/06/25/apply-for-state-funded-tuition-fee-free-studies-at-vytautas-magnus-university/"
+      },
+      {
+        "label": "LAMA BPO — general admission for state-funded places (Bachelor/integrated)",
+        "url": "https://lamabpo.lt/en/bachelors-studies/"
+      },
+      {
+        "label": "LAMA BPO — 2026 admission dates (1 June – 23 July, invitations 30 July)",
+        "url": "https://lamabpo.lt/pirmosios-pakopos-ir-vientisosios-studijos/priemimo-datos/"
+      }
+    ],
+    "verification_status": "Partially verified (official admission pages checked 2026-10-12)"
+  },
+  {
     "id": "lu-uni",
     "name": "University of Luxembourg",
     "slug": "university-of-luxembourg",

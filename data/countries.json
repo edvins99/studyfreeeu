@@ -1004,9 +1004,9 @@
     "english_taught": "A moderate English-taught catalogue, mostly fee-based.",
     "mandatory_fees": "Small administrative fees may apply.",
     "mandatory_fee_estimate_eur_year": null,
-    "residency_conditions": "State-funded places are merit-based and open to EU/EEA applicants.",
+    "residency_conditions": "EU/EEA/EFTA citizens (and family members) are eligible for state-funded places on the same basis as Lithuanian citizens.",
     "language_requirements": "Lithuanian-taught programmes require Lithuanian; English programmes require English proof.",
-    "application_system": "National portal (LAMA BPO) and direct institution portals.",
+    "application_system": "National general admission via LAMA BPO for state-funded places (2026 main round 1 June – 23 July 12:00, invitations 30 July); fee-paying/English-track applications also directly via university portals.",
     "academic_year": "2026/2027",
     "currency": "EUR",
     "sources": [
@@ -1017,10 +1017,18 @@
       {
         "label": "Eurydice – Higher education funding: Lithuania",
         "url": "https://eurydice.eacea.ec.europa.eu/"
+      },
+      {
+        "label": "LAMA BPO – 2026 admission dates",
+        "url": "https://lamabpo.lt/pirmosios-pakopos-ir-vientisosios-studijos/priemimo-datos/"
+      },
+      {
+        "label": "Vilnius University – eligibility for state-funded places",
+        "url": "https://www.vu.lt/en/admissions/state-funded-bachelor-s-admission"
       }
     ],
     "verification_status": "Verified (national portal)",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-12",
     "document_submission": {
       "opens": "≈ May–June",
       "closes": "≈ June–July (autumn intake)",
