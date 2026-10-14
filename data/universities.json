@@ -2792,15 +2792,15 @@
   },
   {
     "id": "dk-copenhagen-business-academy-cphbusiness",
-    "name": "Copenhagen Business Academy (Cphbusiness)",
+    "name": "Business Academy Copenhagen (EK; formerly Cphbusiness/KEA)",
     "slug": "copenhagen-business-academy-cphbusiness",
     "country_code": "DK",
     "country": "Denmark",
     "city": "Copenhagen",
     "type": "Public",
-    "official_website": "https://www.cphbusiness.dk",
+    "official_website": "https://www.ek.dk/english",
     "tuition_info_url": null,
-    "admissions_url": "https://www.ek.dk/english",
+    "admissions_url": "https://www.ek.dk/english/about-us/programmes-at-ek",
     "bachelor_available": true,
     "master_available": false,
     "phd_available": false,
@@ -2808,23 +2808,23 @@
     "mandatory_semester_fee": "No mandatory semester fee for EU/EEA students",
     "other_mandatory_fees": null,
     "est_annual_mandatory_cost_eur": 0,
-    "english_bachelor": true,
+    "english_bachelor": false,
     "english_master": false,
     "english_phd": false,
     "study_fields": [
       "Business",
       "Information Technology"
     ],
-    "language_requirements": null,
+    "language_requirements": "Full degree programmes are taught in Danish; check programme-specific Danish language requirements. English-taught exchange semesters do not constitute a full English-taught degree.",
     "english_test": null,
-    "application_deadlines": "Bachelor: 15 March 12:00 CET via optagelse.dk (quota 2 / international applicants); Master: deadline set by the institution",
+    "application_deadlines": "Full-degree admissions: check the current Danish programme page and optagelse.dk; no full English-taught degree intake. English exchange semesters have separate partner-nomination deadlines.",
     "admission_requirements": null,
-    "application_platform": "optagelse.dk (Bachelor) / institution portal (Master)",
+    "application_platform": "optagelse.dk / current Danish programme page for full degrees; separate partner-university nomination for exchange",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Cphbusiness has merged with KEA into Business Academy Copenhagen (EK) — see ek.dk.",
-    "last_verified": "2026-10-12",
+    "notes": "Cphbusiness and KEA merged into Business Academy Copenhagen (EK). EK explicitly states that its full degree programmes are offered only in Danish. English-language exchange opportunities are not full degree programmes. The legacy id/URL is retained to preserve existing links.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -2842,9 +2842,20 @@
       {
         "label": "Business Academy Copenhagen (EK) — merger of Cphbusiness and KEA",
         "url": "https://www.ek.dk/english"
+      },
+      {
+        "label": "EK — full degrees offered only in Danish",
+        "url": "https://www.ek.dk/english/about-us/programmes-at-ek"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "successor institution, current website and full-degree teaching language",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "dk-copenhagen-business-school",
@@ -4344,9 +4355,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Student union / student services fee (approx. €60–€120 per year)",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 80,
+    "mandatory_semester_fee": "Compulsory Bachelor’s/Master’s student union membership: €66 for academic year 2026/27. Doctoral membership is optional. Healthcare is paid separately to Kela if liable.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 136.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": true,
@@ -4365,8 +4376,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Design- and technology-focused university with strong English-taught offering.",
-    "last_verified": "2026-10-12",
+    "notes": "Design- and technology-focused university with strong English-taught offering. Annual budget: verified 2026/27 union fee €66 plus €70.70 healthcare if liable. Qualifying external social-security coverage exempts healthcare. Healthcare uses the 2026 rate; the spring 2027 rate is not yet verified.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -4380,6 +4391,18 @@
       {
         "label": "Aalto University — admissions / how to apply (official)",
         "url": "https://www.aalto.fi/en/international-students/international-students"
+      },
+      {
+        "label": "AYY — membership fee 2026/27",
+        "url": "https://www.ayy.fi/en/membership-and-student-card/membership-fee"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -4446,7 +4469,14 @@
       "window": "Master’s programmes (autumn 2026 start): application 1 December 2025 – 2 January 2026 (15:00, UTC+2). Bachelor’s: 7–22 January 2026.",
       "source_label": "Aalto University – How to apply to master’s programmes",
       "source_url": "https://www.aalto.fi/"
-    }
+    },
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-abo",
@@ -4466,9 +4496,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Compulsory student union fee of roughly €60–€120 per year (varies between universities; includes student health care), plus a small one-off registration/administrative fee at some institutions",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 80,
+    "mandatory_semester_fee": "Bachelor’s/Master’s student union membership is compulsory; budget approximately €80/year (institution-specific 2026/27 amount not yet verified). Healthcare is paid separately to Kela if liable; check doctoral union conditions separately.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 150.7,
     "study_fields": [
       "Humanities",
       "Natural Sciences",
@@ -4521,13 +4551,21 @@
       "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
       "verified": true
     },
-    "notes": "Finland’s Swedish-language multidisciplinary university.",
-    "last_verified": "2026-09-23",
+    "notes": "Finland’s Swedish-language multidisciplinary university. Annual budget: indicative, not institution-verified union fee €80 plus €70.70 healthcare if liable. Qualifying external social-security coverage exempts healthcare. Healthcare uses the 2026 rate; the spring 2027 rate is not yet verified.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Åbo Akademi University official website",
         "url": "https://www.abo.fi"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -4551,7 +4589,14 @@
         "languages": "Finnish/Swedish / English"
       }
     ],
-    "teaching_languages": "Finnish/Swedish / English"
+    "teaching_languages": "Finnish/Swedish / English",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-arcada-university-of-applied-sciences",
@@ -4568,9 +4613,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -4587,8 +4632,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-10-12",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -4610,9 +4655,24 @@
       {
         "label": "Arcada University of Applied Sciences — admissions / how to apply (official)",
         "url": "https://www.arcada.fi/en/study-arcada/application/bachelors-application/separate-application/apply-international-business/application-and-admission-step-step"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-centria-university-of-applied-sciences",
@@ -4629,9 +4689,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -4648,8 +4708,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-10-12",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -4671,9 +4731,24 @@
       {
         "label": "Centria University of Applied Sciences — admissions / how to apply (official)",
         "url": "https://net.centria.fi/en/education/how-to-apply/how-to-apply-for-bachelors/"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-diaconia-university-of-applied-sciences-diak",
@@ -4690,9 +4765,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -4708,8 +4783,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-10-12",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -4731,9 +4806,24 @@
       {
         "label": "Diaconia University of Applied Sciences (Diak) — admissions / how to apply (official)",
         "url": "https://www.diak.fi/en/education-and-learning/how-to-apply"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-haaga-helia-university-of-applied-sciences",
@@ -4750,9 +4840,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Student union fee (mandatory, approx. €50–€70/year)",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -4770,8 +4860,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Business-focused university of applied sciences; notable English-taught offering (e.g. International Business). Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "notes": "Business-focused university of applied sciences; notable English-taught offering (e.g. International Business). Non-EU/EEA pay tuition. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -4789,9 +4879,24 @@
       {
         "label": "Haaga-Helia University of Applied Sciences — admissions / how to apply (official)",
         "url": "https://www.haaga-helia.fi/en/apply/applicants"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-hame-university-of-applied-sciences-hamk",
@@ -4808,9 +4913,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -4827,8 +4932,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-10-12",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -4850,9 +4955,24 @@
       {
         "label": "Häme University of Applied Sciences (HAMK) — admissions / how to apply (official)",
         "url": "https://www.hamk.fi/en/come-to-study/how-do-i-apply-or-register-for-the-studies/application-instructions/"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-hanken-school-of-economics",
@@ -4869,9 +4989,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Student union fee (mandatory for Bachelor's students, approx. €50–€70/year)",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Bachelor’s/Master’s student union membership is compulsory; budget approximately €60/year (institution-specific 2026/27 amount not yet verified). Healthcare is paid separately to Kela if liable; check doctoral union conditions separately.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 130.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": true,
@@ -4888,8 +5008,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Swedish-language business school with a full Bachelor's programme and Master's studies in English (Helsinki & Vaasa). Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "notes": "Swedish-language business school with a full Bachelor's programme and Master's studies in English (Helsinki & Vaasa). Non-EU/EEA pay tuition. Annual budget: indicative, not institution-verified union fee €60 plus €70.70 healthcare if liable. Qualifying external social-security coverage exempts healthcare. Healthcare uses the 2026 rate; the spring 2027 rate is not yet verified.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -4907,9 +5027,24 @@
       {
         "label": "Hanken School of Economics — admissions / how to apply (official)",
         "url": "https://www.hanken.fi/en/apply/application/bachelors-degree-studies-english"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-jamk-university-of-applied-sciences",
@@ -4926,9 +5061,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -4946,8 +5081,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-10-12",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -4969,9 +5104,24 @@
       {
         "label": "JAMK University of Applied Sciences — admissions / how to apply (official)",
         "url": "https://www.jamk.fi/en/apply-to-jamk"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-kajaani-university-of-applied-sciences",
@@ -4988,9 +5138,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -5007,8 +5157,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-10-12",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -5030,9 +5180,24 @@
       {
         "label": "Kajaani University of Applied Sciences — admissions / how to apply (official)",
         "url": "https://kamk.fi/en/study-at-kamk/apply-to-kamk/"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-karelia-university-of-applied-sciences",
@@ -5049,9 +5214,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -5068,8 +5233,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-10-12",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -5091,9 +5256,24 @@
       {
         "label": "Karelia University of Applied Sciences — admissions / how to apply (official)",
         "url": "https://www.karelia.fi/en/apply-to-us"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-lab-university-of-applied-sciences",
@@ -5110,9 +5290,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Student union fee (mandatory, approx. €50–€70/year)",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -5130,8 +5310,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "University of applied sciences with campuses in Lahti and Lappeenranta; several English-taught degrees. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "notes": "University of applied sciences with campuses in Lahti and Lappeenranta; several English-taught degrees. Non-EU/EEA pay tuition. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -5149,9 +5329,24 @@
       {
         "label": "LAB University of Applied Sciences — admissions / how to apply (official)",
         "url": "https://lab.fi/en/studies/admission"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-lapland-university-of-applied-sciences",
@@ -5168,9 +5363,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -5187,8 +5382,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-10-12",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -5210,9 +5405,24 @@
       {
         "label": "Lapland University of Applied Sciences — admissions / how to apply (official)",
         "url": "https://lapinamk.fi/en/studies/applying-for-degree-programmes"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-laurea-university-of-applied-sciences",
@@ -5229,9 +5439,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -5248,8 +5458,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-10-12",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -5271,9 +5481,24 @@
       {
         "label": "Laurea University of Applied Sciences — admissions / how to apply (official)",
         "url": "https://www.laurea.fi/en/education/education-export-programmes/applying-information-for-applicants/international-separate-application-selection-criteria/"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-lut",
@@ -5293,9 +5518,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Compulsory student union fee of roughly €60–€120 per year (varies between universities; includes student health care), plus a small one-off registration/administrative fee at some institutions",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 80,
+    "mandatory_semester_fee": "Bachelor’s/Master’s student union membership is compulsory; budget approximately €80/year (institution-specific 2026/27 amount not yet verified). Healthcare is paid separately to Kela if liable; check doctoral union conditions separately.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 150.7,
     "study_fields": [
       "Engineering",
       "Business",
@@ -5346,13 +5571,21 @@
       "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
       "verified": true
     },
-    "notes": "Known for energy technology, sustainability and business-technology combinations.",
-    "last_verified": "2026-09-23",
+    "notes": "Known for energy technology, sustainability and business-technology combinations. Annual budget: indicative, not institution-verified union fee €80 plus €70.70 healthcare if liable. Qualifying external social-security coverage exempts healthcare. Healthcare uses the 2026 rate; the spring 2027 rate is not yet verified.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "LUT University official website",
         "url": "https://www.lut.fi"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -5376,7 +5609,14 @@
         "languages": "Finnish/Swedish / English"
       }
     ],
-    "teaching_languages": "Finnish/Swedish / English"
+    "teaching_languages": "Finnish/Swedish / English",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-metropolia-university-of-applied-sciences",
@@ -5393,9 +5633,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Student union fee (mandatory, approx. €50–€70/year)",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -5413,8 +5653,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Finland's largest university of applied sciences (UAS); wide range of English-taught Bachelor's and Master's degrees. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "notes": "Finland's largest university of applied sciences (UAS); wide range of English-taught Bachelor's and Master's degrees. Non-EU/EEA pay tuition. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -5432,9 +5672,24 @@
       {
         "label": "Metropolia University of Applied Sciences — admissions / how to apply (official)",
         "url": "https://www.metropolia.fi/en/study-at-metropolia/applying"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-novia-university-of-applied-sciences",
@@ -5451,9 +5706,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -5470,8 +5725,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-10-12",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -5493,9 +5748,24 @@
       {
         "label": "Novia University of Applied Sciences — admissions / how to apply (official)",
         "url": "https://www.novia.fi/en/study/admission/application-bachelor/bachelor-application-process"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-oulu-university-of-applied-sciences-oamk",
@@ -5512,9 +5782,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Student union fee (mandatory, approx. €50–€70/year)",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -5532,8 +5802,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Oulu UAS in northern Finland; English-taught degrees available. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "notes": "Oulu UAS in northern Finland; English-taught degrees available. Non-EU/EEA pay tuition. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -5551,9 +5821,24 @@
       {
         "label": "Oulu University of Applied Sciences (Oamk) — admissions / how to apply (official)",
         "url": "https://oamk.fi/en/study-at-oamk/"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-satakunta-university-of-applied-sciences-samk",
@@ -5570,9 +5855,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -5590,8 +5875,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-10-12",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -5613,9 +5898,24 @@
       {
         "label": "Satakunta University of Applied Sciences (SAMK) — admissions / how to apply (official)",
         "url": "https://www.samk.fi/en/apply-to-study/"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-savonia-university-of-applied-sciences",
@@ -5632,9 +5932,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -5651,8 +5951,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-10-12",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -5674,9 +5974,24 @@
       {
         "label": "Savonia University of Applied Sciences — admissions / how to apply (official)",
         "url": "https://www.savonia.fi/en/study-with-us/apply"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-seinajoki-university-of-applied-sciences-seamk",
@@ -5693,9 +6008,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -5712,8 +6027,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-10-12",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -5735,9 +6050,24 @@
       {
         "label": "Seinäjoki University of Applied Sciences (SeAMK) — admissions / how to apply (official)",
         "url": "https://www.seamk.fi/en/admissions"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-south-eastern-finland-university-of-applied-sciences-xamk",
@@ -5754,9 +6084,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -5773,8 +6103,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-10-12",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -5796,9 +6126,24 @@
       {
         "label": "South-Eastern Finland University of Applied Sciences (Xamk) — admissions / how to apply (official)",
         "url": "https://www.xamk.fi/en/education-and-degrees/applying/separate-application/direct-application/"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-tampere",
@@ -5818,9 +6163,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Compulsory student union fee of roughly €60–€120 per year (varies between universities; includes student health care), plus a small one-off registration/administrative fee at some institutions",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 80,
+    "mandatory_semester_fee": "Bachelor’s/Master’s student union membership is compulsory; budget approximately €80/year (institution-specific 2026/27 amount not yet verified). Healthcare is paid separately to Kela if liable; check doctoral union conditions separately.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 150.7,
     "study_fields": [
       "Engineering",
       "Computer Science",
@@ -5871,13 +6216,21 @@
       "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
       "verified": true
     },
-    "notes": "A merger of technology, health and society fields; strong in engineering, health sciences and computer science.",
-    "last_verified": "2026-09-23",
+    "notes": "A merger of technology, health and society fields; strong in engineering, health sciences and computer science. Annual budget: indicative, not institution-verified union fee €80 plus €70.70 healthcare if liable. Qualifying external social-security coverage exempts healthcare. Healthcare uses the 2026 rate; the spring 2027 rate is not yet verified.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Tampere University official website",
         "url": "https://www.tuni.fi"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -5901,7 +6254,14 @@
         "languages": "Finnish/Swedish / English"
       }
     ],
-    "teaching_languages": "Finnish/Swedish / English"
+    "teaching_languages": "Finnish/Swedish / English",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-tampere-university-of-applied-sciences-tamk",
@@ -5918,9 +6278,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Student union fee (mandatory, approx. €50–€70/year)",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -5938,8 +6298,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "TAMK is part of the Tampere higher-education community (shares the tuni.fi portal with Tampere University); English-taught degrees available. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "notes": "TAMK is part of the Tampere higher-education community (shares the tuni.fi portal with Tampere University); English-taught degrees available. Non-EU/EEA pay tuition. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -5957,9 +6317,24 @@
       {
         "label": "Tampere University of Applied Sciences (TAMK) — admissions / how to apply (official)",
         "url": "https://www.tuni.fi/en/tamk/apply"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-turku-university-of-applied-sciences",
@@ -5976,9 +6351,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Student union fee (mandatory, approx. €50–€70/year)",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -5996,8 +6371,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "One of Finland's largest UAS institutions; English-taught Bachelor's and Master's degrees. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "notes": "One of Finland's largest UAS institutions; English-taught Bachelor's and Master's degrees. Non-EU/EEA pay tuition. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -6015,9 +6390,24 @@
       {
         "label": "Turku University of Applied Sciences — tuition / fees (official)",
         "url": "https://www.turkuamk.fi/en/education/guide-for-applicants/tuition-fees-and-scholarships/"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-uef",
@@ -6037,9 +6427,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Compulsory student union fee of roughly €60–€120 per year (varies between universities; includes student health care), plus a small one-off registration/administrative fee at some institutions",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 80,
+    "mandatory_semester_fee": "Bachelor’s/Master’s student union membership is compulsory; budget approximately €80/year (institution-specific 2026/27 amount not yet verified). Healthcare is paid separately to Kela if liable; check doctoral union conditions separately.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 150.7,
     "study_fields": [
       "Medicine",
       "Natural Sciences",
@@ -6092,13 +6482,21 @@
       "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
       "verified": true
     },
-    "notes": "Formed from Joensuu and Kuopio universities; strong in health, forestry and photonics.",
-    "last_verified": "2026-09-23",
+    "notes": "Formed from Joensuu and Kuopio universities; strong in health, forestry and photonics. Annual budget: indicative, not institution-verified union fee €80 plus €70.70 healthcare if liable. Qualifying external social-security coverage exempts healthcare. Healthcare uses the 2026 rate; the spring 2027 rate is not yet verified.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Eastern Finland official website",
         "url": "https://www.uef.fi"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -6122,7 +6520,14 @@
         "languages": "Finnish/Swedish / English"
       }
     ],
-    "teaching_languages": "Finnish/Swedish / English"
+    "teaching_languages": "Finnish/Swedish / English",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-helsinki",
@@ -6139,9 +6544,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Student union / student services fee (approx. €60–€120 per year)",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 80,
+    "mandatory_semester_fee": "Compulsory Bachelor’s/Master’s student union membership: €85 for academic year 2026/27. Doctoral membership is optional. Healthcare is paid separately to Kela if liable.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 155.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": true,
@@ -6160,8 +6565,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Finland's largest university. Non-EU/EEA pay tuition in English-taught programmes.",
-    "last_verified": "2026-10-12",
+    "notes": "Finland's largest university. Non-EU/EEA pay tuition in English-taught programmes. Annual budget: verified 2026/27 union fee €85 plus €70.70 healthcare if liable. Qualifying external social-security coverage exempts healthcare. Healthcare uses the 2026 rate; the spring 2027 rate is not yet verified.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -6175,6 +6580,18 @@
       {
         "label": "University of Helsinki — admissions / how to apply (official)",
         "url": "https://www.helsinki.fi/en/admissions-and-education/international-students"
+      },
+      {
+        "label": "HYY — membership fee 2026/27",
+        "url": "https://hyy.fi/en/members/membership"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -6242,7 +6659,14 @@
         "languages": "Finnish/Swedish / English"
       }
     ],
-    "teaching_languages": "Finnish/Swedish / English"
+    "teaching_languages": "Finnish/Swedish / English",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-jyu",
@@ -6262,9 +6686,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Compulsory student union fee of roughly €60–€120 per year (varies between universities; includes student health care), plus a small one-off registration/administrative fee at some institutions",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 80,
+    "mandatory_semester_fee": "Bachelor’s/Master’s student union membership is compulsory; budget approximately €80/year (institution-specific 2026/27 amount not yet verified). Healthcare is paid separately to Kela if liable; check doctoral union conditions separately.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 150.7,
     "study_fields": [
       "Education",
       "Natural Sciences",
@@ -6317,13 +6741,21 @@
       "note": "Admission enquiries: use the official admissions / contact page linked from the university website.",
       "verified": false
     },
-    "notes": "Distinctive for teacher education and the learning sciences, plus strong natural sciences.",
-    "last_verified": "2026-09-23",
+    "notes": "Distinctive for teacher education and the learning sciences, plus strong natural sciences. Annual budget: indicative, not institution-verified union fee €80 plus €70.70 healthcare if liable. Qualifying external social-security coverage exempts healthcare. Healthcare uses the 2026 rate; the spring 2027 rate is not yet verified.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Jyväskylä official website",
         "url": "https://www.jyu.fi"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -6347,7 +6779,14 @@
         "languages": "Finnish/Swedish / English"
       }
     ],
-    "teaching_languages": "Finnish/Swedish / English"
+    "teaching_languages": "Finnish/Swedish / English",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-university-of-lapland",
@@ -6364,9 +6803,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Student union fee (mandatory for Bachelor's students, approx. €50–€70/year)",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Bachelor’s/Master’s student union membership is compulsory; budget approximately €60/year (institution-specific 2026/27 amount not yet verified). Healthcare is paid separately to Kela if liable; check doctoral union conditions separately.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 130.7,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -6384,8 +6823,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Arctic university in Rovaniemi; known for Arctic studies, law and design; English-taught Master's programmes. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "notes": "Arctic university in Rovaniemi; known for Arctic studies, law and design; English-taught Master's programmes. Non-EU/EEA pay tuition. Annual budget: indicative, not institution-verified union fee €60 plus €70.70 healthcare if liable. Qualifying external social-security coverage exempts healthcare. Healthcare uses the 2026 rate; the spring 2027 rate is not yet verified.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -6403,9 +6842,24 @@
       {
         "label": "University of Lapland — admissions / how to apply (official)",
         "url": "https://ulapland.fi/en/study-with-us/apply-for-masters-programmes/"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-oulu",
@@ -6425,9 +6879,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Compulsory student union fee of roughly €60–€120 per year (varies between universities; includes student health care), plus a small one-off registration/administrative fee at some institutions",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 80,
+    "mandatory_semester_fee": "Bachelor’s/Master’s student union membership is compulsory; budget approximately €80/year (institution-specific 2026/27 amount not yet verified). Healthcare is paid separately to Kela if liable; check doctoral union conditions separately.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 150.7,
     "study_fields": [
       "Engineering",
       "Computer Science",
@@ -6445,7 +6899,7 @@
     "unique_strength": "A northern Finnish university, distinctive for ICT, wireless technology and health research.",
     "language_requirements": "English-taught programmes require English proof (commonly IELTS 6.5 / TOEFL 92, set per programme); Finnish/Swedish-taught programmes require national language proof.",
     "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) where the programme is taught in English; threshold set per programme.",
-    "application_deadlines": "≈ 22 January (joint application, autumn intake)",
+    "application_deadlines": "Autumn 2027: joint application 7 January 2027 08:00–21 January 2027 15:00 (UTC+2); supporting documents due 28 January 2027 15:00 (UTC+2). International Business Management Bachelor only: rolling admission 1 October 2026–25 February 2027 15:00 (UTC+2), or earlier if places fill; not applicable to all programmes.",
     "admission_requirements": "Entry follows Finland admission rules: a recognised secondary qualification for a Bachelor’s and a relevant Bachelor’s degree for a Master’s. See the official admissions page.",
     "admission": {
       "eligibility": "A recognised secondary school qualification for a Bachelor’s degree; a relevant Bachelor’s degree for a Master’s. Entry follows Finland admission rules.",
@@ -6480,13 +6934,25 @@
       "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
       "verified": true
     },
-    "notes": "A northern Finnish university, distinctive for ICT, wireless technology and health research.",
-    "last_verified": "2026-09-23",
+    "notes": "A northern Finnish university, distinctive for ICT, wireless technology and health research. Annual budget: indicative, not institution-verified union fee €80 plus €70.70 healthcare if liable. Qualifying external social-security coverage exempts healthcare. Healthcare uses the 2026 rate; the spring 2027 rate is not yet verified.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "University of Oulu official website",
         "url": "https://www.oulu.fi"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
+      },
+      {
+        "label": "University of Oulu — 2027 bachelor admission timelines",
+        "url": "https://www.oulu.fi/en/apply/how-apply/applying-bachelors-programmes/bachelors-admissions-deadlines"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -6510,7 +6976,14 @@
         "languages": "Finnish/Swedish / English"
       }
     ],
-    "teaching_languages": "Finnish/Swedish / English"
+    "teaching_languages": "Finnish/Swedish / English",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-university-of-the-arts-helsinki",
@@ -6527,9 +7000,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Student union fee (mandatory for Bachelor's students, approx. €50–€70/year)",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Bachelor’s/Master’s student union membership is compulsory; budget approximately €60/year (institution-specific 2026/27 amount not yet verified). Healthcare is paid separately to Kela if liable; check doctoral union conditions separately.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 130.7,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -6547,8 +7020,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Finland's only university of the arts (Academy of Fine Arts, Sibelius Academy, Theatre Academy); several English-taught Master's programmes. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "notes": "Finland's only university of the arts (Academy of Fine Arts, Sibelius Academy, Theatre Academy); several English-taught Master's programmes. Non-EU/EEA pay tuition. Annual budget: indicative, not institution-verified union fee €60 plus €70.70 healthcare if liable. Qualifying external social-security coverage exempts healthcare. Healthcare uses the 2026 rate; the spring 2027 rate is not yet verified.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -6566,9 +7039,24 @@
       {
         "label": "University of the Arts Helsinki — admissions / how to apply (official)",
         "url": "https://www.uniarts.fi/en/study-at-uniarts-helsinki/"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-turku",
@@ -6585,9 +7073,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Student union / student services fee (approx. €60–€120 per year)",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 80,
+    "mandatory_semester_fee": "Bachelor’s/Master’s student union membership is compulsory; budget approximately €80/year (institution-specific 2026/27 amount not yet verified). Healthcare is paid separately to Kela if liable; check doctoral union conditions separately.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 150.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": true,
@@ -6606,8 +7094,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Comprehensive university in Turku.",
-    "last_verified": "2026-10-12",
+    "notes": "Comprehensive university in Turku. Annual budget: indicative, not institution-verified union fee €80 plus €70.70 healthcare if liable. Qualifying external social-security coverage exempts healthcare. Healthcare uses the 2026 rate; the spring 2027 rate is not yet verified.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -6621,6 +7109,14 @@
       {
         "label": "University of Turku — admissions / how to apply (official)",
         "url": "https://www.utu.fi/en/study-at-utu/bachelors-and-masters-degree-programmes"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -6687,7 +7183,14 @@
       "window": "Joint application period 7–21 January 2026 (up to six degree programmes).",
       "source_label": "University of Turku – admissions",
       "source_url": "https://www.utu.fi/"
-    }
+    },
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-university-of-vaasa",
@@ -6704,9 +7207,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Student union fee (mandatory for Bachelor's students, approx. €50–€70/year)",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Bachelor’s/Master’s student union membership is compulsory; budget approximately €60/year (institution-specific 2026/27 amount not yet verified). Healthcare is paid separately to Kela if liable; check doctoral union conditions separately.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 130.7,
     "english_bachelor": false,
     "english_master": true,
     "english_phd": true,
@@ -6724,8 +7227,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Business-oriented university on Finland's west coast; English-taught Master's programmes; Bachelor's mainly in Finnish. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "notes": "Business-oriented university on Finland's west coast; English-taught Master's programmes; Bachelor's mainly in Finnish. Non-EU/EEA pay tuition. Annual budget: indicative, not institution-verified union fee €60 plus €70.70 healthcare if liable. Qualifying external social-security coverage exempts healthcare. Healthcare uses the 2026 rate; the spring 2027 rate is not yet verified.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -6743,9 +7246,24 @@
       {
         "label": "University of Vaasa — admissions / how to apply (official)",
         "url": "https://www.uwasa.fi/en/education/apply"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fi-vaasa-university-of-applied-sciences-vamk",
@@ -6762,9 +7280,9 @@
     "master_available": true,
     "phd_available": false,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "FSHS healthcare fee (≈ €40/semester); student union membership optional at UAS",
-    "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 60,
+    "mandatory_semester_fee": "Student union membership is optional at universities of applied sciences. Kela healthcare: €35.35/term in 2026 only if liable; €0 with a qualifying social-security exemption.",
+    "other_mandatory_fees": "Kela healthcare fee is separate from student union membership: €35.35/term in calendar year 2026. Exempt if covered by social security in another EU/EEA country, Switzerland, the UK or EU institutions; citizenship alone is not sufficient. Send Kela the EHIC/GHIC or other required evidence. Doctoral and exchange students are outside this fee scheme. The 2027 rate is not yet verified.",
+    "est_annual_mandatory_cost_eur": 70.7,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": false,
@@ -6781,8 +7299,8 @@
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
-    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website.",
-    "last_verified": "2026-10-12",
+    "notes": "Added in the 2026-09-30 completeness audit (tuition-free for EU citizens + English-taught degrees). Verify each programme on the official website. Indicative healthcare budget: €70.70/year if liable, €0 if exempt. Based on the 2026 rate; the spring 2027 rate is not yet verified. Optional union membership is excluded.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
@@ -6804,9 +7322,24 @@
       {
         "label": "Vaasa University of Applied Sciences (VAMK) — admissions / how to apply (official)",
         "url": "https://www.vamk.fi/en/applicant"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "union/healthcare fee distinctions and exemption rules; only Aalto/Helsinki institution-specific union amounts were newly verified",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "fr-amu",
@@ -21953,14 +22486,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Blekinge Institute of Technology (BTH); known for software engineering, AI and sustainability. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -21978,9 +22511,20 @@
       {
         "label": "Blekinge Institute of Technology — admissions / how to apply (official)",
         "url": "https://www.bth.se/english/education/application-and-admission"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-chalmers",
@@ -22000,9 +22544,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Most universities charge a small student union fee (roughly SEK 50–350 per semester); no tuition and no application fee for EU/EEA applicants",
+    "mandatory_semester_fee": "Compulsory Chalmers Student Union membership: SEK 280/semester for Bachelor’s/Master’s students; SEK 220/semester for doctoral students. Exchange students: SEK 200/semester.",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 25,
+    "est_annual_mandatory_cost_eur": 50,
     "study_fields": [
       "Engineering",
       "Computer Science",
@@ -22018,7 +22562,7 @@
     "unique_strength": "A leading Swedish technical university, known for engineering, automotive and sustainability research.",
     "language_requirements": "English-taught programmes require English proof (commonly English 6 / IELTS 6.5); Swedish-taught programmes require Swedish proof.",
     "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) where the programme is taught in English; threshold set per programme.",
-    "application_deadlines": "15 January (autumn) / 15 September (spring)",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": "Entry follows Sweden admission rules: a recognised secondary qualification for a Bachelor’s and a relevant Bachelor’s degree for a Master’s. See the official admissions page.",
     "admission": {
       "eligibility": "A recognised secondary school qualification for a Bachelor’s degree; a relevant Bachelor’s degree for a Master’s. Entry follows Sweden admission rules.",
@@ -22053,13 +22597,25 @@
       "note": "Admission contact verified against an official university page. Confirm opening hours on the official site.",
       "verified": true
     },
-    "notes": "A leading Swedish technical university, known for engineering, automotive and sustainability research.",
-    "last_verified": "2026-09-23",
+    "notes": "A leading Swedish technical university, known for engineering, automotive and sustainability research. Annual cost is approximately €50 for two semesters (SEK 560); EUR conversion is indicative, not a fixed fee.",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "sources": [
       {
         "label": "Chalmers University of Technology official website",
         "url": "https://www.chalmers.se"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      },
+      {
+        "label": "Chalmers — compulsory student union membership",
+        "url": "https://www.chalmers.se/en/education/your-studies/rights-and-obligations/"
+      },
+      {
+        "label": "Chalmers Student Union — membership fees",
+        "url": "https://chalmersstudentkar.se/faq-general"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -22083,7 +22639,14 @@
         "languages": "Swedish / English"
       }
     ],
-    "teaching_languages": "Swedish / English"
+    "teaching_languages": "Swedish / English",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates and compulsory union fee",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-dalarna-university",
@@ -22114,14 +22677,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Dalarna University (Falun & Borlänge); notable for distance education and tourism studies. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -22139,9 +22702,20 @@
       {
         "label": "Dalarna University — admissions / how to apply (official)",
         "url": "https://www.du.se/en/study-at-du/international-students-applications-admissions-and-registration/"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-halmstad-university",
@@ -22172,14 +22746,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Halmstad University; known for innovation and IT/health technology profiles. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -22197,9 +22771,20 @@
       {
         "label": "Halmstad University — admissions / how to apply (official)",
         "url": "https://www.hh.se/english/education/apply-to-halmstad-university.html"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-jonkoping-university",
@@ -22230,14 +22815,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Independent foundation university; offers English-taught Bachelor's and Master's programmes (notably at Jönköping International Business School). Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -22255,9 +22840,20 @@
       {
         "label": "Jönköping University — admissions / how to apply (official)",
         "url": "https://ju.se/en/study-at-ju/application-and-admission/how-to-apply---masters.html"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-karlstad-university",
@@ -22288,14 +22884,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Known for service research, teacher education and engineering. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -22313,9 +22909,20 @@
       {
         "label": "Karlstad University — admissions / how to apply (official)",
         "url": "https://www.kau.se/en/education/study-us/application-admission/how-apply"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-karolinska-institutet",
@@ -22346,14 +22953,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Sweden's medical university; English-taught Master's and doctoral programmes; Bachelor's programmes mainly in Swedish. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -22371,9 +22978,20 @@
       {
         "label": "Karolinska Institutet — admissions / how to apply (official)",
         "url": "https://education.ki.se/bachelors-masters-studies/apply"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-konstfack-university-of-arts-crafts-and-design",
@@ -22404,14 +23022,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Sweden's largest university of arts, crafts and design (bachelor, master and artistic doctoral level). Many courses in English — verify per programme. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -22433,9 +23051,20 @@
       {
         "label": "Konstfack University of Arts, Crafts and Design — admissions / how to apply (official)",
         "url": "https://www.konstfack.se/en/Education/Application-and-admission/"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-kristianstad-university",
@@ -22466,14 +23095,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Kristianstad University; known for food science, nursing and teacher education. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -22491,9 +23120,20 @@
       {
         "label": "Kristianstad University — admissions / how to apply (official)",
         "url": "https://www.hkr.se/en/study-at-hkr/programmes-and-courses/application-and-admission"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-kth",
@@ -22513,9 +23153,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Most universities charge a small student union fee (roughly SEK 50–350 per semester); no tuition and no application fee for EU/EEA applicants",
+    "mandatory_semester_fee": "No compulsory student union fee; membership is voluntary. Optional membership and study materials are excluded from the mandatory-cost estimate.",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 25,
+    "est_annual_mandatory_cost_eur": 0,
     "study_fields": [
       "Engineering",
       "Computer Science",
@@ -22531,7 +23171,7 @@
     "unique_strength": "Sweden’s leading technical university, strong in engineering, ICT and architecture.",
     "language_requirements": "English-taught programmes require English proof (commonly English 6 / IELTS 6.5); Swedish-taught programmes require Swedish proof.",
     "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) where the programme is taught in English; threshold set per programme.",
-    "application_deadlines": "15 January (autumn) / 15 September (spring)",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": "Entry follows Sweden admission rules: a recognised secondary qualification for a Bachelor’s and a relevant Bachelor’s degree for a Master’s. See the official admissions page.",
     "admission": {
       "eligibility": "A recognised secondary school qualification for a Bachelor’s degree; a relevant Bachelor’s degree for a Master’s. Entry follows Sweden admission rules.",
@@ -22567,12 +23207,24 @@
       "verified": true
     },
     "notes": "Sweden’s leading technical university, strong in engineering, ICT and architecture.",
-    "last_verified": "2026-09-23",
-    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "last_verified": "2026-10-14",
+    "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "KTH Royal Institute of Technology official website",
         "url": "https://www.kth.se"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      },
+      {
+        "label": "KTH — student union membership is optional at state-run universities",
+        "url": "https://www.kth.se/blogs/president/2023/03/student-democracy-worth-protecting"
+      },
+      {
+        "label": "Study in Sweden — fees and optional student union membership",
+        "url": "https://studyinsweden.se/plan-your-studies/fees-costs/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -22602,7 +23254,14 @@
       "window": "Autumn intake: national joint application deadline 15 January (via universityadmissions.se).",
       "source_label": "University Admissions Sweden – Autumn semester dates",
       "source_url": "https://www.universityadmissions.se/"
-    }
+    },
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-liu",
@@ -22622,9 +23281,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Most universities charge a small student union fee (roughly SEK 50–350 per semester); no tuition and no application fee for EU/EEA applicants",
+    "mandatory_semester_fee": "No compulsory student union fee; membership is voluntary. Optional membership and study materials are excluded from the mandatory-cost estimate.",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 25,
+    "est_annual_mandatory_cost_eur": 0,
     "study_fields": [
       "Engineering",
       "Computer Science",
@@ -22642,7 +23301,7 @@
     "unique_strength": "Distinctive for interdisciplinary and problem-based programmes in engineering and medicine.",
     "language_requirements": "English-taught programmes require English proof (commonly English 6 / IELTS 6.5); Swedish-taught programmes require Swedish proof.",
     "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) where the programme is taught in English; threshold set per programme.",
-    "application_deadlines": "15 January (autumn) / 15 September (spring)",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": "Entry follows Sweden admission rules: a recognised secondary qualification for a Bachelor’s and a relevant Bachelor’s degree for a Master’s. See the official admissions page.",
     "admission": {
       "eligibility": "A recognised secondary school qualification for a Bachelor’s degree; a relevant Bachelor’s degree for a Master’s. Entry follows Sweden admission rules.",
@@ -22678,12 +23337,24 @@
       "verified": true
     },
     "notes": "Distinctive for interdisciplinary and problem-based programmes in engineering and medicine.",
-    "last_verified": "2026-09-23",
-    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "last_verified": "2026-10-14",
+    "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Linköping University official website",
         "url": "https://liu.se"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      },
+      {
+        "label": "KTH — student union membership is optional at state-run universities",
+        "url": "https://www.kth.se/blogs/president/2023/03/student-democracy-worth-protecting"
+      },
+      {
+        "label": "Study in Sweden — fees and optional student union membership",
+        "url": "https://studyinsweden.se/plan-your-studies/fees-costs/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -22707,7 +23378,14 @@
         "languages": "Swedish / English"
       }
     ],
-    "teaching_languages": "Swedish / English"
+    "teaching_languages": "Swedish / English",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-linnaeus-university",
@@ -22738,14 +23416,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Multidisciplinary university in Småland with campuses in Växjö and Kalmar. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -22763,9 +23441,20 @@
       {
         "label": "Linnaeus University — admissions / how to apply (official)",
         "url": "https://lnu.se/en/student/during-your-studies/admission"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-lulea-university-of-technology",
@@ -22796,14 +23485,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Technical university in northern Sweden; strong in engineering, computer science and space technology. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -22821,9 +23510,20 @@
       {
         "label": "Luleå University of Technology — admissions / how to apply (official)",
         "url": "https://www.ltu.se/en/education/how-to-apply"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-lund",
@@ -22840,9 +23540,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Small student union fee at some institutions",
+    "mandatory_semester_fee": "No compulsory student union fee; membership is voluntary. Optional membership and study materials are excluded from the mandatory-cost estimate.",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 25,
+    "est_annual_mandatory_cost_eur": 0,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": true,
@@ -22855,15 +23555,15 @@
     ],
     "language_requirements": "English or Swedish depending on programme",
     "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL or equivalent); the exact threshold is set by the programme.",
-    "application_deadlines": "Typical autumn intake: applications ≈ mid-October to mid-January; spring intake ≈ mid-August to mid-September.",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": "An eligible upper secondary qualification. For a Master’s: a relevant Bachelor’s degree. Some programmes require specific prior courses.",
     "application_platform": "universityadmissions.se",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Large comprehensive university with a strong English-taught catalogue.",
-    "last_verified": "2026-10-12",
-    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "last_verified": "2026-10-14",
+    "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Lund University official website",
@@ -22876,6 +23576,18 @@
       {
         "label": "Lund University — admissions / how to apply (official)",
         "url": "https://www.lunduniversity.lu.se/study/admission-degree-studies/applying-studies-when-apply"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      },
+      {
+        "label": "KTH — student union membership is optional at state-run universities",
+        "url": "https://www.kth.se/blogs/president/2023/03/student-democracy-worth-protecting"
+      },
+      {
+        "label": "Study in Sweden — fees and optional student union membership",
+        "url": "https://studyinsweden.se/plan-your-studies/fees-costs/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -22943,7 +23655,14 @@
       "window": "Autumn intake: national joint application deadline 15 January (via universityadmissions.se); spring intake ≈ 15 August.",
       "source_label": "University Admissions Sweden – Autumn semester dates",
       "source_url": "https://www.universityadmissions.se/"
-    }
+    },
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-malardalen-university",
@@ -22974,14 +23693,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Mälardalen University (Västerås & Eskilstuna); focus on embedded systems, energy and innovation. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -22999,9 +23718,20 @@
       {
         "label": "Mälardalen University — admissions / how to apply (official)",
         "url": "https://www.mdu.se/en/malardalen-university/education/international/application-and-admission"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-malmo-university",
@@ -23033,14 +23763,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Urban university in Malmö with a wide range of English-taught Bachelor's and Master's programmes (e.g. Interaction Design TGIDE — bachelor, 180 credits). EU/EEA students study free; non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -23062,9 +23792,20 @@
       {
         "label": "Malmö University — admissions / how to apply (official)",
         "url": "https://mau.se/en/education/applications-and-admissions"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified; fees confirmed on programme page)"
+    "verification_status": "Partially verified (national policy verified; fees confirmed on programme page)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-mid-sweden-university",
@@ -23095,14 +23836,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Mid Sweden University (Sundsvall & Östersund); strong in pulp/paper technology, tourism and risk research. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -23120,9 +23861,20 @@
       {
         "label": "Mid Sweden University — tuition / fees (official)",
         "url": "https://www.miun.se/en/education/meet-mid-sweden-university/Fees-and-scholarships/Application-and-Tuition-fees"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-orebro-university",
@@ -23153,14 +23905,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Modern university with strong law, medicine and AI/computer science profiles. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -23178,9 +23930,20 @@
       {
         "label": "Örebro University — admissions / how to apply (official)",
         "url": "https://www.oru.se/english/study/master-students/how-to-apply/"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-royal-college-of-music-in-stockholm-kmh",
@@ -23211,14 +23974,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Sweden's largest music college (bachelor, master and doctoral level in music). Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -23240,9 +24003,20 @@
       {
         "label": "Royal College of Music in Stockholm (KMH) — admissions / how to apply (official)",
         "url": "https://www.kmh.se/in-english/education/how-to-apply.html"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-royal-institute-of-art-kkh",
@@ -23271,14 +24045,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Sweden's Royal Institute of Art — free art education and artistic research, primarily at master's and doctoral level. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -23300,9 +24074,20 @@
       {
         "label": "Royal Institute of Art (KKH) — admissions / how to apply (official)",
         "url": "https://kkh.se/en/how-to-apply/"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-sodertorn-university",
@@ -23333,14 +24118,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Södertörn University in the Stockholm region — known for cross-disciplinary humanities and social sciences. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -23358,9 +24143,20 @@
       {
         "label": "Södertörn University — tuition / fees (official)",
         "url": "https://www.sh.se/english/sodertorn-university/student/prospective-students/application-information-for-freemover-students"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-stockholm-school-of-economics",
@@ -23391,14 +24187,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Sweden's leading private business school (BSc in Business & Economics and MSc programmes taught in English). EU/EEA students are not required to pay tuition fees; non-EU/EEA students pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -23416,9 +24212,20 @@
       {
         "label": "Stockholm School of Economics — admissions / how to apply (official)",
         "url": "https://www.hhs.se/en/education/bsc/be/admission/"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (confirm EU/EEA fee status with the school)"
+    "verification_status": "Partially verified (confirm EU/EEA fee status with the school)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-stockholm",
@@ -23435,9 +24242,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Small student union fee at some institutions",
+    "mandatory_semester_fee": "No compulsory student union fee; membership is voluntary. Optional membership and study materials are excluded from the mandatory-cost estimate.",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 25,
+    "est_annual_mandatory_cost_eur": 0,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": true,
@@ -23450,15 +24257,15 @@
     ],
     "language_requirements": "English or Swedish depending on programme",
     "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL or equivalent); the exact threshold is set by the programme.",
-    "application_deadlines": "Typical autumn intake: applications ≈ mid-October to mid-January; spring intake ≈ mid-August to mid-September.",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": "An eligible upper secondary qualification. For a Master’s: a relevant Bachelor’s degree. Some programmes require specific prior courses.",
     "application_platform": "universityadmissions.se",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Large university in the capital.",
-    "last_verified": "2026-10-12",
-    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "last_verified": "2026-10-14",
+    "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Stockholm University official website",
@@ -23471,6 +24278,18 @@
       {
         "label": "Stockholm University — admissions / how to apply (official)",
         "url": "https://www.su.se/english/education/how-to-apply"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      },
+      {
+        "label": "KTH — student union membership is optional at state-run universities",
+        "url": "https://www.kth.se/blogs/president/2023/03/student-democracy-worth-protecting"
+      },
+      {
+        "label": "Study in Sweden — fees and optional student union membership",
+        "url": "https://studyinsweden.se/plan-your-studies/fees-costs/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -23537,7 +24356,14 @@
       "window": "First admission round, autumn: application deadline 15 January (national joint application).",
       "source_label": "Stockholm University – Application deadline, autumn 2026",
       "source_url": "https://www.su.se/"
-    }
+    },
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-stockholm-university-of-the-arts-skh",
@@ -23569,14 +24395,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Stockholm University of the Arts — circus, dance, film/media, opera and theatre; artistic research and doctoral studies. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -23598,9 +24424,20 @@
       {
         "label": "Stockholm University of the Arts (SKH) — tuition / fees (official)",
         "url": "https://www.skh.se/english/education/want-to-study/tuition-fees-and-scholarships"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-swedish-defence-university-fhs",
@@ -23631,14 +24468,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Sweden's defence university — officer programmes plus selected civilian programmes in security, war and crisis studies. Check admission requirements per programme. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -23660,9 +24497,20 @@
       {
         "label": "Swedish Defence University (FHS) — admissions / how to apply (official)",
         "url": "https://www.fhs.se/en/swedish-defence-university/education/how-to-apply-and-entry-requirements.html"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-swedish-school-of-sport-and-health-sciences-gih",
@@ -23692,14 +24540,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Sweden's specialised school of sport and health sciences; doctoral studies in sport science. Programmes mainly in Swedish — verify language per programme. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -23717,9 +24565,20 @@
       {
         "label": "University Admissions in Sweden — key dates autumn 2027",
         "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-swedish-university-of-agricultural-sciences",
@@ -23750,14 +24609,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "SLU — Sweden's university for agricultural sciences, with campuses in Uppsala, Alnarp, Skara and Umeå. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -23775,9 +24634,20 @@
       {
         "label": "Swedish University of Agricultural Sciences — admissions / how to apply (official)",
         "url": "https://www.slu.se/en/study/application-and-admission"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-umu",
@@ -23797,9 +24667,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Most universities charge a small student union fee (roughly SEK 50–350 per semester); no tuition and no application fee for EU/EEA applicants",
+    "mandatory_semester_fee": "No compulsory student union fee; membership is voluntary. Optional membership and study materials are excluded from the mandatory-cost estimate.",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 25,
+    "est_annual_mandatory_cost_eur": 0,
     "study_fields": [
       "Medicine",
       "Natural Sciences",
@@ -23817,7 +24687,7 @@
     "unique_strength": "A northern Swedish university, strong in medicine, the sciences and design.",
     "language_requirements": "English-taught programmes require English proof (commonly English 6 / IELTS 6.5); Swedish-taught programmes require Swedish proof.",
     "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) where the programme is taught in English; threshold set per programme.",
-    "application_deadlines": "15 January (autumn) / 15 September (spring)",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": "Entry follows Sweden admission rules: a recognised secondary qualification for a Bachelor’s and a relevant Bachelor’s degree for a Master’s. See the official admissions page.",
     "admission": {
       "eligibility": "A recognised secondary school qualification for a Bachelor’s degree; a relevant Bachelor’s degree for a Master’s. Entry follows Sweden admission rules.",
@@ -23853,12 +24723,24 @@
       "verified": true
     },
     "notes": "A northern Swedish university, strong in medicine, the sciences and design.",
-    "last_verified": "2026-09-23",
-    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "last_verified": "2026-10-14",
+    "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Umeå University official website",
         "url": "https://www.umu.se"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      },
+      {
+        "label": "KTH — student union membership is optional at state-run universities",
+        "url": "https://www.kth.se/blogs/president/2023/03/student-democracy-worth-protecting"
+      },
+      {
+        "label": "Study in Sweden — fees and optional student union membership",
+        "url": "https://studyinsweden.se/plan-your-studies/fees-costs/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -23882,7 +24764,14 @@
         "languages": "Swedish / English"
       }
     ],
-    "teaching_languages": "Swedish / English"
+    "teaching_languages": "Swedish / English",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-university-of-boras",
@@ -23913,14 +24802,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "University of Borås; Sweden's specialist in textiles and library & information science. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -23938,9 +24827,20 @@
       {
         "label": "University of Borås — admissions / how to apply (official)",
         "url": "https://www.hb.se/en/international-student/admission-process/"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-university-of-gavle",
@@ -23971,14 +24871,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "University of Gävle; profiles in built environment, health and social work. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -23996,9 +24896,20 @@
       {
         "label": "University of Gävle — admissions / how to apply (official)",
         "url": "https://www.hig.se/engelska/university-of-gavle/study/application-and-admission"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-gothenburg",
@@ -24018,9 +24929,9 @@
     "english_master": true,
     "english_phd": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Most universities charge a small student union fee (roughly SEK 50–350 per semester); no tuition and no application fee for EU/EEA applicants",
+    "mandatory_semester_fee": "No compulsory student union fee; membership is voluntary. Optional membership and study materials are excluded from the mandatory-cost estimate.",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 25,
+    "est_annual_mandatory_cost_eur": 0,
     "study_fields": [
       "Medicine",
       "Natural Sciences",
@@ -24038,7 +24949,7 @@
     "unique_strength": "One of Sweden’s largest universities, strong in medicine, the social sciences and business.",
     "language_requirements": "English-taught programmes require English proof (commonly English 6 / IELTS 6.5); Swedish-taught programmes require Swedish proof.",
     "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL) where the programme is taught in English; threshold set per programme.",
-    "application_deadlines": "15 January (autumn) / 15 September (spring)",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": "Entry follows Sweden admission rules: a recognised secondary qualification for a Bachelor’s and a relevant Bachelor’s degree for a Master’s. See the official admissions page.",
     "admission": {
       "eligibility": "A recognised secondary school qualification for a Bachelor’s degree; a relevant Bachelor’s degree for a Master’s. Entry follows Sweden admission rules.",
@@ -24074,12 +24985,24 @@
       "verified": true
     },
     "notes": "One of Sweden’s largest universities, strong in medicine, the social sciences and business.",
-    "last_verified": "2026-09-23",
-    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "last_verified": "2026-10-14",
+    "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "University of Gothenburg official website",
         "url": "https://www.gu.se"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      },
+      {
+        "label": "KTH — student union membership is optional at state-run universities",
+        "url": "https://www.kth.se/blogs/president/2023/03/student-democracy-worth-protecting"
+      },
+      {
+        "label": "Study in Sweden — fees and optional student union membership",
+        "url": "https://studyinsweden.se/plan-your-studies/fees-costs/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -24103,7 +25026,14 @@
         "languages": "Swedish / English"
       }
     ],
-    "teaching_languages": "Swedish / English"
+    "teaching_languages": "Swedish / English",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-university-of-skovde",
@@ -24134,14 +25064,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "University of Skövde; strong in computer games development and informatics. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -24159,9 +25089,20 @@
       {
         "label": "University of Skövde — admissions / how to apply (official)",
         "url": "https://www.his.se/en/education/admission"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-university-west",
@@ -24193,14 +25134,14 @@
     ],
     "language_requirements": null,
     "english_test": null,
-    "application_deadlines": "15 January 2027 (autumn 2027 intake, national round); spring intake ≈ mid-August — check programme page",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": null,
     "application_platform": "universityadmissions.se (national joint application)",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "University West (Trollhättan) — profile in work-integrated learning; offers English-taught Master's programmes. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
+    "last_verified": "2026-10-14",
     "tuition_status": "Tuition-Free",
     "sources": [
       {
@@ -24218,9 +25159,20 @@
       {
         "label": "University West — admissions / how to apply (official)",
         "url": "https://www.hv.se/en/education/degree-programmes/application-admission/"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
-    "verification_status": "Partially verified (national policy verified)"
+    "verification_status": "Partially verified (national policy verified)",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "se-uppsala",
@@ -24237,9 +25189,9 @@
     "master_available": true,
     "phd_available": true,
     "tuition_eu": "€0 tuition for EU/EEA and Swiss citizens",
-    "mandatory_semester_fee": "Small student union fee at some institutions",
+    "mandatory_semester_fee": "No compulsory student union fee; membership is voluntary. Optional membership and study materials are excluded from the mandatory-cost estimate.",
     "other_mandatory_fees": null,
-    "est_annual_mandatory_cost_eur": 25,
+    "est_annual_mandatory_cost_eur": 0,
     "english_bachelor": true,
     "english_master": true,
     "english_phd": true,
@@ -24252,15 +25204,15 @@
     ],
     "language_requirements": "English or Swedish depending on programme",
     "english_test": "Proof of English proficiency (e.g. IELTS/TOEFL or equivalent); the exact threshold is set by the programme.",
-    "application_deadlines": "Typical autumn intake: applications ≈ mid-October to mid-January; spring intake ≈ mid-August to mid-September.",
+    "application_deadlines": "Autumn 2027 national first round: opens 16 October 2026; application deadline 15 January 2027; supporting documents and proof of fee exemption due 1 February 2027. Second round: 15 March–15 April 2027, with fewer English-taught options. Programme-specific/artistic selection and direct-admission deadlines may differ; check the programme page.",
     "admission_requirements": "An eligible upper secondary qualification. For a Master’s: a relevant Bachelor’s degree. Some programmes require specific prior courses.",
     "application_platform": "universityadmissions.se",
     "online_application_url": null,
     "housing_url": null,
     "scholarship_url": null,
     "notes": "Oldest Nordic university. Non-EU/EEA pay tuition.",
-    "last_verified": "2026-10-12",
-    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "last_verified": "2026-10-14",
+    "tuition_status": "Tuition-Free",
     "sources": [
       {
         "label": "Uppsala University official website",
@@ -24273,6 +25225,18 @@
       {
         "label": "Uppsala University — admissions / how to apply (official)",
         "url": "https://www.uu.se/en/students/admission-and-registration/application"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      },
+      {
+        "label": "KTH — student union membership is optional at state-run universities",
+        "url": "https://www.kth.se/blogs/president/2023/03/student-democracy-worth-protecting"
+      },
+      {
+        "label": "Study in Sweden — fees and optional student union membership",
+        "url": "https://studyinsweden.se/plan-your-studies/fees-costs/"
       }
     ],
     "verification_status": "Partially verified (national policy verified)",
@@ -24339,7 +25303,14 @@
         "languages": "Swedish / English"
       }
     ],
-    "teaching_languages": "Swedish / English"
+    "teaching_languages": "Swedish / English",
+    "verification_history": [
+      {
+        "date": "2026-10-14",
+        "scope": "national admission dates; any corrected union fee is voluntary",
+        "note": "Targeted review only; other institution/programme details were not reverified."
+      }
+    ]
   },
   {
     "id": "ch-university-of-basel",
