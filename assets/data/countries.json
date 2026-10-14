@@ -99,15 +99,15 @@
     "tuition_status": "Tuition-Free + Mandatory Fees",
     "eu_tuition": "€0 tuition for EU/EEA and Swiss citizens",
     "eu_summary": "EU/EEA and Swiss citizens are not liable for tuition fees at Finnish universities and universities of applied sciences, including English-taught degree programmes. Non-EU/EEA students (with exceptions) pay fees of roughly €8,000–€20,000 per year. Doctoral studies remain free of charge.",
-    "public_universities": "Tuition-free for EU/EEA; a compulsory student union / student services fee applies.",
+    "public_universities": "Tuition-free for EU/EEA/Swiss citizens. Union membership is compulsory for Bachelor’s/Master’s students at universities but optional at universities of applied sciences; healthcare is a separate conditional fee.",
     "private_universities": "Finland's higher education sector is publicly funded; only a few private institutions operate, mainly in business and design.",
-    "bachelor": "€0 tuition for EU/EEA; student union fee applies.",
-    "master": "€0 tuition for EU/EEA; student union fee applies.",
+    "bachelor": "€0 tuition for EU/EEA/Swiss citizens. University union fees and conditional Kela healthcare fees may apply; UAS union membership is optional.",
+    "master": "€0 tuition for EU/EEA/Swiss citizens. University union fees and conditional Kela healthcare fees may apply; UAS union membership is optional.",
     "phd": "Free of charge for all students.",
     "english_taught": "One of Europe's largest English-taught catalogues at Bachelor's and Master's level.",
-    "mandatory_fees": "Compulsory student union fee of roughly €60–€120 per year (varies between universities; includes student health care), plus a small one-off registration/administrative fee at some institutions.",
-    "mandatory_fee_estimate_eur_year": 80,
-    "residency_conditions": "Citizenship-based: EU/EEA/Swiss citizens are exempt. From 2025, applicants from outside the EU/EEA/Switzerland pay a €100 application fee for Bachelor's programmes.",
+    "mandatory_fees": "University Bachelor’s/Master’s union fee varies by institution (e.g. Aalto €66 and Helsinki €85 in 2026/27); UAS membership is optional. Separate Kela healthcare fee: €35.35/term in calendar year 2026, exempt with qualifying social-security coverage in another EU/EEA country, Switzerland, UK or EU institutions. Citizenship alone does not establish healthcare exemption. The 2027 healthcare rate is not yet verified.",
+    "mandatory_fee_estimate_eur_year": 150.7,
+    "residency_conditions": "EU/EEA/Swiss citizens are exempt from degree tuition. Other applicants pay a €100 application fee for Bachelor’s and Master’s applications unless exempt. Kela healthcare exemption depends on social-security coverage, not citizenship alone.",
     "language_requirements": "English-taught programmes require English proof (commonly IELTS 6.5 / TOEFL 92, set per programme); Finnish/Swedish-taught programmes require national language proof.",
     "application_system": "Studyinfo (opintopolku.fi) national joint application; some Master's admissions are direct.",
     "academic_year": "2026/2027",
@@ -120,19 +120,40 @@
       {
         "label": "Metropolia UAS – Tuition fees for non-EU/EEA students",
         "url": "https://www.metropolia.fi/"
+      },
+      {
+        "label": "Study in Finland — union membership and costs",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living"
+      },
+      {
+        "label": "Kela — 2026 healthcare fee and social-security exemptions",
+        "url": "https://www.kela.fi/student-healthcare-fee-higher-education"
+      },
+      {
+        "label": "AYY — membership fee 2026/27",
+        "url": "https://www.ayy.fi/en/membership-and-student-card/membership-fee"
+      },
+      {
+        "label": "HYY — membership fee 2026/27",
+        "url": "https://hyy.fi/en/members/membership"
+      },
+      {
+        "label": "University of Oulu — 2027 bachelor admission timelines",
+        "url": "https://www.oulu.fi/en/apply/how-apply/applying-bachelors-programmes/bachelors-admissions-deadlines"
       }
     ],
     "verification_status": "Verified (country policy)",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-14",
     "document_submission": {
-      "opens": "Early January",
-      "closes": "≈ 22 January (joint application, autumn intake)",
-      "documents": "Upload certificates to the Studyinfo application; certified copies may be requested later.",
-      "note": "Some Master’s programmes have separate, later rounds."
+      "opens": "7 January 2027 (January joint application; check the individual programme)",
+      "closes": "21 January 2027 at 15:00 Finnish time (UTC+2)",
+      "documents": "Upload required certificates to Studyinfo by each programme’s document deadline; application and supporting-document deadlines are distinct.",
+      "note": "Separate/direct and rolling admissions have different dates. Oulu International Business Management Bachelor rolling admission: 1 October 2026–25 February 2027, or earlier if filled. Check each programme."
     },
     "cost_of_living_monthly": "€700–€1,300 / month",
     "housing": "Student housing foundations (e.g. HOAS in Helsinki) offer affordable rooms — apply early.",
-    "scholarships": "Many English-taught programmes offer merit scholarships; EU/EEA students pay no tuition."
+    "scholarships": "Many English-taught programmes offer merit scholarships; EU/EEA students pay no tuition.",
+    "notes": "The national annual estimate is illustrative (€80 union budget + €70.70 conditional healthcare using the 2026 rate); it is not a uniform mandatory charge or a confirmed 2026/27 total."
   },
   {
     "code": "SE",
@@ -141,17 +162,17 @@
     "is_eu": true,
     "region": "Nordic Europe",
     "priority": 1,
-    "tuition_status": "Tuition-Free + Mandatory Fees",
+    "tuition_status": "Tuition-Free",
     "eu_tuition": "€0 tuition for EU/EEA and Swiss citizens",
     "eu_summary": "EU/EEA and Swiss citizens do not pay application or tuition fees at Swedish universities for Bachelor's or Master's studies. Non-EU/EEA students pay tuition (average around SEK 129,000 per year).",
-    "public_universities": "Tuition-free for EU/EEA; a small mandatory student union fee at some institutions.",
+    "public_universities": "No tuition or application fee for EU/EEA/Swiss citizens; student union membership is voluntary at state-run universities.",
     "private_universities": "A few private institutions exist (e.g. in business or design) and may charge fees.",
     "bachelor": "€0 tuition for EU/EEA.",
     "master": "€0 tuition for EU/EEA.",
     "phd": "Doctoral education is normally free and often salaried.",
     "english_taught": "Very large English-taught catalogue, especially at Master's level.",
-    "mandatory_fees": "Most universities charge a small student union fee (roughly SEK 50–350 per semester); no tuition and no application fee for EU/EEA applicants.",
-    "mandatory_fee_estimate_eur_year": 25,
+    "mandatory_fees": "No general compulsory student union fee at state-run universities; voluntary memberships are excluded. Institution-specific exceptions exist: Chalmers requires union membership (SEK 280/semester for Bachelor’s/Master’s students).",
+    "mandatory_fee_estimate_eur_year": 0,
     "residency_conditions": "Citizenship-based exemption for EU/EEA/Swiss citizens.",
     "language_requirements": "English-taught programmes require English proof (commonly English 6 / IELTS 6.5); Swedish-taught programmes require Swedish proof.",
     "application_system": "universityadmissions.se (national joint application).",
@@ -165,15 +186,35 @@
       {
         "label": "Study in Sweden – Information for EU citizens",
         "url": "https://studyinsweden.se/"
+      },
+      {
+        "label": "KTH — student union membership is optional at state-run universities",
+        "url": "https://www.kth.se/blogs/president/2023/03/student-democracy-worth-protecting"
+      },
+      {
+        "label": "Study in Sweden — fees and optional student union membership",
+        "url": "https://studyinsweden.se/plan-your-studies/fees-costs/"
+      },
+      {
+        "label": "Chalmers — compulsory student union membership",
+        "url": "https://www.chalmers.se/en/education/your-studies/rights-and-obligations/"
+      },
+      {
+        "label": "Chalmers Student Union — membership fees",
+        "url": "https://chalmersstudentkar.se/faq-general"
+      },
+      {
+        "label": "University Admissions Sweden — autumn 2027 national admission rounds",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
       }
     ],
     "verification_status": "Verified (country policy)",
-    "last_verified": "2026-09-22",
+    "last_verified": "2026-10-14",
     "document_submission": {
-      "opens": "≈ mid-October",
-      "closes": "15 January (autumn) / 15 September (spring)",
-      "documents": "Upload documents to universityadmissions.se; certified copies/translations for some.",
-      "note": "National joint application; late applications only if places remain."
+      "opens": "16 October 2026 (autumn 2027 national first round)",
+      "closes": "15 January 2027 applications; 1 February 2027 supporting documents and proof of fee exemption",
+      "documents": "Upload required certificates, transcripts and citizenship/fee-exemption evidence to universityadmissions.se; follow programme-specific requirements.",
+      "note": "Second round: 15 March–15 April 2027, fewer English-taught options. Artistic/direct admissions may have different dates. These are national application dates, not individually verified programme deadlines."
     },
     "cost_of_living_monthly": "€800–€1,200 / month",
     "housing": "Housing via universities/student unions and nations; queues can be long in Uppsala, Lund and Stockholm.",
