@@ -13,6 +13,7 @@ import path from 'node:path';
 import url from 'node:url';
 import { flagsCss, flagIcon } from './flags.mjs';
 import { ic, euStars } from './icons.mjs';
+import { detailDesign } from './detail-design.mjs';
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -168,6 +169,7 @@ function layout({ title, description, depth, body, canonical, extraHead = '', ac
 <link rel="preload" href="${p}assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${p}assets/css/styles.css">
 <link rel="stylesheet" href="${p}assets/css/flags.css">
+<link rel="stylesheet" href="${p}assets/css/details.css">
 ${extraHead}
 </head>
 <body>
@@ -277,7 +279,7 @@ function programCard(pr, depth) {
   const free = pr.tuition_status === 'Tuition-Free' || pr.tuition_status === 'Tuition-Free + Mandatory Fees';
   const cost = free ? 0 : (pr.tuition_status === 'Low Tuition' ? 2000 : '');
   return `<article class="uni-card card cf-${pr.country_code} flag-top"
-    data-id="${pr.id}" data-name="${esc((pr.program_name + ' ' + pr.university + ' ' + pr.field + ' ' + pr.language).toLowerCase())}"
+    data-id="${pr.id}" data-name="${esc((pr.program_name + ' ' + pr.university + ' ' + pr.field + ' ' + pr.language + ' ' + (u.city || '') + ' ' + (c?.name || '')).toLowerCase())}"
     data-city="" data-country="${pr.country_code}" data-status="${esc(pr.tuition_status)}"
     data-levels="${pr.degree_level === 'Bachelor' ? 'b' : pr.degree_level === 'Master' ? 'm' : 'p'}"
     data-english="${(pr.language || '').toLowerCase().indexOf('english') !== -1 ? 1 : 0}"
@@ -396,9 +398,11 @@ function buildHome() {
       <p class="sub">Universities where EU citizens can earn an English-taught degree with €0 tuition or a low fee of up to ≈ $3,000 a year — with every mandatory fee shown upfront.</p>
       <div class="search-cta">
         ${ic('search', 'search-ic')}
-        <input id="hero-search" type="search" placeholder="Search a university, country, city or programme…" aria-label="Search" data-prefix="">
+        <input id="hero-search" type="search" placeholder="Type a university, city, country or subject…" aria-label="Search" aria-describedby="hero-search-help" aria-controls="hero-suggestions" autocomplete="off" data-prefix="">
         <button id="hero-search-btn" type="button">Search</button>
       </div>
+      <p id="hero-search-help" class="search-help">Start typing — no accents needed. Try “malmo”.</p>
+      <div id="hero-suggestions" class="search-suggestions" hidden></div>
       <ul class="hero-trust">
         <li>${ic('shield')} Official sources</li>
         <li>${ic('receipt')} Every fee shown</li>
@@ -541,7 +545,7 @@ ${nordicBand}
   write('index.html', layout({
     title: 'StudyFreeEU — Find Tuition-Free Universities in Europe for EU Citizens',
     description: 'Discover universities and English-taught degree programmes where EU citizens can study in Europe with no standard tuition fees — with mandatory fees, admission info and official sources.',
-    depth: 0, body, canonical: '', active: ''
+    depth: 0, body: body + writeDataChunks('SFE_SEARCH', 'search', universities, 0, (u) => ({ name: u.name, city: u.city, country: u.country, slug: u.slug, fields: (u.study_fields || []).join(' ') })), canonical: '', active: ''
   }));
 }
 
@@ -565,7 +569,8 @@ function buildUniversitiesIndex() {
   <div class="container layout">
     <aside class="filters" aria-label="Filters">
       <h3>Filters</h3>
-      <div class="field"><label for="f-search">Search</label><input id="f-search" type="search" placeholder="University, city…"></div>
+      <div class="field"><label for="f-search">Search</label><input id="f-search" type="search" placeholder="Name, city, country or subject…" aria-describedby="listing-search-help"></div>
+      <p id="listing-search-help" class="small muted search-filter-help">Results update as you type. Accents are optional.</p>
       <div class="field"><label for="f-country">Country</label><select id="f-country"><option value="">All countries</option>${opts(countries)}</select></div>
       <div class="field"><label for="f-level">Degree level</label><select id="f-level"><option value="">Any level</option><option value="b">Bachelor's</option><option value="m">Master's</option><option value="p">PhD</option></select></div>
       <div class="field"><label for="f-status">Tuition status</label><select id="f-status"><option value="">Any status</option>
@@ -583,7 +588,7 @@ function buildUniversitiesIndex() {
     </aside>
     <div>
       <div class="toolbar">
-        <span class="count" id="result-count"></span>
+        <span class="count" id="result-count" role="status" aria-live="polite" aria-atomic="true"></span>
         <label class="small">Sort
           <select id="sort"><option value="name">Name (A–Z)</option><option value="cost-asc">Estimated cost (low → high)</option><option value="cost-desc">Estimated cost (high → low)</option><option value="country">Country</option></select>
         </label>
@@ -629,20 +634,11 @@ function buildUniversityPages() {
     <div>
       <div class="panel">
         <h2>University overview</h2>
-        <dl class="kv">
-          <dt>Country</dt><dd>${esc(u.country)}</dd>
-          <dt>City</dt><dd>${esc(u.city)}</dd>
-          <dt>Type</dt><dd>${esc(u.type)}</dd>
-          <dt>Official website</dt><dd><a href="${u.official_website}" rel="nofollow noopener" target="_blank">${esc(u.official_website)}</a></dd>
-          <dt>Study fields</dt><dd>${(u.study_fields || []).map((f) => `<span class="tag">${esc(f)}</span>`).join(' ')}</dd>
-          <dt>Our note</dt><dd>${esc(u.notes)}</dd>
-        </dl>
-      </div>
-      <div class="panel">
-        <h2>Available specialities &amp; what’s distinctive</h2>
-        <div class="tags" style="margin-bottom:10px">${(u.specialities || u.study_fields || []).map((f) => `<span class="tag">${esc(f)}</span>`).join(' ')}</div>
+        <p class="detail-section-label">Study fields &amp; specialities</p>
+        <div class="tags" style="margin-bottom:10px">${[...new Set([...(u.study_fields || []), ...(u.specialities || [])])].map((f) => `<span class="tag">${esc(f)}</span>`).join(' ')}</div>
         ${u.unique_strength ? `<p>${esc(u.unique_strength)}</p>` : '<p class="muted small">Institutional profile not yet recorded.</p>'}
         <p class="small muted">The list shows the fields offered at this institution; programme-level availability (language, level, fees) is on the university’s official website.</p>
+        ${u.notes ? `<details class="detail-note"><summary>Research notes</summary><p class="small muted">${esc(u.notes)}</p></details>` : ''}
       </div>
       ${u.programme_structure ? `
       <div class="panel">
@@ -658,31 +654,37 @@ function buildUniversityPages() {
         <div class="money">
           <div class="m"><span>Tuition (EU citizens)</span><b>${esc(u.tuition_eu)}</b></div>
           <div class="m"><span>Mandatory semester fee</span><b>${esc(u.mandatory_semester_fee || 'Not yet verified')}</b></div>
-          <div class="m"><span>Est. mandatory cost / year</span><b>${money(u.est_annual_mandatory_cost_eur)}</b></div>
+          <div class="m${u.est_annual_mandatory_cost_eur == null ? ' is-unverified' : ''}"><span>Est. mandatory cost / year</span><b>${money(u.est_annual_mandatory_cost_eur)}</b>${u.est_annual_mandatory_cost_eur == null && u.tuition_info_url ? `<a href="${esc(u.tuition_info_url)}" rel="nofollow noopener" target="_blank">Check official fees ${ic('arrow')}</a>` : ''}</div>
         </div>
         <p class="small muted">This figure is the <b>mandatory university cost</b> (tuition + compulsory fees), not living costs. ${esc(u.other_mandatory_fees ? 'Other mandatory fees: ' + u.other_mandatory_fees : '')}</p>
         ${u.tuition_status === 'Conditional Tuition-Free' ? '<p class="small"><b>Conditional:</b> free only under specific conditions (language of instruction, study duration or study-place type). See the country policy for details.</p>' : ''}
         ${disclaimer}
       </div>
-      <div class="panel">
-        <h2>Programs in our database</h2>
+      <details class="panel detail-fold">
+        <summary><span class="detail-icon">${ic('book')}</span><h2>Programme entries (${ups.length})</h2>${ic('chevron')}</summary>
+        <div class="detail-fold-body">
         ${ups.length ? `<div class="table-wrap"><table><thead><tr><th>Programme</th><th>Level</th><th>Language</th><th>EU tuition</th><th>Deadline</th></tr></thead><tbody>
           ${ups.map((p) => `<tr><td>${esc(p.program_name)}</td><td>${esc(p.degree_level)}</td><td>${esc(p.language)}</td><td>${esc(p.tuition_eu)}</td><td>${esc(p.application_deadline)}</td></tr>`).join('')}
         </tbody></table></div>` : '<p class="muted small">No programme-level records yet. See the <a href="../../programs/index.html">programs catalogue</a> and the university website.</p>'}
-      </div>
-      <div class="panel">
-        <h2>English-taught programmes</h2>
+        </div>
+      </details>
+      <details class="panel detail-fold">
+        <summary><span class="detail-icon">${ic('lang')}</span><h2>English-taught options &amp; language notes</h2>${ic('chevron')}</summary>
+        <div class="detail-fold-body">
         <p>${hasEnglish(u) ? `English-taught offering: <b>${engWords(u)}</b>.` : 'No English-taught degree programmes recorded for this institution.'}</p>
         <p class="small muted">Language requirements: ${esc(u.language_requirements || 'Not yet verified')}. English test: ${esc(u.english_test || 'Not yet verified')}.</p>
-      </div>
+        </div>
+      </details>
       <div class="panel">
         <h2>Admissions &amp; entry requirements</h2>
         ${u.admission ? `
         <h3>Who can apply</h3><p>${esc(u.admission.eligibility)}</p>
         <h3>Language requirements</h3><p>${esc(u.admission.language)}</p>
         <h3>English test</h3><p>${esc(u.admission.english_test)}</p>
-        <h3>Documents generally required</h3>
-        <ul>${(u.admission.documents || []).map((d) => `<li>${esc(d)}</li>`).join('')}</ul>
+        <details class="detail-documents" id="application-documents">
+          <summary>Documents generally required <span>${(u.admission.documents || []).length} items ${ic('chevron')}</span></summary>
+          <ul>${(u.admission.documents || []).map((d) => `<li>${esc(d)}</li>`).join('')}</ul>
+        </details>
         <h3>Application deadlines (typical)</h3><p>${esc(u.admission.deadlines)}</p>
         <h3>How to apply</h3><p>${esc(u.application_platform || 'Not yet verified')}${u.admission.apply_url ? ` · <a href="${u.admission.apply_url}" rel="nofollow noopener" target="_blank">Admissions portal →</a>` : ''}</p>
         ${u.admission.notes ? `<p class="small muted">${esc(u.admission.notes)}</p>` : ''}
@@ -712,8 +714,9 @@ function buildUniversityPages() {
         <p class="small muted">Typical dates for the 2026/2027 cycle from the national admission system. Always confirm the exact deadline on this university’s official admissions page (linked above).</p>
       </div>` : ''}
       ${u.contact ? `
-      <div class="panel">
-        <h2>Contact — admissions</h2>
+      <details class="panel detail-fold">
+        <summary><span class="detail-icon">${ic('mail')}</span><h2>Contact — admissions</h2>${ic('chevron')}</summary>
+        <div class="detail-fold-body">
         <dl class="kv">
           <dt>Website</dt><dd><a href="${u.contact.website}" rel="nofollow noopener" target="_blank">${esc(u.contact.website)}</a></dd>
           <dt>Admissions page</dt><dd><a href="${u.contact.admissions_url}" rel="nofollow noopener" target="_blank">Open admissions / contact page →</a></dd>
@@ -723,29 +726,28 @@ function buildUniversityPages() {
         </dl>
         <p class="small muted">${esc(u.contact.note)}</p>
         ${u.contact.verified ? '<span class="badge b-free">CONTACT VERIFIED</span>' : '<span class="badge b-unknown">CONTACT: VERIFY</span>'}
-      </div>` : ''}
-      <div class="panel">
-        <h2>Official sources</h2>
+        </div>
+      </details>` : ''}
+      <details class="panel detail-fold">
+        <summary><span class="detail-icon">${ic('shield')}</span><h2>Official sources</h2>${ic('chevron')}</summary>
+        <div class="detail-fold-body">
         <ul class="src-list">
           ${srcs.map((s) => `<li><a href="${s.url}" rel="nofollow noopener" target="_blank">${esc(s.label)}</a><br><span class="muted small">${esc(s.url)}</span></li>`).join('')}
         </ul>
-      </div>
-    </div>
-    <aside>
-      <div class="panel">
-        <h2>Quick facts</h2>
-        <dl class="kv" style="grid-template-columns:1fr">
-          <dt>Degree levels</dt><dd>${levelWords(u) || '—'}</dd>
-          <dt>Bachelor's</dt><dd>${u.bachelor_available ? 'Yes' : 'No'}</dd>
-          <dt>Master's</dt><dd>${u.master_available ? 'Yes' : 'No'}</dd>
-          <dt>PhD</dt><dd>${u.phd_available ? 'Yes' : 'No'}</dd>
-          <dt>Verification</dt><dd>${esc(u.verification_status)}</dd>
-          <dt>Last verified</dt><dd>${u.last_verified || 'Not yet verified'}</dd>
-        </dl>
-        <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
-          <button class="btn js-fav" type="button" data-id="${u.id}">☆ Save</button>
-          <button class="btn js-compare" type="button" data-id="${u.id}" data-name="${esc(u.name)}">⇄ Compare</button>
         </div>
+      </details>
+    </div>
+    <aside aria-label="Plan your application">
+      <div class="panel detail-actions">
+        <span class="detail-eyebrow">FROM INTEREST TO APPLICATION</span>
+        <h2>Your next steps</h2>
+        <ol class="detail-action-list">
+          <li><span class="detail-step-number">1</span><div><b>Build your shortlist</b><p>Keep this option or compare it with others.</p>
+            <div class="detail-action-buttons"><button class="btn js-fav" type="button" data-id="${u.id}">☆ Save</button><button class="btn js-compare" type="button" data-id="${u.id}" data-name="${esc(u.name)}">⇄ Compare</button></div></div></li>
+          <li><span class="detail-step-number">2</span><div><b>Check your requirements</b><p>Review eligibility, language and documents.</p><a href="#admissions-guide">View admission requirements ${ic('arrow')}</a></div></li>
+          <li><span class="detail-step-number">3</span><div><b>Go to the official source</b><p>Confirm the programme and application window.</p><a class="btn primary" href="${esc(u.admissions_url || u.admission?.apply_url || u.official_website)}" rel="nofollow noopener" target="_blank">${u.admissions_url || u.admission?.apply_url ? 'Official admissions' : 'University website'} ${ic('arrow')}</a></div></li>
+        </ol>
+        <div class="detail-verification"><span>${ic('shield')} Record status</span><p>${esc(u.verification_status)}</p><small>Last checked: ${esc(u.last_verified || 'Not yet verified')}</small></div>
       </div>
     </aside>
   </div>
@@ -753,7 +755,20 @@ function buildUniversityPages() {
     write(`universities/${u.slug}/index.html`, layout({
       title: `${u.name} — Tuition for EU Citizens, Fees & Programs | StudyFreeEU`,
       description: `${u.name} (${u.city}, ${u.country}): EU tuition status, mandatory fees, degree levels, English-taught programmes, admissions and official sources.`,
-      depth: 2, body, canonical: `universities/${u.slug}/`, active: 'Universities',
+      depth: 2,
+      body: detailDesign(body, {
+        country: c,
+        university: true,
+        facts: [
+          ['pin', 'Your destination', u.city + ', ' + u.country],
+          ['euro', 'Mandatory university cost / year', money(u.est_annual_mandatory_cost_eur)],
+          ['cap', 'Degree levels', levelWords(u)],
+          ['lang', 'English-taught offering', hasEnglish(u) ? engWords(u) : 'None recorded']
+        ],
+        countryUrl: '../../countries/' + c.slug + '/index.html',
+        universityUrl: '../index.html?country=' + c.code
+      }),
+      canonical: `universities/${u.slug}/`, active: 'Universities',
       extraHead: `<script type="application/ld+json">${JSON.stringify({
         '@context': 'https://schema.org', '@type': 'CollegeOrUniversity',
         name: u.name, address: { '@type': 'PostalAddress', addressLocality: u.city, addressCountry: u.country_code },
@@ -899,7 +914,18 @@ function buildCountryPages() {
     write(`countries/${c.slug}/index.html`, layout({
       title: `Tuition-Free Universities in ${c.name} for EU Citizens | StudyFreeEU`,
       description: `Tuition rules for EU citizens in ${c.name}: ${c.eu_tuition}. Semester fees, admission system, language requirements and universities with no standard tuition.`,
-      depth: 2, body, canonical: `countries/${c.slug}/`, active: 'Countries'
+      depth: 2,
+      body: detailDesign(body, {
+        country: c,
+        facts: [
+          ['landmark', 'Universities to explore', String(unis.length)],
+          ['euro', 'Mandatory university cost / year', money(c.mandatory_fee_estimate_eur_year)],
+          ['globe', 'Currency', c.currency],
+          ['calendar', 'Academic year', c.academic_year]
+        ],
+        universityUrl: '../../universities/index.html?country=' + c.code
+      }),
+      canonical: `countries/${c.slug}/`, active: 'Countries'
     }));
   }
 }
@@ -919,7 +945,8 @@ function buildProgramsIndex() {
 <section class="section" style="padding-top:22px"><div class="container layout">
   <aside class="filters" aria-label="Filters">
     <h3>Filters</h3>
-    <div class="field"><label for="f-search">Search</label><input id="f-search" type="search" placeholder="Programme, university…"></div>
+    <div class="field"><label for="f-search">Search</label><input id="f-search" type="search" placeholder="Programme, university or city…" aria-describedby="listing-search-help"></div>
+    <p id="listing-search-help" class="small muted search-filter-help">Results update as you type. Accents are optional.</p>
     <div class="field"><label for="f-country">Country</label><select id="f-country"><option value="">All countries</option>${countries.map((c) => `<option value="${c.code}" data-slug="${c.slug}">${esc(c.name)}</option>`).join('')}</select></div>
     <div class="field"><label for="f-level">Degree level</label><select id="f-level"><option value="">Any level</option><option value="b">Bachelor's</option><option value="m">Master's</option><option value="p">PhD</option></select></div>
     <div class="field"><label for="f-status">Tuition status</label><select id="f-status"><option value="">Any status</option>
@@ -930,7 +957,7 @@ function buildProgramsIndex() {
     <button id="f-reset" class="btn" type="button">Reset filters</button>
   </aside>
   <div>
-    <div class="toolbar"><span class="count" id="result-count"></span>
+    <div class="toolbar"><span class="count" id="result-count" role="status" aria-live="polite" aria-atomic="true"></span>
       <label class="small">Sort <select id="sort"><option value="name">Name (A–Z)</option><option value="cost-asc">Cost (low → high)</option><option value="cost-desc">Cost (high → low)</option><option value="country">Country</option></select></label>
     </div>
     <div class="country-banner hidden" id="country-banner" data-prefix="../"></div>
