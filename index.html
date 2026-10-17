@@ -20,6 +20,7 @@
 <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/styles.css">
 <link rel="stylesheet" href="assets/css/flags.css">
+<link rel="stylesheet" href="assets/css/details.css">
 
 </head>
 <body>
@@ -51,9 +52,11 @@
       <p class="sub">Universities where EU citizens can earn an English-taught degree with €0 tuition or a low fee of up to ≈ $3,000 a year — with every mandatory fee shown upfront.</p>
       <div class="search-cta">
         <svg class="ic search-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7.5"/><path d="m20.5 20.5-4.2-4.2"/></svg>
-        <input id="hero-search" type="search" placeholder="Search a university, country, city or programme…" aria-label="Search" data-prefix="">
+        <input id="hero-search" type="search" placeholder="Type a university, city, country or subject…" aria-label="Search" aria-describedby="hero-search-help" aria-controls="hero-suggestions" autocomplete="off" data-prefix="">
         <button id="hero-search-btn" type="button">Search</button>
       </div>
+      <p id="hero-search-help" class="search-help">Start typing — no accents needed. Try “malmo”.</p>
+      <div id="hero-suggestions" class="search-suggestions" hidden></div>
       <ul class="hero-trust">
         <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg> Official sources</li>
         <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"/><path d="M8 7h8M8 11h8M8 15h5"/></svg> Every fee shown</li>
@@ -580,7 +583,8 @@
     </div>
     <a class="btn gold" href="contact/index.html"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg> Contact us</a>
   </div>
-</section>
+</section><script src="assets/data/search-01.js"></script>
+<script src="assets/data/search-02.js"></script>
 </main>
 <div class="compare-bar" id="compare-bar">
   <div class="container compare-inner">
@@ -624,7 +628,7 @@
     </div>
     <div class="footer-bottom">
       <p>Tuition rules may change. Always verify current fees and admission requirements on the university's official website before applying. This site is informational and is not affiliated with any university or the European Union.</p>
-      <p>Data version 2026/2027 · last built 2026-10-14</p>
+      <p>Data version 2026/2027 · last built 2026-10-17</p>
     </div>
   </div>
 </footer>

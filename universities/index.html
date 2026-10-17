@@ -20,6 +20,7 @@
 <link rel="preload" href="../assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../assets/css/styles.css">
 <link rel="stylesheet" href="../assets/css/flags.css">
+<link rel="stylesheet" href="../assets/css/details.css">
 
 </head>
 <body>
@@ -57,7 +58,8 @@
   <div class="container layout">
     <aside class="filters" aria-label="Filters">
       <h3>Filters</h3>
-      <div class="field"><label for="f-search">Search</label><input id="f-search" type="search" placeholder="University, city…"></div>
+      <div class="field"><label for="f-search">Search</label><input id="f-search" type="search" placeholder="Name, city, country or subject…" aria-describedby="listing-search-help"></div>
+      <p id="listing-search-help" class="small muted search-filter-help">Results update as you type. Accents are optional.</p>
       <div class="field"><label for="f-country">Country</label><select id="f-country"><option value="">All countries</option><option value="DE" data-slug="germany">Germany</option><option value="AT" data-slug="austria">Austria</option><option value="FI" data-slug="finland">Finland</option><option value="SE" data-slug="sweden">Sweden</option><option value="DK" data-slug="denmark">Denmark</option><option value="NO" data-slug="norway">Norway (other)</option><option value="IS" data-slug="iceland">Iceland (other)</option><option value="GR" data-slug="greece">Greece</option><option value="CZ" data-slug="czechia">Czechia</option><option value="PL" data-slug="poland">Poland</option><option value="SI" data-slug="slovenia">Slovenia</option><option value="EE" data-slug="estonia">Estonia</option><option value="FR" data-slug="france">France</option><option value="NL" data-slug="netherlands">Netherlands</option><option value="IE" data-slug="ireland">Ireland</option><option value="HU" data-slug="hungary">Hungary</option><option value="BE" data-slug="belgium">Belgium</option><option value="BG" data-slug="bulgaria">Bulgaria</option><option value="HR" data-slug="croatia">Croatia</option><option value="CY" data-slug="cyprus">Cyprus</option><option value="IT" data-slug="italy">Italy</option><option value="LV" data-slug="latvia">Latvia</option><option value="LT" data-slug="lithuania">Lithuania</option><option value="LU" data-slug="luxembourg">Luxembourg</option><option value="MT" data-slug="malta">Malta</option><option value="PT" data-slug="portugal">Portugal</option><option value="RO" data-slug="romania">Romania</option><option value="SK" data-slug="slovakia">Slovakia</option><option value="ES" data-slug="spain">Spain</option><option value="CH" data-slug="switzerland">Switzerland (other)</option><option value="LI" data-slug="liechtenstein">Liechtenstein (other)</option></select></div>
       <div class="field"><label for="f-level">Degree level</label><select id="f-level"><option value="">Any level</option><option value="b">Bachelor's</option><option value="m">Master's</option><option value="p">PhD</option></select></div>
       <div class="field"><label for="f-status">Tuition status</label><select id="f-status"><option value="">Any status</option>
@@ -75,7 +77,7 @@
     </aside>
     <div>
       <div class="toolbar">
-        <span class="count" id="result-count"></span>
+        <span class="count" id="result-count" role="status" aria-live="polite" aria-atomic="true"></span>
         <label class="small">Sort
           <select id="sort"><option value="name">Name (A–Z)</option><option value="cost-asc">Estimated cost (low → high)</option><option value="cost-desc">Estimated cost (high → low)</option><option value="country">Country</option></select>
         </label>
@@ -139,7 +141,7 @@
     </div>
     <div class="footer-bottom">
       <p>Tuition rules may change. Always verify current fees and admission requirements on the university's official website before applying. This site is informational and is not affiliated with any university or the European Union.</p>
-      <p>Data version 2026/2027 · last built 2026-10-14</p>
+      <p>Data version 2026/2027 · last built 2026-10-17</p>
     </div>
   </div>
 </footer>

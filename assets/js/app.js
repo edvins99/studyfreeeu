@@ -7,6 +7,19 @@
     set: function (k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
   };
 
+  // Fold accents and common European letter variants for forgiving search.
+  function searchText(value) {
+    var letters = { 'ø': 'o', 'ł': 'l', 'đ': 'd', 'ð': 'd', 'æ': 'ae', 'œ': 'oe', 'ß': 'ss', 'þ': 'th' };
+    return String(value || '').toLowerCase().normalize('NFKD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[øłđðæœßþ]/g, function (c) { return letters[c]; })
+      .replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+  }
+  function searchWords(value) { return searchText(value).split(/\s+/).filter(Boolean); }
+  function containsWords(text, words) {
+    return words.every(function (word) { return text.indexOf(word) !== -1; });
+  }
+
   /* ---------- mobile nav ---------- */
   function initNav() {
     var t = document.querySelector('.nav-toggle'), n = document.querySelector('.nav');
@@ -22,8 +35,54 @@
       var q = encodeURIComponent(inp.value.trim());
       window.location.href = prefix + 'universities/index.html' + (q ? '?q=' + q : '');
     }
+    var suggestions = document.getElementById('hero-suggestions');
+    var index = (window.SFE_SEARCH || []).map(function (u) {
+      return { university: u, text: searchText([u.name, u.city, u.country, u.fields].join(' ')) };
+    });
+    function suggest() {
+      if (!suggestions) return;
+      var words = searchWords(inp.value);
+      suggestions.replaceChildren();
+      suggestions.hidden = !words.length;
+      if (!words.length) return;
+      var matches = index.filter(function (entry) { return containsWords(entry.text, words); });
+      var count = document.createElement('p');
+      count.className = 'search-match-count'; count.setAttribute('role', 'status');
+      count.textContent = matches.length ? matches.length + (matches.length === 1 ? ' university found' : ' universities found') : 'No matches. Try another name, city or country.';
+      suggestions.appendChild(count);
+      var list = document.createElement('ul');
+      matches.slice(0, 5).forEach(function (entry) {
+        var u = entry.university, li = document.createElement('li'), link = document.createElement('a');
+        link.href = prefix + 'universities/' + u.slug + '/index.html';
+        var name = document.createElement('b'), meta = document.createElement('span');
+        name.textContent = u.name; meta.textContent = u.city + ', ' + u.country;
+        link.append(name, meta); li.appendChild(link); list.appendChild(li);
+      });
+      suggestions.appendChild(list);
+      if (matches.length) {
+        var all = document.createElement('a'); all.className = 'search-all';
+        all.href = prefix + 'universities/index.html?q=' + encodeURIComponent(inp.value.trim());
+        all.textContent = 'View all results & filters →'; suggestions.appendChild(all);
+      }
+    }
     if (btn) btn.addEventListener('click', go);
-    inp.addEventListener('keydown', function (e) { if (e.key === 'Enter') go(); });
+    inp.addEventListener('input', suggest);
+    inp.addEventListener('focus', suggest);
+    inp.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') go();
+      if (e.key === 'Escape' && suggestions) suggestions.hidden = true;
+      if (e.key === 'ArrowDown' && suggestions && !suggestions.hidden) {
+        var first = suggestions.querySelector('a'); if (first) { e.preventDefault(); first.focus(); }
+      }
+    });
+    if (suggestions) {
+      suggestions.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') { inp.focus(); suggestions.hidden = true; }
+      });
+      document.addEventListener('click', function (e) {
+        if (e.target !== inp && !suggestions.contains(e.target)) suggestions.hidden = true;
+      });
+    }
   }
 
   /* ---------- favorites ---------- */
@@ -112,7 +171,10 @@
     var results = document.getElementById('results');
     if (!results) return;
     var cards = Array.prototype.slice.call(results.querySelectorAll('.uni-card'));
-    var pageSize = 12, page = 1;
+    var pageSize = 12, page = 1, queryWords = [];
+    cards.forEach(function (card) {
+      card._searchText = searchText([card.dataset.name, card.dataset.city, card.dataset.fields].join(' '));
+    });
 
     var $ = function (id) { return document.getElementById(id); };
     var params = new URLSearchParams(location.search);
@@ -123,7 +185,6 @@
     if (params.get('maxcost') && $('f-maxcost')) $('f-maxcost').value = params.get('maxcost');
 
     function matches(c) {
-      var q = ($('f-search') && $('f-search').value || '').trim().toLowerCase();
       var country = $('f-country') && $('f-country').value || '';
       var level = $('f-level') && $('f-level').value || '';
       var status = $('f-status') && $('f-status').value || '';
@@ -132,7 +193,7 @@
       var maxCost = $('f-maxcost') && $('f-maxcost').value;
 
       var d = c.dataset;
-      if (q && d.name.indexOf(q) === -1 && d.city.indexOf(q) === -1) return false;
+      if (!containsWords(c._searchText, queryWords)) return false;
       if (country && d.country !== country) return false;
       if (level && d.levels.indexOf(level) === -1) return false;
       if (status && d.status !== status) return false;
@@ -159,6 +220,7 @@
     }
 
     function render() {
+      queryWords = searchWords($('f-search') && $('f-search').value);
       var list = sortCards(cards.filter(matches));
       cards.forEach(function (c) { c.classList.add('hidden'); });
       var start = (page - 1) * pageSize;
@@ -406,8 +468,8 @@
     document.documentElement.classList.add('anim');
     var sel = ['.section-head', '.tile', '.cc', '.country-feature', '.fee-card', '.how-list li', '.guides a', '.cta-inner',
       '.field-card', '.chip-cloud', '.gloss-card', '.dl-card', '.vd-row', '.tip', '.hiw-steps li', '.cat', '.faq details',
-      '.panel', '.country-card', '.contact-hero', '.contact-topic', '.page-header', '.quick', '#nordic-focus .uni-card', '.section:not(.page-hero) .grid > .uni-card'].join(',');
-    var els = Array.prototype.slice.call(document.querySelectorAll(sel)).filter(function (el) { return !el.closest('#results') && !el.closest('.hero'); });
+      '.panel', '.detail-facts > div', '.detail-next-inner', '.country-card', '.contact-hero', '.contact-topic', '.page-header', '.quick', '#nordic-focus .uni-card', '.section:not(.page-hero) .grid > .uni-card'].join(',');
+    var els = Array.prototype.slice.call(document.querySelectorAll(sel)).filter(function (el) { return !el.closest('#results') && !el.closest('.hero') && el.offsetHeight < window.innerHeight * 1.5; });
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {
         if (!e.isIntersecting) return;
@@ -444,9 +506,9 @@
     var q = document.getElementById('gloss-q'), tabs = document.querySelectorAll('.gloss-tabs button'), group = '';
     var cards = grid.querySelectorAll('.gloss-card'), empty = document.getElementById('gloss-empty');
     function run() {
-      var term = (q.value || '').trim().toLowerCase(), shown = 0;
+      var term = searchWords(q.value), shown = 0;
       cards.forEach(function (c) {
-        var ok = (!group || c.getAttribute('data-g') === group) && (!term || c.getAttribute('data-q').indexOf(term) !== -1);
+        var ok = (!group || c.getAttribute('data-g') === group) && containsWords(searchText(c.getAttribute('data-q')), term);
         c.classList.toggle('hide', !ok); if (ok) { shown++; c.classList.add('in'); }
       });
       if (empty) empty.classList.toggle('hidden', shown !== 0);
@@ -460,8 +522,8 @@
     var grid = document.getElementById('dl-grid'); if (!grid) return;
     var q = document.getElementById('dl-q'), cards = grid.querySelectorAll('.dl-card'), empty = document.getElementById('dl-empty');
     q.addEventListener('input', function () {
-      var term = q.value.trim().toLowerCase(), shown = 0;
-      cards.forEach(function (c) { var ok = !term || c.getAttribute('data-q').indexOf(term) !== -1; c.classList.toggle('hide', !ok); if (ok) { shown++; c.classList.add('in'); } });
+      var term = searchWords(q.value), shown = 0;
+      cards.forEach(function (c) { var ok = containsWords(searchText(c.getAttribute('data-q')), term); c.classList.toggle('hide', !ok); if (ok) { shown++; c.classList.add('in'); } });
       if (empty) empty.classList.toggle('hidden', shown !== 0);
     });
   }
