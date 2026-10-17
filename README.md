@@ -99,7 +99,7 @@ assets/{css,js,data,partials}
 - **Extras:** living costs / housing / scholarships per country, a glossary of terms, a FAQ, and a country-grouped university view
 - **Front end:** static generation, hand-written CSS + vanilla JS (no framework, no CDN)
 - **Search / filters / compare / favourites:** fully client-side (works with zero backend)
-- **Hosting:** any static host — live on GitHub Pages: https://edvins99.github.io/studyfreeeu/ (`gh-pages` branch)
+- **Hosting:** GitHub Pages with the custom domain https://studyfreeeu.com/ (`gh-pages` branch).
 
 > Why static? The tuition data changes rarely and the query surface is a filter + a
 > comparison. Pre-rendering gives instant pages and strong SEO while keeping the

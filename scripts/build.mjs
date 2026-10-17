@@ -22,7 +22,7 @@ const WEB = path.join(ROOT, 'web');
 const OUT = process.argv[2] || process.env.OUT_DIR ||
   path.resolve(ROOT, 'dist');
 const CONTACT_EMAIL = 'studyfreeeu@gmail.com';
-const SITE = (process.env.SITE_URL || 'https://edvins99.github.io/studyfreeeu').replace(/\/$/, '');
+const SITE = (process.env.SITE_URL || 'https://studyfreeeu.com').replace(/\/$/, '');
 
 const read = (f) => JSON.parse(fs.readFileSync(path.join(DATA, f), 'utf8'));
 const countries = read('countries.json');
@@ -1466,6 +1466,8 @@ function buildContact() {
 /* ------------------------------------------------------------------ build */
 console.log('Building StudyFreeEU →', OUT);
 fs.mkdirSync(OUT, { recursive: true });
+write('.nojekyll', '');
+if (new URL(SITE).hostname === 'studyfreeeu.com') write('CNAME', 'studyfreeeu.com\n');
 copyDir(path.join(WEB, 'assets'), path.join(OUT, 'assets'));
 write('assets/css/flags.css', flagsCss());
 fs.mkdirSync(path.join(OUT, 'assets', 'data'), { recursive: true });

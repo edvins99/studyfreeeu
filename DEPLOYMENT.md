@@ -28,6 +28,13 @@ calls** — so the site works under a strict Content-Security-Policy.
 | GitHub Pages | Push `dist/` to the `gh-pages` branch. Add a `.nojekyll` file. |
 | Nginx / Apache / IIS | Point the document root at `dist/`. Directory-index `index.html` is required. |
 
+The production build uses `https://studyfreeeu.com` for canonical URLs, sitemap
+entries and social metadata. It emits `CNAME` and `.nojekyll` for GitHub Pages.
+Keep these files when deploying. The repository's Pages custom domain should be
+`studyfreeeu.com`; enable **Enforce HTTPS** once GitHub has issued the certificate.
+DNS is managed at Zone: the apex has the four GitHub Pages A records, and `www`
+is a CNAME to `edvins99.github.io`.
+
 The site uses clean directory URLs (`/countries/germany/`), which all of the above
 serve natively via `index.html` directory indexes. No rewrite rules are needed.
 
